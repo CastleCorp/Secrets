@@ -1,0 +1,7 @@
+Server:		10.0.0.205
+Address:	10.0.0.205#53
+
+Non-authoritative answer:
+Name:	standrews-de.org
+Address: 209.123.98.171
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///opt/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.01 scan initiated Tue Mar  1 10:56:39 2016 as: nmap -T4 -&#45;open -p21,22,23,25,53,80,110,139,162,389,443,445,512,513,514,993,1433,1521,3306,3389,5432,5900,5901,8000,8080,6667 -oX loot/nmap-standrews-de.org.xml standrews-de.org -->
+<nmaprun scanner="nmap" args="nmap -T4 -&#45;open -p21,22,23,25,53,80,110,139,162,389,443,445,512,513,514,993,1433,1521,3306,3389,5432,5900,5901,8000,8080,6667 -oX loot/nmap-standrews-de.org.xml standrews-de.org" start="1456847799" startstr="Tue Mar  1 10:56:39 2016" version="7.01" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="26" services="21-23,25,53,80,110,139,162,389,443,445,512-514,993,1433,1521,3306,3389,5432,5900-5901,6667,8000,8080"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1456847799" endtime="1456847801"><status state="up" reason="syn-ack" reason_ttl="120"/>
+<address addr="209.123.98.171" addrtype="ipv4"/>
+<hostnames>
+<hostname name="standrews-de.org" type="user"/>
+</hostnames>
+<ports><extraports state="filtered" count="24">
+<extrareasons reason="no-responses" count="24"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="120"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="120"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="17706" rttvar="8277" to="100000"/>
+</host>
+<runstats><finished time="1456847801" timestr="Tue Mar  1 10:56:41 2016" elapsed="1.58" summary="Nmap done at Tue Mar  1 10:56:41 2016; 1 IP address (1 host up) scanned in 1.58 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

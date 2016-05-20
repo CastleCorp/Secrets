@@ -1,0 +1,16 @@
+[*] Sending NetBIOS requests to 10.0.0.111->172.26.0.1 (18 hosts)
+[*] 10.0.0.111 [SATURN] OS:Unix Names:(SATURN, WORKGROUP) Addresses:(10.0.0.111) Mac:00:00:00:00:00:00
+[*] 10.0.0.163 [ARTSMEDIA1] OS:Unix Names:(ARTSMEDIA1, NAS) Addresses:(10.0.0.163) Mac:00:00:00:00:00:00
+[*] 10.0.0.171 [BLACKBAUD] OS:Windows Names:(BLACKBAUD, BUSOFF) Addresses:(10.0.0.171) Mac:00:50:56:ba:0e:50 Virtual Machine:VMWare
+[*] 10.0.0.170 [BODC] OS:Windows Names:(BODC, BUSOFF) Addresses:(10.0.0.170) Mac:00:50:56:ba:1a:eb Virtual Machine:VMWare
+[*] 10.0.0.166 [RETRO12] OS:Windows Names:(RETRO12, SAS) Addresses:(10.0.0.166) Mac:00:50:56:a3:f2:9b Virtual Machine:VMWare
+[*] 10.0.0.181 [BLUE] OS:Windows User:BLUE Names:(BLUE, BUSOFF) Addresses:(10.0.0.181) Mac:00:50:56:ba:66:53 Virtual Machine:VMWare
+[*] 10.0.0.173 [VOICEPC] OS:Windows Names:(VOICEPC, SASNET, __MSBROWSE__) Addresses:(10.0.0.173) Mac:00:50:56:ba:73:56 Virtual Machine:VMWare
+[*] 10.0.0.183 [MARS] OS:Windows Names:(MARS, SASNET) Addresses:(10.0.0.183) Mac:00:14:78:7c:21:9c
+[*] 10.0.0.188 [FREENAS] OS:Unix Names:(FREENAS, WORKGROUP) Addresses:(10.0.0.188) Mac:00:00:00:00:00:00
+[*] 10.0.0.191 [VIOLET] OS:Windows Names:(VIOLET, BUSOFF, __MSBROWSE__) Addresses:(10.0.0.191) Mac:00:50:56:ba:00:85 Virtual Machine:VMWare
+[*] 10.0.0.218 [ALERTUS] OS:Windows Names:(ALERTUS, WORKGROUP) Addresses:(10.0.0.218) Mac:00:50:56:b7:ec:22 Virtual Machine:VMWare
+[*] 10.0.0.203 [MANGO] OS:Unix Names:(MANGO, WORKGROUP) Addresses:(10.0.0.203) Mac:00:00:00:00:00:00
+[*] 10.0.0.237 [SAS-WEBSVR] OS:Windows Names:(SAS-WEBSVR, WORKGROUP, __MSBROWSE__) Addresses:(10.0.0.237) Mac:00:50:56:a3:dd:a2 Virtual Machine:VMWare
+[*] 10.0.0.230 [FCS] OS:Windows Names:(FCS, SASNET) Addresses:(192.168.251.230, 10.0.0.230) Mac:00:50:56:ba:1c:2e Virtual Machine:VMWare
+[*] 10.0.0.250 [SAS-LSSVR] OS:Windows Names:(SAS-LSSVR, WORKGROUP) Addresses:(10.0.0.250) Mac:00:50:56:a3:dd:a0 Virtual Machine:VMWare

@@ -1,0 +1,24 @@
+[*] 10.0.0.239:548 - AFP 10.0.0.239 Scanning...
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548:548 AFP:
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548 Server Name: lumiere
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548  Server Flags:
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548     *  Super Client: true
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548     *  UUIDs: true
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548     *  UTF8 Server Name: true
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548     *  Open Directory: true
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548     *  Reconnect: true
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548     *  Server Notifications: true
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548     *  TCP/IP: true
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548     *  Server Signature: true
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548     *  Server Messages: false
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548     *  Password Saving Prohibited: false
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548     *  Password Changing: true
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548     *  Copy File: true
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548  Machine Type: Macmini6,2
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548  AFP Versions: AFP3.4, AFP3.3, AFP3.2, AFP3.1, AFPX03
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548  UAMs: DHCAST128, DHX2, Recon1, GSS, No User Authent
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548  Server Signature: c19469e98c1b501fb0efa18d5b465a9c
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548  Server Network Address:
+[*] 10.0.0.239:548 - AFP 10.0.0.239:548   UTF8 Server Name: lumiere
+[*] Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed

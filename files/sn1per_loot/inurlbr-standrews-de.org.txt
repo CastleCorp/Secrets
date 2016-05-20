@@ -1,0 +1,86 @@
+[H[2J[H[2J[H[2J
+[1;32m    _____ [1;37m .701F. .iBR.   .7CL. .70BR.   .7BR. .7BR'''Cq.   .70BR.      [0;31m.1BR'''Yp, .8BR'''Cq.  
+[1;32m   (_____)[1;37m   01     01N.    C     01       C     01   .01.    01        [1;31m  01    Yb   01   .01. 
+[1;32m   (() ())[1;37m   01     C YCb   C     01       C     01   ,C9     01        [0;31m  01    dP   01   ,C9  
+[1;32m    \   / [1;37m   01     C  .CN. C     01       C     0101dC9      01        [1;31m  01'''bg.   0101dC9   
+[1;32m     \ /  [1;37m   01     C   .01.C     01       C     01  YC.      01      , [0;31m  01    .Y   01  YC.   
+[1;32m     /=\  [1;37m   01     C     Y01     YC.     ,C     01   .Cb.    01     ,C [1;31m  01    ,9   01   .Cb. 
+[1;32m    [___] [1;37m .J01L. .JCL.    YC      .b0101d'.   .J01L. .J01. .J01010101C [0;31m.J0101Cd9  .J01L. .J01./ [1;37m2.1
+
+[1;37m__[ ! ] Neither war between hackers, nor peace for the system.
+[1;37m__[ ! ] [02;31mhttp://blog.inurl.com.br
+[1;37m__[ ! ] [02;31mhttp://fb.com/InurlBrasil
+[1;37m__[ ! ] [02;31mhttp://twitter.com/@googleinurl[0m
+[1;37m__[ ! ] [02;31mhttp://github.com/googleinurl[0m
+[1;37m__[ ! ] [02;31mCurrent PHP version::[ [1;37m5.5.29 [02;31m][0m
+[1;37m__[ ! ] [02;31mCurrent script owner::[ [1;37mparkerthomas [02;31m][0m
+[1;37m__[ ! ] [02;31mCurrent uname::[ [1;37mDarwin titan.local 14.5.0 Darwin Kernel Version 14.5.0: Tue Sep  1 21:23:09 PDT 2015; root:xnu-2782.50.1~1/RELEASE_X86_64 x86_64 [02;31m][0m
+[1;37m__[ ! ] [02;31mCurrent pwd::[ [1;37m/Volumes/Zeus/Desktop/pentest/Sn1per [02;31m][0m
+[1;37m__[ ! ] [1;33mHelp: php inurlbr.php --help[0m
+[1;37m------------------------------------------------------------------------------------------------------------------------[0m
+
+[1;37m[ ! ] Starting SCANNER INURLBR 2.1 at [19-03-2016 11:11:30][0;37m
+[ ! ] legal disclaimer: Usage of INURLBR for attacking targets without prior mutual consent is illegal. 
+It is the end user's responsibility to obey all applicable local, state and federal laws.
+Developers assume no liability and are not responsible for any misuse or damage caused by this program[0m
+
+[1;37m[ INFO ][02;31m[ OUTPUT FILE ]::[1;37m [ /Volumes/Zeus/Desktop/pentest/Sn1per/output/loot/inurlbr-standrews-de.org.txt  ][0m
+[1;37m[ INFO ][0m[02;31m[ DORK ]::[1;37m[ site:standrews-de.org ]
+[1;37m[ INFO ][0m[02;31m[ SEARCHING ]:: [1;37m{[0m 
+[1;37m[ INFO ][0m[02;31m[ ENGINE ]::[1;37m[ GOOGLE - www.google.ae ][0m
+
+[1;37m[ INFO ][0m[02;31m[ SEARCHING ]:: [0m
+[1;37m-[02;31m[[0;31m:::[02;31m][0m
+[1;37m[ INFO ][0m[02;31m[ ENGINE ]::[1;37m[ GOOGLE API ][0m
+
+[1;37m[ INFO ][0m[02;31m[ SEARCHING ]:: [0m
+[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m
+[1;37m[ INFO ][0m[02;31m[ ENGINE ]::[1;37m[ GOOGLE_GENERIC_RANDOM - www.google.bj ID: 012984904789461885316:oy3-mu17hxk ][0m
+
+[1;37m[ INFO ][0m[02;31m[ SEARCHING ]:: [0m
+[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m
+
+[1;37m[ INFO ][0;31m[ TOTAL FOUND VALUES ]::[1;37m [ 105 ][0m
+[H[2J[H[2J[H[2J
+[1;39m    _____ [1;37m .701F. .iBR.   .7CL. .70BR.   .7BR. .7BR'''Cq.   .70BR.      [0;31m.1BR'''Yp, .8BR'''Cq.  
+[1;39m   (_____)[1;37m   01     01N.    C     01       C     01   .01.    01        [1;31m  01    Yb   01   .01. 
+[1;39m   (() ())[1;37m   01     C YCb   C     01       C     01   ,C9     01        [0;31m  01    dP   01   ,C9  
+[1;39m    \   / [1;37m   01     C  .CN. C     01       C     0101dC9      01        [1;31m  01'''bg.   0101dC9   
+[1;39m     \ /  [1;37m   01     C   .01.C     01       C     01  YC.      01      , [0;31m  01    .Y   01  YC.   
+[1;39m     /=\  [1;37m   01     C     Y01     YC.     ,C     01   .Cb.    01     ,C [1;31m  01    ,9   01   .Cb. 
+[1;39m    [___] [1;37m .J01L. .JCL.    YC      .b0101d'.   .J01L. .J01. .J01010101C [0;31m.J0101Cd9  .J01L. .J01./ [1;37m2.1
+
+[1;37m__[ ! ] Neither war between hackers, nor peace for the system.
+[1;37m__[ ! ] [02;31mhttp://blog.inurl.com.br
+[1;37m__[ ! ] [02;31mhttp://fb.com/InurlBrasil
+[1;37m__[ ! ] [02;31mhttp://twitter.com/@googleinurl[0m
+[1;37m__[ ! ] [02;31mhttp://github.com/googleinurl[0m
+[1;37m__[ ! ] [02;31mCurrent PHP version::[ [1;37m5.5.29 [02;31m][0m
+[1;37m__[ ! ] [02;31mCurrent script owner::[ [1;37mparkerthomas [02;31m][0m
+[1;37m__[ ! ] [02;31mCurrent uname::[ [1;37mDarwin titan.local 14.5.0 Darwin Kernel Version 14.5.0: Tue Sep  1 21:23:09 PDT 2015; root:xnu-2782.50.1~1/RELEASE_X86_64 x86_64 [02;31m][0m
+[1;37m__[ ! ] [02;31mCurrent pwd::[ [1;37m/Volumes/Zeus/Desktop/pentest/Sn1per [02;31m][0m
+[1;37m__[ ! ] [1;33mHelp: php inurlbr.php --help[0m
+[1;37m------------------------------------------------------------------------------------------------------------------------[0m
+
+[1;37m[ ! ] Starting SCANNER INURLBR 2.1 at [19-03-2016 11:16:38][0;37m
+[ ! ] legal disclaimer: Usage of INURLBR for attacking targets without prior mutual consent is illegal. 
+It is the end user's responsibility to obey all applicable local, state and federal laws.
+Developers assume no liability and are not responsible for any misuse or damage caused by this program[0m
+
+[1;37m[ INFO ][02;31m[ OUTPUT FILE ]::[1;37m [ /Volumes/Zeus/Desktop/pentest/Sn1per/output/loot/inurlbr-standrews-de.org.txt  ][0m
+[1;37m[ INFO ][0m[02;31m[ DORK ]::[1;37m[ site:standrews-de.org ]
+[1;37m[ INFO ][0m[02;31m[ SEARCHING ]:: [1;37m{[0m 
+[1;37m[ INFO ][0m[02;31m[ ENGINE ]::[1;37m[ GOOGLE - www.google.vu ][0m
+
+[1;37m[ INFO ][0m[02;31m[ SEARCHING ]:: [0m
+[1;37m-[02;31m[[0;31m:::[02;31m][0m
+[1;37m[ INFO ][0m[02;31m[ ENGINE ]::[1;37m[ GOOGLE API ][0m
+
+[1;37m[ INFO ][0m[02;31m[ SEARCHING ]:: [0m
+[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m
+[1;37m[ INFO ][0m[02;31m[ ENGINE ]::[1;37m[ GOOGLE_GENERIC_RANDOM - www.google.com.pe ID: 007843865286850066037:3ajwn2jlweq ][0m
+
+[1;37m[ INFO ][0m[02;31m[ SEARCHING ]:: [0m
+[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m[1;37m-[02;31m[[0;31m:::[02;31m][0m
+
+[1;37m[ INFO ][0;31m[ TOTAL FOUND VALUES ]::[1;37m [ 105 ][0m

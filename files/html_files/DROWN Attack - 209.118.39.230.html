@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" type="image/png" href="/static/favicon.png">
+      <title>DROWN Attack - 209.118.39.230</title>
+
+      <link href="./static/styles-live-updater.css" rel="stylesheet" type="text/css">
+
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600|Montserrat:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+      <header id="top">       
+
+        <h1><a href="https://drownattack.com">The DROWN Attack</a></h1>
+        <div class="logo"></div>
+      </header>
+
+      <section id="intro">
+        <form class="form-inline" method="get" action="./">
+          <label for="site"><a name="test"></a>To check whether your server appears to be vulnerable, enter the domain or IP address:</label>
+        
+          <input name="site" type="text" placeholder="domain.com" value="209.118.39.230">
+          <button>Check for DROWN vulnerability</button>
+        </form>
+        <div class="text-muted">
+
+          This tool shows vulnerable services detected in Feb.&nbsp;2016
+          and probes each again to see if it&rsquo;s been fixed.
+          Results won't include new servers or ones our scanner missed. 
+          Live updates are cached for 15 minutes.
+
+        </div>
+      </section>
+      <section id="results">
+
+
+
+        <h2>Results for 209.118.39.230<span id=status></span></h2>
+
+<table><tr><td colspan=2 class=vuln-desc><p>During a recent scan, we found the following vulnerable services at this address:</p></td></tr><tr><th style='width:5.5em'>Service:</th><th>Vulnerable Because:</th></tr><tr><td class=result><b>Port 110<br>POP3</b></td><td><li><div class=explanation>Names in the certificate may be vulnerable to man-in-the-middle attacks:</div><div><div class=address><a class=noul href='./?site=*.standrews-de.org'>*.standrews-de.org</a></div><div class=address><a class=noul href='./?site=standrews-de.org'>standrews-de.org</a></div></div><li><div class=explanation>The key is exposed on other vulnerable servers or ports:</div><div><div class='oracle 209-118-39-230-587'><div class=address><a class=noul href='./?site=209.118.39.230'>209.118.39.230</a><span class='muted'>:587</span></div><div class='reason reason-cve'><div>vulnerable to CVE-2016-0703</div></div></div></div></td></tr><tr><td class=result><b>Port 143<br>IMAP</b></td><td><li><div class=explanation>Names in the certificate may be vulnerable to man-in-the-middle attacks:</div><div><div class=address><a class=noul href='./?site=*.standrews-de.org'>*.standrews-de.org</a></div><div class=address><a class=noul href='./?site=standrews-de.org'>standrews-de.org</a></div></div><li><div class=explanation>The key is exposed on other vulnerable servers or ports:</div><div><div class='oracle 209-118-39-230-587'><div class=address><a class=noul href='./?site=209.118.39.230'>209.118.39.230</a><span class='muted'>:587</span></div><div class='reason reason-cve'><div>vulnerable to CVE-2016-0703</div></div></div></div></td></tr><tr><td class=result><b>Port 443<br>HTTPS</b></td><td><li><div class=explanation>Names in the certificate may be vulnerable to man-in-the-middle attacks:</div><div><div class=address><a class=noul href='./?site=*.standrews-de.org'>*.standrews-de.org</a></div><div class=address><a class=noul href='./?site=standrews-de.org'>standrews-de.org</a></div></div><li><div class=explanation>The key is exposed on other vulnerable servers or ports:</div><div><div class='oracle 209-118-39-230-587'><div class=address><a class=noul href='./?site=209.118.39.230'>209.118.39.230</a><span class='muted'>:587</span></div><div class='reason reason-cve'><div>vulnerable to CVE-2016-0703</div></div></div></div></td></tr><tr><td class=result><b>Port 993<br>IMAPS</b></td><td><li><div class=explanation>Names in the certificate may be vulnerable to man-in-the-middle attacks:</div><div><div class=address><a class=noul href='./?site=*.standrews-de.org'>*.standrews-de.org</a></div><div class=address><a class=noul href='./?site=standrews-de.org'>standrews-de.org</a></div></div><li><div class=explanation>The key is exposed on other vulnerable servers or ports:</div><div><div class='oracle 209-118-39-230-587'><div class=address><a class=noul href='./?site=209.118.39.230'>209.118.39.230</a><span class='muted'>:587</span></div><div class='reason reason-cve'><div>vulnerable to CVE-2016-0703</div></div></div></div></td></tr><tr><td class=result><b>Port 995<br>POP3S</b></td><td><li><div class=explanation>Names in the certificate may be vulnerable to man-in-the-middle attacks:</div><div><div class=address><a class=noul href='./?site=*.standrews-de.org'>*.standrews-de.org</a></div><div class=address><a class=noul href='./?site=standrews-de.org'>standrews-de.org</a></div></div><li><div class=explanation>The key is exposed on other vulnerable servers or ports:</div><div><div class='oracle 209-118-39-230-587'><div class=address><a class=noul href='./?site=209.118.39.230'>209.118.39.230</a><span class='muted'>:587</span></div><div class='reason reason-cve'><div>vulnerable to CVE-2016-0703</div></div></div></div></td></tr></table>
+
+
+
+      </section>
+
+      <footer>
+        <p class="text-muted">TERMS AND DISCLAIMERS: We are providing
+        this service to help system administrators initially assess
+        and begin to correct vulnerable services.  However, due to the
+        limitations of our data and testing methodology, these results
+        may be incomplete and may fail to indicate every vulnerable
+        server, or they may falsely indicate non-vulnerable servers as
+        vulnerable.  They are based on data that is collected and
+        processed in bulk, so they may be out of date and display
+        services as vulnerable after the operators have mitigated the
+        problem. By using this service, you agree to use it only for
+        lawful purposes.  Your access to and use of the service is at
+        your own risk. You understand and agree that the service is
+        provided to you on an &ldquo;AS IS&rdquo; basis. THE AUTHORS
+        DISCLAIM ANY WARRANTIES, EXPRESS OR IMPLIED, OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR
+        NON-INFRINGEMENT.</p>
+      </footer>
+<!--End of content -->     
+
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+      <script type="text/javascript">var state = {"count": 6, "job_id": "2ba2f41c0f925bd799c97f6b56de2def", "oracles": {"209-118-39-230-587": "00e59b3194"}};</script>
+      <script src="./static/update.js"></script>
+
+      <script type="text/javascript">
+        // This is for a Gauges analytics account that I can give everyone accounts to. -- AH
+        var _gauges = _gauges || [];
+        (function() {
+          var t   = document.createElement('script');
+          t.type  = 'text/javascript';
+          t.async = true;
+          t.id    = 'gauges-tracker';
+          t.setAttribute('data-site-id', '56ccfb3c4b2ffa7a33003cfa');
+          t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+          t.src = 'https://d36ee2fcip1434.cloudfront.net/track.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(t, s);
+        })();
+      </script>
+  </body>
+</html>

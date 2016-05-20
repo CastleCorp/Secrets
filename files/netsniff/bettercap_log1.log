@@ -1,0 +1,167 @@
+[E] A proxy module was specified but none of the HTTP or HTTPS proxies are enabled, specify --proxy or --proxy-https options.
+[I] Starting [ spoofing:✔ discovery:✔ sniffer:✔ tcp-proxy:✘ http-proxy:✔ https-proxy:✔ sslstrip:✔ http-server:✘ dns-server:true ] ...
+
+
+[E] Invalid spoofer name 'DNS'!
+[I] Starting [ spoofing:✔ discovery:✔ sniffer:✔ tcp-proxy:✘ http-proxy:✔ https-proxy:✔ sslstrip:✔ http-server:✘ dns-server:true ] ...
+
+
+[I] [GATEWAY] 172.26.0.1 : 34:64:A9:A2:A5:00 ( Hewlett Packard )
+[I] [DISCOVERY] Targeting the whole subnet 172.26.0.0..172.26.255.255 ...
+[W] WARNING: Both HTTP transparent proxy and URL parser are enabled, you're gonna see duplicated logs.
+[E] No --js-file, --js-url or --js-data options specified for the proxy module.
+[I] Starting [ spoofing:✔ discovery:✔ sniffer:✔ tcp-proxy:✘ http-proxy:✔ https-proxy:✔ sslstrip:✔ http-server:✘ dns-server:true ] ...
+
+
+[I] [GATEWAY] 172.26.0.1 : 34:64:A9:A2:A5:00 ( Hewlett Packard )
+[I] [DISCOVERY] Targeting the whole subnet 172.26.0.0..172.26.255.255 ...
+[W] WARNING: Both HTTP transparent proxy and URL parser are enabled, you're gonna see duplicated logs.
+[I] [DNS] Starting on 172.26.200.43:5300 ...
+[I] [SSL] Installing CA to /Users/parkerthomas/.bettercap ...
+[I] [HTTP] Proxy starting on 172.26.200.43:8080 ...
+
+[I] [SSL] Loading HTTPS Certification Authority from '/Users/parkerthomas/.bettercap/bettercap-ca.pem' ...
+[I] [SSL] Initializing certificates store '/Users/parkerthomas/.bettercap/certificates' ...
+[I] [HTTPS] Proxy starting on 172.26.200.43:8083 ...
+
+[14:49:E0:10:C6:C5 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x3E32118F
+[BC:30:7D:99:69:61 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x7B8BB1B0
+[14:49:E0:10:C6:C5 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x3168D7C7
+[BC:30:7D:99:69:61 > *:dhcpserver] [DHCP] [REQUEST] Transaction-ID=0x648E1619
+[14:49:E0:10:C6:C5 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x3E32118F
+[172.26.200.25 > *:17500] [CREDITCARD] 30112400167307
+[172.26.200.25 > 172.26.255.255:17500] [CREDITCARD] 30112400167307
+[14:49:E0:10:C6:C5 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x3E32118F
+[14:49:E0:10:C6:C5 > *:dhcpserver] [DHCP] [REQUEST] Transaction-ID=0x54600156
+[BC:30:7D:99:69:61 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x7798D385
+[14:49:E0:10:C6:C5 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x28AA9F23
+[14:49:E0:10:C6:C5 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x1E40E2C7
+[BC:30:7D:99:69:61 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x7798D385
+[14:49:E0:10:C6:C5 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x28AA9F23
+[14:49:E0:10:C6:C5 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x1E40E2C7
+[BC:30:7D:99:69:61 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x7798D385
+[14:49:E0:10:C6:C5 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x28AA9F23
+[70:14:A6:7B:BF:B2 > *:dhcpserver] [DHCP] [REQUEST] Transaction-ID=0xE3BB20CA
+[14:49:E0:10:C6:C5 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x453C6C01
+[BC:30:7D:99:69:61 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x4958EF6E
+[I] Acquired 88 new targets :
+
+  [NEW] 169.254.169.209 : 78:FD:94:8D:2A:5E ( Apple )
+  [NEW] 172.26.200.3 : A8:BB:CF:1D:B5:02 ( Apple )
+  [NEW] 172.26.200.5 : B0:9F:BA:14:20:61 ( Apple )
+  [NEW] 172.26.200.6 : 60:5B:B4:CE:DD:B5 ( AzureWave Technology )
+  [NEW] 172.26.200.8 : 90:FD:61:E4:64:19 ( Apple )
+  [NEW] 172.26.200.9 : 54:26:96:E1:B6:4B ( Apple )
+  [NEW] 172.26.200.11 : 70:56:81:A8:6D:1F ( Apple )
+  [NEW] 172.26.200.13 : 6C:94:F8:81:75:B3 ( Apple )
+  [NEW] 172.26.200.15 : A0:99:9B:17:A6:45 ( Apple )
+  [NEW] 172.26.200.16 : E0:AC:CB:92:B7:8A ( Apple )
+  [NEW] 172.26.200.17 : 80:00:6E:A5:7C:45 ( Apple )
+  [NEW] 172.26.200.18 : 1C:5C:F2:14:A4:62 ( ??? )
+  [NEW] 172.26.200.19 : BC:54:36:59:46:0E ( Apple )
+  [NEW] 172.26.200.21 : F0:DB:E2:B9:73:AF ( Apple )
+  [NEW] 172.26.200.22 : B8:F6:B1:1B:C0:1B ( Apple )
+  [NEW] 172.26.200.23 : 3C:15:C2:DE:A6:08 ( Apple )
+  [NEW] 172.26.200.24 : B8:17:C2:13:0F:B7 ( Apple )
+  [NEW] 172.26.200.25 : A4:5E:60:E2:C7:C3 ( Apple )
+  [NEW] 172.26.200.28 : 80:E6:50:27:C0:46 ( Apple )
+  [NEW] 172.26.200.29 : 20:C9:D0:B7:C6:21 ( Apple )
+  [NEW] 172.26.200.33 : 5C:8D:4E:CE:66:ED ( Apple )
+  [NEW] 172.26.200.34 : 44:00:10:2C:C4:9C ( Apple )
+  [NEW] 172.26.200.37 : D8:1D:72:46:B9:E4 ( Apple )
+  [NEW] 172.26.200.38 : A0:18:28:9B:6B:71 ( Apple )
+  [NEW] 172.26.200.39 : 70:56:81:9D:D6:43 ( Apple )
+  [NEW] 172.26.200.44 : 2C:BE:08:B3:F1:AE ( Apple )
+  [NEW] 172.26.200.46 : 2C:F0:EE:12:8E:0E ( Apple )
+  [NEW] 172.26.200.47 : 70:EC:E4:0F:44:2C ( Apple )
+  [NEW] 172.26.200.50 : 5C:96:9D:72:58:FB ( Apple )
+  [NEW] 172.26.200.54 : 64:9A:BE:B2:03:B0 ( Apple )
+  [NEW] 172.26.200.55 : 7C:D1:C3:95:EB:20 ( Apple )
+  [NEW] 172.26.200.56 : F0:B4:79:1E:EF:3D ( Apple )
+  [NEW] 172.26.200.59 : C0:1A:DA:B5:A1:6B ( Apple )
+  [NEW] 172.26.200.60 : 88:1F:A1:26:5E:42 ( Apple )
+  [NEW] 172.26.200.61 : 1C:5C:F2:13:46:16 ( ??? )
+  [NEW] 172.26.200.62 : 5C:96:9D:8C:5E:FB ( Apple )
+  [NEW] 172.26.200.63 : 7C:D1:C3:6E:07:5A ( Apple )
+  [NEW] 172.26.200.64 : 70:56:81:B7:6A:23 ( Apple )
+  [NEW] 172.26.200.65 : 28:CF:DA:EE:7D:F2 ( Apple )
+  [NEW] 172.26.200.68 : 98:5A:EB:8A:C6:A4 ( Apple )
+  [NEW] 172.26.200.69 : B8:8D:12:25:BF:D4 ( Apple )
+  [NEW] 172.26.200.72 : F4:5C:89:92:73:7D ( ??? )
+  [NEW] 172.26.200.73 : 68:A8:6D:22:4D:4C ( Apple )
+  [NEW] 172.26.200.74 : 7C:D1:C3:80:C5:0C ( Apple )
+  [NEW] 172.26.200.75 : 20:C9:D0:E6:F0:55 ( Apple )
+  [NEW] 172.26.200.76 : A4:5E:60:C3:A8:37 ( Apple )
+  [NEW] 172.26.200.77 : 10:40:F3:EA:5B:16 ( Apple )
+  [NEW] 172.26.200.78 : AC:BC:32:79:56:DB ( Apple )
+  [NEW] 172.26.200.79 : F8:1E:DF:DB:36:9D ( Apple )
+  [NEW] 172.26.200.80 : 20:C9:D0:B5:BA:7F ( Apple )
+  [NEW] 172.26.200.81 : 20:C9:D0:47:FB:05 ( Apple )
+  [NEW] 172.26.200.82 : 00:26:08:EA:07:2E ( Apple )
+  [NEW] 172.26.200.83 : 10:40:F3:EB:1E:34 ( Apple )
+  [NEW] 172.26.200.84 : 60:03:08:EA:26:52 ( Apple )
+  [NEW] 172.26.200.86 : 20:C9:D0:B6:C9:0B ( Apple )
+  [NEW] 172.26.200.89 : 7C:D1:C3:89:9D:62 ( Apple )
+  [NEW] 172.26.200.90 : 5C:96:9D:88:DB:AB ( Apple )
+  [NEW] 172.26.200.92 : 10:40:F3:EC:8B:A4 ( Apple )
+  [NEW] 172.26.200.93 : 5C:F9:38:89:6A:CC ( Apple )
+  [NEW] 172.26.200.95 : 3C:15:C2:EE:C8:12 ( Apple )
+  [NEW] 172.26.200.97 : AC:BC:32:C3:31:29 ( Apple )
+  [NEW] 172.26.200.99 : 08:74:02:73:6D:1F ( Apple )
+  [NEW] 172.26.200.100 : 7C:D1:C3:8F:8F:76 ( Apple )
+  [NEW] 172.26.200.101 : 28:CF:E9:18:2D:3D ( Apple )
+  [NEW] 172.26.200.105 : 54:9F:13:81:08:1F ( Apple )
+  [NEW] 172.26.200.106 : 7C:D1:C3:95:15:9E ( Apple )
+  [NEW] 172.26.200.107 : 7C:D1:C3:EB:02:E5 ( Apple )
+  [NEW] 172.26.200.110 : 38:71:DE:5F:6B:AB ( Apple )
+  [NEW] 172.26.200.111 : B8:E8:56:15:9A:0C ( Apple )
+  [NEW] 172.26.200.113 : D0:25:98:E6:9F:BA ( Apple )
+  [NEW] 172.26.200.114 : 7C:D1:C3:91:64:A2 ( Apple )
+  [NEW] 172.26.200.116 : A4:77:33:69:A5:08 ( Google )
+  [NEW] 172.26.200.121 : 3C:15:C2:D4:00:48 ( Apple )
+  [NEW] 172.26.200.123 : F4:31:C3:86:90:2F ( Apple )
+  [NEW] 172.26.200.126 : 78:FD:94:8D:2A:5E ( Apple )
+  [NEW] 172.26.200.127 : 2C:BE:08:E6:8E:18 ( Apple )
+  [NEW] 172.26.200.128 : 10:40:F3:AF:12:F2 ( Apple )
+  [NEW] 172.26.200.130 : 60:03:08:EC:84:9E ( Apple )
+  [NEW] 172.26.200.131 : 2C:F0:EE:00:20:DA ( Apple )
+  [NEW] 172.26.200.132 : C8:E0:EB:14:86:7D ( Apple )
+  [NEW] 172.26.200.134 : E4:CE:8F:0B:B4:32 ( Apple )
+  [NEW] 172.26.200.139 : B0:05:94:11:AC:31 ( Liteon Technology )
+  [NEW] 172.26.200.141 : 00:23:12:12:D7:A3 ( Apple )
+  [NEW] 172.26.200.142 : 20:C9:D0:BF:5A:FF ( Apple )
+  [NEW] 172.26.200.144 : C8:69:CD:9C:EA:5C ( Apple )
+  [NEW] 172.26.200.149 : 5C:96:9D:7C:7A:09 ( Apple )
+  [NEW] 172.26.200.151 : 70:14:A6:7B:BF:B2 ( Apple )
+  [NEW] 172.26.200.152 : 00:26:08:E0:FE:FA ( Apple )
+
+
+[I] Found NetBIOS name 'WOODROW' for address 172.26.200.23
+[I] Found NetBIOS name 'MACBOOKPRO-99F1' for address 172.26.200.55
+[I] Found NetBIOS name 'AIR' for address 172.26.200.11
+[I] Found NetBIOS name 'JWM-MACBOOK-PRO' for address 172.26.200.22
+[I] Found NetBIOS name 'SNOWYDANCE' for address 172.26.200.50
+[I] Found NetBIOS name 'STARLORD' for address 172.26.200.29
+[I] Found NetBIOS name 'MACBOOKPRO-C7C3' for address 172.26.200.25
+[14:49:E0:10:C6:C5 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x367D10CB
+[14:49:E0:10:C6:C5 > *:dhcpserver] [DHCP] [DISCOVER] Transaction-ID=0x453C6C01
+[I] Found NetBIOS name 'MACBOOKPRO-66A0' for address 172.26.200.130
+[I] Found NetBIOS name 'MACBOOKPRO-C046' for address 172.26.200.28
+[I] Found NetBIOS name 'MACBOOKPRO-72A9' for address 172.26.200.89
+[I] Found NetBIOS name 'MACBOOKAIR-B78A' for address 172.26.200.16
+[I] Found NetBIOS name 'MACINTOSH-4' for address 172.26.200.95
+[I] Found NetBIOS name 'MACBOOKPRO-7E73' for address 172.26.200.63
+[I] Found NetBIOS name 'MACBOOKPRO-51FA' for address 172.26.200.3
+[I] Found NetBIOS name 'MACBOOK-3' for address 172.26.200.9
+[I] Found NetBIOS name 'NME' for address 172.26.200.73
+[I] Found NetBIOS name 'YOUREWELCOME' for address 172.26.200.39
+[I] Found NetBIOS name 'SNERKLEDERDLES' for address 172.26.200.127
+[I] Found NetBIOS name 'MACBOOKPRO-5B49' for address 172.26.200.134
+[I] Found NetBIOS name 'MACBOOKPRO-5D06' for address 172.26.200.114
+[I] Found NetBIOS name 'MACBOOKAIR-20DA' for address 172.26.200.131
+[I] Found NetBIOS name 'MACBOOKPRO-81C8' for address 172.26.200.82
+[I] Found NetBIOS name 'MACBOOKPRO-7E7C' for address 172.26.200.152
+[I] Found NetBIOS name 'HAMCHEESE' for address 172.26.200.74
+[I] Found NetBIOS name 'MACBOOKPRO-29B5' for address 172.26.200.86
+[I] Found NetBIOS name 'LMAO' for address 172.26.200.79
+[I] Found NetBIOS name 'MACBOOKPRO-FB05' for address 172.26.200.81

@@ -1,0 +1,2 @@
+address,mac,name,os_name,os_flavor,os_sp,purpose,info,comments
+"209.118.39.203","","mango.standrews-de.org","Unknown","","","device","",""

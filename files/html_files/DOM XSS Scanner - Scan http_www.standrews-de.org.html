@@ -1,0 +1,1661 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>DOM XSS Scanner - Scan http://www.standrews-de.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DOM XSS Scanner is an online tool for finding potential DOM based XSS security vulnerabilities in the source code of Web pages and included JavaScript files.">
+  <meta name="google-site-verification" content="XoEMsQskIl_bodjTm5nvSJhqwpGgcsNuxxoGYHpN7mY">
+  <meta property="og:image" content="http://www.domxssscanner.com/static/img/domxssscanner-results-preview.jpg">
+  
+  <link rel="shortcut icon" href="http://www.domxssscanner.com/favicon.ico">
+  <link rel="stylesheet" href="DOM%20XSS%20Scanner%20-%20Scan%20http_www.standrews-de.org_files/style.css">
+  <link rel="stylesheet" href="DOM%20XSS%20Scanner%20-%20Scan%20http_www.standrews-de.org_files/960.css">
+  <link href="DOM%20XSS%20Scanner%20-%20Scan%20http_www.standrews-de.org_files/css.css" rel="stylesheet" type="text/css">
+  <script src="DOM%20XSS%20Scanner%20-%20Scan%20http_www.standrews-de.org_files/analytics.js" async=""></script><script src="DOM%20XSS%20Scanner%20-%20Scan%20http_www.standrews-de.org_files/modernizr-2.js"></script>
+  
+  
+  <script type="text/javascript">
+    var script_urls = '["http://www.standrews-de.org/js/ss_urchin-c.js", "http://www.standrews-de.org/js/si_behaviors-c.js", "http://www.standrews-de.org/js/si_onload.js", "http://www.standrews-de.org/_infrastructure/JavaScript/jQuery.js", "http://www.standrews-de.org/js/jquery_onload.js", "http://www.standrews-de.org/_infrastructure/JavaScript/jquery.cycle.pack.js", "http://www.google.com/coop/cse/brand?form=searchbox_010331200343752064369%3Ac8o_wv2m8rg"]';
+  </script>
+  
+
+
+</head>
+<body lang="en"><div id="dxsheaderform" style="position:fixed;top:0;background:#002f00;width:100%;text-align:center;padding:.5em;"><a href="http://www.domxssscanner.com/" style="position:absolute;left:0;margin:.2em 0 0 12%;width:5.5%;text-decoration:none;font-weight:bold;">Home</a><form action="/scan" method="GET"><input style="width:40%;" name="url" id="url" value="http://" type="url"><input style="width:20%;margin-left:.3em;" value="Start DOM XSS scan" type="submit"></form></div>
+
+<div style="padding-top:2.5em;" id="container">
+  <header id="page_header" class="container_12">
+    <div class="grid_12">
+      <h1 class="title">DOM XSS Scan Results</h1>
+    </div>
+  </header>
+
+
+  <div id="main" role="main" class="container_12">
+    <div id="content" class="grid_12">
+    
+<div id="responses">
+<div class="response">
+
+  <h2 class="request_url">Results from scanning URL: <a href="http://www.standrews-de.org/">http://www.standrews-de.org</a></h2>
+
+
+
+  
+
+<h3>Number of sources found: <span class="domxss_source">4</span></h3><h3>Number of sinks found: <span class="domxss_sink">258</span></h3><pre class="domxss_highlighted">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+    &lt;head&gt;&lt;meta http-equiv="content-type" content="text/html; charset=iso-8859-1" /&gt;&lt;title&gt;
+	St. Andrew's School: Home
+
+&lt;/title&gt;
+&lt;meta name="keywords" content=" " /&gt;
+&lt;meta name="description" content=" " /&gt;
+
+&lt;!-- SCRIPTING --&gt;
+&lt;script type="text/javascript" language="JavaScript" <span class="domxss_sink">src=</span>"/js/ss_urchin-c.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" language="JavaScript" <span class="domxss_sink">src=</span>"/js/si_behaviors-c.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" language="JavaScript" <span class="domxss_sink">src=</span>"/js/si_onload.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" language="JavaScript" <span class="domxss_sink">src=</span>"/_infrastructure/JavaScript/jQuery.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" language="JavaScript" <span class="domxss_sink">src=</span>"/js/jquery_onload.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" language="JavaScript"&gt;
+// &lt;![CDATA[
+favicon = new Image();
+favicon.<span class="domxss_sink">src=</span>"/images/favicon.ico"; 
+// ]]&gt;
+&lt;/script&gt;
+&lt;link rel="shortcut icon" <span class="domxss_sink">href=</span>"/images/favicon.ico" /&gt;
+&lt;!-- / SCRIPTING --&gt;
+
+&lt;!-- STYLES --&gt;
+&lt;link <span class="domxss_sink">href=</span>"/css/print.css" rel="stylesheet" type="text/css" media="print" /&gt;
+&lt;style type="text/css" media="screen"&gt;
+/* &lt;![CDATA[ */
+@import url(/css/base.css);
+
+
+@import url(/css/module/module.css);
+@import url(/css/module/news.css);
+@import url(/css/module/calendar.css);
+@import url(/css/module/gallery.css);
+@import url(/css/module/academics.css);
+@import url(/css/module/athletics.css);
+@import url(/css/module/directory.css);
+@import url(/css/module/notes.css);
+@import url(/css/module/resource.css);
+
+/*\*//*/@import "/css/filter/iemac.css";/**/
+
+/* ]]&gt; */
+&lt;/style&gt;
+&lt;!--[if lt IE 7]&gt;
+&lt;link <span class="domxss_sink">href=</span>"/css/filter/iepc.css" rel="stylesheet" type="text/css" media="screen" /&gt;
+&lt;![endif]--&gt;
+&lt;!--[if IE 7]&gt;
+&lt;link <span class="domxss_sink">href=</span>"/css/filter/ie7.css" rel="stylesheet" type="text/css" media="screen" /&gt;
+&lt;![endif]--&gt;
+&lt;!--[if IE 8]&gt;
+&lt;link <span class="domxss_sink">href=</span>"/css/filter/ie8.css" rel="stylesheet" type="text/css" media="screen" /&gt;
+&lt;![endif]--&gt;
+
+&lt;!-- / STYLES --&gt;
+
+		
+        &lt;link <span class="domxss_sink">href=</span>"/css/home.css" rel="stylesheet" type="text/css" media="screen" /&gt;
+		&lt;script type="text/javascript" language="JavaScript" <span class="domxss_sink">src=</span>"/_infrastructure/JavaScript/jquery.cycle.pack.js"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript"&gt;
+			$(document).ready(function() { 
+			 	$('#slideshow ul').cycle({ timeout: 4000, height: '360px'}); 
+				
+				$('#morenews .calendar-day').each(function(){
+					$(this).children('dd').each(function(){
+						if($(this).children('h4').children('span').size() &gt; 1)
+						{
+							$(this).children('h4').children('.location').css('border-left','solid 1px #000000').css('padding-left','10px');
+						}
+						if(!$(this).hasClass('first-child') &amp;&amp; !$(this).hasClass('only-child'))
+						{
+							var dt = $(this)<span class="domxss_source">.parent(</span>'.calendar-day').children('dt').html();
+							$(this)<span class="domxss_source">.parent(</span>'.calendar-day').after('&lt;dl class="calendar-day"&gt;&lt;dt&gt;' + dt + '&lt;/dt&gt;' + $(this).html() + '&lt;/dl&gt;');
+							$(this).remove();
+						}
+					});
+				});
+			}); 
+		&lt;/script&gt;
+		&lt;style&gt;
+		.sc div.module {background:none !important;}
+        div.news-list2 ul.news li div.thumb a img {width:208px; height:55px;}
+		div.news-list2 div.paging {display:none;}
+        #buttons  div.news-list2{border:none !important;}
+		div.news-list2 ul.news li { padding-left:0px;}
+		div.news-list2 ul.news { padding-left:0px;}
+		div.news-list2 {padding-left:0px !important;}
+		#alumni-center {
+		background: url(/images/common/alumni-bg.jpg) 50% 0 no-repeat; }
+		#alumni-center #container,
+		#alumni-center #inner-container { background: none !important; }
+		#alumni-center #header {
+		}
+		
+		body.layout-n1-p1-s1 #primary-content { top: 300px !important; }
+		
+		body.layout-n1-p1-s1 #primary-content pre { display: none; }
+		
+		#alumni-slideshow { 
+		position: absolute;
+		top: -254px;
+		left: 0;
+		margin: 0 0 1em 0;
+		padding: 0; 
+		visibility: visible !important;
+		display: block !important;
+		height: 250px;
+		width: 530px;
+		z-index: 100;
+		overflow: hidden;
+		}
+		
+		#alumni-center #header{ z-index: 9999; height: 146px; background: #E2E6E9 url(/images/home/bg-logo.gif) 10px 10px no-repeat; width: 952px;}
+		#alumni-center #header h1 a{ display: none; }
+		
+		#alumni-center #header .searchform{
+			 position: absolute;
+			 right:0px;
+			 top:61px;
+			 z-index: 101;
+			}
+		#alumni-center .searchform input,
+		#alumni-center .searchform input:focus,
+		#alumni-center .searchform input:hover{
+			 float: left;
+			 display: inline;
+			 border: 0;
+			 padding: 0;
+			 outline: 0;
+		}
+		#alumni-center .searchform input#q{
+			background: url(/images/common/search-q.gif) no-repeat;
+			width: 196px;
+			height: 24px;
+			padding: 0px 0px 0px 6px;
+			font-size: 1em;
+		}
+		#alumni-center .searchform input#searchButton{
+			width: 24px;
+			height: 24px;
+			background: url(/images/common/search-button.gif) no-repeat;
+			text-indent: -99999px;
+		}
+		
+		#alumni-center #nav-main{ position: absolute; top: 100px; left: 2px; margin: 0; height: 46px; background: url(/images/home/nav-main.gif) no-repeat; }
+		#alumni-center #nav-main ul{ margin: 0 0 0 18px !important; float: none; height: 46px; }
+		#alumni-center #nav-main ul li ul{ top: 36px !important; }
+		
+		#alumni-center #nav-main ul li a { margin-top: 10px; margin-right: 14px; }
+		
+		#alumni-center #nav-main ul li ul li a{ margin: 0; } 
+		
+		#alumni-center #nav-main #nav-li-home a#nav-link-home{ width: 56px; }
+		#alumni-center #nav-main #nav-li-aboutus a#nav-link-aboutus{ width: 82px; }
+		#alumni-center #nav-main #nav-li-admission a#nav-link-admission{ width: 89px; }
+		#alumni-center #nav-main #nav-li-academics a#nav-link-academics{ width: 95px; }
+		#alumni-center #nav-main #nav-li-arts a#nav-link-arts{ width: 49px; }
+		#alumni-center #nav-main #nav-li-athletics a#nav-link-athletics{ width: 86px; }
+		#alumni-center #nav-main #nav-li-schoollife a#nav-link-schoollife{ width: 102px; }
+		#alumni-center #nav-main #nav-li-parentsalumni a#nav-link-parentsalumni{ width: 143px; }
+		#alumni-center #nav-main #nav-li-contactus a#nav-link-contactus{ width: 99px; margin-right: 0;	}
+		#alumni-center #nav-li-home a#nav-link-home{
+			background: url("/images/home/nav-main.gif") -18px -56px no-repeat;
+			}
+		#alumni-center #nav-li-aboutus a#nav-link-aboutus:hover, 
+		#alumni-center #nav-li-aboutus a#nav-link-aboutus.active, 
+		#alumni-center #nav-li-aboutus.hover a#nav-link-aboutus, 
+		#alumni-center #nav-li-aboutus:hover a#nav-link-aboutus{
+			background: url("/images/home/nav-main.gif") -88px -56px no-repeat;
+			}
+		#alumni-center #nav-li-admission a#nav-link-admission:hover, 
+		#alumni-center #nav-li-admission a#nav-link-admission.active,
+		#alumni-center #nav-li-admission.hover a#nav-link-admission, 
+		#alumni-center #nav-li-admission:hover a#nav-link-admission{
+			background: url("/images/home/nav-main.gif") -184px -56px no-repeat;
+			}
+		#alumni-center #nav-li-academics a#nav-link-academics:hover, 
+		#alumni-center #nav-li-academics a#nav-link-academics.active,
+		#alumni-center #nav-li-academics.hover a#nav-link-academics, 
+		#alumni-center #nav-li-academics:hover a#nav-link-academics{
+			background: url("/images/home/nav-main.gif") -287px -56px no-repeat;
+			}
+		#alumni-center #nav-li-arts a#nav-link-arts:hover, 
+		#alumni-center #nav-li-arts a#nav-link-arts.active,
+		#alumni-center #nav-li-arts.hover a#nav-link-arts, 
+		#alumni-center #nav-li-arts:hover a#nav-link-arts{
+			background: url("/images/home/nav-main.gif") -396px -56px no-repeat;
+			}
+		#alumni-center #nav-li-athletics a#nav-link-athletics:hover, 
+		#alumni-center #nav-li-athletics a#nav-link-athletics.active,
+		#alumni-center #nav-li-athletics.hover a#nav-link-athletics, 
+		#alumni-center #nav-li-athletics:hover a#nav-link-athletics{
+			background: url("/images/home/nav-main.gif") -459px -56px no-repeat;
+			}
+		#alumni-center #nav-li-schoollife a#nav-link-schoollife:hover, 
+		#alumni-center #nav-li-schoollife a#nav-link-schoollife.active,
+		#alumni-center #nav-li-schoollife.hover a#nav-link-schoollife, 
+		#alumni-center #nav-li-schoollife:hover a#nav-link-schoollife{
+			background: url("/images/home/nav-main.gif") -559px -56px no-repeat;
+			}
+		#alumni-center #nav-li-parentsalumni a#nav-link-parentsalumni:hover, 
+		#alumni-center #nav-li-parentsalumni a#nav-link-parentsalumni.active,
+		#alumni-center #nav-li-parentsalumni.hover a#nav-link-parentsalumni, 
+		#alumni-center #nav-li-parentsalumni:hover a#nav-link-parentsalumni{
+			background: url("/images/home/nav-main.gif") -675px -56px no-repeat;
+			}
+		#alumni-center #nav-li-contactus a#nav-link-contactus:hover, 
+		#alumni-center #nav-li-contactus a#nav-link-contactus.active,
+		#alumni-center #nav-li-contactus.hover a#nav-link-contactus, 
+		#alumni-center #nav-li-contactus:hover a#nav-link-contactus{
+			background: url("/images/home/nav-main.gif") -832px -56px no-repeat;
+			}
+			
+		#slideshow ul li { z-index: 1 !important; }
+        &lt;/style&gt;
+	&lt;/head&gt;
+
+
+&lt;body class="linked tier-2 layout-n0-p1-s1" id="home"&gt;
+
+
+    &lt;div id="container"&gt;
+        &lt;div id="inner-container"&gt;
+            
+
+			&lt;!-- header --&gt; 
+			&lt;div id="header"&gt;
+				&lt;div id="masthead"&gt;
+					&lt;h1&gt;&lt;a <span class="domxss_sink">href=</span>"/index.aspx"&gt;St. Andrew's School&lt;/a&gt;&lt;/h1&gt;
+				&lt;/div&gt;
+
+				&lt;div id="nav"&gt;
+					&lt;div class="hidden"&gt;&lt;p&gt;&lt;a <span class="domxss_sink">href=</span>"#nav-sub"&gt;Skip to Section Subnavigation&lt;/a&gt; &lt;a <span class="domxss_sink">href=</span>"#primary-content"&gt;Skip to Page Content&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;	
+                    
+                    
+&lt;div id="nav-main"&gt;
+		&lt;ul&gt;
+			&lt;li class="first-child active" id="nav-li-home"&gt;
+				&lt;a id="nav-link-home" <span class="domxss_sink">href=</span>"/index.aspx" class="active" target="_self"&gt;Home&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;/li&gt;
+			&lt;li class="more" id="nav-li-aboutus"&gt;
+				&lt;a id="nav-link-aboutus" <span class="domxss_sink">href=</span>"/aboutus/index.aspx"&gt;About Us&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;ul&gt;
+					&lt;li class="first-child"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/aboutus/index.aspx" target="_self"&gt;Headmaster's Welcome&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/aboutus/mission/index.aspx"&gt;Mission&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/aboutus/board-of-trustees/index.aspx"&gt;Board of Trustees&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/news/index.aspx" target="_self"&gt;News and Photos&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/calendars/index.aspx" target="_self"&gt;Calendar&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/aboutus/facts-and-figures/index.aspx"&gt;Facts and Figures&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/aboutus/employment-opportunities/index.aspx"&gt;Employment Opportunities&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/aboutus/visiting/index.aspx"&gt;Maps and Directions&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="last-child"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"http://libraryweb.standrews-de.org/libraryarchive/" target="_blank"&gt;School Archives&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li class="more" id="nav-li-admission"&gt;
+				&lt;a id="nav-link-admission" <span class="domxss_sink">href=</span>"/admission/index.aspx"&gt;Admission&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;ul&gt;
+					&lt;li class="first-child more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/admission/index.aspx" target="_self"&gt;Admission Welcome&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/admission/video.aspx" target="_blank"&gt;Admission Video&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"https://apply.standrews-de.org/request-information" target="_self"&gt;Request Information&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/admission/visiting-st-andrews/index.aspx"&gt;Admission Visits&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/admission/applying/index.aspx"&gt;How to Apply&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/admission/international-students/index.aspx"&gt;International Students&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/admission/tuition-financial-aid/index.aspx"&gt;Tuition &amp; Financial Aid&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="last-child"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/admission/admission-on-the-road/index.aspx"&gt;Admission on the Road&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li class="more" id="nav-li-academics"&gt;
+				&lt;a id="nav-link-academics" <span class="domxss_sink">href=</span>"/academics/index.aspx"&gt;Academics&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;ul&gt;
+					&lt;li class="first-child"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/academics/index.aspx" target="_self"&gt;Introduction&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/academics/details-requirements/index.aspx"&gt;Details &amp; Requirements&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/academics/facultydirectory.aspx" target="_self"&gt;Faculty&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/academics/departments.aspx" target="_self"&gt;Course Catalog&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/academics/academic-support/index.aspx"&gt;Academic Support&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/academics/college-counseling/index.aspx"&gt;College Counseling&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li id="nav-li-irene_dupont_library"&gt;
+						&lt;a id="nav-link-irene_dupont_library" <span class="domxss_sink">href=</span>"http://libraryweb.standrews-de.org/" target="_blank"&gt;Irene duPont Library&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="last-child"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/academics/senior-tutorial-program/index.aspx"&gt;Senior Tutorial Program&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li class="more" id="nav-li-arts"&gt;
+				&lt;a id="nav-link-arts" <span class="domxss_sink">href=</span>"/arts/index.aspx"&gt;Arts&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;ul&gt;
+					&lt;li class="first-child"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/arts/index.aspx" target="_self"&gt;Arts Welcome&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/arts/choral-music-and-voice/index.aspx"&gt;Choral Music and Voice&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/arts/dance/index.aspx"&gt;Dance&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/arts/drama/index.aspx"&gt;Drama&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/arts/film-and-photography/index.aspx"&gt;Film and Photography&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/arts/instrumental-music/index.aspx"&gt;Instrumental Music&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/arts/visual-and-fine-arts/index.aspx"&gt;Visual and Fine Arts&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="last-child"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/arts/warner-gallery/index.aspx"&gt;Warner Gallery&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li class="more" id="nav-li-athletics"&gt;
+				&lt;a id="nav-link-athletics" <span class="domxss_sink">href=</span>"/athletics/index.aspx"&gt;Athletics&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;ul&gt;
+					&lt;li class="first-child"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/athletics/index.aspx" target="_self"&gt;Athletics Welcome&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/athletics/sports-teams/index.aspx"&gt;Sports Teams&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"http://cardinals-sports.com/Page14868.aspx" target="_blank"&gt;Athletic Calendar &amp; Scores&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/athletics/facilities/index.aspx"&gt;Athletic Facilities&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/athletics/athletic-records/index.aspx"&gt;Athletic Records&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="last-child"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/athletics/crew-retrospective/index.aspx"&gt;Crew Retrospective&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li class="more" id="nav-li-schoollife"&gt;
+				&lt;a id="nav-link-schoollife" <span class="domxss_sink">href=</span>"/schoollife/index.aspx"&gt;School Life&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;ul&gt;
+					&lt;li class="first-child"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/schoollife/index.aspx" target="_self"&gt;Life at St. Andrew's&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/schoollife/residential-life/index.aspx"&gt;Residential Life&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/schoollife/student-leadership/index.aspx"&gt;Student Leadership&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/schoollife/clubs-and-activities/index.aspx"&gt;Clubs and Activities&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/schoollife/chapel/index.aspx"&gt;Chapel Program&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/schoollife/community-service/index.aspx"&gt;Community Service&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/schoollife/environmental-sustainability/index.aspx"&gt;Environmental Sustainability&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/schoollife/diversity-and-inclusivity-at-sas/index.aspx"&gt;Diversity and Inclusivity&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="last-child"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/podcast/index.aspx" target="_self"&gt;Podcasts&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li class="more" id="nav-li-parents"&gt;
+				&lt;a id="nav-link-parents" <span class="domxss_sink">href=</span>"/Parents/index.aspx"&gt;Parents&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;ul&gt;
+					&lt;li class="first-child"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/parents/index.aspx" target="_self"&gt;Parents Center&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/Parents/student-technology-requirements/index.aspx"&gt;Student Technology Requirements&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/Parents/health-center/index.aspx"&gt;Health Center&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"http://store.standrews-de.org/" target="_blank"&gt;School Store&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/alumni/giving-information-2/index.aspx" target="_self"&gt;Giving Information&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/Parents/friday-news-from-campus/index.aspx"&gt;Friday News from Campus&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/alumni/st-andrews-school-magazine/index.aspx" target="_self"&gt;St. Andrew's School Magazine&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"https://new.livestream.com/accounts/158104" target="_self"&gt;Livestream Channel&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/academics/college-counseling/index.aspx" target="_self"&gt;College Counseling&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/Parents/visiting/index.aspx"&gt;Visiting Campus&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="last-child"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/Parents/arts-weekend-2016/index.aspx"&gt;Arts Weekend 2016&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li class="more" id="nav-li-alumni"&gt;
+				&lt;a id="nav-link-alumni" <span class="domxss_sink">href=</span>"/alumni-center/index.aspx" target="_self"&gt;Alumni&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;ul&gt;
+					&lt;li class="first-child"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/alumni-center/index.aspx" target="_self"&gt;Alumni Center&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/alumni/giving-information-2/index.aspx"&gt;Giving Information&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"http://store.standrews-de.org/" target="_blank"&gt;School Store&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/alumni/st-andrews-school-magazine/index.aspx"&gt;St. Andrew's School Magazine&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"https://new.livestream.com/accounts/158104" target="_self"&gt;Livestream Channel&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/alumni-center/reunion/index.aspx" target="_self"&gt;Reunion 2016&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/alumni/year-in-review/index.aspx"&gt;Year in Review&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class="last-child more"&gt;
+						&lt;a <span class="domxss_sink">href=</span>"/alumni/art-of-healing/index.aspx"&gt;Art of Healing Symposium&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li class="last-child" id="nav-li-contactus"&gt;
+				&lt;a id="nav-link-contactus" <span class="domxss_sink">href=</span>"/contactus/index.aspx"&gt;Contact Us&lt;span class="icon"&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+
+&lt;/div&gt;
+                    
+                    
+&lt;div id="nav-const"&gt;
+
+&lt;/div&gt;
+				&lt;/div&gt;
+                
+                &lt;form name="aspnetForm" method="post" <span class="domxss_sink">action=</span>"/" id="aspnetForm"&gt;
+&lt;div&gt;
+&lt;input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" <span class="domxss_sink">value=</span>"/wEPDwUKMTc4NTk3NzIxNGRkZe3lA2VkwxNVoBoXcjZbps0X1x/At/KGWlxaQ7jaH1k=" /&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+
+	&lt;input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" <span class="domxss_sink">value=</span>"90059987" /&gt;
+&lt;/div&gt;
+                      
+
+
+
+&lt;div class="searchform"&gt;	
+	&lt;input type="hidden" id="cx" <span class="domxss_sink">value=</span>"004669429166622970061:czyowcgj_r4" /&gt;
+	&lt;div&gt;
+	    &lt;input type="text" id="q" class="searchinput" <span class="domxss_sink">value=</span>"" /&gt;
+	    &lt;input type="submit" id="searchButton" name="sa" <span class="domxss_sink">value=</span>"Search" class="submit" onclick="return false;" /&gt;
+        &lt;!--&lt;input type="image" id="searchButton" title="Search" <span class="domxss_sink">src=</span>"/images/common/search-button.gif" alt="Search" class="submit" onclick="return false;" /&gt;--&gt;
+	&lt;/div&gt;
+    &lt;input type="hidden" id="cof" <span class="domxss_sink">value=</span>"FORID:11" /&gt;
+&lt;/div&gt;
+                    
+
+&lt;script type="text/javascript"&gt;
+//&lt;![CDATA[
+
+
+                $(function(){
+                    $('input#searchButton').click(doGoogleSearch);
+                    $('#q').focus(function() { $(this).val(''); });
+                    function doGoogleSearch() {
+                        var q = escape($('#q').val());
+                        var cx = escape($('#cx').val());
+                        var cof = escape($('#cof').val());
+
+                        window.<span class="domxss_sink">location =</span> '/search/index.aspx?q=' + q + '&amp;cx=' + cx + '&amp;cof=' + cof;
+                    }
+
+                    function onQueryInputKeyDown(event){
+                      if(event.keyCode === 13){
+                        doGoogleSearch();
+                        return false;
+                      }
+                    }
+
+                    $('input#q').keydown(onQueryInputKeyDown);
+                });//]]&gt;
+&lt;/script&gt;
+&lt;/form&gt;
+               	
+			&lt;/div&gt;
+			&lt;!-- //header --&gt;
+			&lt;!-- page content --&gt;
+			&lt;div id="content"&gt;
+				&lt;div class="hidden"&gt;&lt;p&gt;&lt;a <span class="domxss_sink">href=</span>"#primary-content"&gt;Skip to Page Content&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+				&lt;div id="nav-sub" class="nc"&gt;
+                
+                
+                    
+                    
+                    
+				    
+				    
+
+				    
+				    
+
+				    
+				    
+
+                    
+                    
+                    
+				&lt;/div&gt;
+                    
+
+            &lt;div id="primary-content" class="pc"&gt;
+                    &lt;div id="breadcrumbs"&gt;
+	&lt;ul&gt;
+		&lt;li class="first-child"&gt;&lt;a <span class="domxss_sink">href=</span>"/"&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;li class="last-child"&gt;Home&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+                    
+	&lt;div id="slidewrap"&gt;
+        &lt;div id="slidetext"&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/images/home/bg-quote1.jpg" alt=" " width="340" height="360" /&gt;&lt;/li&gt;
+                   &lt;!-- &lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/images/home/bg-quote2.jpg" alt=" " width="340" height="360" /&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/images/home/bg-quote3.jpg" alt=" " width="340" height="360" /&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/images/home/bg-quote4.jpg" alt=" " width="340" height="360" /&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/images/home/bg-quote5.jpg" alt=" " width="340" height="360" /&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/images/home/bg-quote6.jpg" alt=" " width="340" height="360" /&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/images/home/bg-quote7.jpg" alt=" " width="340" height="360" /&gt;&lt;/li&gt;--&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;div id="slideshow"&gt;
+                
+                &lt;div id="homeslides"&gt;
+&lt;ul class="file-group"&gt;
+
+&lt;li class="first-child"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0403_homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0264_homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0376_homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0228_homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0324_homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0331_homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0284_homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0398_homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0318_homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0364_homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../sledding12.8.13.JPG" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_1076.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0935.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0959.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_1045.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../2_SASair129.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../3_SASClassroomsfall2013_0568HomepageSlide.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../4_Football_HomepageSlide.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../5_SASArtsWeekend20131005homepageSlide.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../6_SASClassroomsfall2013_1033HomepageSlide.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../7_SASClassroomsfall2013_1349HomepageSlide.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../7a_SASClassroomsfall2013_1169HomepageSlide.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../8_SASClassroomsfall2013_1328HomepageSlide.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../9_SASClassroomsfall2013_0323HomepageSlide.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../10_Soccer_HomepageSlide.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../11_SASClassroomsfall2013_0601HomepageSlide.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../12_SASClassroomsfall2013_0844HomepageSlide.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../13_SASClassroomsfall2013_1558HomePageSlide.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0250.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0444.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_04141.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../HomepageSlide6370.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0406.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0409.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0261.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../FullFaculty2_web1.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0152homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0240homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0257homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_2202homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0543homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0340homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0449homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0182homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0022homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0149homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0127homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0077homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../Classroom.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0066homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0064homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0044homepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../CooperCuphomepage.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../OutdoorClassroom0139.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../Homepage_Arts09552.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../Homepage05105.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../Homepage0529.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../Homepage0513.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0825.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../Homepage0448.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../Homepage0119.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../OutdoorClassroom0144.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../Homepage0491.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../Homepage04902.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../Homepage0430.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0027.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_01242.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_03482.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_00762.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0003.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_00112.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_00422.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../Homepage0760.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../KJG_20101027_1021homeSlideShow.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../SASCrew2011_0052homeSlideShow.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../KJG_20101027_1109homeSlideShow.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../KarenGowen0948homeSlideShow.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../KJG_20101027_0219homeSlideShow.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../_MG_6360homeSlideShow.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../KJG_20101027_0814homeSlideShow.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../_MG_6183homeSlideShow.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../_MG_0566homeSlideShow.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../KJG_20101027_0784homeSlideShow.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../SASfallsports2011_0260_web.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../Dance_0081edited_web.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_02401.JPG" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../outdoorphoto.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSCF1009_web.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../KJG_20101027_0039_web.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../GirlsBasketball_web.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../KJG_SAS_april2011_0489_web.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC015902_web.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../KJG_SAS_april2011_0250_web.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSCF1015_web.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../_MG_7350_web.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../_MG_2064_web.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../_MG_6239_web.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../DSC_0144_web.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../slide8.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../SASfallsports2011_0174_web.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../slide7.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="alt"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../slide5.jpg" alt=""  /&gt;
+&lt;/li&gt;
+&lt;li class="last-child"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/gallery/HomepageSlideshowGallery/thumb/../_MG_7782_web.jpg" alt=""  /&gt;
+&lt;/li&gt;
+
+
+&lt;/ul&gt;
+&lt;/div&gt;
+ 
+            &lt;/div&gt;
+		&lt;/div&gt;
+		
+	
+            &lt;/div&gt;
+            &lt;div id="secondary-content" class="sc"&gt;
+                
+		
+		
+		        
+		
+		&lt;div class="news-list" id="main"&gt;
+&lt;h2&gt;St. Andrew's News&lt;/h2&gt;
+&lt;ul class="news"&gt;
+&lt;li class="first-child"&gt;
+
+				&lt;h4&gt;&lt;a <span class="domxss_sink">href=</span>"/news/detail.aspx?page<span class="domxss_sink">action=</span>ViewSinglePublic&amp;amp;LinkID=1944&amp;amp;ModuleID=22&amp;amp;NEWSPID=1"&gt;Saints Put on Exceptional Arts Weekend for School Community&lt;/a&gt;&lt;/h4&gt;
+				&lt;h6&gt;Posted May 10, 2016&lt;/h6&gt;
+				&lt;div class="thumb"&gt;&lt;a <span class="domxss_sink">href=</span>"/news/detail.aspx?page<span class="domxss_sink">action=</span>ViewSinglePublic&amp;amp;LinkID=1944&amp;amp;ModuleID=22"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/news/HomepageNews/thumb/tn-dance7293.jpg" alt="dance7293.jpg"  width="100" height="67" border="0" /&gt;&lt;/a&gt;&lt;/div&gt;
+
+				&lt;/li&gt;
+&lt;li class="alt"&gt;
+
+				&lt;h4&gt;&lt;a <span class="domxss_sink">href=</span>"/news/detail.aspx?page<span class="domxss_sink">action=</span>ViewSinglePublic&amp;amp;LinkID=1943&amp;amp;ModuleID=22&amp;amp;NEWSPID=1"&gt;Saints Celebrate First All-School Passover Seder&lt;/a&gt;&lt;/h4&gt;
+				&lt;h6&gt;Posted May 4, 2016&lt;/h6&gt;
+				&lt;div class="thumb"&gt;&lt;a <span class="domxss_sink">href=</span>"/news/detail.aspx?page<span class="domxss_sink">action=</span>ViewSinglePublic&amp;amp;LinkID=1943&amp;amp;ModuleID=22"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/news/HomepageNews/thumb/tn-IMG_4200.jpg" alt="IMG_4200.jpg"  width="100" height="75" border="0" /&gt;&lt;/a&gt;&lt;/div&gt;
+
+				&lt;/li&gt;
+&lt;li class="last-child"&gt;
+
+				&lt;h4&gt;&lt;a <span class="domxss_sink">href=</span>"/news/detail.aspx?page<span class="domxss_sink">action=</span>ViewSinglePublic&amp;amp;LinkID=1942&amp;amp;ModuleID=22&amp;amp;NEWSPID=1"&gt;St. Andrew's 5K Club Presented with National Flag from U.S. Capitol Building&lt;/a&gt;&lt;/h4&gt;
+				&lt;h6&gt;Posted April 29, 2016&lt;/h6&gt;
+				&lt;div class="thumb"&gt;&lt;a <span class="domxss_sink">href=</span>"/news/detail.aspx?page<span class="domxss_sink">action=</span>ViewSinglePublic&amp;amp;LinkID=1942&amp;amp;ModuleID=22"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/news/HomepageNews/thumb/tn-GX4A0615.jpg" alt="GX4A0615.jpg"  width="100" height="67" border="0" /&gt;&lt;/a&gt;&lt;/div&gt;
+
+				&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="news-paging"&gt;&lt;a <span class="domxss_sink">href=</span>"/news/index.aspx?page<span class="domxss_sink">action=</span>ViewPublic&amp;amp;ModuleID=22"&gt;View All News&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+        
+        
+            &lt;div class="calendar" id="morenews"&gt;
+&lt;div class="inner list"&gt;
+&lt;div class="hd"&gt;
+&lt;h2&gt;Upcoming Events &amp; Announcements&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="bd"&gt;
+
+	&lt;dl class="calendar-day first-child"&gt;&lt;dt&gt;&lt;span class="month"&gt;May&lt;/span&gt; &lt;span class="day"&gt;20&lt;/span&gt;&lt;/dt&gt; 
+		&lt;dd class="only-child"&gt;
+				 &lt;h4&gt;Crew at Stotesbury Regatta 
+				 
+				 &lt;/h4&gt; &lt;/dd&gt;
+&lt;/dl&gt;
+	&lt;dl class="calendar-day"&gt;&lt;dt&gt;&lt;span class="month"&gt;May&lt;/span&gt; &lt;span class="day"&gt;22&lt;/span&gt;&lt;/dt&gt; 
+		&lt;dd class="only-child"&gt;
+				 &lt;h4&gt;VI Form Dinner 
+				 
+				 &lt;/h4&gt; &lt;/dd&gt;
+&lt;/dl&gt;
+	&lt;dl class="calendar-day"&gt;&lt;dt&gt;&lt;span class="month"&gt;May&lt;/span&gt; &lt;span class="day"&gt;25&lt;/span&gt;&lt;/dt&gt; 
+		&lt;dd class="only-child"&gt;
+				 &lt;h4&gt;Awards Night 
+				 
+				 &lt;/h4&gt; &lt;/dd&gt;
+&lt;/dl&gt;
+	&lt;dl class="calendar-day"&gt;&lt;dt&gt;&lt;span class="month"&gt;May&lt;/span&gt; &lt;span class="day"&gt;26&lt;/span&gt;&lt;/dt&gt; 
+		&lt;dd class="only-child"&gt;
+				 &lt;h4&gt;Commencement 2016 
+				 
+				 &lt;/h4&gt; &lt;/dd&gt;
+&lt;/dl&gt;
+	&lt;dl class="calendar-day last-child"&gt;&lt;dt&gt;&lt;span class="month"&gt;Jun&lt;/span&gt; &lt;span class="day"&gt;4&lt;/span&gt;&lt;/dt&gt; 
+		&lt;dd class="only-child"&gt;
+				 &lt;h4&gt;Second Semester Ends 
+				 
+				 &lt;/h4&gt; &lt;/dd&gt;
+&lt;/dl&gt;&lt;div class="calendar-list-more"&gt;
+&lt;p&gt;&lt;a <span class="domxss_sink">href=</span>"/calendars/index.aspx?ModuleID=143&amp;StartDate=6/4/2016"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="paging"&gt;&lt;p&gt;&lt;a <span class="domxss_sink">href=</span>"/calendars/index.aspx?ModuleID=78:14"&gt;View All&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+        
+          &lt;div id="buttons"&gt;
+        
+	
+		&lt;div class="news-list2"&gt;
+&lt;ul class="news"&gt;
+&lt;li class="first-child"&gt;
+
+				
+				
+				&lt;div class="thumb"&gt;&lt;a <span class="domxss_sink">href=</span>"http://www.standrews-de.org/calendars/events.aspx?<span class="domxss_sink">action=</span>ShowEventRegistrationForm&amp;EventId=d3e3e99d-d8df-4912-b4c2-d4c5dab16e6d"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/news/HomepageButtonsNews/thumb/home_btn-home_btnartsweekendButton2016.jpg" alt="home_btnartsweekendButton2016.jpg"  width="208" height="55" border="0" /&gt;&lt;/a&gt;&lt;/div&gt;
+
+				&lt;/li&gt;
+&lt;li class="alt"&gt;
+
+				
+				
+				&lt;div class="thumb"&gt;&lt;a <span class="domxss_sink">href=</span>"http://www.standrews-de.org/alumni-center/reunion/index.aspx"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/news/HomepageButtonsNews/thumb/home_btn-ReunionButton2016.jpg" alt="ReunionButton2016.jpg"  width="208" height="55" border="0" /&gt;&lt;/a&gt;&lt;/div&gt;
+
+				&lt;/li&gt;
+&lt;li&gt;
+
+				
+				
+				&lt;div class="thumb"&gt;&lt;a <span class="domxss_sink">href=</span>"https://apply.standrews-de.org/request-information" target="_blank"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/news/HomepageButtonsNews/thumb/home_btn-RequestInfo_btn_blue.jpg" alt="RequestInfo_btn_blue.jpg"  width="208" height="55" border="0" /&gt;&lt;/a&gt;&lt;/div&gt;
+
+				&lt;/li&gt;
+&lt;li class="alt"&gt;
+
+				
+				
+				&lt;div class="thumb"&gt;&lt;a <span class="domxss_sink">href=</span>"http://www.standrews-de.org/admission/video.aspx"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/news/HomepageButtonsNews/thumb/home_btn-btn_Video.jpg" alt="btn_Video.jpg"  width="208" height="55" border="0" /&gt;&lt;/a&gt;&lt;/div&gt;
+
+				&lt;/li&gt;
+&lt;li class="last-child"&gt;
+
+				
+				
+				&lt;div class="thumb"&gt;&lt;a <span class="domxss_sink">href=</span>"http://www.standrews-de.org/giving"&gt;&lt;img <span class="domxss_sink">src=</span>"/data/files/news/HomepageButtonsNews/thumb/home_btn-btnSaintsFund.jpg" alt="btnSaintsFund.jpg"  width="208" height="55" border="0" /&gt;&lt;/a&gt;&lt;/div&gt;
+
+				&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+        	&lt;!----&gt;
+            
+        &lt;/div&gt;
+	
+            &lt;/div&gt;
+            
+			&lt;/div&gt;
+			&lt;!-- //page content --&gt;
+			&lt;!-- footer --&gt;
+			&lt;div id="footer"&gt;
+                
+                
+
+				&lt;div id="validators"&gt;
+                            &lt;a id="ctl00_UCFooter_ProdLinks_ValidatorXHTMLLink" <span class="domxss_sink">href=</span>"http://validator.w3.org/check/referer" target="_blank"&gt;Val XHTML&lt;/a&gt;
+                            &lt;a id="ctl00_UCFooter_ProdLinks_ValidatorCSSLink" <span class="domxss_sink">href=</span>"http://jigsaw.w3.org/css-validator/check/referer" target="_blank"&gt;Val CSS&lt;/a&gt;
+                            &lt;span id="ctl00_UCFooter_ProdLinks_ContentOpen"&gt;[&lt;/span&gt;
+                            &lt;a id="ctl00_UCFooter_ProdLinks_ContentLink" <span class="domxss_sink">href=</span>"mailto:content-www.standrewsde.org@silverpoint.net?Subject=Home&amp;amp;Body=URL: http%3a%2f%2fwww.standrews-de.org%2findex.aspx%0d%0a"&gt;SEND PAGE CONTENT&lt;/a&gt;
+                            &lt;span id="ctl00_UCFooter_ProdLinks_ContentClose"&gt;]&nbsp;&lt;/span&gt;
+                            &lt;span id="ctl00_UCFooter_ProdLinks_SourceOpen"&gt;&lt;/span&gt;
+                            
+                            &lt;span id="ctl00_UCFooter_ProdLinks_SourceClose"&gt;&lt;/span&gt;
+                            &lt;span id="ctl00_UCFooter_ProdLinks_QAOpen"&gt;&lt;/span&gt;
+                            &lt;span id="ctl00_UCFooter_ProdLinks_ProductionQADivider"&gt;&lt;/span&gt;
+                            &lt;span id="ctl00_UCFooter_ProdLinks_ImplementationQADivider"&gt;&lt;/span&gt;
+                            &lt;span id="ctl00_UCFooter_ProdLinks_DesignQADivider"&gt;&lt;/span&gt;
+                            
+                            &lt;span id="ctl00_UCFooter_ProdLinks_QAClose"&gt;&lt;/span&gt;
+				&lt;/div&gt;
+
+
+					
+				&lt;address&gt;350 Noxontown Road, Middletown, DE 19709 &lt;span class="contact"&gt;Tel. 302.378.9511 &amp;nbsp; Fax. 302.378.7120&lt;/span&gt;&lt;/address&gt;
+				&lt;div id="socialmedia"&gt;
+                	&lt;a class="facebook" <span class="domxss_sink">href=</span>"http://www.facebook.com/SASDelaware" target="_blank"&gt;Facebook&lt;/a&gt;
+                    &lt;a class="twitter" <span class="domxss_sink">href=</span>"http://www.twitter.com/SASDelaware" target="_blank"&gt;Twitter&lt;/a&gt;
+                    &lt;a class="youtube" <span class="domxss_sink">href=</span>"http://www.youtube.com/user/SASDelaware" target="_blank"&gt;YouTube&lt;/a&gt;
+                    &lt;a class="flickr" <span class="domxss_sink">href=</span>"http://www.flickr.com/photos/sasdelaware/sets/" target="_blank"&gt;Flickr&lt;/a&gt;
+                    &lt;a class="podcast" <span class="domxss_sink">href=</span>"/podcast/index.aspx"&gt;Podcast&lt;/a&gt;
+                    &lt;a class="blog" <span class="domxss_sink">href=</span>"http://sasdelaware.wordpress.com/" target="_blank"&gt;Blog&lt;/a&gt;
+                    &lt;a class="instagram" <span class="domxss_sink">href=</span>"http://instagram.com/sasdelaware/" target="_blank"&gt;Instagram&lt;/a&gt;
+                &lt;/div&gt;
+                
+                	&lt;a class="ft-weather" <span class="domxss_sink">href=</span>"http://bit.ly/SASWeather" target="_blank"&gt;&lt;img <span class="domxss_sink">src=</span>"/images/common/weather.gif" alt="SAS Weather" /&gt;&lt;/a&gt;
+                
+				&lt;script type="text/javascript" <span class="domxss_sink">src=</span>"http://www.google.com/coop/cse/brand?form=searchbox_010331200343752064369%3Ac8o_wv2m8rg"&gt;&lt;/script&gt;
+				
+			&lt;/div&gt;
+			&lt;!-- //footer --&gt;
+&lt;script type="text/javascript" language="JavaScript"&gt;
+	// &lt;![CDATA[
+	// An array of links should keep their https
+	var SI_skipHTTPS = new Array(
+		'/Alumni/$', // $ all links are de-https'd with this path /Alumni/
+		'/Alumni/index.aspx'
+		);
+	SI_deHTTPSLinks();
+	// ]]&gt;
+&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+var gaJsHost = (("https:" == document.<span class="domxss_source">location.</span>protocol) ? "https://ssl." : "http://www.");
+document<span class="domxss_source">.write(</span>unescape("%3Cscript <span class="domxss_sink">src=</span>'" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+try {
+var pageTracker = _gat._getTracker("UA-10529781-1");
+pageTracker._trackPageview();
+} catch(err) {}
+&lt;/script&gt;
+
+
+
+
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre></div>
+<div class="response">
+
+  <h2 class="request_url">Results from scanning URL: <a href="http://www.standrews-de.org/js/ss_urchin-c.js">http://www.standrews-de.org/js/ss_urchin-c.js</a></h2>
+
+
+
+  
+
+<h3>Number of sources found: <span class="domxss_source">4</span></h3><h3>Number of sinks found: <span class="domxss_sink">0</span></h3><pre class="domxss_highlighted">$(document).ready(function(){
+
+var stext = "Search St. Andrew's"
+$(".searchform .searchinput").val(stext);
+$(".searchform .searchinput").focus(function(){$(this).val(""); $(this).css("color","black");});
+$(".searchform .searchinput").blur(function(){ if(!$(this).val()){$(this).val(stext); $(this).css("color","#ABABAB");}});
+
+$("table.styled tr:nth-child(odd)").addClass("alt");  // Add alt class to alternating rows on styled tables
+$(".table-container td a")<span class="domxss_source">.parent(</span>).addClass("event"); // Add event class to month view 
+$(".table-container td h4")<span class="domxss_source">.parent(</span>)<span class="domxss_source">.parent(</span>)<span class="domxss_source">.parent(</span>).addClass("event"); // Add event class to month view 
+if($("#select-gallery").children().length &lt;= 2){ $(".gallery-teaser form").addClass("none"); $(".gallery select").addClass("none"); }
+if($(".gallery-attachment dl.image-list dt").length &gt; 1){$(".gallery-attachment .gallery-directional").removeClass("none");}
+
+$(".gallery-attachment dl.image-list dt:first").addClass("active");
+$(".gallery-attachment dl.image-list dd:first").addClass("active");
+$(".gallery-attachment dl.image-list dt:not(.active)").addClass("none");
+$(".gallery-attachment dl.image-list dd:not(.active)").addClass("none");
+
+$("#nav-sub ul li#nav-li-login").append("&lt;span class='icon'&gt;&lt;/span&gt;");
+$("#nav-sub ul li#nav-li-logout").append("&lt;span class='icon'&gt;&lt;/span&gt;");
+
+/*$("dl.image-list dd").each(function(){
+	if(!$(this).text().match(/[a-z]+_\d+/)){ $(this).remove(); }
+});*/
+	
+	var changeButtons = function(){
+		// Change display state of buttons
+		// If not first child or last child: display next and prev
+		if( !$(".gallery-attachment dl.image-list dt:first").hasClass("active") &amp;&amp; !$(".gallery-attachment dl.image-list dt:last").hasClass("active") ){
+			$(".gallery-previous a").removeClass("disabled");
+			$(".gallery-next a").removeClass("disabled");
+		} 
+		// If first child: display next, disable prev
+		if( $(".gallery-attachment dl.image-list dt:first").is(".active") ){
+			$(".gallery-next a").removeClass("disabled");
+			$(".gallery-previous a").addClass("disabled");
+		} 
+		// If last child: display prev, disable next
+		if( $(".gallery-attachment dl.image-list dt:last").is(".active") ){
+			$(".gallery-previous a").removeClass("disabled");
+			$(".gallery-next a").addClass("disabled");
+		}
+		
+		SI_clearFooter();
+	}
+	
+	var updateImages = function(){
+		$(".gallery-attachment dl.image-list dt.active").addClass("none");
+		$(".gallery-attachment dl.image-list dd.active").addClass("none");
+		$(".gallery-attachment dl.image-list dt.active").removeClass("active");
+		$(".gallery-attachment dl.image-list dd.active").removeClass("active");
+	}
+	
+	$(".gallery-next a").click(function(){	
+		if(!$(this).hasClass("disabled")){
+			var nextImg = $(".gallery-attachment dl.image-list dd.active");
+			updateImages();
+			nextImg.next().removeClass("none");
+			nextImg.next().next().removeClass("none");
+			nextImg.next().addClass("active");
+			nextImg.next().next().addClass("active");
+			changeButtons();
+		}
+	});
+	$(".gallery-previous a").click(function(){		
+		if(!$(this).hasClass("disabled")){
+			var prevImg = $(".gallery-attachment dl dt.active");
+			updateImages();
+			prevImg.prev().addClass("active");
+			prevImg.prev().prev().addClass("active");
+			prevImg.prev().removeClass("none");
+			prevImg.prev().prev().removeClass("none");
+			changeButtons();
+		}
+	});
+	
+	/* Add alt class to gallery thumbnails - Not being used yet */
+	//$(".gallery-thumbnails ul li:nth-child(3)").addClass("alt");
+	
+});
+jQuery.extend({
+	random: function(X) {
+	    return Math.floor(X * (Math.random() % 1));
+	},
+	randomBetween: function(MinV, MaxV) {
+	  return MinV + jQuery.random(MaxV - MinV + 1);
+	}
+});
+</pre></div><div class="response">
+
+  <h2 class="request_url">Results from scanning URL: <a href="http://www.standrews-de.org/js/ss_urchin-c.js">http://www.standrews-de.org/js/ss_urchin-c.js</a></h2>
+
+
+
+  
+
+<h3>Number of sources found: <span class="domxss_source">38</span></h3><h3>Number of sinks found: <span class="domxss_sink">36</span></h3><pre class="domxss_highlighted">if(SI_dom()){document<span class="domxss_source">.write(</span>'&lt;style type="text/css"&gt;.non-dom { position: absolute !important; top: 0 !important; left: -3000px !important; }&lt;'+'/style&gt;\n');}
+function SI_dom(){return new Boolean(document.getElementById&amp;&amp;document.getElementsByTagName);};
+function SI_submitForm(f){if(!SI_dom())return true;f.submit();}var SI_openWindow=new Object();
+function SI_windowOpen(elem,center,w,h,opt){if(!SI_dom())return true;var <span class="domxss_sink">src=</span>elem.href;var wnm=(elem.target=='')?'SI_schoolSuite':((elem.target.indexOf('_')==0)?'SI'+elem.target:elem.target);var opt=(opt=='')?',scrollbars=yes,resizable=yes':((opt.indexOf(',')!=0)?','+opt:opt);var ctr=(center)?',left='+((screen.availWidth-w)/2)+',top='+((screen.availHeight-h)/2):'';if(!SI_openWindow.closed&amp;&amp;SI_openWindow<span class="domxss_source">.name=</span>=wnm&amp;&amp;SI_openWindow.location){SI_openWindow.<span class="domxss_sink">location=</span>src;}else{SI_openWindow=window<span class="domxss_source">.open(</span>src,wnm,'width='+w+',height='+h+ctr+opt);if(!SI_openWindow<span class="domxss_source">.opener)</span>SI_openWindow<span class="domxss_source">.opener=</span>self;}if(window.focus)SI_openWindow.focus();return false;};var SI_footer=new Object();SI_footer.clear=false;SI_footer.container='content';SI_footer.ignore='xxx';SI_footer.minHeight=410;SI_footer.extendShallow=true;SI_footer.bottomOut=true;
+function SI_clearFooter(){var d=document,w=window,dE=d.documentElement,dB=d.body,h;if(!SI_footer.clear||!d.getElementById||!dB.offsetHeight)return;var ic=d.getElementById(SI_footer.container);if(!ic)return;ic.style.height='0';var oh=[];var icTop=ic.offsetTop;var winHeight=(typeof(w.innerHeight)=='number')?w.innerHeight:(dE&amp;&amp;dE.clientHeight)?dE.clientHeight:(dB&amp;&amp;dB.clientHeight)?dB.clientHeight:0;if (!d.getElementById('footer')) return;var footHeight=d.getElementById('footer').offsetHeight;oh[0]=SI_footer.minHeight-icTop-footHeight;for(var i=0;i&lt;ic.childNodes.length;i++){c=ic.childNodes[i];if(c.nodeName=='DIV'){if(c.id=='inner-content'){c.style.height=SI_getContainedHeight(c)+'px';oh[oh.length]=c.offsetHeight+c.offsetTop;}else if(c.id==SI_footer.ignore){continue;}else{c.style.height='auto';oh[oh.length]=c.offsetHeight+c.offsetTop;}}}h=0;for(var k=0;k&lt;oh.length;k++){h=(oh[k]&gt;h)?oh[k]:h;}if(SI_footer.bottomOut){h=((icTop+h+footHeight)&lt;winHeight)?winHeight-footHeight-icTop:h;}if(SI_footer.extendShallow){for(var i=0;i&lt;ic.childNodes.length;i++){var c=ic.childNodes[i];if(c.nodeName=='DIV'&amp;&amp;c.id!=SI_footer.ignore){c.style.height=(h-c.offsetTop)+'px';}}}ic.style.height=h+'px';};
+function SI_getContainedHeight(e){var oh=[];for(var i=0;i&lt;e.childNodes.length;i++){var c=e.childNodes[i];if(c.nodeName=='DIV'){c.style.height='auto';oh[oh.length]=c.offsetHeight+c.offsetTop;}}var h=0;for(var k=0;k&lt;oh.length;k++){h=(oh[k]&gt;h)?oh[k]:h;}return h;}
+function SI_menu(){var d=document;var isSafari=(navigator.userAgent.indexOf('Safari')!=-1);var isIE=(navigator.appName=="Microsoft Internet Explorer");var isWinIE=(isIE&amp;&amp;window.print);if(!SI_dom()||window.opera||isSafari||!d.getElementById)return;var m=SI_menu<span class="domxss_source">.arguments;</span>for(i=0;i&lt;m.length;i++){if(!d.getElementById(m[i]))continue;for(var l=0;(lnk=d.getElementById(m[i]).getElementsByTagName("a")[l]);l++){if(lnk.parentNode.childNodes.length&gt;1){li=lnk.parentNode;for(var n=0;n&lt;li.childNodes.length;n++){node=li.childNodes[n];if(node.nodeName=="UL"){li.ul=node;delete node;li.classDefault=li.className;li.classHover=li.className+((li.className=='')?'hover':' hover');li.isIE=isIE;li.isWinIE=isWinIE;li.onmouseover=SI_showMenu;li.onmouseout=SI_hideMenu;}}}}}}
+function SI_showMenu(){this.className=this.classHover;if(this.isIE){this.style.zIndex=100;if(this.isWinIE)SI_toggleSelects('hidden');}}
+function SI_hideMenu(){this.className=this.classDefault;if(this.isIE){this.style.zIndex=1;if(this.isWinIE)SI_toggleSelects('visible');}}
+function SI_toggleSelects(state){var d=document;for(var i=0;(sel=d.getElementsByTagName('select')[i]);i++){sel.style.visibility=state;}}
+function SI_debug(){var d=document;if(!d.getElementsByTagName)return;var all=(d.all)?d.all:d.getElementsByTagName('*');for(i=0;i&lt;all.length;i++){all[i].onmouseover=function(e){if(!e)var e=window.event;var status='';var done=false;var ths=this;while(!done){status=ths.nodeName.toLowerCase()+((ths.className!='')?'.'+ths.className.replace(/ /g,'.'):'')+((ths.id!='')?'#'+ths.id:'')+((status!='')?' &gt; ':'')+status;done=(ths.nodeName=='HTML')?true:false;if(!done)ths=ths.parentNode;}this.status=status;window.status=((this.status.length&gt;128)?'...':'')+this.status.substr(this.status.length-124);e.cancelBubble=true;e.returnValue=false;if(e.stopPropagation)e.stopPropagation();return true;}}}var SI_tabs=new Object();
+function SI_initializeTabs(){for(var tab in SI_tabs){SI_activateTab(tab,SI_tabs[tab].active);}}
+function SI_activateTab(tabGroup,activeTab){var d=document;var tabClass='';if(!d.getElementById)return;for(i=0;i&lt;SI_tabs[tabGroup].tabs.length;i++){tab='tab-'+tabGroup+'-'+SI_tabs[tabGroup].tabs[i];tabClass=((d.getElementById(tab).className.search('active')&gt;-1)?d.getElementById(tab).className.substr(0,d.getElementById(tab).className.lastIndexOf('active')):d.getElementById(tab).className);d.getElementById(tab).className=tabClass;d.getElementById(tabGroup+'-'+SI_tabs[tabGroup].tabs[i]).style.display='none';}d.getElementById(tabGroup+'-'+activeTab).style.display='block';tabClass=d.getElementById('tab-'+tabGroup+'-'+activeTab).className;tabClass=((tabClass!='')?tabClass+' active':'active');d.getElementById('tab-'+tabGroup+'-'+activeTab).className=tabClass;SI_clearFooter();};var SI_groups=new Object();
+function SI_initializeGroups(){var d=document;if(!d.getElementById)return;for(var group in SI_groups){if(SI_groups[group].view!='simple'){d.getElementById(group+'-toggle').style.display='inline';};for(i=0;i&lt;SI_groups[group].items.length;i++){anItem=SI_groups[group].items[i];d.getElementById(anItem+'-toggle').style.display='inline';d.getElementById(anItem+'-toggle').className='lnk-show';};SI_groups[group].expanded=SI_groups[group].items.length;if(SI_groups[group].view!='simple'){SI_toggleGroups(group,'',d.getElementById(group+'-toggle'));}else{SI_toggleGroups(group,'','');};if(SI_groups[group].active)SI_toggleGroups(group,SI_groups[group].active,d.getElementById(SI_groups[group].active+'-toggle'));}};
+function SI_toggleGroups(group,item,toggle){var d=document;if(!d.getElementById)return;var state=(toggle.className!='lnk-hide');var display=(state)?'none':'block';var <span class="domxss_sink">action=</span>(state)?SI_groups[group].links[0]+' ':SI_groups[group].links[1]+' ';if(item!=''){d.getElementById(item).style.display=display;toggle.className=(state)?'lnk-hide':'lnk-show';if(SI_groups[group].view!='simple'){toggle<span class="domxss_source">.innerHTML=</span>action+SI_groups[group].label;};SI_groups[group].expanded=(state)?SI_groups[group].expanded-1:SI_groups[group].expanded+1;if(SI_groups[group].view!='simple'){d.getElementById(group+'-toggle')<span class="domxss_source">.innerHTML=</span>(SI_groups[group].expanded==SI_groups[group].items.length)?SI_groups[group].links[0]+' All':SI_groups[group].links[1]+' All';if(SI_groups[group].expanded==0){d.getElementById(group+'-toggle')<span class="domxss_source">.innerHTML=</span>SI_groups[group].links[0]+' All';};d.getElementById(group+'-toggle').className=(state)?'lnk-hide':'lnk-show';};}else{for(i=0;i&lt;SI_groups[group].items.length;i++){item=SI_groups[group].items[i];if(SI_groups[group].view!='simple'){d.getElementById(item+'-toggle')<span class="domxss_source">.innerHTML=</span>((state)?SI_groups[group].links[0]+' ':SI_groups[group].links[1]+' ')+SI_groups[group].label;};d.getElementById(item+'-toggle').className=(state)?'lnk-hide':'lnk-show';d.getElementById(item).style.display=display;SI_groups[group].expanded=(state)?0:SI_groups[group].items.length;}if(SI_groups[group].view!='simple'){toggle<span class="domxss_source">.innerHTML=</span>action+'All';toggle.className=(state)?'lnk-hide':'lnk-show';};}SI_clearFooter();};var SI_gallery=new Object();var SI_imgs=new Array();SI_imgs[0]=null;
+function SI_galleryRedraw(){if(!SI_dom())return false;var d=document;var g=SI_gallery;var a=d.getElementById('SI_galleryLink');if(SI_imgs[g.imgActive][0].match(/\.(jpg|jpeg|gif|png|bmp)$/i)){imgSrc=SI_imgs[g.imgActive][1]+'thumb/'+g.imgPrefix+SI_imgs[g.imgActive][0];imgLnk='/gallery/zoom.aspx?myurl='+SI_imgs[g.imgActive][1]+SI_imgs[g.imgActive][0];imgLnk+='&amp;Title='+escape(SI_imgs[g.imgActive][2]);imgLnk+='&amp;Content='+escape(SI_imgs[g.imgActive][3]);a.<span class="domxss_sink">href=</span>imgLnk;a.className='';a.onclick=function(){SI_windowOpen(this,true,SI_imgs[g.imgActive][4],SI_imgs[g.imgActive][5],'scrollbars=yes,resizable=yes');return false;};a<span class="domxss_source">.innerHTML=</span>'&lt;img <span class="domxss_sink">src=</span>"'+imgSrc+'" id="SI_galleryImg" onload="SI_clearFooter();" alt="" /&gt;';}else{a.<span class="domxss_sink">href=</span>SI_imgs[g.imgActive][1]+SI_imgs[g.imgActive][0];a.className='file '+SI_imgs[g.imgActive][0].slice(SI_imgs[g.imgActive][0].lastIndexOf('.')+1);a.onclick=function(){return;};a<span class="domxss_source">.innerHTML=</span>'&lt;img <span class="domxss_sink">src=</span>"/images/common/spacer.gif" onload="SI_clearFooter();" alt="" /&gt;Download '+SI_imgs[g.imgActive][2];}d.getElementById('SI_galleryImgTitle')<span class="domxss_source">.innerHTML=</span>SI_imgs[g.imgActive][2];d.getElementById('SI_galleryImgNumOf')<span class="domxss_source">.innerHTML=</span>'&lt;strong&gt;'+g.imgActive+'&lt;'+'/strong&gt; of '+g.imgTotal;d.getElementById('SI_galleryImgDesc')<span class="domxss_source">.innerHTML=</span>SI_imgs[g.imgActive][3];d.getElementById('SI_galleryImgPrev')<span class="domxss_source">.innerHTML=</span>(g.imgActive==1)?'&lt;a <span class="domxss_sink">href=</span>"" onclick="return false;" class="disabled"&gt;'+g.thumbLabel[0]+'&lt;/a&gt;':'&lt;a <span class="domxss_sink">href=</span>"#Previous Image" onclick="SI_galleryImgPrev(); return false;" class="button"&gt;'+g.thumbLabel[0]+'&lt;/a&gt;';d.getElementById('SI_galleryImgNext')<span class="domxss_source">.innerHTML=</span>(g.imgActive==g.imgTotal)?'&lt;a <span class="domxss_sink">href=</span>"" onclick="return false;" class="disabled"&gt;'+g.thumbLabel[1]+'&lt;/a&gt;':'&lt;a <span class="domxss_sink">href=</span>"#Next Image" onclick="SI_galleryImgNext(); return false;" class="button"&gt;'+g.thumbLabel[1]+'&lt;/a&gt;';var t=d.getElementById('SI_galleryThumbs');t='';for(i=g.setImg;i&lt;g.setImg+g.thumbTotal;i++){if(i&lt;=g.imgTotal){var html;if(SI_imgs[i][0].match(/\.(jpg|jpeg|gif|png|bmp)$/i)){html='&lt;a <span class="domxss_sink">href=</span>"#image'+i+'" onclick="SI_galleryImgSelect('+i+'); return false;" title="'+SI_imgs[i][2]+'"&gt;&lt;img <span class="domxss_sink">src=</span>"'+SI_imgs[i][1]+'thumb/'+g.thumbPrefix+SI_imgs[i][0]+'" alt="'+SI_imgs[i][2]+'" border="0" /&gt;&lt;'+'/a&gt;';}else{html='&lt;a <span class="domxss_sink">href=</span>"#image'+i+'" onclick="SI_galleryImgSelect('+i+'); return false;" title="'+SI_imgs[i][2]+'" class="file '+SI_imgs[i][0].slice(SI_imgs[i][0].lastIndexOf('.')+1)+'"&gt;'+SI_imgs[i][2]+'&lt;/a&gt;';}var className=(i==g.setImg)?'first-child':((i==g.setImg+g.thumbTotal-1)?'last-child':'');if(i==g.imgActive){className+=(className=='')?'active':' active';}if(i%2==0){className+=(className=='')?'alt':' alt';}className = ' class="thumb '+className+'"';t+='&lt;li'+className+'&gt;'+html+'&lt;'+'/li&gt;\n';}}d.getElementById('SI_galleryThumbs')<span class="domxss_source">.innerHTML=</span>t;var sets=g.setLabel;for(i=1;i&lt;=g.setTotal;i++){if(i==g.setActive){sets+='&lt;span&gt;'+i+'&lt;/span&gt; ';}else{sets+='&lt;a <span class="domxss_sink">href=</span>"#Load Set '+i+'" onclick="SI_gallerySetSelect('+i+'); return false;"&gt;'+i+'&lt;'+'/a&gt; ';}if(i!=g.setTotal)sets+=g.setDivider;}d.getElementById('SI_gallerySets')<span class="domxss_source">.innerHTML=</span>sets;}
+function SI_galleryImgSelect(imgNo){if(SI_gallery.imgActive==imgNo)return;SI_gallery.imgActive=imgNo;SI_galleryRedraw();}
+function SI_galleryImgNext(){var g=SI_gallery;if(g.imgActive&lt;g.imgTotal){g.imgActive++;if(g.imgActive&gt;=g.setImg+g.thumbTotal){g.setImg=g.imgActive;g.setActive++;}SI_galleryRedraw();}}
+function SI_galleryImgPrev(){var g=SI_gallery;if(g.imgActive&gt;1){g.imgActive--;if(g.imgActive&lt;g.setImg){g.setActive--;g.setImg=(g.setActive*g.thumbTotal)-(g.thumbTotal-1);}SI_galleryRedraw();}}
+function SI_gallerySetSelect(setNo){var g=SI_gallery;g.setActive=setNo;g.setImg=(g.setActive*g.thumbTotal)-(g.thumbTotal-1);g.imgActive=g.setImg;SI_galleryRedraw();}
+function SI_gallerySetPrev(){var g=SI_gallery;if(g.setActive!=1){g.setActive--;g.setImg=(g.setActive*g.thumbTotal)-(g.thumbTotal-1);g.imgActive=g.setImg;SI_galleryRedraw();}}
+function SI_gallerySetNext(){var g=SI_gallery;if(g.setActive&lt;g.setTotal){g.setActive++;g.setImg=(g.setActive*g.thumbTotal)-(g.thumbTotal-1);g.imgActive=g.setImg;SI_galleryRedraw();}}
+function Gallery(imgId,titleId,captionId,prevId,nextId,imgs,loop){var d=document;this.compatible=true;if(!d.getElementById||(d.all&amp;&amp;!window.print)){this.compatible=false;return}this.aImg=0;this.tImg=imgs.length;this.img=d.getElementById(imgId);this.title=d.getElementById(titleId);this.caption=d.getElementById(captionId);this.prevBtn=d.getElementById(prevId);this.nextBtn=d.getElementById(nextId);this.imgs=imgs;this.loop=loop;this.prevBtn.gallery=this;this.prevBtn.onclick=function(){this.gallery.prevImage();return false;};this.nextBtn.gallery=this;this.nextBtn.onclick=function(){this.gallery.nextImage();return false;};this.loadImage(null);}Gallery.prototype.loadImage=function(i){if(!this.compatible)return;if(i!=null)this.aImg=i-1;if(!this.loop){this.prevBtn.style.display=(this.aImg&lt;=0)?'none':'block';this.nextBtn.style.display=(this.aImg&gt;=this.tImg-1)?'none':'block';}this.img.<span class="domxss_sink">src=</span>this.imgs[this.aImg][0];this.img.onload=SI_clearFooter;if(this.imgs[this.aImg][1]!=null){this.title.style.display='block';this.title<span class="domxss_source">.innerHTML=</span>this.imgs[this.aImg][1];}else{this.title.style.display='none';}if(this.imgs[this.aImg][2]!=null){this.caption.style.display='block';this.caption<span class="domxss_source">.innerHTML=</span>this.imgs[this.aImg][2];}else{this.caption.style.display='none';}if(this.imgs[this.aImg][3]!=null&amp;&amp;this.img.parentNode.nodeName=="A"){this.img.parentNode.className='si-active-link';this.img.parentNode.onclick=this.imgs[this.aImg][3];}else{this.img.parentNode.className='si-inactive-link';this.img.parentNode.onclick=function(){return false;};}};Gallery.prototype.prevImage=function(){if(!this.compatible)return;this.aImg--;this.aImg=(this.aImg&lt;0)?this.tImg-1:this.aImg;this.loadImage(null);};Gallery.prototype.nextImage=function(){if(!this.compatible)return;this.aImg++;this.aImg=(this.aImg&gt;=this.tImg)?0:this.aImg;this.loadImage(null);}
+function SI_initializeSwapImg(){var d=document;var SI_preloadImgs=new Array();for(i=0;img=d.images[i];i++){if(img.src.indexOf('over=')!=-1){img.default<span class="domxss_sink">src=</span>img.src;img.over<span class="domxss_sink">src=</span>img.src.replace(/^(.+)over=/i,'');img.onmouseover=function(){this.<span class="domxss_sink">src=</span>this.oversrc;};img.onmouseout=function(){this.<span class="domxss_sink">src=</span>this.defaultsrc;};SI_preloadImgs[i]=new Image();SI_preloadImgs[i].<span class="domxss_sink">src=</span>img.oversrc;}}}var SI_filters=new Object();
+function SI_initializeFilters(){for(var filter in SI_filters){SI_activateFilter(filter,SI_filters[filter].active);}}
+function SI_activateFilter(filterGroup,activeFilter){var d=document;if(!d.getElementsByTagName)return;c=(SI_filters[filterGroup].ul)?'ul':'dl';r=(SI_filters[filterGroup].ul)?'li':'dd';var filterContent=d.getElementById('filter-'+filterGroup);if(!filterContent){return;}for(i=0;i&lt;SI_filters[filterGroup].filters.length;i++){var f=d.getElementById('filter-'+filterGroup+'-'+SI_filters[filterGroup].filters[i]);f.className=f.className.removeClass('active');}for(j=0;dl=filterContent.getElementsByTagName(c)[j];j++){dl.style.display='block';for(k=0;dd=dl.getElementsByTagName(r)[k];k++){dd.style.display='block';dd.className=dd.className.removeClass('alt','first-child','last-child');dd.style.marginTop='';}}var a=d.getElementById('filter-'+filterGroup+'-'+activeFilter);a.className=a.className.addClass('active');var emptyDD=true;for(j=0;dl=filterContent.getElementsByTagName(c)[j];j++){var allHidden=true;var alt=false;var firstChild=0;var lastChild=null;for(k=0;dd=dl.getElementsByTagName(r)[k];k++){if(dd.className.indexOf(activeFilter)==-1&amp;&amp;activeFilter!='all'){dd.style.display='none';}else{emptyDD=false;firstChild++;lastChild=dd;allHidden=false;if(alt){dd.className=dd.className.addClass('alt');alt=false;}else{alt=true;}if(firstChild==1){dd.className=dd.className.addClass('first-child');}}}if(lastChild!=null&amp;&amp;firstChild&gt;1){lastChild.className=lastChild.className.addClass('last-child');}if(allHidden){dl.style.display='none';}}if(emptyDD){filterContent.getElementsByTagName(c)[j-1]<span class="domxss_source">.innerHTML+</span>='&lt;dd class="'+activeFilter+'"&gt;&lt;p&gt;No '+activeFilter+' '+filterGroup+' are currently available.&lt;/p&gt;&lt;/dd&gt;';filterContent.getElementsByTagName(c)[j-1].style.display='block';filterContent.getElementsByTagName(c)[j-1].getElementsByTagName(r)[k].style.display='block';}if(SI_filters[filterGroup].bin){SI_filters[filterGroup].bin.<span class="domxss_sink">value=</span>activeFilter;}SI_clearFooter();}var SI_toggles=new Array();
+function SI_initializeToggles(){var d=document;if(!d.getElementById)return;for(var toggle in SI_toggles){SI_toggles[toggle][2]=(SI_toggles[toggle][2])?0:1;SI_simpleToggle(toggle);}}
+function SI_simpleToggle(toggle){var d=document;if(!d.getElementById)return;var div=d.getElementById(toggle);var lnk=d.getElementById(toggle+'-toggle');var state=SI_toggles[toggle][2];state=(state)?0:1;SI_toggles[toggle][2]=state;var display=(state)?'block':'none';var className=(state)?'toggle-min':'toggle-exp';lnk<span class="domxss_source">.innerHTML=</span>SI_toggles[toggle][state];lnk.className=className;div.style.display=display;SI_clearFooter();}var SI_cookie=new Object();SI_cookie.domain=<span class="domxss_source">location.</span>hostname.replace(/^www\./,'');SI_cookie.year=new Date();fixDate(SI_cookie.year);SI_cookie.year.setTime(SI_cookie.year.getTime()+365*24*60*60*1000);
+function setCookie(name,value,expires,path,domain,secure){var curCookie=name+"="+escape(value)+((expires)?"; expires="+expires.toGMTString():"")+((path)?"; path="+path:"")+((domain)?"; domain="+domain:"")+((secure)?"; secure":"");document<span class="domxss_source">.cookie=</span>curCookie;}
+function getCookie(name){var prefix=name+'=';var c=document<span class="domxss_source">.cookie;</span>var nullstring='';var cookieStartIndex=c.indexOf(prefix);if(cookieStartIndex==-1){return nullstring;}var cookieEndIndex=c.indexOf(";",cookieStartIndex+prefix.length);if(cookieEndIndex==-1){cookieEndIndex=c.length;}return unescape(c.substring(cookieStartIndex+prefix.length,cookieEndIndex));}
+function deleteCookie(name,path,domain){if(getCookie(name)){document<span class="domxss_source">.cookie=</span>name+"="+((path)?"; path="+path:"")+((domain)?"; domain="+domain:"")+"; expires=Thu, 01-Jan-70 00:00:01 GMT";}}
+function fixDate(date){var base=new Date(0);var skew=base.getTime();if(skew&gt;0)date.setTime(date.getTime()-skew);}var SI_fontSize=new Object();
+function SI_loadFontSize(){var c=getCookie('fontsize');SI_fontSize.defaultSize=(c!='')?c:SI_fontSize.defaultSize;document<span class="domxss_source">.write(</span>'&lt;style type="text/css"&gt;#'+SI_fontSize.baseElement+' { font-size: '+SI_fontSize.defaultSize+'em; }&lt;'+'/style&gt;\n');setCookie('fontsize',SI_fontSize.defaultSize,SI_cookie.year,'/',SI_cookie.domain,'');};
+function SI_changeFontSize(operator){SI_fontSize.defaultSize=eval(SI_fontSize.defaultSize+operator+SI_fontSize.difference);document.getElementById(SI_fontSize.baseElement).style.fontSize=SI_fontSize.defaultSize+'em';setCookie('fontsize',SI_fontSize.defaultSize,SI_cookie.year,'/',SI_cookie.domain,'');SI_clearFooter();};
+function SI_deHTTPSLinks(){if(!document.getElementsByTagName||!(window.<span class="domxss_source">location.</span>href.indexOf('https')!=-1)){return;}var allow=(typeof SI_skipHTTPS!="undefined");var r='';if(allow){r='(secure\.|^[^?]+(';for(var j=0;j&lt;SI_skipHTTPS.length;j++){r+=SI_skipHTTPS[j]+'|';}r=r.replace(/\|$/,'')+'))';}re=new RegExp(r,'gi');var a=document.getElementsByTagName('a');for(var i=0;i&lt;a.length;i++){var b=(a[i].href.search(re)!=-1);if(b&amp;&amp;allow){continue;}a[i].<span class="domxss_sink">href=</span>a[i].href.replace(/https/,'http');}}String.prototype.addClass=function(){var txt=this;for(var i=0;i&lt;arguments.length;i++){txt+=((txt=='')?'':' ')+arguments[i];}return txt;};String.prototype.removeClass=function(){var txt=this;for(var i=0;i&lt;arguments.length;i++){txt=txt.replace(new RegExp('( '+arguments[i]+'\\b|\\b'+arguments[i]+' |\\b'+arguments[i]+'\\b)'),'');}return txt;};var SI=new Object();SI.resize=new Object();SI.resize.initialize=function(){if(document.all&amp;&amp;window.print){return;}var c=document.createElement('div');c.style.position='fixed';c.style<span class="domxss_source">.top=</span>'0';c.style.visibility='hidden';c.style.width='10em';c.style.height='10em';SI.resize.control=document.body.appendChild(c);SI.resize.h=0;window.setInterval('SI.resize.detectChange()',50);};SI.resize.detectChange=function(){var o=SI.resize.h;SI.resize.h=SI.resize.control.offsetHeight;if(o!=SI.resize.h)SI.resize.hasOccurred();};SI.resize.hasOccurred=function(){SI_clearFooter();};SI.Func={customizeFormToggle:function(e){if(!document.getElementById)return;var f=document.getElementById('customize');epos=e.className.search("active");fpos=f.className.search("active");if(epos==-1){e.className=e.className+' active';f.className=f.className+' active';}else{e.className=e.className.substr(0,epos);f.className=f.className.substr(0,fpos);}return false;}};
+function SI_toggleCheckBoxGroup(e,id){var checked=e.checked;var group=document.getElementById(id);var inputs=group.getElementsByTagName('input');for(var i=0;i&lt;inputs.length;i++){var input=inputs[i];if(input.type=='checkbox'){input.checked=checked;}}}
+function SI_preventFlashOverlap(){if(!(navigator.userAgent.toLowerCase().indexOf('windows')!=-1)&amp;&amp;document.getElementsByTagName){var html=document.getElementsByTagName('html')[0];html.className+=((html.className=='')?'':' ')+'prevent-overlap';};};
+function SI_embedFlash(id,swf,w,h){if(!document.getElementsByTagName)return;var swfHTML;swfHTML='&lt;object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+w+'" height="'+h+'"&gt;';swfHTML+='	&lt;param name="movie" <span class="domxss_sink">value=</span>"'+swf+'" /&gt;';swfHTML+='	&lt;param name="wmode" <span class="domxss_sink">value=</span>"opaque" /&gt;';swfHTML+='	&lt;embed <span class="domxss_sink">src=</span>"'+swf+'" width="'+w+'" height="'+h+'" wmode="opaque" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" /&gt;';swfHTML+='&lt;'+'/object&gt;';document.getElementsByTagName('html')[0].className+=' viewFlash';document.getElementById(id)<span class="domxss_source">.innerHTML=</span>swfHTML;}
+function SI_removeFlash(id){if(!document.getElementsByTagName)return;document.getElementsByTagName('html')[0].className=document.getElementsByTagName('html')[0].className.replace(' viewFlash','');document.getElementById(id)<span class="domxss_source">.innerHTML=</span>'';}
+function emailCheck(emailStr,form){var checkTLD=1;var knownDomsPat=/^(com|net|org|edu|int|mil|gov|arpa|biz|aero|name|coop|info|pro|museum)$/;var emailPat=/^(.+)@(.+)$/;var specialChars="\\(\\)&gt;&lt;@,;:\\\\\\\"\\.\\[\\]";var validChars="\[^\\s"+specialChars+"\]";var quotedUser="(\"[^\"]*\")";var ipDomainPat=/^\[(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})\]$/;var atom=validChars+'+';var word="("+atom+"|"+quotedUser+")";var userPat=new RegExp("^"+word+"(\\."+word+")*$");var domainPat=new RegExp("^"+atom+"(\\."+atom+")*$");var matchArray=emailStr.match(emailPat);if(matchArray==null){alert("Email address seems incorrect (check @ and .'s)");form.focus();return false;}var user=matchArray[1];var domain=matchArray[2];for(i=0;i&lt;user.length;i++){if(user.charCodeAt(i)&gt;127){alert("Ths username contains invalid characters.");form.focus();form.select();return false;}}for(i=0;i&lt;domain.length;i++){if(domain.charCodeAt(i)&gt;127){alert("Ths domain name contains invalid characters.");form.focus();form.select();return false;}}if(user.match(userPat)==null){alert("The username doesn't seem to be valid.");form.focus();form.select();return false;}var IPArray=domain.match(ipDomainPat);if(IPArray!=null){for(var i=1;i&lt;=4;i++){if(IPArray[i]&gt;255){alert("Destination IP address is invalid!");form.focus();form.select();return false;}}}var atomPat=new RegExp("^"+atom+"$");var domArr=domain.split(".");var len=domArr.length;for(i=0;i&lt;len;i++){if(domArr[i].search(atomPat)==-1){alert("The domain name does not seem to be valid.");form.focus();form.select();return false;}}if(checkTLD&amp;&amp;domArr[domArr.length-1].length!=2&amp;&amp;domArr[domArr.length-1].search(knownDomsPat)==-1){alert("The address must end in a well-known domain or two letter "+"country.");form.focus();form.select();return false;}if(len&lt;2){alert("This address is missing a hostname!");form.focus();form.select();return false;}return true;}
+function checkAll(checkbox){/*if(!isArray(checkbox)) { checkbox.checked = true; }*/ for(i=0;i&lt;checkbox.length;i++){checkbox[i].checked=true;}}
+function uncheckAll(checkbox){/*if(!isArray(checkbox)) { checkbox.checked = false; }*/ for(i=0;i&lt;checkbox.length;i++){checkbox[i].checked=false;}}
+function alumniActions(info){document.dirAction.pageaction.<span class="domxss_sink">value=</span>info.value; document.dirAction.submit();}
+function isFilled(elm){if(elm.<span class="domxss_sink">value=</span>=""||elm.<span class="domxss_sink">value=</span>=null)return false;else return true;}
+function SimpleImageSwap(input,filename){input.<span class="domxss_sink">src=</span>filename;}
+function SetSearchText(input,newText,currentText){if(input.<span class="domxss_sink">value=</span>=currentText){input.<span class="domxss_sink">value=</span>newText;}}
+function isDate(month,day,year){return isDateString(month.toString()+"/"+day.toString()+"/"+year.toString());}
+function isDateString(DateString){var dateParts=DateString.toString().split("/");if(dateParts.length!=3){return false;}var month=dateParts[0];var day=dateParts[1];var year=dateParts[2];if(parseInt(month).toString()!=parseInt(month)||parseInt(day).toString()!=parseInt(day)||parseInt(year).toString()!=parseInt(year)){return false;}return isDateInternal(month,day,year);}
+function isDateInternal(month,day,year){month=month-1;year=year%100;var dateValue=new Date(year,month,day);if(dateValue.getYear()==year&amp;&amp;dateValue.getMonth()==month&amp;&amp;dateValue.getDate()==day){return true;}else{return false}}
+function SI_formatphonenum(rawphonenum){str=rawphonenum.value;var toll=/1[^0123456789]/;str=str.substring(0,2).replace(toll,'')+str.substring(2,str.length);var justnum=/[^0123456789]/gi;str=str.replace(justnum,'');var formatnum=/(\d{3})(\d{3})(\d{4})(\d*)/;if(str.length&gt;10){rawphonenum.<span class="domxss_sink">value=</span>str.replace(formatnum,'($1) $2-$3 ext. $4');}else{rawphonenum.<span class="domxss_sink">value=</span>str.replace(formatnum,'($1) $2-$3');}}
+function updateForm(f){var formChecked=0;for(i=0;i&lt;f.ModuleSelectID.length;i++){if(f.ModuleSelectID[i].checked==true){formChecked++;}}if(formChecked&gt;0){f.submit();}else{alert("Please select a calendar.");}}
+function isArray(testObject) {return testObject &amp;&amp; !(testObject.propertyIsEnumerable('length')) &amp;&amp; typeof testObject === 'object' &amp;&amp; typeof testObject.length === 'number';}
+function checkOverlap(type,ignList,targeturl){var i,startDate,endDate,startTime,endTime,arrLocation,strLocation,ignoreList,revision,location;startDate=$("#wigDateStart").val();endDate=$("#wigDateEnd").val();startTime=$("#EventBeginTime").val()+$("#EventBeginTimePeriod").val();endTime=$("#EventEndTime").val()+$("#EventEndTimePeriod").val();arrLocation=new Array();ignoreList=ignList;revision=false;<span class="domxss_sink">location=</span>false;$(":checkbox").filter(":checked").each(function(){if($(this).attr("name")==="building"){arrLocation.push($(this).val());}});$("#isRevisiontoFormYes").filter(":checked").each(function(){(type==='submit')?revision=true:revision=false;});if(dateTime(startDate,"00:00")!==null&amp;&amp;dateTime(endDate,"00:00")!==null&amp;&amp;dateTime("01.01.2000",startTime)!==null&amp;&amp;dateTime("01.01.2000",endTime)!==null&amp;&amp;arrLocation.length!==0){var html=$.ajax({url:targeturl+"?startdate="+startDate+"&amp;enddate="+endDate,async:false}).responseText;$("#calendar-check-list div:first").html(html);$("#calendar-check-list").css("display","block");$("#calendar-check-list h6").each(function(){var time,date,startDT,endDT,arrTime,location;var dateRange=new Array;time=$(this).html();date=$(this)<span class="domxss_source">.parent(</span>)<span class="domxss_source">.parent(</span>).children("dt").html();arrTime=time.split(" - ");startDT=dateTime(startDate,startTime);endDT=dateTime(endDate,endTime);if(arrTime[1]){dateRange[0]=dateTime(date,arrTime[0]);dateRange[1]=dateTime(date,arrTime[1]);}else{dateRange[0]=dateTime(date,arrTime[0]);dateRange[1]=dateTime(date,"11:59pm");}for(i=0;i&lt;arrLocation.length;i++){strLocation=$(this)<span class="domxss_source">.parent(</span>).children("h5").html();if(strLocation.match(arrLocation[i])&amp;&amp;!ignoreList.match(arrLocation[i])){i=arrLocation.length+1;<span class="domxss_sink">location=</span>true;}}if(location&amp;&amp;!revision){if((startDT&lt;dateRange[0]&amp;&amp;dateRange[0]&lt;endDT)||(startDT&lt;dateRange[1]&amp;&amp;dateRange[1]&lt;endDT)){$(this)<span class="domxss_source">.parent(</span>).css("border","3px solid red");gbl_Overlap=true;}else if((dateRange[0]&lt;startDT&amp;&amp;startDT&lt;dateRange[1])||(dateRange[0]&lt;endDT&amp;&amp;endDT&lt;dateRange[1])){$(this)<span class="domxss_source">.parent(</span>).css("border","3px solid red");gbl_Overlap=true;}}});}else{if(arrLocation.length===0){alert("Please select a building.");}else{alert("Please provide the start date/time and end date/time for the event.");}}}
+function dateTime(date,time){var objDate=new Date();var reDate=/(\d{1,2})(\/|-|.)(\d{1,2})(\/|-|.)(\d{4}|\d{2})/;var reTime=/(\d{1,2}):(\d{1,2}):?(\d{1,2})?(\s?)(a\.?m\.?|p\.?m\.?)?/i;if(reDate.test(date)){objDate.setMonth(Number(RegExp.$1)-1);objDate.setDate(Number(RegExp.$3));objDate.setYear(RegExp.$5);}else{return null;}if(reTime.test(time)){var hour=Number(RegExp.$1);var minute=Number(RegExp.$2);var second=Number(RegExp.$3);var amPM=RegExp.$5.toLowerCase();if(amPM.charAt(0)==="p"){if(hour===12){objDate.setHours(hour);}else{objDate.setHours(hour+12);}}else if(amPM.charAt(0)==="a"){if(hour===12){objDate.setHours(0);}else{objDate.setHours(hour);}}else{objDate.setHours(hour);}objDate.setMinutes(minute);if(!isNaN(second)){objDate.setSeconds(second);}}else{return null;}return objDate;}</pre></div><div class="response">
+
+  <h2 class="request_url">Results from scanning URL: <a href="http://www.standrews-de.org/js/ss_urchin-c.js">http://www.standrews-de.org/js/ss_urchin-c.js</a></h2>
+
+
+
+  
+
+<h3>Number of sources found: <span class="domxss_source">0</span></h3><h3>Number of sinks found: <span class="domxss_sink">0</span></h3><pre class="domxss_highlighted">SI_footer.clear			= true;
+SI_footer.container		= 'content';
+SI_footer.minHeight		= 410;
+SI_footer.extendShallow = true;
+SI_footer.bottomOut		= true;
+
+SI_fontSize.baseElement = 'content';
+SI_fontSize.defaultSize	= 1.0;	// ems
+SI_fontSize.difference	= .2;	// ems
+SI_loadFontSize();
+
+window.onload = function() {
+	SI_menu('nav-main','nav-const'); // ,'nav-sub'
+	SI_clearFooter();
+	SI_initializeTabs();
+	SI_initializeGroups();
+	SI_initializeToggles();
+	SI_initializeSwapImg();
+	SI_initializeFilters();
+	SI_deHTTPSLinks();
+	if (SI_footer.clear) window.onresize = SI_clearFooter;
+	};</pre></div><div class="response">
+
+  <h2 class="request_url">Results from scanning URL: <a href="http://www.standrews-de.org/js/ss_urchin-c.js">http://www.standrews-de.org/js/ss_urchin-c.js</a></h2>
+
+
+
+  
+
+<h3>Number of sources found: <span class="domxss_source">0</span></h3><h3>Number of sinks found: <span class="domxss_sink">0</span></h3><pre class="domxss_highlighted">SI_footer.clear			= true;
+SI_footer.container		= 'content';
+SI_footer.minHeight		= 410;
+SI_footer.extendShallow = true;
+SI_footer.bottomOut		= true;
+
+SI_fontSize.baseElement = 'content';
+SI_fontSize.defaultSize	= 1.0;	// ems
+SI_fontSize.difference	= .2;	// ems
+SI_loadFontSize();
+
+window.onload = function() {
+	SI_menu('nav-main','nav-const'); // ,'nav-sub'
+	SI_clearFooter();
+	SI_initializeTabs();
+	SI_initializeGroups();
+	SI_initializeToggles();
+	SI_initializeSwapImg();
+	SI_initializeFilters();
+	SI_deHTTPSLinks();
+	if (SI_footer.clear) window.onresize = SI_clearFooter;
+	};</pre></div><div class="response">
+
+  <h2 class="request_url">Results from scanning URL: <a href="http://www.google.com/coop/cse/brand?form=searchbox_010331200343752064369%3Ac8o_wv2m8rg">http://www.google.com/coop/cse/brand?form=searchbox_010331200343752064369%3Ac8o_wv2m8rg</a></h2>
+
+
+
+  
+
+<h3>Number of sources found: <span class="domxss_source">3</span></h3><h3>Number of sinks found: <span class="domxss_sink">3</span></h3><pre class="domxss_highlighted">(function() {
+var f = document.getElementById('searchbox_010331200343752064369:c8o_wv2m8rg');
+if (!f) {
+f = document.getElementById('searchbox_demo');
+}
+if (f &amp;&amp; f['q']) {
+var q = f['q'];
+var n = navigator;
+var l = location;
+var du = function(n, v) {
+var u = document.createElement('input');
+u<span class="domxss_source">.name </span>= n;
+u.<span class="domxss_sink">value =</span> v;
+u.type = 'hidden';
+f.appendChild(u);
+return u;
+};
+var su = function (n, t, v, l) {
+if (!encodeURIComponent || !decodeURIComponent) {
+return;
+}
+var regexp = new RegExp('(?:[?&amp;]' + n + '=)([^&amp;#]*)');
+var existing = regexp.exec(t);
+if (existing) {
+v = decodeURIComponent(existing[1]);
+}
+var delimIndex = v.indexOf('://');
+if (delimIndex &gt;= 0) {
+v = v.substring(delimIndex + '://'.length, v.length);
+}
+var v_sub = v.substring(0, l);
+while (encodeURIComponent(v_sub).length &gt; l) {
+v_sub = v_sub.substring(0, v_sub.length - 1);
+}
+du(n, v_sub);
+};
+var pl = function(he) {
+var ti = 0, tsi = 0, tk = 0, pt;
+return function() {
+var ct = (new Date).getTime();
+if (pt) {
+var i = ct - pt;
+ti += i;
+tsi += i*i;
+}
+tk++;
+pt = ct;
+he.<span class="domxss_sink">value =</span> [ti, tsi, tk].join('j');
+};
+};
+var append = false;
+if (n.appName == 'Microsoft Internet Explorer') {
+var s = f.parentNode.childNodes;
+for (var i = 0; i &lt; s.length; i++) {
+        if (s[i].nodeName == 'SCRIPT' &amp;&amp;
+            s[i].attributes['src'] &amp;&amp;
+            s[i].attributes['src'].nodeValue == unescape('\x2F\x2Fcse.google.com\x2Fcoop\x2Fcse\x2Fbrand?form=searchbox_010331200343752064369%3Ac8o_wv2m8rg')) {
+          append = true;
+          break;
+        }
+      }
+    } else {
+      append = true;
+    }
+    if (append) {
+      
+      var loc = document.<span class="domxss_source">location.</span>toString(); var ref = document<span class="domxss_source">.referrer;</span>
+      su('siteurl', loc, loc, 250);
+      su('ref', loc, ref, 750);
+
+      
+      
+      if (q.addEventListener) {
+        q.addEventListener('keyup', pl(du('ss', '')), false);
+      } else if (q.attachEvent) {
+        q.attachEvent('onkeyup', pl(du('ss', '')));
+      }
+    }
+
+    
+    if (n.platform == 'Win32') {
+      q.style.cssText = 'border: 1px solid #7e9db9; padding: 2px;';
+    }
+
+    
+    if (window.history.navigationMode) {
+      window.history.navigationMode = 'compatible';
+    }
+
+    var b = function() {
+      if (q.<span class="domxss_sink">value =</span>= '') {
+        q.style.background = '#FFFFFF url(https:\x2F\x2Fwww.google.com\x2Fcse\x2Fstatic\x2Fen\x2Fgoogle_custom_search_watermark.gif) left no-repeat';
+      }
+    };
+
+    var f = function() {
+      q.style.background = '#ffffff';
+    };
+
+    q.onfocus = f;
+    q.onblur = b;
+
+    
+    if (!/[&amp;?]q=[^&amp;]/.test(l.search)) {
+      b();
+    }
+  }
+})();
+</pre></div><div class="response">
+
+  <h2 class="request_url">Results from scanning URL: <a href="http://www.google.com/coop/cse/brand?form=searchbox_010331200343752064369%3Ac8o_wv2m8rg">http://www.google.com/coop/cse/brand?form=searchbox_010331200343752064369%3Ac8o_wv2m8rg</a></h2>
+
+
+
+  
+
+<h3>Number of sources found: <span class="domxss_source">3</span></h3><h3>Number of sinks found: <span class="domxss_sink">3</span></h3><pre class="domxss_highlighted">(function() {
+var f = document.getElementById('searchbox_010331200343752064369:c8o_wv2m8rg');
+if (!f) {
+f = document.getElementById('searchbox_demo');
+}
+if (f &amp;&amp; f['q']) {
+var q = f['q'];
+var n = navigator;
+var l = location;
+var du = function(n, v) {
+var u = document.createElement('input');
+u<span class="domxss_source">.name </span>= n;
+u.<span class="domxss_sink">value =</span> v;
+u.type = 'hidden';
+f.appendChild(u);
+return u;
+};
+var su = function (n, t, v, l) {
+if (!encodeURIComponent || !decodeURIComponent) {
+return;
+}
+var regexp = new RegExp('(?:[?&amp;]' + n + '=)([^&amp;#]*)');
+var existing = regexp.exec(t);
+if (existing) {
+v = decodeURIComponent(existing[1]);
+}
+var delimIndex = v.indexOf('://');
+if (delimIndex &gt;= 0) {
+v = v.substring(delimIndex + '://'.length, v.length);
+}
+var v_sub = v.substring(0, l);
+while (encodeURIComponent(v_sub).length &gt; l) {
+v_sub = v_sub.substring(0, v_sub.length - 1);
+}
+du(n, v_sub);
+};
+var pl = function(he) {
+var ti = 0, tsi = 0, tk = 0, pt;
+return function() {
+var ct = (new Date).getTime();
+if (pt) {
+var i = ct - pt;
+ti += i;
+tsi += i*i;
+}
+tk++;
+pt = ct;
+he.<span class="domxss_sink">value =</span> [ti, tsi, tk].join('j');
+};
+};
+var append = false;
+if (n.appName == 'Microsoft Internet Explorer') {
+var s = f.parentNode.childNodes;
+for (var i = 0; i &lt; s.length; i++) {
+        if (s[i].nodeName == 'SCRIPT' &amp;&amp;
+            s[i].attributes['src'] &amp;&amp;
+            s[i].attributes['src'].nodeValue == unescape('\x2F\x2Fcse.google.com\x2Fcoop\x2Fcse\x2Fbrand?form=searchbox_010331200343752064369%3Ac8o_wv2m8rg')) {
+          append = true;
+          break;
+        }
+      }
+    } else {
+      append = true;
+    }
+    if (append) {
+      
+      var loc = document.<span class="domxss_source">location.</span>toString(); var ref = document<span class="domxss_source">.referrer;</span>
+      su('siteurl', loc, loc, 250);
+      su('ref', loc, ref, 750);
+
+      
+      
+      if (q.addEventListener) {
+        q.addEventListener('keyup', pl(du('ss', '')), false);
+      } else if (q.attachEvent) {
+        q.attachEvent('onkeyup', pl(du('ss', '')));
+      }
+    }
+
+    
+    if (n.platform == 'Win32') {
+      q.style.cssText = 'border: 1px solid #7e9db9; padding: 2px;';
+    }
+
+    
+    if (window.history.navigationMode) {
+      window.history.navigationMode = 'compatible';
+    }
+
+    var b = function() {
+      if (q.<span class="domxss_sink">value =</span>= '') {
+        q.style.background = '#FFFFFF url(https:\x2F\x2Fwww.google.com\x2Fcse\x2Fstatic\x2Fen\x2Fgoogle_custom_search_watermark.gif) left no-repeat';
+      }
+    };
+
+    var f = function() {
+      q.style.background = '#ffffff';
+    };
+
+    q.onfocus = f;
+    q.onblur = b;
+
+    
+    if (!/[&amp;?]q=[^&amp;]/.test(l.search)) {
+      b();
+    }
+  }
+})();
+</pre></div><div class="response">
+
+  <h2 class="request_url">Results from scanning URL: <a href="http://www.google.com/coop/cse/brand?form=searchbox_010331200343752064369%3Ac8o_wv2m8rg">http://www.google.com/coop/cse/brand?form=searchbox_010331200343752064369%3Ac8o_wv2m8rg</a></h2>
+
+
+
+  
+
+<h3>Number of sources found: <span class="domxss_source">3</span></h3><h3>Number of sinks found: <span class="domxss_sink">3</span></h3><pre class="domxss_highlighted">(function() {
+var f = document.getElementById('searchbox_010331200343752064369:c8o_wv2m8rg');
+if (!f) {
+f = document.getElementById('searchbox_demo');
+}
+if (f &amp;&amp; f['q']) {
+var q = f['q'];
+var n = navigator;
+var l = location;
+var du = function(n, v) {
+var u = document.createElement('input');
+u<span class="domxss_source">.name </span>= n;
+u.<span class="domxss_sink">value =</span> v;
+u.type = 'hidden';
+f.appendChild(u);
+return u;
+};
+var su = function (n, t, v, l) {
+if (!encodeURIComponent || !decodeURIComponent) {
+return;
+}
+var regexp = new RegExp('(?:[?&amp;]' + n + '=)([^&amp;#]*)');
+var existing = regexp.exec(t);
+if (existing) {
+v = decodeURIComponent(existing[1]);
+}
+var delimIndex = v.indexOf('://');
+if (delimIndex &gt;= 0) {
+v = v.substring(delimIndex + '://'.length, v.length);
+}
+var v_sub = v.substring(0, l);
+while (encodeURIComponent(v_sub).length &gt; l) {
+v_sub = v_sub.substring(0, v_sub.length - 1);
+}
+du(n, v_sub);
+};
+var pl = function(he) {
+var ti = 0, tsi = 0, tk = 0, pt;
+return function() {
+var ct = (new Date).getTime();
+if (pt) {
+var i = ct - pt;
+ti += i;
+tsi += i*i;
+}
+tk++;
+pt = ct;
+he.<span class="domxss_sink">value =</span> [ti, tsi, tk].join('j');
+};
+};
+var append = false;
+if (n.appName == 'Microsoft Internet Explorer') {
+var s = f.parentNode.childNodes;
+for (var i = 0; i &lt; s.length; i++) {
+        if (s[i].nodeName == 'SCRIPT' &amp;&amp;
+            s[i].attributes['src'] &amp;&amp;
+            s[i].attributes['src'].nodeValue == unescape('\x2F\x2Fcse.google.com\x2Fcoop\x2Fcse\x2Fbrand?form=searchbox_010331200343752064369%3Ac8o_wv2m8rg')) {
+          append = true;
+          break;
+        }
+      }
+    } else {
+      append = true;
+    }
+    if (append) {
+      
+      var loc = document.<span class="domxss_source">location.</span>toString(); var ref = document<span class="domxss_source">.referrer;</span>
+      su('siteurl', loc, loc, 250);
+      su('ref', loc, ref, 750);
+
+      
+      
+      if (q.addEventListener) {
+        q.addEventListener('keyup', pl(du('ss', '')), false);
+      } else if (q.attachEvent) {
+        q.attachEvent('onkeyup', pl(du('ss', '')));
+      }
+    }
+
+    
+    if (n.platform == 'Win32') {
+      q.style.cssText = 'border: 1px solid #7e9db9; padding: 2px;';
+    }
+
+    
+    if (window.history.navigationMode) {
+      window.history.navigationMode = 'compatible';
+    }
+
+    var b = function() {
+      if (q.<span class="domxss_sink">value =</span>= '') {
+        q.style.background = '#FFFFFF url(https:\x2F\x2Fwww.google.com\x2Fcse\x2Fstatic\x2Fen\x2Fgoogle_custom_search_watermark.gif) left no-repeat';
+      }
+    };
+
+    var f = function() {
+      q.style.background = '#ffffff';
+    };
+
+    q.onfocus = f;
+    q.onblur = b;
+
+    
+    if (!/[&amp;?]q=[^&amp;]/.test(l.search)) {
+      b();
+    }
+  }
+})();
+</pre></div></div>
+
+    </div>
+  </div>
+
+  <footer id="page_footer" class="container_12">
+    <div class="grid_12">
+        <p class="small">© 2016 <a href="http://ramiro.org/">Ramiro Gómez</a>. DOM XSS Scanner is a tool for finding potential DOM based XSS security vulnerabilities.<br>
+        <a href="http://www.domxssscanner.com/info/articles">DOM XSS Resources</a> • <a href="http://www.domxssscanner.com/info/videos">DOM XSS Videos</a> • <a href="http://www.domxssscanner.com/info/tools">Security Tools</a> • <a href="http://www.domxssscanner.com/info/security">Security Resources</a> • <a href="http://www.domxssscanner.com/info/about">About</a> • <a href="http://www.domxssscanner.com/info/legal">Legal info</a></p>
+    </div>
+  </footer>
+</div>
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-5102014-6', 'auto');
+ga('send', 'pageview');
+(function(c,a){function d(){var e=a.getElementsByTagName("a");var f=[];for(var g=0;g<e.length;++g){var h=e[g];if(h.host!=c.location.host){f.push(h)}}return f}function b(f){var e=f.srcElement||f.target;while(e&&(typeof e.tagName=="undefined"||e.tagName.toLowerCase()!="a"||!e.href)){e=e.parentNode}if(!e||!e.href){return}if(c.ga){ga("send","event","Outbound link","Click",e.href)}if(!e.target||e.target.match(/^_(self|parent|top)$/i)){setTimeout(function(){a.location.href=e.href},150);if(f.preventDefault){f.preventDefault()}else{f.returnValue=false}}}c.addEventListener("load",function(){var e=d();for(var f in e){e[f].addEventListener("click",b)}})}(window,document));
+</script>
+
+<script src="DOM%20XSS%20Scanner%20-%20Scan%20http_www.standrews-de.org_files/jquery.js"></script>
+<script src="DOM%20XSS%20Scanner%20-%20Scan%20http_www.standrews-de.org_files/script.js"></script>
+<script src="DOM%20XSS%20Scanner%20-%20Scan%20http_www.standrews-de.org_files/dxsform.js"></script>
+
+
+</body></html>

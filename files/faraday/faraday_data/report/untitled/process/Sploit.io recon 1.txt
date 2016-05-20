@@ -1,0 +1,244 @@
+SPLOIT.IO Reconnaissance scan report for: standrews-de.org
+=======================================================
+
+--------------------------------------------------------
+ [+] WHOIS
+--------------------------------------------------------
+Domain Name: STANDREWS-DE.ORG
+Domain ID: D1831276-LROR
+WHOIS Server:
+Referral URL: http://www.domaindiscover.com
+Updated Date: 2013-10-04T13:33:40Z
+Creation Date: 1998-06-08T04:00:00Z
+Registry Expiry Date: 2016-06-07T04:00:00Z
+Sponsoring Registrar: TierraNet Inc. dba DomainDiscover
+Sponsoring Registrar IANA ID: 86
+Domain Status: clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited
+Registrant ID: TNTN-0000040533
+Registrant Name: Hoopes, Peter
+Registrant Organization: St. Andrew's School
+Registrant Street: 350 Noxontown Rd
+Registrant City: Middletown
+Registrant State/Province: DE
+Registrant Postal Code: 19709-1621
+Registrant Country: US
+Registrant Phone: +1.97091605
+Registrant Phone Ext:
+Registrant Fax: +1.3023789511
+Registrant Fax Ext:
+Registrant Email: phoopes@STANDREWS-DE.ORG
+Admin ID: TNTN-0000040533
+Admin Name: Hoopes, Peter
+Admin Organization: St. Andrew's School
+Admin Street: 350 Noxontown Rd
+Admin City: Middletown
+Admin State/Province: DE
+Admin Postal Code: 19709-1621
+Admin Country: US
+Admin Phone: +1.97091605
+Admin Phone Ext:
+Admin Fax: +1.3023789511
+Admin Fax Ext:
+Admin Email: phoopes@STANDREWS-DE.ORG
+Tech ID: TNTN-0000040533
+Tech Name: Hoopes, Peter
+Tech Organization: St. Andrew's School
+Tech Street: 350 Noxontown Rd
+Tech City: Middletown
+Tech State/Province: DE
+Tech Postal Code: 19709-1621
+Tech Country: US
+Tech Phone: +1.97091605
+Tech Phone Ext:
+Tech Fax: +1.3023789511
+Tech Fax Ext:
+Tech Email: phoopes@STANDREWS-DE.ORG
+Name Server: NS1.HOSTINGSVCS.COM
+Name Server: NS2.HOSTINGSVCS.COM
+Name Server: NS3.HOSTINGSVCS.COM
+Name Server: NS4.HOSTINGSVCS.COM
+DNSSEC: unsigned
+>>> Last update of WHOIS database: 2016-03-09T21:26:09Z <<<
+
+"For more information on Whois status codes, please visit https://icann.org/epp"
+
+Access to Public Interest Registry WHOIS information is provided to assist persons in determining the contents of a domain name registration record in the Public Interest Registry registry database. The data in this record is provided by Public Interest Registry for informational purposes only, and Public Interest Registry does not guarantee its accuracy. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to(a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or Afilias except as reasonably necessary to register domain names or modify existing registrations. All rights reserved. Public Interest Registry reserves the right to modify these terms at any time. By submitting this query, you agree to abide by this policy.
+
+--------------------------------------------------------
+ [+] TRACEROUTE
+--------------------------------------------------------
+traceroute to standrews-de.org (209.123.98.171), 30 hops max, 60 byte packets
+ 1 sploit.io (sploit.io) 2.458 ms 2.465 ms 2.497 ms
+ 2 hidden (hidden) 2.297 ms 2.335 ms 2.374 ms
+ 3 hidden (hidden) 5.064 ms apache2-kant.firestone.dreamhost.com (208.113.156.5) 0.161 ms 0.178 ms
+ 4 te0-0-1-1.nr11.b037327-0.iad02.atlas.cogentco.com (38.122.62.253) 1.181 ms border10.tge9-1.dreamhost-2.wdc002.pnap.net (216.52.125.73) 0.432 ms te0-0-1-1.nr11.b037327-0.iad02.atlas.cogentco.com (38.122.62.253) 1.292 ms
+ 5 core4.te4-1-bbnet1.wdc002.pnap.net (216.52.127.28) 0.689 ms core4.te4-2.wdc002.pnap.net (216.52.127.95) 1.042 ms te0-0-1-0.agr12.iad02.atlas.cogentco.com (154.24.15.65) 0.824 ms
+ 6 te0-6-0-0.rcr21.iad02.atlas.cogentco.com (154.54.44.201) 0.710 ms dcx2-edge-01.inet.qwest.net (65.125.14.37) 0.332 ms 0.362 ms
+ 7 be2657.ccr42.dca01.atlas.cogentco.com (154.54.31.109) 1.644 ms be2676.ccr42.dca01.atlas.cogentco.com (154.54.47.165) 1.819 ms 3.288 ms
+ 8 63.146.26.18 (63.146.26.18) 3.041 ms 3.372 ms 6.525 ms
+ 9 be2896.rcr23.jfk01.atlas.cogentco.com (154.54.84.202) 8.292 ms be2897.rcr24.jfk01.atlas.cogentco.com (154.54.84.214) 8.278 ms be2632.rcr24.jfk01.atlas.cogentco.com (154.54.28.89) 8.329 ms
+10 as8001.ae4-3654.cr1.ewr1.us.as4436.gtt.net (69.31.34.178) 9.363 ms be2601.rcr21.ewr02.atlas.cogentco.com (154.54.40.50) 9.184 ms as8001.ae4-3654.cr1.ewr1.us.as4436.gtt.net (69.31.34.178) 9.788 ms
+11 te0-0-2-3.nr12.b002894-0.ewr02.atlas.cogentco.com (154.24.39.150) 8.898 ms 0.e1-2.tbr1.mmu.nac.net (209.123.10.118) 15.242 ms 15.343 ms
+12 38.122.158.82 (38.122.158.82) 8.211 ms 0.po12.esd1.mmu.nac.net (209.123.10.54) 7.635 ms 0.po12.esd2.mmu.nac.net (209.123.10.98) 7.723 ms
+13 0.e1-2.tbr1.mmu.nac.net (209.123.10.118) 15.425 ms * *
+14 * 0.po12.esd2.mmu.nac.net (209.123.10.98) 9.809 ms *
+15 * * *
+16 * * *
+17 * * *
+18 * * *
+19 * * *
+20 * * *
+21 * * *
+22 * * *
+23 * * *
+24 * * *
+25 * * *
+26 * * *
+27 * * *
+28 * * *
+29 * * *
+30 * * *
+
+--------------------------------------------------------
+ [+] DNS LOOKUP
+--------------------------------------------------------
+Starting DNS_ALL query for standrews-de.org
+
+A - 209.123.98.171
+ |
+ -> 209.123.98.171
+
+NS - ns1.hostingsvcs.com
+ |
+ -> 156.154.64.25
+
+NS - ns2.hostingsvcs.com
+ |
+ -> 156.154.65.25
+
+NS - ns3.hostingsvcs.com
+ |
+ -> 156.154.66.25
+
+NS - ns4.hostingsvcs.com
+ |
+ -> 156.154.67.25
+
+SOA - ns4.hostingsvcs.com
+ |
+ -> 156.154.67.25
+
+MX - barracuda.standrews-de.org
+ |
+ -> 209.118.39.229
+
+TXT - barracuda.standrews-de.org
+ |
+ -> 209.118.39.229
+
+
+--------------------------------------------------------
+ [+] HTTP HEADERS
+--------------------------------------------------------
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 0
+Location: http://www.standrews-de.org/
+Date: Thu, 10 Mar 2016 03:33:22 GMT
+
+
+
+--------------------------------------------------------
+ [+] GEOIP
+--------------------------------------------------------
+ip: 209.123.98.171
+hostname: No Hostname
+city: Cedar Knolls
+region: New Jersey
+country: US
+loc: 40.8221,-74.4564
+org: AS8001 Net Access Corporation
+postal: 07927
+
+--------------------------------------------------------
+ [+] PING
+--------------------------------------------------------
+Starting ping on standrews-de.org using port 443
+
+Effective url: HTTP://standrews-de.org
+Effective port: 443
+HTTP status code: 0
+Total time: 5.005976
+Connection_time: 0.008145
+Request size: 91
+cURL error code: 28
+cURL error: Operation timed out after 5005 milliseconds with 0 bytes received
+
+Connection timed out with the 5 second limit set
+--------------------------------------------------------
+ [+] SSL CERTIFICATE INFO
+--------------------------------------------------------
+name = /OU=Domain Control Validated/CN=*.standrews-de.org
+OU = Domain Control Validated
+CN = *.standrews-de.org
+hash = c533291f
+C = US
+ST = Arizona
+L = Scottsdale
+O = GoDaddy.com, Inc.
+OU = http://certs.godaddy.com/repository/
+CN = Go Daddy Secure Certificate Authority - G2
+version = 2
+serialNumber = 12250158879091817
+validFrom = 141208143400Z
+validTo = 170529144944Z
+validFrom_time_t = 1418049240
+validTo_time_t = 1496069384
+signatureTypeSN = RSA-SHA256
+signatureTypeLN = sha256WithRSAEncryption
+signatureTypeNID = 668
+0 = 1
+1 = 
+2 = sslclient
+0 = 1
+1 = 
+2 = sslserver
+0 = 1
+1 = 
+2 = nssslserver
+0 = 
+1 = 
+2 = smimesign
+0 = 
+1 = 
+2 = smimeencrypt
+0 = 
+1 = 
+2 = crlsign
+0 = 1
+1 = 1
+2 = any
+0 = 1
+1 = 
+2 = ocsphelper
+0 = 
+1 = 
+2 = timestampsign
+basicConstraints = CA:FALSE
+extendedKeyUsage = TLS Web Server Authentication, TLS Web Client Authentication
+keyUsage = Digital Signature, Key Encipherment
+crlDistributionPoints = 
+Full Name:
+ URI:http://crl.godaddy.com/gdig2s1-87.crl
+
+certificatePolicies = Policy: 2.16.840.1.114413.1.7.23.1
+ CPS: http://certificates.godaddy.com/repository/
+
+authorityInfoAccess = OCSP - URI:http://ocsp.godaddy.com/
+CA Issuers - URI:http://certificates.godaddy.com/repository/gdig2.crt
+
+authorityKeyIdentifier = keyid:40:C2:BD:27:8E:CC:34:83:30:A2:33:D7:FB:6C:B3:F0:B4:2C:80:CE
+
+subjectAltName = DNS:*.standrews-de.org, DNS:standrews-de.org
+subjectKeyIdentifier = B2:8F:FF:88:63:6C:75:0E:C0:F4:68:CF:33:B8:F2:05:F5:C4:FE:FB

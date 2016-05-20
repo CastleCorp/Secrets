@@ -1,0 +1,40 @@
+# amap v5.4 (www.thc.org/thc-amap) started at 2016-02-25 14:47:20 - MAPPING mode
+# IP_ADDRESS:PORT:PROTOCOL:PORT_STATUS:SSL:IDENTIFICATION:PRINTABLE_BANNER:FULL_BANNER
+10.0.3.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+172.16.0.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+172.17.0.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+172.18.0.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+172.18.0.1:23:tcp:open::telnet::0xfffd18
+172.19.0.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+192.168.20.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+192.168.21.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+172.23.0.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+172.24.0.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+172.25.0.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+172.26.0.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+172.27.0.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+172.27.0.1:23:tcp:open::telnet::0xfffd18
+192.168.28.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+192.168.29.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+192.168.30.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+172.31.0.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+172.31.0.1:23:tcp:open::telnet::0xfffd18
+192.168.96.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+192.168.97.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+192.168.97.1:23:tcp:open::telnet::0xfffd18
+172.26.0.1:23:tcp:open::telnet::0xfffd18
+192.168.29.1:23:tcp:open::telnet::0xfffd18
+10.0.3.1:23:tcp:closed::unidentified::
+172.16.0.1:23:tcp:closed::unidentified::
+172.17.0.1:23:tcp:closed::unidentified::
+172.19.0.1:23:tcp:closed::unidentified::
+192.168.20.1:23:tcp:closed::unidentified::
+192.168.21.1:23:tcp:closed::unidentified::
+172.23.0.1:23:tcp:closed::unidentified::
+172.24.0.1:23:tcp:closed::unidentified::
+172.25.0.1:23:tcp:closed::unidentified:\r\nSorry, the maximum number of telnet sessions are active.  Try again later.\r\n:0x0d0a536f7272792c20746865206d6178696d756d206e756d626572206f662074656c6e65742073657373696f6e7320617265206163746976652e202054727920616761696e206c617465722e0d0a00
+192.168.28.1:23:tcp:closed::unidentified::
+192.168.30.1:23:tcp:closed::unidentified::
+192.168.96.1:23:tcp:closed::unidentified::
+# Unidentified ports: 12.
+# amap v5.4 finished at 2016-02-25 14:47:28

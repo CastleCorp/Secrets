@@ -1,0 +1,129 @@
+[3J[H[2J[91m                ____               \e[0m
+[91m    _________  /  _/___  ___  _____\e[0m
+[91m   / ___/ __ \ / // __ \/ _ \/ ___/\e[0m
+[91m  (__  ) / / // // /_/ /  __/ /    \e[0m
+[91m /____/_/ /_/___/ .___/\___/_/     \e[0m
+[91m               /_/                 \e[0m
+\e[0m
+[93m + -- --=[http://crowdshield.com
+[93m + -- --=[sn1per v1.6 by 1N3
+\e[0m
+[92m################################### Running recon #################################\e[0m
+Server:		192.168.1.1
+Address:	192.168.1.1#53
+
+Non-authoritative answer:
+Name:	standrews-de.org
+Address: 209.123.98.171
+
+standrews-de.org has address 209.123.98.171
+standrews-de.org mail is handled by 5 barracuda.standrews-de.org.
+
+; <<>> DiG 9.8.3-P1 <<>> -x standrews-de.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 60698
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;org.standrews-de.in-addr.arpa.	IN	PTR
+
+;; AUTHORITY SECTION:
+in-addr.arpa.		3600	IN	SOA	b.in-addr-servers.arpa. nstld.iana.org. 2015073030 1800 900 604800 3600
+
+;; Query time: 101 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1)
+;; WHEN: Tue Mar  1 10:51:37 2016
+;; MSG SIZE  rcvd: 115
+
+Domain Name: STANDREWS-DE.ORG
+Domain ID: D1831276-LROR
+WHOIS Server:
+Referral URL: http://www.domaindiscover.com
+Updated Date: 2013-10-04T13:33:40Z
+Creation Date: 1998-06-08T04:00:00Z
+Registry Expiry Date: 2016-06-07T04:00:00Z
+Sponsoring Registrar: TierraNet Inc. dba DomainDiscover
+Sponsoring Registrar IANA ID: 86
+Domain Status: clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited
+Registrant ID: TNTN-0000040533
+Registrant Name: Hoopes, Peter
+Registrant Organization: St. Andrew's School
+Registrant Street: 350 Noxontown Rd
+Registrant City: Middletown
+Registrant State/Province: DE
+Registrant Postal Code: 19709-1621
+Registrant Country: US
+Registrant Phone: +1.97091605
+Registrant Phone Ext:
+Registrant Fax: +1.3023789511
+Registrant Fax Ext:
+Registrant Email: phoopes@STANDREWS-DE.ORG
+Admin ID: TNTN-0000040533
+Admin Name: Hoopes, Peter
+Admin Organization: St. Andrew's School
+Admin Street: 350 Noxontown Rd
+Admin City: Middletown
+Admin State/Province: DE
+Admin Postal Code: 19709-1621
+Admin Country: US
+Admin Phone: +1.97091605
+Admin Phone Ext:
+Admin Fax: +1.3023789511
+Admin Fax Ext:
+Admin Email: phoopes@STANDREWS-DE.ORG
+Tech ID: TNTN-0000040533
+Tech Name: Hoopes, Peter
+Tech Organization: St. Andrew's School
+Tech Street: 350 Noxontown Rd
+Tech City: Middletown
+Tech State/Province: DE
+Tech Postal Code: 19709-1621
+Tech Country: US
+Tech Phone: +1.97091605
+Tech Phone Ext:
+Tech Fax: +1.3023789511
+Tech Fax Ext:
+Tech Email: phoopes@STANDREWS-DE.ORG
+Name Server: NS1.HOSTINGSVCS.COM
+Name Server: NS2.HOSTINGSVCS.COM
+Name Server: NS3.HOSTINGSVCS.COM
+Name Server: NS4.HOSTINGSVCS.COM
+DNSSEC: unsigned
+>>> Last update of WHOIS database: 2016-03-01T13:12:47Z <<<
+
+"For more information on Whois status codes, please visit https://icann.org/epp"
+
+Access to Public Interest Registry WHOIS information is provided to assist persons in determining the contents of a domain name registration record in the Public Interest Registry registry database. The data in this record is provided by Public Interest Registry for informational purposes only, and Public Interest Registry does not guarantee its accuracy. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to(a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or Afilias except as reasonably necessary to register domain names or modify existing registrations. All rights reserved. Public Interest Registry reserves the right to modify these terms at any time. By submitting this query, you agree to abide by this policy.
+
+*******************************************************************
+*                                                                 *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __| '_ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* TheHarvester Ver. 2.2a                                          *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*******************************************************************
+
+
+Full harvest..
+[-] Searching in Google..
+	Searching 0 results...
+	Searching 100 results...
+	Searching 200 results...
+[-] Searching in PGP Key server..
+[-] Searching in Bing..
+
+[92m################################### Pinging host ###################################\e[0m
+PING standrews-de.org (209.123.98.171): 56 data bytes
+
+--- standrews-de.org ping statistics ---
+1 packets transmitted, 0 packets received, 100.0% packet loss
+
+[92m################################### Running port scan ##############################\e[0m
+
+Starting Nmap 7.01 ( https://nmap.org ) at 2016-03-01 10:51 EST

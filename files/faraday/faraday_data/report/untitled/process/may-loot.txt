@@ -1,0 +1,3 @@
+host        service  type            name  content     info  path
+10.0.0.163           smb.enumshares        text/plain        /Users/parkerthomas/.msf4/loot/20150525214102_may_10.0.0.163_smb.enumshares_643708.txt
+10.0.0.181           smb.enumshares        text/plain        /Users/parkerthomas/.msf4/loot/20150525214117_may_10.0.0.181_smb.enumshares_211599.txt

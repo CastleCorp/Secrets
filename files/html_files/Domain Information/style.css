@@ -1,0 +1,53 @@
+body {color: black; background-color: white; font-family: arial, sans-serif; font-size: 12px; font-weight: normal; text-align: left}
+th {font-size: 14px; font-weight: bolder}
+h1 {font-size: 18px}
+h2 {font-size: 16px}
+h3 {font-size: 14px}
+small, sup {font-size: 10px}
+b {font-weight: bolder}
+a:link, a:visited {font-style: normal; text-decoration: none}
+a:link {color: blue}
+a:visited {color: #0000a0}
+
+table.tb1 {background-color: #a4b4d0; border-style: solid; border-color: #a4b4d0; border-width: 3px}
+td.tb1, th.tb1 {color: black; background-color: #d7e2f3; border-style: solid; border-color: #d7e2f3; border-width: 1px; padding: 4px}
+
+a.em1, p.em1, b.em1, h2.em1, small.em1, span.em1 {color: red}
+
+table.tb2 {background-color: #f977d5; border-style: solid; border-color: #f977d5; border-width: 3px}
+td.tb2, th.tb2 {color: black; background-color: #f9b6e6; border-style: solid; border-color: #f9b6e6; border-width: 1px; padding: 4px}
+
+span.logo {float: left}
+span.map1 {float: right; text-align: right; font-size: 14px; color: blue}
+a.map1 {color: blue}
+a.map2 {color: blue}
+
+td.ts-cs {background-color: #d7e2f3}
+td.ts-cr {background-color: #a4b4d0}
+td.ts-p {background-color: #f9b6e6}
+
+p.in {margin-left: 20px; margin-right: 20px}
+
+b.high, span.high, p.high {text-decoration: blink; color: red}
+b.dem1 {font-weight: normal; color: gray}
+
+input.disabled {background-color: #d0d0d0}
+
+table.simple {margin: 0; padding: 0; border: 0}
+table.simple tr, table.simple td {margin: 0; padding: 0; border: 0; border-right: 1px solid black}
+table.simple td.small {text-align: right; padding-right: 10px; font-weight: normal; font-size: 12px; border-top: 1px solid black; border-right: 1px solid black;}
+table.simple td.heading {border-top: 1px solid black; padding: 4px; font-weight: bold}
+table.simple td.clear {border: 0}
+table.simple td.content {padding: 4px}
+table.simple tr.high {background-color: #e8e8e8}
+input.magic {outline: 2px solid green; border: 1px solid green}
+
+span.tooltipDocNode {cursor: pointer; color: blue}
+div.tooltipTipNode {border: 1px solid black; background-color: white; display: none; font-size: 10px; padding: 4px; width: 240px}
+.mono1 {font-family: monospace, Courier; color: red}
+
+table#advert {float: right; border: medium dotted red; background-color: #eeffee; margin: 4px; padding: 4px; font-family: serif; font-size: 10px}
+table#advert th {text-align: center}
+
+span.cur {white-space: nowrap; color: blue; cursor: pointer}
+div.cur {width: 90px}

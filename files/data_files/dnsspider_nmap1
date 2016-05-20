@@ -1,0 +1,899 @@
+# Nmap 6.00 scan initiated Mon Feb 29 22:36:22 2016 as: nmap -v -sV -O -iL dnsspider_hosts.txt -oN dnsspider_nmap1 -oM dnsspider_nmap2
+Nmap scan report for apollo.standrews-de.org (209.118.39.241) [host down]
+Nmap scan report for atlas.standrews-de.org (209.118.39.233) [host down]
+Nmap scan report for calendar.standrews-de.org (209.118.39.203)
+Host is up (0.023s latency).
+rDNS record for 209.118.39.203: mango.standrews-de.org
+Not shown: 994 filtered ports
+PORT     STATE  SERVICE     VERSION
+22/tcp   open   ssh         OpenSSH 5.3p1 Debian 3ubuntu7.1 (protocol 2.0)
+53/tcp   closed domain
+80/tcp   open   http        Apache httpd 2.2.14 ((Ubuntu))
+443/tcp  open   ssl/http    Apache httpd 2.2.14 ((Ubuntu))
+554/tcp  open   rtsp?
+7070/tcp open   realserver?
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+Uptime guess: 81.124 days (since Thu Dec 10 19:39:35 2015)
+TCP Sequence Prediction: Difficulty=257 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:kernel
+
+Nmap scan report for ldap.standrews-de.org (209.118.39.232) [host down]
+Nmap scan report for manager.standrews-de.org (209.118.39.248) [host down]
+Nmap scan report for red.standrews-de.org (209.118.39.244) [host down]
+Nmap scan report for router.standrews-de.org (209.118.39.193) [host down]
+Nmap scan report for termserv.standrews-de.org (209.118.39.247) [host down]
+Nmap scan report for dns.standrews-de.org (209.118.39.203)
+Host is up (0.021s latency).
+rDNS record for 209.118.39.203: mango.standrews-de.org
+Not shown: 994 filtered ports
+PORT     STATE  SERVICE     VERSION
+22/tcp   open   ssh         OpenSSH 5.3p1 Debian 3ubuntu7.1 (protocol 2.0)
+53/tcp   closed domain
+80/tcp   open   http        Apache httpd 2.2.14 ((Ubuntu))
+443/tcp  open   ssl/http    Apache httpd 2.2.14 ((Ubuntu))
+554/tcp  open   rtsp?
+7070/tcp open   realserver?
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+Uptime guess: 24.217 days (since Fri Feb  5 17:29:04 2016)
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:kernel
+
+Nmap scan report for library.standrews-de.org (209.118.39.237)
+Host is up (0.022s latency).
+rDNS record for 209.118.39.237: ls2pac.standrews-de.org
+Not shown: 970 filtered ports
+PORT     STATE  SERVICE     VERSION
+80/tcp   open   http        Microsoft IIS httpd 6.0
+443/tcp  closed https
+554/tcp  open   rtsp?
+2048/tcp open   http-proxy  EZproxy web proxy
+2049/tcp closed nfs
+2065/tcp open   http-proxy  EZproxy web proxy
+2068/tcp open   http-proxy  EZproxy web proxy
+2099/tcp open   http-proxy  EZproxy web proxy
+2100/tcp open   http-proxy  EZproxy web proxy
+2103/tcp open   http-proxy  EZproxy web proxy
+2105/tcp open   http-proxy  EZproxy web proxy
+2106/tcp open   http-proxy  EZproxy web proxy
+2107/tcp open   http-proxy  EZproxy web proxy
+2111/tcp open   http-proxy  EZproxy web proxy
+2119/tcp open   http-proxy  EZproxy web proxy
+2121/tcp open   http-proxy  EZproxy web proxy
+2126/tcp open   http-proxy  EZproxy web proxy
+2135/tcp open   http-proxy  EZproxy web proxy
+2144/tcp open   http-proxy  EZproxy web proxy
+2160/tcp open   http-proxy  EZproxy web proxy
+2161/tcp open   http-proxy  EZproxy web proxy
+2170/tcp open   http-proxy  EZproxy web proxy
+2179/tcp open   http-proxy  EZproxy web proxy
+2190/tcp closed tivoconnect
+2191/tcp closed tvbus
+2196/tcp closed unknown
+2200/tcp closed ici
+5666/tcp closed nrpe
+7070/tcp open   realserver?
+8080/tcp open   http        Jetty 6.1.19
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2000|XP|2003 (87%)
+OS CPE: cpe:/o:microsoft:windows_2000::sp4 cpe:/o:microsoft:windows_xp::sp1:professional cpe:/o:microsoft:windows_server_2003
+Aggressive OS guesses: Microsoft Windows 2000 SP4 or Windows XP Professional SP1 (87%), Microsoft Windows Server 2003 (86%)
+No exact OS matches for host (test conditions non-ideal).
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for mobile.standrews-de.org (209.118.39.230)
+Host is up (0.021s latency).
+rDNS record for 209.118.39.230: fc.standrews-de.org
+Not shown: 990 filtered ports
+PORT     STATE  SERVICE       VERSION
+80/tcp   open   http?
+110/tcp  open   pop3          FirstClass pop3d
+143/tcp  open   imap          FirstClass imapd 12.117
+443/tcp  open   ssl/https?
+554/tcp  open   rtsp?
+587/tcp  open   smtp
+993/tcp  open   ssl/imap      FirstClass imapd 12.117
+995/tcp  open   ssl/pop3      FirstClass pop3d
+3389/tcp closed ms-wbt-server
+7070/tcp open   realserver?
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=6.00%I=7%D=2/29%Time=56D50EDC%P=x86_64-apple-darwin10.8.0%
+SF:r(GetRequest,D42,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\x20Mar\
+SF:x202016\x2003:38:10\x20GMT\r\nContent-Length:\x203205\r\nContent-Type:\
+SF:x20text/html\r\nLast-Modified:\x20Wed,\x2030\x20Jul\x202014\x2018:43:24
+SF:\x20GMT\r\nExpires:\x20Wed,\x2002\x20Mar\x202016\x2003:38:10\x20GMT\r\n
+SF:\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20Tr
+SF:ansitional//EN\">\r\n<html>\r\n<head>\r\n\r\n\x20\x20<meta\x20name=\"GE
+SF:NERATOR\"\x20content=\"Adobe\x20PageMill\x203\.0\x20Mac\">\r\n\r\n\x20\
+SF:x20<meta\x20http-equiv=\"content-type\"\x20content=\"text/html;charset=
+SF:iso-8859-1\">\r\n\r\n\r\n\x20\x20<title>Welcome\x20to\x20SASnet</title>
+SF:\r\n\x20\x20<style\x20type=\"text/css\">\r\n<!--\r\n\.regText\x20{\x20\
+SF:x20font-family:\x20Verdana,\x20Arial,\x20Helvetica,\x20sans-serif;\x20f
+SF:ont-size:\x2011px;\x20font-style:\x20normal}\r\n\x20\x20A\x20\x20{\r\n\
+SF:x20\x20\ttext-decoration\x20:\x20none;\r\n\x20\x20\tcolor\x20:\x20Blue;
+SF:\r\n\x20\x20}\r\n\x20\x20\r\n\x20\x20A:Hover\x20\x20{\r\n\x20\x20\ttext
+SF:-decoration\x20:\x20underline;\r\n\x20\x20\tcolor\x20:\x20Red;\r\n\x20\
+SF:x20}\r\n\r\n-->\r\n\x20\x20</style>\r\n</head>\r\n\x20\x20\r\n<body\x20
+SF:class=\"regText\"\x20bgcolor=\"#ffffff\">\r\n\r\n\r\n\r\n<p></p>\r\n<ce
+SF:nter>\r\n\x20\x20\r\n<table\x20border=\"0\"\x20cellpadding=\"0\"\x20cel
+SF:lspacing=\"0\"\x20height=\"532\"\x20width=\"75%\">\r\n\r\n\x20\x20")%r(
+SF:HTTPOptions,E6,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\x20Mar\x2
+SF:02016\x2003:38:10\x20GMT\r\nContent-Length:\x200\r\nPublic:\x20OPTIONS,
+SF:GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFIND,PROPPATCH,MKCOL,LOCK,UNLOCK
+SF:\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r\nDAV:\x201,2,3\r\nMS-Author-V
+SF:ia:\x20DAV\r\n\r\n")%r(RTSPRequest,E6,"HTTP/1\.1\x20200\x20OK\r\nDate:\
+SF:x20Tue,\x2001\x20Mar\x202016\x2003:38:10\x20GMT\r\nContent-Length:\x200
+SF:\r\nPublic:\x20OPTIONS,GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFIND,PROP
+SF:PATCH,MKCOL,LOCK,UNLOCK\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r\nDAV:\
+SF:x201,2,3\r\nMS-Author-Via:\x20DAV\r\n\r\n")%r(FourOhFourRequest,A16,"HT
+SF:TP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2001\x20Mar\x202016\x2
+SF:003:38:10\x20GMT\r\nContent-Type:\x20text/html\r\n\r\n<\?xml\x20version
+SF:=\"1\.0\"\x20encoding=\"UTF-8\"\?>\r<!DOCTYPE\x20html\x20PUBLIC\x20\"-/
+SF:/W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\x20\"http://www\.w3\.o
+SF:rg/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\r<!--ERR404\x20H=0\x20LS=0
+SF:\x20L=0\x20OS=0\x20O=294\x20T=341-->\r<html\x20xmlns=\"http://www\.w3\.
+SF:org/1999/xhtml\">\r<head>\r<meta\x20http-equiv=\"Content-Type\"\x20cont
+SF:ent=\"text/html;\x20charset=UTF-8\"/>\r<title>Not\x20Found</title>\r<st
+SF:yle\x20type=\"text/css\">\r<!--\rbody{margin:0px;}\rform{display:inline
+SF:;}\r\.title{font-size:16pt;color:#FFFFFF;text-decoration:none;font-fami
+SF:ly:Geneva,Arial,Sans-Serif;}\r\.gt{font-size:12pt;color:#000000;text-de
+SF:coration:none;font-family:Geneva,Arial,Sans-Serif;}\r\.map{font-size:8p
+SF:t;color:#FFFFFF;text-decoration:none;font-family:Geneva,Arial,Sans-Seri
+SF:f;}\r\.mapU{font-size:8pt;color:#FFFFFF;text-decoration:underline;font-
+SF:family:Geneva,Arial,Sans-Serif;}\r-->\r</style>\r</h");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=6.00%T=SSL%I=7%D=2/29%Time=56D50EE3%P=x86_64-apple-darwin
+SF:10.8.0%r(GetRequest,D42,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\
+SF:x20Mar\x202016\x2003:38:16\x20GMT\r\nContent-Length:\x203205\r\nContent
+SF:-Type:\x20text/html\r\nLast-Modified:\x20Wed,\x2030\x20Jul\x202014\x201
+SF:8:43:24\x20GMT\r\nExpires:\x20Wed,\x2002\x20Mar\x202016\x2003:38:16\x20
+SF:GMT\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.0
+SF:1\x20Transitional//EN\">\r\n<html>\r\n<head>\r\n\r\n\x20\x20<meta\x20na
+SF:me=\"GENERATOR\"\x20content=\"Adobe\x20PageMill\x203\.0\x20Mac\">\r\n\r
+SF:\n\x20\x20<meta\x20http-equiv=\"content-type\"\x20content=\"text/html;c
+SF:harset=iso-8859-1\">\r\n\r\n\r\n\x20\x20<title>Welcome\x20to\x20SASnet<
+SF:/title>\r\n\x20\x20<style\x20type=\"text/css\">\r\n<!--\r\n\.regText\x2
+SF:0{\x20\x20font-family:\x20Verdana,\x20Arial,\x20Helvetica,\x20sans-seri
+SF:f;\x20font-size:\x2011px;\x20font-style:\x20normal}\r\n\x20\x20A\x20\x2
+SF:0{\r\n\x20\x20\ttext-decoration\x20:\x20none;\r\n\x20\x20\tcolor\x20:\x
+SF:20Blue;\r\n\x20\x20}\r\n\x20\x20\r\n\x20\x20A:Hover\x20\x20{\r\n\x20\x2
+SF:0\ttext-decoration\x20:\x20underline;\r\n\x20\x20\tcolor\x20:\x20Red;\r
+SF:\n\x20\x20}\r\n\r\n-->\r\n\x20\x20</style>\r\n</head>\r\n\x20\x20\r\n<b
+SF:ody\x20class=\"regText\"\x20bgcolor=\"#ffffff\">\r\n\r\n\r\n\r\n<p></p>
+SF:\r\n<center>\r\n\x20\x20\r\n<table\x20border=\"0\"\x20cellpadding=\"0\"
+SF:\x20cellspacing=\"0\"\x20height=\"532\"\x20width=\"75%\">\r\n\r\n\x20\x
+SF:20")%r(HTTPOptions,E6,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\x2
+SF:0Mar\x202016\x2003:38:22\x20GMT\r\nContent-Length:\x200\r\nPublic:\x20O
+SF:PTIONS,GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFIND,PROPPATCH,MKCOL,LOCK
+SF:,UNLOCK\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r\nDAV:\x201,2,3\r\nMS-A
+SF:uthor-Via:\x20DAV\r\n\r\n")%r(RTSPRequest,E6,"HTTP/1\.1\x20200\x20OK\r\
+SF:nDate:\x20Tue,\x2001\x20Mar\x202016\x2003:38:22\x20GMT\r\nContent-Lengt
+SF:h:\x200\r\nPublic:\x20OPTIONS,GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFI
+SF:ND,PROPPATCH,MKCOL,LOCK,UNLOCK\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r
+SF:\nDAV:\x201,2,3\r\nMS-Author-Via:\x20DAV\r\n\r\n")%r(FourOhFourRequest,
+SF:A13,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2001\x20Mar\x20
+SF:2016\x2003:38:43\x20GMT\r\nContent-Type:\x20text/html\r\n\r\n<\?xml\x20
+SF:version=\"1\.0\"\x20encoding=\"UTF-8\"\?>\r<!DOCTYPE\x20html\x20PUBLIC\
+SF:x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\x20\"http://www
+SF:\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\r<!--ERR404\x20H=0\
+SF:x20LS=0\x20L=0\x20OS=0\x20O=39\x20T=39-->\r<html\x20xmlns=\"http://www\
+SF:.w3\.org/1999/xhtml\">\r<head>\r<meta\x20http-equiv=\"Content-Type\"\x2
+SF:0content=\"text/html;\x20charset=UTF-8\"/>\r<title>Not\x20Found</title>
+SF:\r<style\x20type=\"text/css\">\r<!--\rbody{margin:0px;}\rform{display:i
+SF:nline;}\r\.title{font-size:16pt;color:#FFFFFF;text-decoration:none;font
+SF:-family:Geneva,Arial,Sans-Serif;}\r\.gt{font-size:12pt;color:#000000;te
+SF:xt-decoration:none;font-family:Geneva,Arial,Sans-Serif;}\r\.map{font-si
+SF:ze:8pt;color:#FFFFFF;text-decoration:none;font-family:Geneva,Arial,Sans
+SF:-Serif;}\r\.mapU{font-size:8pt;color:#FFFFFF;text-decoration:underline;
+SF:font-family:Geneva,Arial,Sans-Serif;}\r-->\r</style>\r</hea");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port587-TCP:V=6.00%I=7%D=2/29%Time=56D50EDC%P=x86_64-apple-darwin10.8.0
+SF:%r(NULL,47,"220\x20fc\.standrews-de\.org\x20FirstClass\x20SMTP\x20Submi
+SF:ssion\x20Server\x20v12\.1\x20ready\r\n")%r(GenericLines,8F,"220\x20fc\.
+SF:standrews-de\.org\x20FirstClass\x20SMTP\x20Submission\x20Server\x20v12\
+SF:.1\x20ready\r\n500\x205\.5\.2\x20Command\x20not\x20recognized:\x20\r\n5
+SF:00\x205\.5\.2\x20Command\x20not\x20recognized:\x20\r\n")%r(Hello,10F,"2
+SF:20\x20fc\.standrews-de\.org\x20FirstClass\x20SMTP\x20Submission\x20Serv
+SF:er\x20v12\.1\x20ready\r\n250-fc\.standrews-de\.org\x20Hello\x20\[108\.4
+SF:5\.146\.119\],\x20pleased\x20to\x20meet\x20you\r\n250-PIPELINING\r\n250
+SF:-AUTH=CRAM-MD5\x20LOGIN\x20PLAIN\r\n250-AUTH\x20CRAM-MD5\x20LOGIN\x20PL
+SF:AIN\r\n250-STARTTLS\r\n250-ENHANCEDSTATUSCODES\r\n250\x208BITMIME\r\n")
+SF:%r(Help,6D,"220\x20fc\.standrews-de\.org\x20FirstClass\x20SMTP\x20Submi
+SF:ssion\x20Server\x20v12\.1\x20ready\r\n500\x205\.5\.1\x20HELP\x20command
+SF:\x20not\x20supported\r\n");
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows Vista|7 (85%)
+OS CPE: cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows_7::sp1
+Aggressive OS guesses: Microsoft Windows Vista SP0 - SP1 (85%), Microsoft Windows 7 SP1 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 73.281 days (since Fri Dec 18 15:57:08 2015)
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: standrews-de.org
+
+Nmap scan report for wiki.standrews-de.org (209.118.39.211) [host down]
+Nmap scan report for wordpress.standrews-de.org (209.118.39.177) [host down]
+Nmap scan report for 209.118.39.241 [host down]
+Nmap scan report for 209.118.39.233 [host down]
+Nmap scan report for webmail.standrews-de.org (209.118.39.230)
+Host is up (0.019s latency).
+rDNS record for 209.118.39.230: fc.standrews-de.org
+Not shown: 990 filtered ports
+PORT     STATE  SERVICE       VERSION
+80/tcp   open   http?
+110/tcp  open   pop3          FirstClass pop3d
+143/tcp  open   imap          FirstClass imapd 12.117
+443/tcp  open   ssl/https?
+554/tcp  open   rtsp?
+587/tcp  open   smtp
+993/tcp  open   ssl/imap      FirstClass imapd 12.117
+995/tcp  open   ssl/pop3      FirstClass pop3d
+3389/tcp closed ms-wbt-server
+7070/tcp open   realserver?
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=6.00%I=7%D=2/29%Time=56D50F6D%P=x86_64-apple-darwin10.8.0%
+SF:r(GetRequest,D42,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\x20Mar\
+SF:x202016\x2003:40:34\x20GMT\r\nContent-Length:\x203205\r\nContent-Type:\
+SF:x20text/html\r\nLast-Modified:\x20Wed,\x2030\x20Jul\x202014\x2018:43:24
+SF:\x20GMT\r\nExpires:\x20Wed,\x2002\x20Mar\x202016\x2003:40:34\x20GMT\r\n
+SF:\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20Tr
+SF:ansitional//EN\">\r\n<html>\r\n<head>\r\n\r\n\x20\x20<meta\x20name=\"GE
+SF:NERATOR\"\x20content=\"Adobe\x20PageMill\x203\.0\x20Mac\">\r\n\r\n\x20\
+SF:x20<meta\x20http-equiv=\"content-type\"\x20content=\"text/html;charset=
+SF:iso-8859-1\">\r\n\r\n\r\n\x20\x20<title>Welcome\x20to\x20SASnet</title>
+SF:\r\n\x20\x20<style\x20type=\"text/css\">\r\n<!--\r\n\.regText\x20{\x20\
+SF:x20font-family:\x20Verdana,\x20Arial,\x20Helvetica,\x20sans-serif;\x20f
+SF:ont-size:\x2011px;\x20font-style:\x20normal}\r\n\x20\x20A\x20\x20{\r\n\
+SF:x20\x20\ttext-decoration\x20:\x20none;\r\n\x20\x20\tcolor\x20:\x20Blue;
+SF:\r\n\x20\x20}\r\n\x20\x20\r\n\x20\x20A:Hover\x20\x20{\r\n\x20\x20\ttext
+SF:-decoration\x20:\x20underline;\r\n\x20\x20\tcolor\x20:\x20Red;\r\n\x20\
+SF:x20}\r\n\r\n-->\r\n\x20\x20</style>\r\n</head>\r\n\x20\x20\r\n<body\x20
+SF:class=\"regText\"\x20bgcolor=\"#ffffff\">\r\n\r\n\r\n\r\n<p></p>\r\n<ce
+SF:nter>\r\n\x20\x20\r\n<table\x20border=\"0\"\x20cellpadding=\"0\"\x20cel
+SF:lspacing=\"0\"\x20height=\"532\"\x20width=\"75%\">\r\n\r\n\x20\x20")%r(
+SF:HTTPOptions,E6,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\x20Mar\x2
+SF:02016\x2003:40:35\x20GMT\r\nContent-Length:\x200\r\nPublic:\x20OPTIONS,
+SF:GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFIND,PROPPATCH,MKCOL,LOCK,UNLOCK
+SF:\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r\nDAV:\x201,2,3\r\nMS-Author-V
+SF:ia:\x20DAV\r\n\r\n")%r(RTSPRequest,E6,"HTTP/1\.1\x20200\x20OK\r\nDate:\
+SF:x20Tue,\x2001\x20Mar\x202016\x2003:40:35\x20GMT\r\nContent-Length:\x200
+SF:\r\nPublic:\x20OPTIONS,GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFIND,PROP
+SF:PATCH,MKCOL,LOCK,UNLOCK\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r\nDAV:\
+SF:x201,2,3\r\nMS-Author-Via:\x20DAV\r\n\r\n")%r(FourOhFourRequest,A16,"HT
+SF:TP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2001\x20Mar\x202016\x2
+SF:003:40:35\x20GMT\r\nContent-Type:\x20text/html\r\n\r\n<\?xml\x20version
+SF:=\"1\.0\"\x20encoding=\"UTF-8\"\?>\r<!DOCTYPE\x20html\x20PUBLIC\x20\"-/
+SF:/W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\x20\"http://www\.w3\.o
+SF:rg/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\r<!--ERR404\x20H=0\x20LS=0
+SF:\x20L=0\x20OS=0\x20O=708\x20T=713-->\r<html\x20xmlns=\"http://www\.w3\.
+SF:org/1999/xhtml\">\r<head>\r<meta\x20http-equiv=\"Content-Type\"\x20cont
+SF:ent=\"text/html;\x20charset=UTF-8\"/>\r<title>Not\x20Found</title>\r<st
+SF:yle\x20type=\"text/css\">\r<!--\rbody{margin:0px;}\rform{display:inline
+SF:;}\r\.title{font-size:16pt;color:#FFFFFF;text-decoration:none;font-fami
+SF:ly:Geneva,Arial,Sans-Serif;}\r\.gt{font-size:12pt;color:#000000;text-de
+SF:coration:none;font-family:Geneva,Arial,Sans-Serif;}\r\.map{font-size:8p
+SF:t;color:#FFFFFF;text-decoration:none;font-family:Geneva,Arial,Sans-Seri
+SF:f;}\r\.mapU{font-size:8pt;color:#FFFFFF;text-decoration:underline;font-
+SF:family:Geneva,Arial,Sans-Serif;}\r-->\r</style>\r</h");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=6.00%T=SSL%I=7%D=2/29%Time=56D50F74%P=x86_64-apple-darwin
+SF:10.8.0%r(GetRequest,D42,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\
+SF:x20Mar\x202016\x2003:40:41\x20GMT\r\nContent-Length:\x203205\r\nContent
+SF:-Type:\x20text/html\r\nLast-Modified:\x20Wed,\x2030\x20Jul\x202014\x201
+SF:8:43:24\x20GMT\r\nExpires:\x20Wed,\x2002\x20Mar\x202016\x2003:40:41\x20
+SF:GMT\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.0
+SF:1\x20Transitional//EN\">\r\n<html>\r\n<head>\r\n\r\n\x20\x20<meta\x20na
+SF:me=\"GENERATOR\"\x20content=\"Adobe\x20PageMill\x203\.0\x20Mac\">\r\n\r
+SF:\n\x20\x20<meta\x20http-equiv=\"content-type\"\x20content=\"text/html;c
+SF:harset=iso-8859-1\">\r\n\r\n\r\n\x20\x20<title>Welcome\x20to\x20SASnet<
+SF:/title>\r\n\x20\x20<style\x20type=\"text/css\">\r\n<!--\r\n\.regText\x2
+SF:0{\x20\x20font-family:\x20Verdana,\x20Arial,\x20Helvetica,\x20sans-seri
+SF:f;\x20font-size:\x2011px;\x20font-style:\x20normal}\r\n\x20\x20A\x20\x2
+SF:0{\r\n\x20\x20\ttext-decoration\x20:\x20none;\r\n\x20\x20\tcolor\x20:\x
+SF:20Blue;\r\n\x20\x20}\r\n\x20\x20\r\n\x20\x20A:Hover\x20\x20{\r\n\x20\x2
+SF:0\ttext-decoration\x20:\x20underline;\r\n\x20\x20\tcolor\x20:\x20Red;\r
+SF:\n\x20\x20}\r\n\r\n-->\r\n\x20\x20</style>\r\n</head>\r\n\x20\x20\r\n<b
+SF:ody\x20class=\"regText\"\x20bgcolor=\"#ffffff\">\r\n\r\n\r\n\r\n<p></p>
+SF:\r\n<center>\r\n\x20\x20\r\n<table\x20border=\"0\"\x20cellpadding=\"0\"
+SF:\x20cellspacing=\"0\"\x20height=\"532\"\x20width=\"75%\">\r\n\r\n\x20\x
+SF:20")%r(HTTPOptions,E6,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\x2
+SF:0Mar\x202016\x2003:40:47\x20GMT\r\nContent-Length:\x200\r\nPublic:\x20O
+SF:PTIONS,GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFIND,PROPPATCH,MKCOL,LOCK
+SF:,UNLOCK\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r\nDAV:\x201,2,3\r\nMS-A
+SF:uthor-Via:\x20DAV\r\n\r\n")%r(RTSPRequest,E6,"HTTP/1\.1\x20200\x20OK\r\
+SF:nDate:\x20Tue,\x2001\x20Mar\x202016\x2003:40:47\x20GMT\r\nContent-Lengt
+SF:h:\x200\r\nPublic:\x20OPTIONS,GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFI
+SF:ND,PROPPATCH,MKCOL,LOCK,UNLOCK\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r
+SF:\nDAV:\x201,2,3\r\nMS-Author-Via:\x20DAV\r\n\r\n")%r(FourOhFourRequest,
+SF:A13,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2001\x20Mar\x20
+SF:2016\x2003:41:08\x20GMT\r\nContent-Type:\x20text/html\r\n\r\n<\?xml\x20
+SF:version=\"1\.0\"\x20encoding=\"UTF-8\"\?>\r<!DOCTYPE\x20html\x20PUBLIC\
+SF:x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\x20\"http://www
+SF:\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\r<!--ERR404\x20H=0\
+SF:x20LS=0\x20L=0\x20OS=0\x20O=25\x20T=25-->\r<html\x20xmlns=\"http://www\
+SF:.w3\.org/1999/xhtml\">\r<head>\r<meta\x20http-equiv=\"Content-Type\"\x2
+SF:0content=\"text/html;\x20charset=UTF-8\"/>\r<title>Not\x20Found</title>
+SF:\r<style\x20type=\"text/css\">\r<!--\rbody{margin:0px;}\rform{display:i
+SF:nline;}\r\.title{font-size:16pt;color:#FFFFFF;text-decoration:none;font
+SF:-family:Geneva,Arial,Sans-Serif;}\r\.gt{font-size:12pt;color:#000000;te
+SF:xt-decoration:none;font-family:Geneva,Arial,Sans-Serif;}\r\.map{font-si
+SF:ze:8pt;color:#FFFFFF;text-decoration:none;font-family:Geneva,Arial,Sans
+SF:-Serif;}\r\.mapU{font-size:8pt;color:#FFFFFF;text-decoration:underline;
+SF:font-family:Geneva,Arial,Sans-Serif;}\r-->\r</style>\r</hea");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port587-TCP:V=6.00%I=7%D=2/29%Time=56D50F6D%P=x86_64-apple-darwin10.8.0
+SF:%r(NULL,47,"220\x20fc\.standrews-de\.org\x20FirstClass\x20SMTP\x20Submi
+SF:ssion\x20Server\x20v12\.1\x20ready\r\n")%r(GenericLines,8F,"220\x20fc\.
+SF:standrews-de\.org\x20FirstClass\x20SMTP\x20Submission\x20Server\x20v12\
+SF:.1\x20ready\r\n500\x205\.5\.2\x20Command\x20not\x20recognized:\x20\r\n5
+SF:00\x205\.5\.2\x20Command\x20not\x20recognized:\x20\r\n")%r(Hello,10F,"2
+SF:20\x20fc\.standrews-de\.org\x20FirstClass\x20SMTP\x20Submission\x20Serv
+SF:er\x20v12\.1\x20ready\r\n250-fc\.standrews-de\.org\x20Hello\x20\[108\.4
+SF:5\.146\.119\],\x20pleased\x20to\x20meet\x20you\r\n250-PIPELINING\r\n250
+SF:-AUTH=CRAM-MD5\x20LOGIN\x20PLAIN\r\n250-AUTH\x20CRAM-MD5\x20LOGIN\x20PL
+SF:AIN\r\n250-STARTTLS\r\n250-ENHANCEDSTATUSCODES\r\n250\x208BITMIME\r\n")
+SF:%r(Help,6D,"220\x20fc\.standrews-de\.org\x20FirstClass\x20SMTP\x20Submi
+SF:ssion\x20Server\x20v12\.1\x20ready\r\n500\x205\.5\.1\x20HELP\x20command
+SF:\x20not\x20supported\r\n");
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows Vista|7 (85%)
+OS CPE: cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows_7::sp1
+Aggressive OS guesses: Microsoft Windows Vista SP0 - SP1 (85%), Microsoft Windows 7 SP1 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 73.283 days (since Fri Dec 18 15:57:08 2015)
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: standrews-de.org
+
+Nmap scan report for www.standrews-de.org (209.123.98.171)
+Host is up (0.018s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE     VERSION
+80/tcp   open  http        Microsoft IIS httpd 7.5
+443/tcp  open  https?
+554/tcp  open  rtsp?
+7070/tcp open  realserver?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port443-TCP:V=6.00%I=7%D=2/29%Time=56D50F77%P=x86_64-apple-darwin10.8.0
+SF:%r(SSLv23SessionReq,A67,"\x16\x03\x01\nb\x02\0\0F\x03\x01V\xd5\x0fr\x90
+SF:\"PT\xc4\xfd0W\"\x86r\xbe\xd3\x8fMG\(\x85,V\xc0\xe1\xea\xfb\xbbZ\x91\x1
+SF:5\x20DA\0\0z\xc2f&\.\xb1\x0f\xdbQ&\x93\x1f\xc3\xfc\xd2\x92\(\x95U\x17\x
+SF:f9\x03\x19\)W\xdcke\0/\0\x0b\0\n\x10\0\n\r\0\x0530\x82\x05/0\x82\x04\x1
+SF:7\xa0\x03\x02\x01\x02\x02\x07\+\x85t`n,i0\r\x06\t\*\x86H\x86\xf7\r\x01\
+SF:x01\x0b\x05\x000\x81\xb41\x0b0\t\x06\x03U\x04\x06\x13\x02US1\x100\x0e\x
+SF:06\x03U\x04\x08\x13\x07Arizona1\x130\x11\x06\x03U\x04\x07\x13\nScottsda
+SF:le1\x1a0\x18\x06\x03U\x04\n\x13\x11GoDaddy\.com,\x20Inc\.1-0\+\x06\x03U
+SF:\x04\x0b\x13\$http://certs\.godaddy\.com/repository/1301\x06\x03U\x04\x
+SF:03\x13\*Go\x20Daddy\x20Secure\x20Certificate\x20Authority\x20-\x20G20\x
+SF:1e\x17\r141208143400Z\x17\r170529144944Z0@1!0\x1f\x06\x03U\x04\x0b\x13\
+SF:x18Domain\x20Control\x20Validated1\x1b0\x19\x06\x03U\x04\x03\x0c\x12\*\
+SF:.standrews-de\.org0\x82\x01\"0\r\x06\t\*\x86H\x86\xf7\r\x01\x01\x01\x05
+SF:\0\x03\x82\x01\x0f\x000\x82\x01\n\x02\x82\x01\x01\0\xea\xe6d\xf1\xac\xc
+SF:f6\|\^R\xed\xb7P\xde\x84<\xcc\xed\x88\xb1\xbd\xf4U\xeb\x8a\x0f\x12AF\xb
+SF:2#8\x87\x1f\.\xb9\xe6iQ\xfam\xd7\xf7\x80\xebP'5\xd4\x05\xbb\x88\xdd\xf6
+SF:\xf8\xd9\xefs\x8a\xa7\xce\xa6K\xf6\)mT\x87\x14\x16\xe8\xcdP\x06\x96\x89
+SF::\x8f\xd6\xd9\x82\xbb\xae\xf6\x80\x0fs\xe8\xf4N\^\x205\]\x1e\xc8\xdc\x9
+SF:b\xfa\xfe\"O\xf6\xc3\xca\xce\x0b\xf20\x02\x1a\x11\x11\x0f\x97M\x17\xca\
+SF:|\xden-\x8f\xb4}\xb5T\x86\xd8\xdcnko\xbc\xb5\xa6`\xcb\x1fj\xc4\x9e\xab\
+SF:xc6,\x9b\*\xa4\xae\x07\xa3g\x88\x13\x0c\xab\x9f\xd1\x87\x07\xd4\x83\x8e
+SF:\xd6h\x9f\x9f\xb0:\xa9\xd8\xfcx>\x14n\x05\xfcQ\xd9\x13\xe5\xfeu\xd1\xd4
+SF:\x9a\xcb\xff\xf4\xc1\xdf\xcax\xa3\xae\x20s{{8\xc6\x18m\xc6\xd8\xc9DG\x9
+SF:8\xb6\xeb\*\xaf~A\xef\x83\x9e9!\xf8\xf3\x8cNm\xf9\x15\x8dj\x96B:\x8c\x8
+SF:cK\x91X\|\xd4\(&\xb0\]\x80\+\xa9\xb4\xba\xed\xa7\x1b\xb2\n\x10c\x02\x03
+SF:\x01\0\x01\xa3\x82\x01\xb70\x82\x01\xb30\x0c\x06\x03U\x1d\x13\x01\x01\x
+SF:ff\x04\x020\x000\x1d\x06\x03U\x1d%\x04\x160\x14\x06\x08\+\x06\x01\x05\x
+SF:05\x07\x03\x01\x06\x08\+\x06\x01\x05\x05\x07\x03\x020\x0e\x06\x03U\x1d\
+SF:x0f\x01\x01\xff\x04\x04\x03\x02\x05\xa006\x06\x03U\x1d\x1f\x04/0-0\+\xa
+SF:0\)\xa0'\x86%http://crl\.godaddy\.com/gdig2s1-87\.crl0S\x06\x03U\x1d\x2
+SF:0\x04L0J0H\x06\x0b`\x86H\x01\x86\xfdm\x01\x07\x17\x010907\x06\x08\+\x06
+SF:\x01\x05\x05\x07\x02\x01\x16\+http://certificates\.godaddy\.com/");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Uptime guess: 8.018 days (since Sun Feb 21 22:18:52 2016)
+TCP Sequence Prediction: Difficulty=255 (Good luck!)
+IP ID Sequence Generation: Busy server or unknown class
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for mango.standrews-de.org (209.118.39.203)
+Host is up (0.020s latency).
+Not shown: 994 filtered ports
+PORT     STATE  SERVICE     VERSION
+22/tcp   open   ssh         OpenSSH 5.3p1 Debian 3ubuntu7.1 (protocol 2.0)
+53/tcp   closed domain
+80/tcp   open   http        Apache httpd 2.2.14 ((Ubuntu))
+443/tcp  open   ssl/http    Apache httpd 2.2.14 ((Ubuntu))
+554/tcp  open   rtsp?
+7070/tcp open   realserver?
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+Uptime guess: 81.128 days (since Thu Dec 10 19:39:35 2015)
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:kernel
+
+Nmap scan report for odmaster.standrews-de.org (209.118.39.232) [host down]
+Nmap scan report for 209.118.39.232 [host down]
+Nmap scan report for mango.standrews-de.org (209.118.39.203)
+Host is up (0.021s latency).
+Not shown: 994 filtered ports
+PORT     STATE  SERVICE     VERSION
+22/tcp   open   ssh         OpenSSH 5.3p1 Debian 3ubuntu7.1 (protocol 2.0)
+53/tcp   closed domain
+80/tcp   open   http        Apache httpd 2.2.14 ((Ubuntu))
+443/tcp  open   ssl/http    Apache httpd 2.2.14 ((Ubuntu))
+554/tcp  open   rtsp?
+7070/tcp open   realserver?
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+Uptime guess: 81.130 days (since Thu Dec 10 19:39:35 2015)
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:kernel
+
+Nmap scan report for ls2pac.standrews-de.org (209.118.39.237)
+Host is up (0.019s latency).
+Not shown: 970 filtered ports
+PORT     STATE  SERVICE     VERSION
+80/tcp   open   http        Microsoft IIS httpd 6.0
+443/tcp  closed https
+554/tcp  open   rtsp?
+2048/tcp open   http-proxy  EZproxy web proxy
+2049/tcp closed nfs
+2065/tcp open   http-proxy  EZproxy web proxy
+2068/tcp open   http-proxy  EZproxy web proxy
+2099/tcp open   http-proxy  EZproxy web proxy
+2100/tcp open   http-proxy  EZproxy web proxy
+2103/tcp open   http-proxy  EZproxy web proxy
+2105/tcp open   http-proxy  EZproxy web proxy
+2106/tcp open   http-proxy  EZproxy web proxy
+2107/tcp open   http-proxy  EZproxy web proxy
+2111/tcp open   http-proxy  EZproxy web proxy
+2119/tcp open   http-proxy  EZproxy web proxy
+2121/tcp open   http-proxy  EZproxy web proxy
+2126/tcp open   http-proxy  EZproxy web proxy
+2135/tcp open   http-proxy  EZproxy web proxy
+2144/tcp open   http-proxy  EZproxy web proxy
+2160/tcp open   http-proxy  EZproxy web proxy
+2161/tcp open   http-proxy  EZproxy web proxy
+2170/tcp open   http-proxy  EZproxy web proxy
+2179/tcp open   http-proxy  EZproxy web proxy
+2190/tcp closed tivoconnect
+2191/tcp closed tvbus
+2196/tcp closed unknown
+2200/tcp closed ici
+5666/tcp closed nrpe
+7070/tcp open   realserver?
+8080/tcp open   http        Jetty 6.1.19
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2000|XP|2003 (87%)
+OS CPE: cpe:/o:microsoft:windows_2000::sp4 cpe:/o:microsoft:windows_xp::sp1:professional cpe:/o:microsoft:windows_server_2003
+Aggressive OS guesses: Microsoft Windows 2000 SP4 or Windows XP Professional SP1 (87%), Microsoft Windows Server 2003 (85%)
+No exact OS matches for host (test conditions non-ideal).
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 209.118.39.248 [host down]
+Nmap scan report for ls2pac.standrews-de.org (209.118.39.237)
+Host is up (0.019s latency).
+Not shown: 970 filtered ports
+PORT     STATE  SERVICE     VERSION
+80/tcp   open   http        Microsoft IIS httpd 6.0
+443/tcp  closed https
+554/tcp  open   rtsp?
+2048/tcp open   http-proxy  EZproxy web proxy
+2049/tcp closed nfs
+2065/tcp open   http-proxy  EZproxy web proxy
+2068/tcp open   http-proxy  EZproxy web proxy
+2099/tcp open   http-proxy  EZproxy web proxy
+2100/tcp open   http-proxy  EZproxy web proxy
+2103/tcp open   http-proxy  EZproxy web proxy
+2105/tcp open   http-proxy  EZproxy web proxy
+2106/tcp open   http-proxy  EZproxy web proxy
+2107/tcp open   http-proxy  EZproxy web proxy
+2111/tcp open   http-proxy  EZproxy web proxy
+2119/tcp open   http-proxy  EZproxy web proxy
+2121/tcp open   http-proxy  EZproxy web proxy
+2126/tcp open   http-proxy  EZproxy web proxy
+2135/tcp open   http-proxy  EZproxy web proxy
+2144/tcp open   http-proxy  EZproxy web proxy
+2160/tcp open   http-proxy  EZproxy web proxy
+2161/tcp open   http-proxy  EZproxy web proxy
+2170/tcp open   http-proxy  EZproxy web proxy
+2179/tcp open   http-proxy  EZproxy web proxy
+2190/tcp closed tivoconnect
+2191/tcp closed tvbus
+2196/tcp closed unknown
+2200/tcp closed ici
+5666/tcp closed nrpe
+7070/tcp open   realserver?
+8080/tcp open   http        Jetty 6.1.19
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2000|XP|2003 (87%)
+OS CPE: cpe:/o:microsoft:windows_2000::sp4 cpe:/o:microsoft:windows_xp::sp1:professional cpe:/o:microsoft:windows_server_2003
+Aggressive OS guesses: Microsoft Windows 2000 SP4 or Windows XP Professional SP1 (87%), Microsoft Windows Server 2003 (86%)
+No exact OS matches for host (test conditions non-ideal).
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for fc.standrews-de.org (209.118.39.230)
+Host is up (0.019s latency).
+Not shown: 990 filtered ports
+PORT     STATE  SERVICE       VERSION
+80/tcp   open   http?
+110/tcp  open   pop3          FirstClass pop3d
+143/tcp  open   imap          FirstClass imapd 12.117
+443/tcp  open   ssl/https?
+554/tcp  open   rtsp?
+587/tcp  open   smtp
+993/tcp  open   ssl/imap      FirstClass imapd 12.117
+995/tcp  open   ssl/pop3      FirstClass pop3d
+3389/tcp closed ms-wbt-server
+7070/tcp open   realserver?
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=6.00%I=7%D=2/29%Time=56D510BC%P=x86_64-apple-darwin10.8.0%
+SF:r(GetRequest,D42,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\x20Mar\
+SF:x202016\x2003:46:10\x20GMT\r\nContent-Length:\x203205\r\nContent-Type:\
+SF:x20text/html\r\nLast-Modified:\x20Wed,\x2030\x20Jul\x202014\x2018:43:24
+SF:\x20GMT\r\nExpires:\x20Wed,\x2002\x20Mar\x202016\x2003:46:10\x20GMT\r\n
+SF:\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20Tr
+SF:ansitional//EN\">\r\n<html>\r\n<head>\r\n\r\n\x20\x20<meta\x20name=\"GE
+SF:NERATOR\"\x20content=\"Adobe\x20PageMill\x203\.0\x20Mac\">\r\n\r\n\x20\
+SF:x20<meta\x20http-equiv=\"content-type\"\x20content=\"text/html;charset=
+SF:iso-8859-1\">\r\n\r\n\r\n\x20\x20<title>Welcome\x20to\x20SASnet</title>
+SF:\r\n\x20\x20<style\x20type=\"text/css\">\r\n<!--\r\n\.regText\x20{\x20\
+SF:x20font-family:\x20Verdana,\x20Arial,\x20Helvetica,\x20sans-serif;\x20f
+SF:ont-size:\x2011px;\x20font-style:\x20normal}\r\n\x20\x20A\x20\x20{\r\n\
+SF:x20\x20\ttext-decoration\x20:\x20none;\r\n\x20\x20\tcolor\x20:\x20Blue;
+SF:\r\n\x20\x20}\r\n\x20\x20\r\n\x20\x20A:Hover\x20\x20{\r\n\x20\x20\ttext
+SF:-decoration\x20:\x20underline;\r\n\x20\x20\tcolor\x20:\x20Red;\r\n\x20\
+SF:x20}\r\n\r\n-->\r\n\x20\x20</style>\r\n</head>\r\n\x20\x20\r\n<body\x20
+SF:class=\"regText\"\x20bgcolor=\"#ffffff\">\r\n\r\n\r\n\r\n<p></p>\r\n<ce
+SF:nter>\r\n\x20\x20\r\n<table\x20border=\"0\"\x20cellpadding=\"0\"\x20cel
+SF:lspacing=\"0\"\x20height=\"532\"\x20width=\"75%\">\r\n\r\n\x20\x20")%r(
+SF:HTTPOptions,E6,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\x20Mar\x2
+SF:02016\x2003:46:10\x20GMT\r\nContent-Length:\x200\r\nPublic:\x20OPTIONS,
+SF:GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFIND,PROPPATCH,MKCOL,LOCK,UNLOCK
+SF:\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r\nDAV:\x201,2,3\r\nMS-Author-V
+SF:ia:\x20DAV\r\n\r\n")%r(RTSPRequest,E6,"HTTP/1\.1\x20200\x20OK\r\nDate:\
+SF:x20Tue,\x2001\x20Mar\x202016\x2003:46:10\x20GMT\r\nContent-Length:\x200
+SF:\r\nPublic:\x20OPTIONS,GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFIND,PROP
+SF:PATCH,MKCOL,LOCK,UNLOCK\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r\nDAV:\
+SF:x201,2,3\r\nMS-Author-Via:\x20DAV\r\n\r\n")%r(FourOhFourRequest,A17,"HT
+SF:TP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2001\x20Mar\x202016\x2
+SF:003:46:10\x20GMT\r\nContent-Type:\x20text/html\r\n\r\n<\?xml\x20version
+SF:=\"1\.0\"\x20encoding=\"UTF-8\"\?>\r<!DOCTYPE\x20html\x20PUBLIC\x20\"-/
+SF:/W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\x20\"http://www\.w3\.o
+SF:rg/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\r<!--ERR404\x20H=0\x20LS=0
+SF:\x20L=0\x20OS=0\x20O=945\x20T=972-->\r<html\x20xmlns=\"http://www\.w3\.
+SF:org/1999/xhtml\">\r<head>\r<meta\x20http-equiv=\"Content-Type\"\x20cont
+SF:ent=\"text/html;\x20charset=UTF-8\"/>\r<title>Not\x20Found</title>\r<st
+SF:yle\x20type=\"text/css\">\r<!--\rbody{margin:0px;}\rform{display:inline
+SF:;}\r\.title{font-size:16pt;color:#FFFFFF;text-decoration:none;font-fami
+SF:ly:Geneva,Arial,Sans-Serif;}\r\.gt{font-size:12pt;color:#000000;text-de
+SF:coration:none;font-family:Geneva,Arial,Sans-Serif;}\r\.map{font-size:8p
+SF:t;color:#FFFFFF;text-decoration:none;font-family:Geneva,Arial,Sans-Seri
+SF:f;}\r\.mapU{font-size:8pt;color:#FFFFFF;text-decoration:underline;font-
+SF:family:Geneva,Arial,Sans-Serif;}\r-->\r</style>\r</h");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=6.00%T=SSL%I=7%D=2/29%Time=56D510C3%P=x86_64-apple-darwin
+SF:10.8.0%r(GetRequest,D42,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\
+SF:x20Mar\x202016\x2003:46:16\x20GMT\r\nContent-Length:\x203205\r\nContent
+SF:-Type:\x20text/html\r\nLast-Modified:\x20Wed,\x2030\x20Jul\x202014\x201
+SF:8:43:24\x20GMT\r\nExpires:\x20Wed,\x2002\x20Mar\x202016\x2003:46:16\x20
+SF:GMT\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.0
+SF:1\x20Transitional//EN\">\r\n<html>\r\n<head>\r\n\r\n\x20\x20<meta\x20na
+SF:me=\"GENERATOR\"\x20content=\"Adobe\x20PageMill\x203\.0\x20Mac\">\r\n\r
+SF:\n\x20\x20<meta\x20http-equiv=\"content-type\"\x20content=\"text/html;c
+SF:harset=iso-8859-1\">\r\n\r\n\r\n\x20\x20<title>Welcome\x20to\x20SASnet<
+SF:/title>\r\n\x20\x20<style\x20type=\"text/css\">\r\n<!--\r\n\.regText\x2
+SF:0{\x20\x20font-family:\x20Verdana,\x20Arial,\x20Helvetica,\x20sans-seri
+SF:f;\x20font-size:\x2011px;\x20font-style:\x20normal}\r\n\x20\x20A\x20\x2
+SF:0{\r\n\x20\x20\ttext-decoration\x20:\x20none;\r\n\x20\x20\tcolor\x20:\x
+SF:20Blue;\r\n\x20\x20}\r\n\x20\x20\r\n\x20\x20A:Hover\x20\x20{\r\n\x20\x2
+SF:0\ttext-decoration\x20:\x20underline;\r\n\x20\x20\tcolor\x20:\x20Red;\r
+SF:\n\x20\x20}\r\n\r\n-->\r\n\x20\x20</style>\r\n</head>\r\n\x20\x20\r\n<b
+SF:ody\x20class=\"regText\"\x20bgcolor=\"#ffffff\">\r\n\r\n\r\n\r\n<p></p>
+SF:\r\n<center>\r\n\x20\x20\r\n<table\x20border=\"0\"\x20cellpadding=\"0\"
+SF:\x20cellspacing=\"0\"\x20height=\"532\"\x20width=\"75%\">\r\n\r\n\x20\x
+SF:20")%r(HTTPOptions,E6,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\x2
+SF:0Mar\x202016\x2003:46:22\x20GMT\r\nContent-Length:\x200\r\nPublic:\x20O
+SF:PTIONS,GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFIND,PROPPATCH,MKCOL,LOCK
+SF:,UNLOCK\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r\nDAV:\x201,2,3\r\nMS-A
+SF:uthor-Via:\x20DAV\r\n\r\n")%r(RTSPRequest,E6,"HTTP/1\.1\x20200\x20OK\r\
+SF:nDate:\x20Tue,\x2001\x20Mar\x202016\x2003:46:22\x20GMT\r\nContent-Lengt
+SF:h:\x200\r\nPublic:\x20OPTIONS,GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFI
+SF:ND,PROPPATCH,MKCOL,LOCK,UNLOCK\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r
+SF:\nDAV:\x201,2,3\r\nMS-Author-Via:\x20DAV\r\n\r\n")%r(FourOhFourRequest,
+SF:A13,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2001\x20Mar\x20
+SF:2016\x2003:46:43\x20GMT\r\nContent-Type:\x20text/html\r\n\r\n<\?xml\x20
+SF:version=\"1\.0\"\x20encoding=\"UTF-8\"\?>\r<!DOCTYPE\x20html\x20PUBLIC\
+SF:x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\x20\"http://www
+SF:\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\r<!--ERR404\x20H=0\
+SF:x20LS=0\x20L=0\x20OS=0\x20O=37\x20T=38-->\r<html\x20xmlns=\"http://www\
+SF:.w3\.org/1999/xhtml\">\r<head>\r<meta\x20http-equiv=\"Content-Type\"\x2
+SF:0content=\"text/html;\x20charset=UTF-8\"/>\r<title>Not\x20Found</title>
+SF:\r<style\x20type=\"text/css\">\r<!--\rbody{margin:0px;}\rform{display:i
+SF:nline;}\r\.title{font-size:16pt;color:#FFFFFF;text-decoration:none;font
+SF:-family:Geneva,Arial,Sans-Serif;}\r\.gt{font-size:12pt;color:#000000;te
+SF:xt-decoration:none;font-family:Geneva,Arial,Sans-Serif;}\r\.map{font-si
+SF:ze:8pt;color:#FFFFFF;text-decoration:none;font-family:Geneva,Arial,Sans
+SF:-Serif;}\r\.mapU{font-size:8pt;color:#FFFFFF;text-decoration:underline;
+SF:font-family:Geneva,Arial,Sans-Serif;}\r-->\r</style>\r</hea");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port587-TCP:V=6.00%I=7%D=2/29%Time=56D510BC%P=x86_64-apple-darwin10.8.0
+SF:%r(NULL,47,"220\x20fc\.standrews-de\.org\x20FirstClass\x20SMTP\x20Submi
+SF:ssion\x20Server\x20v12\.1\x20ready\r\n")%r(GenericLines,8F,"220\x20fc\.
+SF:standrews-de\.org\x20FirstClass\x20SMTP\x20Submission\x20Server\x20v12\
+SF:.1\x20ready\r\n500\x205\.5\.2\x20Command\x20not\x20recognized:\x20\r\n5
+SF:00\x205\.5\.2\x20Command\x20not\x20recognized:\x20\r\n")%r(Hello,10F,"2
+SF:20\x20fc\.standrews-de\.org\x20FirstClass\x20SMTP\x20Submission\x20Serv
+SF:er\x20v12\.1\x20ready\r\n250-fc\.standrews-de\.org\x20Hello\x20\[108\.4
+SF:5\.146\.119\],\x20pleased\x20to\x20meet\x20you\r\n250-PIPELINING\r\n250
+SF:-AUTH=CRAM-MD5\x20LOGIN\x20PLAIN\r\n250-AUTH\x20CRAM-MD5\x20LOGIN\x20PL
+SF:AIN\r\n250-STARTTLS\r\n250-ENHANCEDSTATUSCODES\r\n250\x208BITMIME\r\n")
+SF:%r(Help,6D,"220\x20fc\.standrews-de\.org\x20FirstClass\x20SMTP\x20Submi
+SF:ssion\x20Server\x20v12\.1\x20ready\r\n500\x205\.5\.1\x20HELP\x20command
+SF:\x20not\x20supported\r\n");
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows Vista|7 (85%)
+OS CPE: cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows_7::sp1
+Aggressive OS guesses: Microsoft Windows Vista SP0 - SP1 (85%), Microsoft Windows 7 SP1 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 73.286 days (since Fri Dec 18 15:57:08 2015)
+TCP Sequence Prediction: Difficulty=247 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: standrews-de.org
+
+Nmap scan report for 209.118.39.244 [host down]
+Nmap scan report for 209.118.39.193 [host down]
+Nmap scan report for 209.118.39.247 [host down]
+Nmap scan report for 209.118.39.211 [host down]
+Nmap scan report for copernicus.standrews-de.org (209.118.39.177) [host down]
+Nmap scan report for prometheus.standrews-de.org (209.118.39.211) [host down]
+Nmap scan report for 209.118.39.177 [host down]
+Nmap scan report for fc.standrews-de.org (209.118.39.230)
+Host is up (0.020s latency).
+Not shown: 990 filtered ports
+PORT     STATE  SERVICE       VERSION
+80/tcp   open   http?
+110/tcp  open   pop3          FirstClass pop3d
+143/tcp  open   imap          FirstClass imapd 12.117
+443/tcp  open   ssl/https?
+554/tcp  open   rtsp?
+587/tcp  open   smtp
+993/tcp  open   ssl/imap      FirstClass imapd 12.117
+995/tcp  open   ssl/pop3      FirstClass pop3d
+3389/tcp closed ms-wbt-server
+7070/tcp open   realserver?
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=6.00%I=7%D=2/29%Time=56D51149%P=x86_64-apple-darwin10.8.0%
+SF:r(GetRequest,D42,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\x20Mar\
+SF:x202016\x2003:48:31\x20GMT\r\nContent-Length:\x203205\r\nContent-Type:\
+SF:x20text/html\r\nLast-Modified:\x20Wed,\x2030\x20Jul\x202014\x2018:43:24
+SF:\x20GMT\r\nExpires:\x20Wed,\x2002\x20Mar\x202016\x2003:48:31\x20GMT\r\n
+SF:\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01\x20Tr
+SF:ansitional//EN\">\r\n<html>\r\n<head>\r\n\r\n\x20\x20<meta\x20name=\"GE
+SF:NERATOR\"\x20content=\"Adobe\x20PageMill\x203\.0\x20Mac\">\r\n\r\n\x20\
+SF:x20<meta\x20http-equiv=\"content-type\"\x20content=\"text/html;charset=
+SF:iso-8859-1\">\r\n\r\n\r\n\x20\x20<title>Welcome\x20to\x20SASnet</title>
+SF:\r\n\x20\x20<style\x20type=\"text/css\">\r\n<!--\r\n\.regText\x20{\x20\
+SF:x20font-family:\x20Verdana,\x20Arial,\x20Helvetica,\x20sans-serif;\x20f
+SF:ont-size:\x2011px;\x20font-style:\x20normal}\r\n\x20\x20A\x20\x20{\r\n\
+SF:x20\x20\ttext-decoration\x20:\x20none;\r\n\x20\x20\tcolor\x20:\x20Blue;
+SF:\r\n\x20\x20}\r\n\x20\x20\r\n\x20\x20A:Hover\x20\x20{\r\n\x20\x20\ttext
+SF:-decoration\x20:\x20underline;\r\n\x20\x20\tcolor\x20:\x20Red;\r\n\x20\
+SF:x20}\r\n\r\n-->\r\n\x20\x20</style>\r\n</head>\r\n\x20\x20\r\n<body\x20
+SF:class=\"regText\"\x20bgcolor=\"#ffffff\">\r\n\r\n\r\n\r\n<p></p>\r\n<ce
+SF:nter>\r\n\x20\x20\r\n<table\x20border=\"0\"\x20cellpadding=\"0\"\x20cel
+SF:lspacing=\"0\"\x20height=\"532\"\x20width=\"75%\">\r\n\r\n\x20\x20")%r(
+SF:HTTPOptions,E6,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\x20Mar\x2
+SF:02016\x2003:48:31\x20GMT\r\nContent-Length:\x200\r\nPublic:\x20OPTIONS,
+SF:GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFIND,PROPPATCH,MKCOL,LOCK,UNLOCK
+SF:\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r\nDAV:\x201,2,3\r\nMS-Author-V
+SF:ia:\x20DAV\r\n\r\n")%r(RTSPRequest,E6,"HTTP/1\.1\x20200\x20OK\r\nDate:\
+SF:x20Tue,\x2001\x20Mar\x202016\x2003:48:31\x20GMT\r\nContent-Length:\x200
+SF:\r\nPublic:\x20OPTIONS,GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFIND,PROP
+SF:PATCH,MKCOL,LOCK,UNLOCK\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r\nDAV:\
+SF:x201,2,3\r\nMS-Author-Via:\x20DAV\r\n\r\n")%r(FourOhFourRequest,A16,"HT
+SF:TP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2001\x20Mar\x202016\x2
+SF:003:48:31\x20GMT\r\nContent-Type:\x20text/html\r\n\r\n<\?xml\x20version
+SF:=\"1\.0\"\x20encoding=\"UTF-8\"\?>\r<!DOCTYPE\x20html\x20PUBLIC\x20\"-/
+SF:/W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\x20\"http://www\.w3\.o
+SF:rg/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\r<!--ERR404\x20H=0\x20LS=0
+SF:\x20L=0\x20OS=0\x20O=727\x20T=728-->\r<html\x20xmlns=\"http://www\.w3\.
+SF:org/1999/xhtml\">\r<head>\r<meta\x20http-equiv=\"Content-Type\"\x20cont
+SF:ent=\"text/html;\x20charset=UTF-8\"/>\r<title>Not\x20Found</title>\r<st
+SF:yle\x20type=\"text/css\">\r<!--\rbody{margin:0px;}\rform{display:inline
+SF:;}\r\.title{font-size:16pt;color:#FFFFFF;text-decoration:none;font-fami
+SF:ly:Geneva,Arial,Sans-Serif;}\r\.gt{font-size:12pt;color:#000000;text-de
+SF:coration:none;font-family:Geneva,Arial,Sans-Serif;}\r\.map{font-size:8p
+SF:t;color:#FFFFFF;text-decoration:none;font-family:Geneva,Arial,Sans-Seri
+SF:f;}\r\.mapU{font-size:8pt;color:#FFFFFF;text-decoration:underline;font-
+SF:family:Geneva,Arial,Sans-Serif;}\r-->\r</style>\r</h");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=6.00%T=SSL%I=7%D=2/29%Time=56D5114F%P=x86_64-apple-darwin
+SF:10.8.0%r(GetRequest,D42,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\
+SF:x20Mar\x202016\x2003:48:37\x20GMT\r\nContent-Length:\x203205\r\nContent
+SF:-Type:\x20text/html\r\nLast-Modified:\x20Wed,\x2030\x20Jul\x202014\x201
+SF:8:43:24\x20GMT\r\nExpires:\x20Wed,\x2002\x20Mar\x202016\x2003:48:37\x20
+SF:GMT\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.0
+SF:1\x20Transitional//EN\">\r\n<html>\r\n<head>\r\n\r\n\x20\x20<meta\x20na
+SF:me=\"GENERATOR\"\x20content=\"Adobe\x20PageMill\x203\.0\x20Mac\">\r\n\r
+SF:\n\x20\x20<meta\x20http-equiv=\"content-type\"\x20content=\"text/html;c
+SF:harset=iso-8859-1\">\r\n\r\n\r\n\x20\x20<title>Welcome\x20to\x20SASnet<
+SF:/title>\r\n\x20\x20<style\x20type=\"text/css\">\r\n<!--\r\n\.regText\x2
+SF:0{\x20\x20font-family:\x20Verdana,\x20Arial,\x20Helvetica,\x20sans-seri
+SF:f;\x20font-size:\x2011px;\x20font-style:\x20normal}\r\n\x20\x20A\x20\x2
+SF:0{\r\n\x20\x20\ttext-decoration\x20:\x20none;\r\n\x20\x20\tcolor\x20:\x
+SF:20Blue;\r\n\x20\x20}\r\n\x20\x20\r\n\x20\x20A:Hover\x20\x20{\r\n\x20\x2
+SF:0\ttext-decoration\x20:\x20underline;\r\n\x20\x20\tcolor\x20:\x20Red;\r
+SF:\n\x20\x20}\r\n\r\n-->\r\n\x20\x20</style>\r\n</head>\r\n\x20\x20\r\n<b
+SF:ody\x20class=\"regText\"\x20bgcolor=\"#ffffff\">\r\n\r\n\r\n\r\n<p></p>
+SF:\r\n<center>\r\n\x20\x20\r\n<table\x20border=\"0\"\x20cellpadding=\"0\"
+SF:\x20cellspacing=\"0\"\x20height=\"532\"\x20width=\"75%\">\r\n\r\n\x20\x
+SF:20")%r(HTTPOptions,E6,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2001\x2
+SF:0Mar\x202016\x2003:48:43\x20GMT\r\nContent-Length:\x200\r\nPublic:\x20O
+SF:PTIONS,GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFIND,PROPPATCH,MKCOL,LOCK
+SF:,UNLOCK\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r\nDAV:\x201,2,3\r\nMS-A
+SF:uthor-Via:\x20DAV\r\n\r\n")%r(RTSPRequest,E6,"HTTP/1\.1\x20200\x20OK\r\
+SF:nDate:\x20Tue,\x2001\x20Mar\x202016\x2003:48:43\x20GMT\r\nContent-Lengt
+SF:h:\x200\r\nPublic:\x20OPTIONS,GET,HEAD,POST,PUT,DELETE,MOVE,COPY,PROPFI
+SF:ND,PROPPATCH,MKCOL,LOCK,UNLOCK\r\nAllow:\x20OPTIONS,GET,HEAD,PROPFIND\r
+SF:\nDAV:\x201,2,3\r\nMS-Author-Via:\x20DAV\r\n\r\n")%r(FourOhFourRequest,
+SF:A13,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2001\x20Mar\x20
+SF:2016\x2003:49:03\x20GMT\r\nContent-Type:\x20text/html\r\n\r\n<\?xml\x20
+SF:version=\"1\.0\"\x20encoding=\"UTF-8\"\?>\r<!DOCTYPE\x20html\x20PUBLIC\
+SF:x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\x20\"http://www
+SF:\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\r<!--ERR404\x20H=0\
+SF:x20LS=0\x20L=0\x20OS=0\x20O=85\x20T=87-->\r<html\x20xmlns=\"http://www\
+SF:.w3\.org/1999/xhtml\">\r<head>\r<meta\x20http-equiv=\"Content-Type\"\x2
+SF:0content=\"text/html;\x20charset=UTF-8\"/>\r<title>Not\x20Found</title>
+SF:\r<style\x20type=\"text/css\">\r<!--\rbody{margin:0px;}\rform{display:i
+SF:nline;}\r\.title{font-size:16pt;color:#FFFFFF;text-decoration:none;font
+SF:-family:Geneva,Arial,Sans-Serif;}\r\.gt{font-size:12pt;color:#000000;te
+SF:xt-decoration:none;font-family:Geneva,Arial,Sans-Serif;}\r\.map{font-si
+SF:ze:8pt;color:#FFFFFF;text-decoration:none;font-family:Geneva,Arial,Sans
+SF:-Serif;}\r\.mapU{font-size:8pt;color:#FFFFFF;text-decoration:underline;
+SF:font-family:Geneva,Arial,Sans-Serif;}\r-->\r</style>\r</hea");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port587-TCP:V=6.00%I=7%D=2/29%Time=56D51149%P=x86_64-apple-darwin10.8.0
+SF:%r(NULL,47,"220\x20fc\.standrews-de\.org\x20FirstClass\x20SMTP\x20Submi
+SF:ssion\x20Server\x20v12\.1\x20ready\r\n")%r(GenericLines,8F,"220\x20fc\.
+SF:standrews-de\.org\x20FirstClass\x20SMTP\x20Submission\x20Server\x20v12\
+SF:.1\x20ready\r\n500\x205\.5\.2\x20Command\x20not\x20recognized:\x20\r\n5
+SF:00\x205\.5\.2\x20Command\x20not\x20recognized:\x20\r\n")%r(Hello,10F,"2
+SF:20\x20fc\.standrews-de\.org\x20FirstClass\x20SMTP\x20Submission\x20Serv
+SF:er\x20v12\.1\x20ready\r\n250-fc\.standrews-de\.org\x20Hello\x20\[108\.4
+SF:5\.146\.119\],\x20pleased\x20to\x20meet\x20you\r\n250-PIPELINING\r\n250
+SF:-AUTH=CRAM-MD5\x20LOGIN\x20PLAIN\r\n250-AUTH\x20CRAM-MD5\x20LOGIN\x20PL
+SF:AIN\r\n250-STARTTLS\r\n250-ENHANCEDSTATUSCODES\r\n250\x208BITMIME\r\n")
+SF:%r(Help,6D,"220\x20fc\.standrews-de\.org\x20FirstClass\x20SMTP\x20Submi
+SF:ssion\x20Server\x20v12\.1\x20ready\r\n500\x205\.5\.1\x20HELP\x20command
+SF:\x20not\x20supported\r\n");
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows Vista (85%)
+OS CPE: cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1
+Aggressive OS guesses: Microsoft Windows Vista SP0 - SP1 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 73.288 days (since Fri Dec 18 15:57:08 2015)
+TCP Sequence Prediction: Difficulty=254 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: standrews-de.org
+
+Nmap scan report for silverpoint.standrews-de.org (209.123.98.171)
+Host is up (0.019s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE     VERSION
+80/tcp   open  http        Microsoft IIS httpd 7.5
+443/tcp  open  https?
+554/tcp  open  rtsp?
+7070/tcp open  realserver?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port443-TCP:V=6.00%I=7%D=2/29%Time=56D51153%P=x86_64-apple-darwin10.8.0
+SF:%r(SSLv23SessionReq,A67,"\x16\x03\x01\nb\x02\0\0F\x03\x01V\xd5\x11Ns\x0
+SF:c\xb9\r\xd2\x15\xfe\xfa\xa7\xc8\x9c\*\x13\xb6\xcda\xed\x8eN\xfbX\xc1\xe
+SF:3\xad\xe1\x0b1\xbf\x20{M\0\0\t\x1eAJ\xb1P9\x8b\xa1\x81\xba\x1d\xce!\x80
+SF:~\x9a\x0b6r\xe5Ia\xd7\x92\x90dy\0/\0\x0b\0\n\x10\0\n\r\0\x0530\x82\x05/
+SF:0\x82\x04\x17\xa0\x03\x02\x01\x02\x02\x07\+\x85t`n,i0\r\x06\t\*\x86H\x8
+SF:6\xf7\r\x01\x01\x0b\x05\x000\x81\xb41\x0b0\t\x06\x03U\x04\x06\x13\x02US
+SF:1\x100\x0e\x06\x03U\x04\x08\x13\x07Arizona1\x130\x11\x06\x03U\x04\x07\x
+SF:13\nScottsdale1\x1a0\x18\x06\x03U\x04\n\x13\x11GoDaddy\.com,\x20Inc\.1-
+SF:0\+\x06\x03U\x04\x0b\x13\$http://certs\.godaddy\.com/repository/1301\x0
+SF:6\x03U\x04\x03\x13\*Go\x20Daddy\x20Secure\x20Certificate\x20Authority\x
+SF:20-\x20G20\x1e\x17\r141208143400Z\x17\r170529144944Z0@1!0\x1f\x06\x03U\
+SF:x04\x0b\x13\x18Domain\x20Control\x20Validated1\x1b0\x19\x06\x03U\x04\x0
+SF:3\x0c\x12\*\.standrews-de\.org0\x82\x01\"0\r\x06\t\*\x86H\x86\xf7\r\x01
+SF:\x01\x01\x05\0\x03\x82\x01\x0f\x000\x82\x01\n\x02\x82\x01\x01\0\xea\xe6
+SF:d\xf1\xac\xcf6\|\^R\xed\xb7P\xde\x84<\xcc\xed\x88\xb1\xbd\xf4U\xeb\x8a\
+SF:x0f\x12AF\xb2#8\x87\x1f\.\xb9\xe6iQ\xfam\xd7\xf7\x80\xebP'5\xd4\x05\xbb
+SF:\x88\xdd\xf6\xf8\xd9\xefs\x8a\xa7\xce\xa6K\xf6\)mT\x87\x14\x16\xe8\xcdP
+SF:\x06\x96\x89:\x8f\xd6\xd9\x82\xbb\xae\xf6\x80\x0fs\xe8\xf4N\^\x205\]\x1
+SF:e\xc8\xdc\x9b\xfa\xfe\"O\xf6\xc3\xca\xce\x0b\xf20\x02\x1a\x11\x11\x0f\x
+SF:97M\x17\xca\|\xden-\x8f\xb4}\xb5T\x86\xd8\xdcnko\xbc\xb5\xa6`\xcb\x1fj\
+SF:xc4\x9e\xab\xc6,\x9b\*\xa4\xae\x07\xa3g\x88\x13\x0c\xab\x9f\xd1\x87\x07
+SF:\xd4\x83\x8e\xd6h\x9f\x9f\xb0:\xa9\xd8\xfcx>\x14n\x05\xfcQ\xd9\x13\xe5\
+SF:xfeu\xd1\xd4\x9a\xcb\xff\xf4\xc1\xdf\xcax\xa3\xae\x20s{{8\xc6\x18m\xc6\
+SF:xd8\xc9DG\x98\xb6\xeb\*\xaf~A\xef\x83\x9e9!\xf8\xf3\x8cNm\xf9\x15\x8dj\
+SF:x96B:\x8c\x8cK\x91X\|\xd4\(&\xb0\]\x80\+\xa9\xb4\xba\xed\xa7\x1b\xb2\n\
+SF:x10c\x02\x03\x01\0\x01\xa3\x82\x01\xb70\x82\x01\xb30\x0c\x06\x03U\x1d\x
+SF:13\x01\x01\xff\x04\x020\x000\x1d\x06\x03U\x1d%\x04\x160\x14\x06\x08\+\x
+SF:06\x01\x05\x05\x07\x03\x01\x06\x08\+\x06\x01\x05\x05\x07\x03\x020\x0e\x
+SF:06\x03U\x1d\x0f\x01\x01\xff\x04\x04\x03\x02\x05\xa006\x06\x03U\x1d\x1f\
+SF:x04/0-0\+\xa0\)\xa0'\x86%http://crl\.godaddy\.com/gdig2s1-87\.crl0S\x06
+SF:\x03U\x1d\x20\x04L0J0H\x06\x0b`\x86H\x01\x86\xfdm\x01\x07\x17\x010907\x
+SF:06\x08\+\x06\x01\x05\x05\x07\x02\x01\x16\+http://certificates\.godaddy\
+SF:.com/");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Uptime guess: 8.023 days (since Sun Feb 21 22:18:52 2016)
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: Busy server or unknown class
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 209.123.98.171
+Host is up (0.017s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE     VERSION
+80/tcp   open  http        Microsoft IIS httpd 7.5
+443/tcp  open  https?
+554/tcp  open  rtsp?
+7070/tcp open  realserver?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port443-TCP:V=6.00%I=7%D=2/29%Time=56D511F9%P=x86_64-apple-darwin10.8.0
+SF:%r(SSLv23SessionReq,A67,"\x16\x03\x01\nb\x02\0\0F\x03\x01V\xd5\x11\xf4\
+SF:xcd\xfa\x7f\x8a\xce,\x91\xd8t!\x9d\xda\x0c\xa1\r\xa2\x06m\x07v\xaa\xc4\
+SF:x0c\*OF\.6\x20\x1f\x08\0\0\xef\x86\0k\xb7N\+\xbd\xf7\x89\x1b\x07\xe1\xd
+SF:b\xf6\x0e\$H5\x08\xf8\xed=w\xb3pX3\0/\0\x0b\0\n\x10\0\n\r\0\x0530\x82\x
+SF:05/0\x82\x04\x17\xa0\x03\x02\x01\x02\x02\x07\+\x85t`n,i0\r\x06\t\*\x86H
+SF:\x86\xf7\r\x01\x01\x0b\x05\x000\x81\xb41\x0b0\t\x06\x03U\x04\x06\x13\x0
+SF:2US1\x100\x0e\x06\x03U\x04\x08\x13\x07Arizona1\x130\x11\x06\x03U\x04\x0
+SF:7\x13\nScottsdale1\x1a0\x18\x06\x03U\x04\n\x13\x11GoDaddy\.com,\x20Inc\
+SF:.1-0\+\x06\x03U\x04\x0b\x13\$http://certs\.godaddy\.com/repository/1301
+SF:\x06\x03U\x04\x03\x13\*Go\x20Daddy\x20Secure\x20Certificate\x20Authorit
+SF:y\x20-\x20G20\x1e\x17\r141208143400Z\x17\r170529144944Z0@1!0\x1f\x06\x0
+SF:3U\x04\x0b\x13\x18Domain\x20Control\x20Validated1\x1b0\x19\x06\x03U\x04
+SF:\x03\x0c\x12\*\.standrews-de\.org0\x82\x01\"0\r\x06\t\*\x86H\x86\xf7\r\
+SF:x01\x01\x01\x05\0\x03\x82\x01\x0f\x000\x82\x01\n\x02\x82\x01\x01\0\xea\
+SF:xe6d\xf1\xac\xcf6\|\^R\xed\xb7P\xde\x84<\xcc\xed\x88\xb1\xbd\xf4U\xeb\x
+SF:8a\x0f\x12AF\xb2#8\x87\x1f\.\xb9\xe6iQ\xfam\xd7\xf7\x80\xebP'5\xd4\x05\
+SF:xbb\x88\xdd\xf6\xf8\xd9\xefs\x8a\xa7\xce\xa6K\xf6\)mT\x87\x14\x16\xe8\x
+SF:cdP\x06\x96\x89:\x8f\xd6\xd9\x82\xbb\xae\xf6\x80\x0fs\xe8\xf4N\^\x205\]
+SF:\x1e\xc8\xdc\x9b\xfa\xfe\"O\xf6\xc3\xca\xce\x0b\xf20\x02\x1a\x11\x11\x0
+SF:f\x97M\x17\xca\|\xden-\x8f\xb4}\xb5T\x86\xd8\xdcnko\xbc\xb5\xa6`\xcb\x1
+SF:fj\xc4\x9e\xab\xc6,\x9b\*\xa4\xae\x07\xa3g\x88\x13\x0c\xab\x9f\xd1\x87\
+SF:x07\xd4\x83\x8e\xd6h\x9f\x9f\xb0:\xa9\xd8\xfcx>\x14n\x05\xfcQ\xd9\x13\x
+SF:e5\xfeu\xd1\xd4\x9a\xcb\xff\xf4\xc1\xdf\xcax\xa3\xae\x20s{{8\xc6\x18m\x
+SF:c6\xd8\xc9DG\x98\xb6\xeb\*\xaf~A\xef\x83\x9e9!\xf8\xf3\x8cNm\xf9\x15\x8
+SF:dj\x96B:\x8c\x8cK\x91X\|\xd4\(&\xb0\]\x80\+\xa9\xb4\xba\xed\xa7\x1b\xb2
+SF:\n\x10c\x02\x03\x01\0\x01\xa3\x82\x01\xb70\x82\x01\xb30\x0c\x06\x03U\x1
+SF:d\x13\x01\x01\xff\x04\x020\x000\x1d\x06\x03U\x1d%\x04\x160\x14\x06\x08\
+SF:+\x06\x01\x05\x05\x07\x03\x01\x06\x08\+\x06\x01\x05\x05\x07\x03\x020\x0
+SF:e\x06\x03U\x1d\x0f\x01\x01\xff\x04\x04\x03\x02\x05\xa006\x06\x03U\x1d\x
+SF:1f\x04/0-0\+\xa0\)\xa0'\x86%http://crl\.godaddy\.com/gdig2s1-87\.crl0S\
+SF:x06\x03U\x1d\x20\x04L0J0H\x06\x0b`\x86H\x01\x86\xfdm\x01\x07\x17\x01090
+SF:7\x06\x08\+\x06\x01\x05\x05\x07\x02\x01\x16\+http://certificates\.godad
+SF:dy\.com/");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Uptime guess: 8.025 days (since Sun Feb 21 22:18:52 2016)
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Busy server or unknown class
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/local/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Mon Feb 29 22:54:51 2016 -- 35 IP addresses (14 hosts up) scanned in 1110.69 seconds

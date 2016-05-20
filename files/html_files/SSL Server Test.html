@@ -1,0 +1,3472 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+	<title>SSL Server Test: standrews-de.org (Powered by Qualys SSL Labs)</title>
+	    <style type="text/css">
+        
+body {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	line-height: 180%;
+	color: #222222;	
+	margin: 0px 0px;	
+	background: #f0f0f0;
+	text-align: center;	
+}
+
+.footnote {
+    color:gray;
+    font-size: 11px;
+}
+
+#pageEnd {
+    width: 1100px;
+	background: #ffffff;
+	margin: auto;
+	text-align: left;
+	padding-bottom: 10px;
+	border-left: 1px solid #BCD4DD;
+	border-right: 1px solid #BCD4DD;
+	border-bottom: 1px solid #BCD4DD;	
+}
+
+#copyright {
+    width: 1100px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 0px;    
+}
+
+#breadcrumbs {
+	margin-top: 6px;
+	margin-left: 30px;
+}
+
+#page {
+	width: 1100px;
+	background: #ffffff;
+	margin: auto;
+	text-align: left;
+	padding-bottom: 10px;
+	border-left: 1px solid #BCD4DD;
+	border-right: 1px solid #BCD4DD;
+	border-bottom: 1px solid #BCD4DD;
+}
+
+#main {
+    padding: 30px;
+	padding-top: 10px;
+}
+
+.newsTitle {
+    font-size: 13px;
+    font-weight: bold;
+    color: #444444;
+    margin: 0px;
+}
+
+.projectTitle {
+    color: #444444;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.projectTitle2 {
+    font-size: 16px;
+    color: #444444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    line-height: 0px;
+}
+
+p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+li {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.newsDate {
+    padding: 0px;
+    margin: 0px;
+    color: gray;
+}
+
+a {
+    color: #005ccf;
+}
+
+h1 {		
+	color: #444444;	
+	font-weight: bold;
+	padding-bottom: 5px;
+	font: 27px/28px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	letter-spacing: -0.04em;
+}
+
+h2 {
+    font-size: 16px;
+	color: #444444;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;	
+	padding-top: 10px;	
+}
+
+h3 {
+	color: #58585a;
+	font-size: 110%;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+#header {
+    width: 1100px;
+    padding-top: 8px;
+	padding-bottom: 8px;
+    border-top: 18px solid #de1d0b;
+	border-bottom: 1px solid #BCD4DD;
+}
+
+#mini-header {
+	width: 1100px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-top: 18px solid #de1d0b;
+	border-bottom: 1px solid #BCD4DD;
+	margin-bottom: 20px;
+}
+
+#dev-header {
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #fffacd;
+}
+
+#logo {
+	float: left;
+	margin: 0px;
+	padding: 4px;
+	margin-left: 14px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+#logo-powered-by {
+	float: right;
+	padding: 10px;
+	padding-right: 30px;
+}
+	
+#navigation {
+    float: right;
+	margin-top: 10px;
+	margin-right: 10px;	
+	font-family: Arial, Helvetica, sans-sefif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+	#navigation .link {	    
+	    color: #444444;	    
+		text-decoration: none;
+		padding-right: 25px;		
+	}
+	
+	#navigation .link:hover {	    
+		text-decoration: underline;
+	}
+	
+#threeColumns {       
+	margin: 20px;
+	margin-top: 0px;
+	padding-top: 20px;		
+}
+
+#pageHeader {
+	padding: 30px 30px 0px 30px;
+	clear: both;
+}
+
+a.newsLink {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	color: #58585a;
+}
+
+a.newsLink:hover {
+	color: #a70b16;
+	text-decoration: underline;
+}
+
+        
+.highlight {
+	color: green;
+}
+
+.warning {
+	color: #F88017;
+}
+
+.error {
+	color: red;
+}
+
+.moreInfo {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#certificateMismatch li {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+#warningBeta {
+	margin: 20px;
+	margin-bottom: 0px;	
+	text-align: center;
+	padding: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	xborder: 1px solid #bbbbbb;
+	background: #009ddf;
+	color: #ffffff;
+}
+
+#warningBox {
+	margin-bottom: 0px;
+	text-align: center;
+	padding: 15px;
+	font-size: 18px;
+	border: 1px solid #bbbbbb;
+	background: #fffacd;
+}
+
+.testDate {
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.grayText {
+	font-size: 12px;
+	line-height: 24px;
+	color : #666666;
+}
+
+.dhParams {
+	font-size: 10px;
+	color : #666666;
+}
+
+.dhParamsNoColour {
+	font-size: 10px;
+}
+
+.grayCode {
+	font: 12px/20px monospace;	
+	color : #666666;
+}
+
+.reportTitle {
+	margin: 0px;
+	margin-bottom: 5px;        
+	font: 26px/28px Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-weight: bold;
+}
+
+.reportTime {
+	margin-bottom: 20px;
+	color : #666666;
+}
+
+.reportInfo {
+    font-size: 10px;
+    color: #666666;
+}
+
+.url {
+	font-weight: bold;
+	color: #444444;
+}
+
+.ip {
+    font-size: 18px;
+	color: #666666;
+}
+
+.box {
+	border: 3px solid #a6c2c4;
+	background: #fdfdfd;
+	text-align: left;
+}
+
+	.boxHead {
+		color: #009ddf;
+		font-weight: bold;
+		padding-bottom: 5px;
+		vertical-align: middle;
+		border-bottom: 2px solid #c6d2d4;
+	    font-size: 14px;
+	}
+	
+	.boxContent {
+		padding: 15px;
+		font-size: 12px;
+	}
+	
+	.box p {		
+		margin: 6px 0px;		
+	}
+	
+	a:link {
+		color: #005ccf;
+	}
+	
+	.box a {
+		color: #005ccf;	
+	}
+	
+	.box a:hover {
+		text-decoration: underline;
+	}
+	
+	.box .rating {
+		float: right;
+		font-weight: bold;
+		width: 15px;
+		text-align: left;
+		padding-right: 10px;
+	}
+
+.submitBox {
+	padding: 15px;
+	background: #dbe7f7;
+    text-align: center;
+	vertical-align: middle;
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #009ddf;
+}
+
+	.submitBox input {
+		font-size: 16px;
+		padding: 4px;
+	}
+	
+	.submitError {
+		text-align: center;
+		font-size: 12px;
+		line-height: 14px;
+		font-weight: bold;
+		color: #cc0000;
+		margin-top: 10px;
+	}
+	
+.reportSection {
+    width: 980px;
+	border: 4px solid #a6c2c4;
+	background: #fdfdfd;
+	/*margin-top: 20px;*/
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.bannerSection {
+    width: 840px;
+	border: 1px solid #c0c0c0;
+	background: #fdfdfd;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 3px;
+}
+
+.sectionTitle {
+    text-align: left;
+    font: 23px/28px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #888888;
+	padding: 16px;
+	background: #f7f7f7;
+    border-bottom: 1px solid #c6d2d4;
+}	
+
+.sectionBody {
+    margin: 20px 15px;
+}
+
+#chart {
+	margin-top: 20px;
+	margin-right: 70px;
+	float: right;
+	width: 450px;
+	height: 200px;
+}
+
+	.chartScale {
+		position: absolute;
+		margin-left: 110px;
+		width: 360px;
+		height: 162px;
+		z-index: 100;
+	}
+	
+	.chartBody {
+		position: relative;
+		width: 450px;
+		z-index: 200;
+	}
+	
+	.chartScaleDiv {
+		width: 1px;
+		margin-right: 59px;
+		height: 162px;
+		float: left;
+		background: #bbbbbb;
+	}
+
+	.chartScaleLabelRow {
+		position: absolute;
+		top: 160px;
+		left: -29px;
+	}
+	
+	.chartScaleLabel {
+		width: 60px;
+		float: left;
+		text-align: left;
+		color: #999999;
+		text-align: center;
+	}
+
+	.chartRow {
+		height: 28px;
+		clear: both;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.chartValue {
+		float: right;
+		display: block;
+		line-height: 28px;
+		font-weight: bold;
+		margin-left: 15px;
+	}
+	
+	.chartLabel {
+		font-size: 11px;
+		float: left;
+		display: block;
+		margin-right: 10px;
+		line-height: 28px;
+		width: 100px;
+		text-align: right;
+		font-weight: bold;
+	}
+
+	.chartBar_g{
+		float: left;
+		text-align: right;
+		height: 28px;
+		background: url('../images/chart-green.gif') repeat-x;
+	}
+
+	.chartBar_a {
+		float: left;
+		text-align: right;
+		height: 28px;
+		background: url('../images/chart-amber.gif') repeat-x;
+	}
+	
+	.chartBar_r {
+		float: left;
+		text-align: right;
+		height: 28px;
+		background: url('../images/chart-red.gif') repeat-x;
+	}
+	
+#rating {
+	text-align: center;
+	padding: 0px 0px;
+	margin-bottom: 0px;
+	float: left;
+	width: 400px;
+}
+
+	.ratingTitle {
+		font-size: 11px;
+		font-weight: bold;
+		font-size: 14px;
+		color: #999999;
+	}
+	
+	.rating_g {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		margin: 15px auto;
+		width: 128px;
+		height: 128px;
+		font-size: 100px;
+		line-height: 128px;
+		font-weight: bold;
+		color: #ffffff;
+		background: url('../images/rating-green.gif') no-repeat;
+	}
+	
+	.rating_a {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		margin: 15px auto;
+		width: 128px;
+		height: 128px;
+		font-size: 100px;
+		line-height: 128px;
+		font-weight: bold;
+		color: #ffffff;
+		background: url('../images/rating-amber.gif') no-repeat;
+	}
+	
+	.rating_r {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		margin: 15px auto;
+		width: 128px;
+		height: 128px;
+		font-size: 100px;
+		line-height: 128px;
+		font-weight: bold;
+		color: #ffffff;
+		background: url('../images/rating-red.gif') no-repeat;
+	}
+	
+	.belowGrade {
+		line-height: 16px;
+		font-weight: normal;
+		font-size: 11px;
+		color: grey;
+	}
+	
+	.percentage_g {
+		font-weight: bold;
+		font-size: 28px;
+		color: #7ed84d;
+	}
+	
+	.percentage_a {
+		font-weight: bold;
+		font-size: 28px;
+		color: #ffa100;
+	}
+	
+	.percentage_r {
+		font-weight: bold;
+		font-size: 28px;
+		color: #ff553e;
+	}
+	
+
+table.reportTable {
+	width: 850px;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 0px;
+	font-size: 12px;
+	line-height: 20px;
+	margin-right: 10px;
+}
+
+	.tableHead {
+		color: #009ddf;
+		font-weight: bold;
+		padding-bottom: 5px;
+		vertical-align: middle;
+		border-bottom: 2px solid #c6d2d4;
+	    font-size: 13px;
+	}
+	
+	.tableSubHead {
+		color: #009ddf;
+		font-weight: bold;
+		padding-bottom: 5px;
+		vertical-align: middle;
+		padding-top: 15px;
+		border-bottom: 1px solid #c6d2d4;
+	    font-size: 12px;
+	}
+
+	.tableLeft {
+		text-align: left;
+		padding: 3px 0px;
+		border-bottom: 1px solid #f0f0f0;
+		vertical-align: middle;
+	}
+	
+	.tableRight {
+		width: 50px;
+		text-align: right;
+		padding: 3px 0px;
+		border-bottom: 1px solid #f0f0f0;
+		vertical-align: middle;
+	}
+	
+	.tableLabel {
+		text-align: left;
+		padding: 3px 0px;
+		padding-right: 10px;
+		color: #444444;
+		border-bottom: 1px solid #f0f0f0;
+		vertical-align: middle;
+		font-size: 12px;
+		font-weight: bold;
+		width: 250px;
+	}
+	
+	.tableLabelTop {
+		text-align: left;
+		padding: 3px 0px;
+		padding-right: 10px;
+		color: #444444;
+		border-bottom: 1px solid #f0f0f0;
+		vertical-align: top;
+		font-size: 12px;
+		font-weight: bold;
+		width: 180;
+	}
+	
+	.tableLabelRight {
+		text-align: right;
+		padding: 3px 0px;
+		padding-right: 15px;
+		color: #444444;
+		border-bottom: 1px solid #f0f0f0;
+		vertical-align: middle;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	
+	.tableCell {
+		text-align: left;
+		padding: 3px 0px;
+		border-bottom: 1px solid #f0f0f0;
+		vertical-align: middle;
+		font-size: 12px;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        hyphens: auto;
+	}
+	
+	.tableIcon {
+		text-align: right;
+		padding: 0px;
+		padding-left: 15px;
+		vertical-align: top;
+		width: 20px;
+	}
+	
+	.tableIcon img {
+		vertical-align: middle;
+		margin-top: 2px;
+	}
+	
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.black {
+	color: #000000;
+}
+
+.g {
+	color: #4ec83d;
+}
+	
+.a {
+	color: #ffa100;
+}
+	
+.r {
+	color: #ef251e;
+}
+
+.b {
+	color: #009ddf;
+}
+
+#urlInput {
+	width: 500px;
+	font-size: 24px;
+	margin-bottom: 20px;
+	padding: 4px;
+}
+
+#urlSubmit {
+	font-size: 24px;
+}
+
+.intro {
+	font-size: 11px;
+	line-height: 16px;
+	width: 400px;
+	text-align: center;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+
+.tIcon {
+	float: left;
+	margin-right: 10px;
+}
+
+.note {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	border: 2px solid #ffffff;
+	z-index: 1000;
+}
+
+.noteBack {
+	border: 2px solid #c6d2d4;
+	background: #dddfe0;
+}
+
+.noteHead {
+	color: #ffffff;
+	padding: 2px 6px;
+	font-weight: bold;
+}
+
+.noteHead.green {
+	background: url('../images/chart-green.gif') repeat-x;
+}
+
+.noteHead.amber {
+	background: url('../images/chart-amber.gif') repeat-x;
+}
+
+.noteHead.red {
+	background: url('../images/chart-red.gif') repeat-x;
+}
+
+
+.noteBody {
+	font-size: 11px;
+	padding: 8px 10px;
+	text-align: left;
+}
+
+#multiTable {
+	border: 3px solid #a6c2c4;
+	width: 1040px;
+}
+
+#multiTable th {
+	padding: 14px;
+	background: #CFECEC;
+	border: 1px solid #a6c2c4;	
+	font-size: 18px;
+}
+
+#multiTable td {
+	border: 1px solid #CFECEC;
+}
+
+.greySmall {
+    color : #666666;
+    font-size: 10px;
+}
+
+.greenSmall {
+    color : green;
+    font-size: 10px;
+}
+
+.orangeSmall {
+    color : #F88017;
+    font-size: 10px;
+}
+
+.redSmall {
+    color : red;
+    font-size: 10px;
+}
+
+img {
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+div.icon-download
+{
+    width: 12px;
+    height: 12px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAV1BMVEUAAADG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tTG0tQBtW+LAAAAHHRSTlMAAQUHCQoRGBkcHz9AUFZecYCVqLTK0dPp7ff5cWDvugAAAGlJREFUGNO1zckKwCAMBNDYfdfui/n/76xKDFZKbx1yGB7oAHyk0YhLjB2a/I3JiRzJOrFdFaPwetXBB6QPI43MaWCje7inQpbQu34UQBNbDjBQbz2inndfO8AwKrMX4arstTQUxgy95Qa+KRMWu5MJ+wAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+}
+    </style>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="referrer" content="no-referrer">
+
+	
+			
+	<style>
+
+	.infoBox {
+		border: 1px solid #bbbbbb;
+		padding: 5px;
+		background: #fffacd;
+		margin-top: 10px;
+		font-weight: bold;
+		color: #222222;
+	}
+
+	.highlightBox {
+		border: 1px solid #888888;
+		padding: 5px;
+		background: #7ed84d;
+		margin-top: 10px;
+		font-weight: bold;
+		color: #222222;
+	}
+
+	.noticeBox {
+    	border: 1px solid #bbbbbb;
+    	padding: 5px;
+    	background: #CCEEFF;
+    	margin-top: 10px;
+    	font-weight: bold;
+    	color: #222222;
+    }
+
+	.warningBox {
+		border: 1px solid #bbbbbb;
+		padding: 5px;
+		background: #FFCF79;
+		margin-top: 10px;
+		font-weight: bold;
+		color: #222222;
+	}
+
+	.errorBox {
+		border: 1px solid #bbbbbb;
+		padding: 5px;
+		background: #FFCCCB;
+		margin-top: 10px;
+		font-weight: bold;
+		color: #222222;
+	}
+
+	</style>
+</head>
+
+<body>
+
+
+
+<div id="page">
+
+
+    <div id="header">
+
+        <div id="logo">
+                        <a href="https://www.ssllabs.com/index.html" rel="noreferrer"><img src="SSL%20Server%20Test_%20standrews-de.org%20%28Powered%20by%20Qualys%20SSL%20Labs%29_files/qualys-ssl-labs-logo.png" alt="SSL Labs logo" title="SSL Labs logo" height="55" width="341"></a>
+                    </div>
+
+        <div id="navigation">
+            <a class="link" href="https://www.ssllabs.com/index.html" rel="noreferrer">Home</a>
+            <a class="link" href="https://www.ssllabs.com/projects/index.html" rel="noreferrer">Projects</a>
+            <a class="link" href="https://www.qualys.com/" rel="noreferrer">Qualys.com</a>
+            <a class="link" href="https://www.ssllabs.com/about/contact.html" rel="noreferrer">Contact</a>
+        </div>
+
+        <br clear="all">
+    </div>
+
+	<div id="breadcrumbs">
+        <b>You are here:&nbsp;</b>
+        <a href="https://www.ssllabs.com/index.html" rel="noreferrer">Home</a> &gt; <a href="https://www.ssllabs.com/projects/index.html" rel="noreferrer">Projects</a>
+        &gt; <a href="https://www.ssllabs.com/ssltest/index.html" rel="noreferrer">SSL Server Test</a> &gt;
+					standrews-de.org			</div>
+
+<div id="main">
+	<div class="reportTitle">SSL Report: <span class="url">
+	    standrews-de.org
+        </span> <span class="ip"> (209.123.98.171)</span>    </div> 
+        <div class="reportTime" style="float: left">
+    <b>Assessed on:</b>&nbsp; Wed, 11 May 2016 00:56:58 UTC
+                | <a href="https://www.ssllabs.com/ssltest/hide.html?d=standrews%2dde.org">Hide</a>
+        | <a href="https://www.ssllabs.com/ssltest/analyze.html?d=standrews%2dde.org&amp;clearCache=on">Clear cache</a>
+    </div>
+
+    <div style="float:right; font-weight: bold; font-size: 20px"><a href="https://www.ssllabs.com/ssltest/index.html" rel="noreferrer">Scan Another&nbsp;»</a></div>
+    <br clear="all">
+    
+    <div id="appleTestDiv" style="display: none">
+        <div class="errorBox"><center>
+        Due to a recently discovered bug in Apple's code, your browser is exposed to MITM attacks. <a href="https://www.ssllabs.com/ssltest/viewMyClient.html">Click here</a> for more information.
+        </center></div><br>
+    </div>
+
+    
+        
+	<div align="center">
+
+	
+	<div class="reportSection">
+	<div class="sectionTitle">Summary</div>
+	<div class="sectionBody">
+
+        <div id="rating">
+			<div class="ratingTitle">Overall Rating</div>
+
+                        <div class="rating_r" style="margin-bottom: 8px">
+                                    F
+                            </div>
+
+            
+            
+            
+            
+
+			
+		</div>
+
+		<div id="chart">
+
+			<div class="chartScale">
+				<div class="chartScaleDiv"></div>
+				<div class="chartScaleDiv"></div>
+				<div class="chartScaleDiv"></div>
+				<div class="chartScaleDiv"></div>
+				<div class="chartScaleDiv"></div>
+				<div class="chartScaleDiv" style="margin:0px"></div>
+				<div class="chartScaleLabelRow">
+					<div class="chartScaleLabel">0</div>
+					<div class="chartScaleLabel">20</div>
+					<div class="chartScaleLabel">40</div>
+					<div class="chartScaleLabel">60</div>
+					<div class="chartScaleLabel">80</div>
+					<div class="chartScaleLabel">100</div>
+				</div>
+			</div>
+
+			<div class="chartBody">
+				<div class="chartRow">
+					<div class="chartLabel">Certificate</div>
+										<div class="chartBar_g" style="width:300px">&nbsp;</div>
+									</div>
+
+				<div class="chartRow">
+					<div class="chartLabel">Protocol Support</div>
+										<div class="chartBar_g" style="width:285px">&nbsp;</div>
+									</div>
+
+				<div class="chartRow">
+					<div class="chartLabel">Key Exchange</div>
+										<div class="chartBar_g" style="width:270px">&nbsp;</div>
+									</div>
+
+				<div class="chartRow">
+					<div class="chartLabel">Cipher Strength</div>
+										<div class="chartBar_g" style="width:270px">&nbsp;</div>
+									</div>
+			</div>
+
+		</div>
+
+		<br clear="all">
+
+				<div class="infoBox">
+		Visit our <a href="https://www.ssllabs.com/projects/documentation/index.html" rel="noreferrer">documentation page</a>
+            for more information, configuration guides, and books. Known issues are documented
+        <a href="https://community.qualys.com/docs/DOC-4865">here</a>.
+		</div>
+
+                            <div class="errorBox">
+                Experimental: This server is vulnerable to the DROWN attack. Grade set to F.
+                &nbsp; <a href="https://blog.qualys.com/securitylabs/2016/03/04/ssl-labs-drown-test-implementation-details"><span class="moreInfo">MORE&nbsp;INFO&nbsp;»</span></a>
+            </div>
+        
+                
+        		
+				
+																																				
+		
+        
+        
+        
+                
+                
+                
+                
+				
+        
+				
+		
+
+		
+
+        
+
+        
+
+                
+                                
+				
+				
+		        
+		                            
+				
+                
+                
+        
+                
+				
+        
+
+        
+
+        
+
+        
+		        
+        
+
+        
+	</div>
+    </div>
+
+     
+    
+
+		<div class="reportSection">
+	<div class="sectionTitle">Authentication</div>
+	<div class="sectionBody">
+
+		<!-- CERTIFICATE -->
+		<img class="tIcon" src="SSL%20Server%20Test_%20standrews-de.org%20%28Powered%20by%20Qualys%20SSL%20Labs%29_files/icon-certificate.gif" alt="" height="50" width="65">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="2">
+                <div style="float: left; width: 825px">Server Key and Certificate #1</div>
+                <a href="https://www.ssllabs.com/ssltest/getTestCertificate?d=standrews%2dde.org&amp;s=209.123.98.171&amp;time=1462928141609" title="Download server certificate">
+                    <div style="float: left; margin-left: 8px; margin-top: 5px" class="icon-download"></div>
+                </a>
+            </td>
+		</tr>
+		</thead>
+		<tbody>
+
+        <tr class="tableRow">
+            <td class="tableLabel">Subject</td>
+            <td class="tableCell" title="CN=*.standrews-de.org,OU=Domain Control Validated">
+                *.standrews-de.org
+                <br><span class="greySmall">
+                Fingerprint SHA1:  62e0a058318fe9a8f448a3a697f72f65050e315a<br>
+                Pin SHA256: PPhDJSiJBP73XeD16o1TeJahoEn1VhooEs6797+98P8=
+                
+            </span>
+            </td>
+        </tr>
+
+		<tr class="tableRow">
+									<td class="tableLabel">Common names</td>
+			<td class="tableCell">*.standrews-de.org</td>
+								</tr>
+
+		<tr class="tableRow">
+			<td class="tableLabelTop">Alternative names</td>
+			<td class="tableCell">*.standrews-de.org standrews-de.org</td>
+		</tr>
+
+        
+
+				<tr class="tableRow">
+						<td class="tableLabel">Valid from</td>
+			<td class="tableCell">Mon, 08 Dec 2014 14:34:00 UTC</td>
+					</tr>
+
+				<tr class="tableRow">
+						<td class="tableLabel">Valid until</td>
+			<td class="tableCell">Mon, 29 May 2017 14:49:44 UTC (expires in 1 year)</td>
+					</tr>
+
+				<tr class="tableRow">
+		    			<td class="tableLabel">Key</td>
+			<td class="tableCell">RSA 2048 bits
+                (e 65537)</td>
+					</tr>
+
+		
+
+		<tr class="tableRow">
+			<td class="tableLabel"> Weak key (Debian) </td>
+			<td class="tableCell"> No </td>
+		</tr>
+
+		<tr class="tableRow">
+			<td class="tableLabel">Issuer</td>
+			<td class="tableCell" title="CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O=&quot;GoDaddy.com, Inc.&quot;, L=Scottsdale, ST=Arizona, C=US">Go Daddy Secure Certificate Authority - G2                <br><span class="greySmall">
+                                    AIA: http://certificates.godaddy.com/repository/gdig2.crt
+                                        <br>
+                                </span>
+            </td>
+		</tr>
+
+				<tr class="tableRow">
+			<td class="tableLabel">Signature algorithm</td>
+			<td class="tableCell">SHA256withRSA</td>
+		</tr>
+		
+				<tr class="tableRow">
+			<td class="tableLabel">Extended Validation</td>
+			<td class="tableCell">No</td>
+		</tr>
+		
+                                                    <tr class="tableRow">
+                <td class="tableLabel">Certificate Transparency</td>
+                <td class="tableCell">No</td>
+            </tr>
+                
+		<tr class="tableRow">
+			<td class="tableLabel">Revocation information</td>
+			<td class="tableCell">
+			 CRL, OCSP 									            <br><span class="greySmall">
+                            CRL: http://crl.godaddy.com/gdig2s1-87.crl
+                                <br>
+                                        OCSP: http://ocsp.godaddy.com/
+                                <br>
+                        </span>
+			</td>
+		</tr>
+
+				<tr class="tableRow">
+												<td class="tableLabel">Revocation status</td>
+			<td class="tableCell">Good (not revoked)    <font color="#F88017"><b>
+            </b></font>
+
+    <font color="#F88017"><b>
+            </b></font>
+            </td>
+								</tr>
+		
+		<tr class="tableRow">
+						<td class="tableLabel"><font color="green">Trusted</font></td>
+			<td class="tableCell"><font color="green"><b>Yes</b></font></td>
+					</tr>
+
+		</tbody>
+		</table>
+
+		<br><br>
+
+		<img class="tIcon" src="SSL%20Server%20Test_%20standrews-de.org%20%28Powered%20by%20Qualys%20SSL%20Labs%29_files/icon-certificates.png" alt="" height="50" width="65">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="2">
+                <div style="float: left; width: 825px">Additional Certificates (if supplied)</div>
+                <a href="https://www.ssllabs.com/ssltest/getTestChain?d=standrews%2dde.org&amp;s=209.123.98.171&amp;time=1462928141609" title="Download server chain">
+                    <div style="float: left; margin-left: 8px; margin-top: 5px" class="icon-download"></div>
+                </a>
+            </td>
+		</tr>
+		</thead>
+		<tbody>
+
+		<tr class="tableRow">
+			<td class="tableLabel">Certificates provided</td>
+			<td class="tableCell">2 (2567 bytes)</td>
+		</tr>
+
+		<tr class="tableRow">
+						<td class="tableLabel">Chain issues</td>
+			<td class="tableCell">None</td>
+					</tr>
+
+						 						<tr class="tableSeparator"><td class="tableSubHead" colspan="2">#2</td></tr>
+
+		<tr class="tableRow">
+						<td class="tableLabel">Subject</td>
+			<td class="tableCell">Go Daddy Secure Certificate Authority - G2 <br>
+			<span class="greySmall">Fingerprint SHA1: 27ac9369faf25207bb2627cefaccbe4ef9c319b8<br>
+            Pin SHA256: 8Rw90Ej3Ttt8RRkrg+WYDS9n7IS03bk5bjP/UXPtaY8=</span></td>
+					</tr>
+		<tr class="tableRow">
+						<td class="tableLabel">Valid until</td>
+			<td class="tableCell">Sat, 03 May 2031 07:00:00 UTC (expires in 14 years and 11 months)</td>
+					</tr>
+		<tr class="tableRow">
+            			<td class="tableLabel">Key</td>
+			<td class="tableCell">RSA 2048 bits
+                 (e 65537)</td>
+					</tr>
+		<tr>
+			<td class="tableLabel">Issuer</td>
+			<td class="tableCell">Go Daddy Root Certificate Authority - G2</td>
+		</tr>
+
+				<tr class="tableRow">
+            			<td class="tableLabel">Signature algorithm</td>
+			<td class="tableCell">
+                SHA256withRSA</td>
+					
+		 		 
+		</tr></tbody>
+		</table>
+
+		<br><br>
+
+		<img class="tIcon" src="SSL%20Server%20Test_%20standrews-de.org%20%28Powered%20by%20Qualys%20SSL%20Labs%29_files/icon-chain.gif" alt="" height="50" width="65">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="3">Certification Paths</td>
+		</tr>
+		</thead>
+		<tbody>
+
+						
+        
+        <tr class="tableSeparator"><td class="tableSubHead" colspan="3">
+            <div style="float: left; width: 825px">
+                Path #1:  Trusted
+                
+                
+                            </div>
+            <a href="https://www.ssllabs.com/ssltest/getTestTrustPath?d=standrews%2dde.org&amp;s=209.123.98.171&amp;time=1462928141609&amp;id=1" title="Download chain">
+                <div style="float: left; margin-left: 8px; margin-top: 5px" class="icon-download"></div>
+            </a>
+
+        </td></tr>
+
+						<tr class="tableRow">
+			<td class="tableCell" style="width: 75; text-align: right"><b>1</b></td>
+
+						<td class="tableCell" style="width: 125; text-align: center; padding-left: 10px; padding-right: 10px; font-size: 11px">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN=*.standrews-de.org, OU=Domain Control Validated">*.standrews-de.org
+
+                
+                
+						<br>
+			<span class="greySmall">Fingerprint SHA1: 62e0a058318fe9a8f448a3a697f72f65050e315a<br>
+                            Pin SHA256: PPhDJSiJBP73XeD16o1TeJahoEn1VhooEs6797+98P8=
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+															
+									
+			                                    
+                <font color="#F88017"><b>
+            </b></font>
+
+    <font color="#F88017"><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell" style="width: 75; text-align: right"><b>2</b></td>
+
+						<td class="tableCell" style="width: 125; text-align: center; padding-left: 10px; padding-right: 10px; font-size: 11px">
+			
+			                                    Sent by server                			    			
+			</td>
+
+			<td class="tableCell" title="CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O=&quot;GoDaddy.com, Inc.&quot;, L=Scottsdale, ST=Arizona, C=US">Go Daddy Secure Certificate Authority - G2
+
+                
+                
+						<br>
+			<span class="greySmall">Fingerprint SHA1: 27ac9369faf25207bb2627cefaccbe4ef9c319b8<br>
+                            Pin SHA256: 8Rw90Ej3Ttt8RRkrg+WYDS9n7IS03bk5bjP/UXPtaY8=
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            			SHA256withRSA
+			            
+						
+															
+									
+			                                    
+                <font color="#F88017"><b>
+            </b></font>
+
+    <font color="#F88017"><b>
+            </b></font>
+
+            </td>
+		</tr>
+				<tr class="tableRow">
+			<td class="tableCell" style="width: 75; text-align: right"><b>3</b></td>
+
+						<td class="tableCell" style="width: 125; text-align: center; padding-left: 10px; padding-right: 10px; font-size: 11px">
+			
+			                			     <font color="green">In trust store</font> 			
+			</td>
+
+			<td class="tableCell" title="CN=Go Daddy Root Certificate Authority - G2, O=&quot;GoDaddy.com, Inc.&quot;, L=Scottsdale, ST=Arizona, C=US">Go Daddy Root Certificate Authority - G2
+
+                
+                
+			 &nbsp; <font color="grey">Self-signed</font>			<br>
+			<span class="greySmall">Fingerprint SHA1: 47beabc922eae80e78783462a79f45c254fde68b<br>
+                            Pin SHA256: Ko8tivDrEjiY90yGasP6ZpBU4jwXvHqVvQI0GS3GNdA=
+                        </span>
+			<br>
+
+						RSA 2048 bits
+                 (e 65537)						/
+			            SHA256withRSA
+            
+						
+															
+									
+			                                    
+                <font color="#F88017"><b>
+            </b></font>
+
+    <font color="#F88017"><b>
+            </b></font>
+
+            </td>
+		</tr>
+		
+				
+				
+		</tbody>
+		</table>
+
+		</div>
+		</div>
+
+		
+		<div class="reportSection">
+		<div class="sectionTitle">Configuration</div>
+		<div class="sectionBody">
+
+		<!-- PROTOCOLS -->
+		<img class="tIcon" src="SSL%20Server%20Test_%20standrews-de.org%20%28Powered%20by%20Qualys%20SSL%20Labs%29_files/icon-protocol.gif" alt="" height="50" width="65">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="2">Protocols</td>
+		</tr>
+		</thead>
+		<tbody>
+				<tr class="tableRow">
+			<td class="tableLeft"><font color="green">TLS 1.2</font></td>
+			<td class="tableRight"><font color="green">Yes</font></td>
+		</tr>
+		
+		<tr class="tableRow">
+			<td class="tableLeft">TLS 1.1</td>
+			<td class="tableRight"> Yes </td>
+		</tr>
+		<tr class="tableRow">
+			<td class="tableLeft">TLS 1.0</td>
+			<td class="tableRight"> Yes </td>
+		</tr>
+
+				<tr class="tableRow">
+						<td class="tableLeft">SSL 3</td>
+			<td class="tableRight">No</td>
+					</tr>
+
+		<tr class="tableRow">
+															<td class="tableLeft">SSL 2</td>
+			<td class="tableRight">No</td>
+								</tr>
+
+		
+		
+		
+		</tbody>
+		</table>
+
+		<br><br>
+
+        
+		<img class="tIcon" src="SSL%20Server%20Test_%20standrews-de.org%20%28Powered%20by%20Qualys%20SSL%20Labs%29_files/icon-cipher.gif" alt="" height="50" width="65">
+		<table class="reportTable">
+
+		<thead>
+		<tr>
+						<td class="tableHead" colspan="3">Cipher Suites (SSL 3+ suites in server-preferred order; deprecated and SSL 2 suites at the end)</td>
+					</tr>
+		</thead>
+
+		<tbody>
+
+        
+        
+        		                    <tr class="tableRow">
+                        
+                <td class="tableLeft">
+                                            TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+                                        (<code>0xc013</code>)
+                                                            &nbsp; <span class="greySmall"> ECDH secp256r1 (eq. 3072 bits RSA) &nbsp; FS</span>
+                    
+                    
+                </td>
+                <td class="tableRight">128</td>
+                    </tr>
+        		                    <tr class="tableRow">
+                        
+                <td class="tableLeft">
+                                            TLS_RSA_WITH_AES_128_CBC_SHA256
+                                        (<code>0x3c</code>)
+                                                    
+                    
+                </td>
+                <td class="tableRight">128</td>
+                    </tr>
+        		                    <tr class="tableRow">
+                        
+                <td class="tableLeft">
+                                            TLS_RSA_WITH_AES_128_CBC_SHA
+                                        (<code>0x2f</code>)
+                                                    
+                    
+                </td>
+                <td class="tableRight">128</td>
+                    </tr>
+        		                    <tr class="tableRow">
+                        
+                <td class="tableLeft">
+                                            TLS_RSA_WITH_AES_256_CBC_SHA256
+                                        (<code>0x3d</code>)
+                                                    
+                    
+                </td>
+                <td class="tableRight">256</td>
+                    </tr>
+        		                    <tr class="tableRow">
+                        
+                <td class="tableLeft">
+                                            TLS_RSA_WITH_AES_256_CBC_SHA
+                                        (<code>0x35</code>)
+                                                    
+                    
+                </td>
+                <td class="tableRight">256</td>
+                    </tr>
+        		                    <tr class="tableRow">
+                        
+                <td class="tableLeft">
+                                            TLS_RSA_WITH_3DES_EDE_CBC_SHA
+                                        (<code>0xa</code>)
+                                                    
+                    
+                </td>
+                <td class="tableRight">112</td>
+                    </tr>
+        		                    <tr class="tableRow">
+                        
+                <td class="tableLeft">
+                                            TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+                                        (<code>0xc027</code>)
+                                                            &nbsp; <span class="greySmall"> ECDH secp256r1 (eq. 3072 bits RSA) &nbsp; FS</span>
+                    
+                    
+                </td>
+                <td class="tableRight">128</td>
+                    </tr>
+        		                    <tr class="tableRow">
+                        
+                <td class="tableLeft">
+                                            TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+                                        (<code>0xc014</code>)
+                                                            &nbsp; <span class="greySmall"> ECDH secp256r1 (eq. 3072 bits RSA) &nbsp; FS</span>
+                    
+                    
+                </td>
+                <td class="tableRight">256</td>
+                    </tr>
+        		
+        		
+		
+        
+		</tbody>
+		</table>
+
+		<br><br>
+
+		<img class="tIcon" src="SSL%20Server%20Test_%20standrews-de.org%20%28Powered%20by%20Qualys%20SSL%20Labs%29_files/icon-cipher.gif" alt="" height="50" width="65">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="4">Handshake Simulation</td>
+		</tr>
+		</thead>
+		<tbody>
+
+		
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=2.3.7">Android 2.3.7</a>
+				 &nbsp; <span class="greySmall" style="color: #F88017; cursor: help" title="Browser does not support Server Name Indication.">No SNI <sup>2</sup></span>				</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font>TLS 1.0
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0x2f">
+					TLS_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                    
+					<span class="greySmall">
+										                        &nbsp;<font color="highlight">No FS</font>
+															</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=4.0.4">Android 4.0.4</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font>TLS 1.0
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=4.1.1">Android 4.1.1</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font>TLS 1.0
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=4.2.2">Android 4.2.2</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font>TLS 1.0
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=4.3">Android 4.3</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font>TLS 1.0
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=4.4.2">Android 4.4.2</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Android&amp;version=5.0.0">Android 5.0.0</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Baidu&amp;version=Jan%202015">Baidu Jan 2015</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font>TLS 1.0
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=BingPreview&amp;version=Jan%202015">BingPreview Jan 2015</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Chrome&amp;version=48&amp;platform=OS%20X">Chrome 48 / OS X</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Firefox&amp;version=31.3.0%20ESR&amp;platform=Win%207">Firefox 31.3.0 ESR / Win 7</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Firefox&amp;version=42&amp;platform=OS%20X">Firefox 42 / OS X</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Firefox&amp;version=44&amp;platform=OS%20X">Firefox 44 / OS X</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Googlebot&amp;version=Feb%202015">Googlebot Feb 2015</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=6&amp;platform=XP">IE 6 / XP</a>
+		 &nbsp; <span class="greySmall" style="color: #F88017; cursor: help" title="Browser effectively does not support Forward Secrecy.">No FS <sup>1</sup></span>		 &nbsp; <span class="greySmall" style="color: #F88017; cursor: help" title="Browser does not support Server Name Indication.">No SNI <sup>2</sup></span>				</td>
+
+								<td class="tableLeft" colspan="3">
+		<font color="red">Server closed connection</font><br>
+            <span class="greySmall">
+            
+                        </span>
+		</td>
+        
+				
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=7&amp;platform=Vista">IE 7 / Vista</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font>TLS 1.0
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=8&amp;platform=XP">IE 8 / XP</a>
+		 &nbsp; <span class="greySmall" style="color: #F88017; cursor: help" title="Browser effectively does not support Forward Secrecy.">No FS <sup>1</sup></span>		 &nbsp; <span class="greySmall" style="color: #F88017; cursor: help" title="Browser does not support Server Name Indication.">No SNI <sup>2</sup></span>				</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font>TLS 1.0
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xa">
+					TLS_RSA_WITH_3DES_EDE_CBC_SHA
+
+                    
+                    
+                    
+					<span class="greySmall">
+																														</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=8%2d10&amp;platform=Win%207">IE 8-10 / Win 7</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font>TLS 1.0
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=11&amp;platform=Win%207">IE 11 / Win 7</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=11&amp;platform=Win%208.1">IE 11 / Win 8.1</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=10&amp;platform=Win%20Phone%208.0">IE 10 / Win Phone 8.0</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font>TLS 1.0
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=11&amp;platform=Win%20Phone%208.1">IE 11 / Win Phone 8.1</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=11&amp;platform=Win%20Phone%208.1%20Update">IE 11 / Win Phone 8.1 Update</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=IE&amp;version=11&amp;platform=Win%2010">IE 11 / Win 10</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Edge&amp;version=13&amp;platform=Win%2010">Edge 13 / Win 10</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Edge&amp;version=13&amp;platform=Win%20Phone%2010">Edge 13 / Win Phone 10</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Java&amp;version=6u45">Java 6u45</a>
+				 &nbsp; <span class="greySmall" style="color: #F88017; cursor: help" title="Browser does not support Server Name Indication.">No SNI <sup>2</sup></span>				</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font>TLS 1.0
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0x2f">
+					TLS_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                    
+					<span class="greySmall">
+										                        &nbsp;<font color="highlight">No FS</font>
+															</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Java&amp;version=7u25">Java 7u25</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font>TLS 1.0
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Java&amp;version=8u31">Java 8u31</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=OpenSSL&amp;version=0.9.8y">OpenSSL 0.9.8y</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font>TLS 1.0
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0x2f">
+					TLS_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                    
+					<span class="greySmall">
+										                        &nbsp;<font color="highlight">No FS</font>
+															</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=OpenSSL&amp;version=1.0.1l">OpenSSL 1.0.1l</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=OpenSSL&amp;version=1.0.2e">OpenSSL 1.0.2e</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=5.1.9&amp;platform=OS%20X%2010.6.8">Safari 5.1.9 / OS X 10.6.8</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font>TLS 1.0
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=6&amp;platform=iOS%206.0.1">Safari 6 / iOS 6.0.1</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=6.0.4&amp;platform=OS%20X%2010.8.4">Safari 6.0.4 / OS X 10.8.4</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font>TLS 1.0
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=7&amp;platform=iOS%207.1">Safari 7 / iOS 7.1</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=7&amp;platform=OS%20X%2010.9">Safari 7 / OS X 10.9</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=8&amp;platform=iOS%208.4">Safari 8 / iOS 8.4</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=8&amp;platform=OS%20X%2010.10">Safari 8 / OS X 10.10</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=9&amp;platform=iOS%209">Safari 9 / iOS 9</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Safari&amp;version=9&amp;platform=OS%20X%2010.11">Safari 9 / OS X 10.11</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Apple%20ATS&amp;version=9&amp;platform=iOS%209">Apple ATS 9 / iOS 9</a>
+						&nbsp;<span class="greySmall"><font color="green">R</font></span>		</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=Yahoo%20Slurp&amp;version=Jan%202015">Yahoo Slurp Jan 2015</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+				<tr>
+
+		<td class="tableLeft" width="180">
+		<a href="https://www.ssllabs.com/ssltest/viewClient.html?name=YandexBot&amp;version=Jan%202015">YandexBot Jan 2015</a>
+								</td>
+
+				
+        <td><span style="font-size: 10px">
+                            RSA 2048 (SHA256)
+            &nbsp;
+        </span></td>
+
+            <td class="tableLeft">
+                                    <font color="green">TLS 1.2
+                
+                                                                    </font>
+            </td>
+
+							<td class="tableLeft"><span style="font-size: 11px" title="0xc013">
+					TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+
+                    
+                    
+                                            &nbsp;
+                        <span class="greySmall">ECDH secp256r1</span>
+                    
+					<span class="greySmall">
+					                        &nbsp;<span class="highlight">FS</span>
+										</span>
+
+                    </span>
+				</td>
+                
+			
+		
+		</tr>
+		
+		<tr><td colspan="4">
+		<font color="grey">(1) Clients that do not support Forward Secrecy (FS) are excluded when determining support for it.</font>
+		</td></tr>
+
+		<tr><td colspan="4">
+		<font color="grey">(2) No support for virtual SSL hosting (SNI). Connects to the default site if the server uses SNI.</font>
+		</td></tr>
+
+				<tr><td colspan="4">
+		<font color="grey">(3) Only first connection attempt simulated. Browsers sometimes retry with a lower protocol version.</font>
+		</td></tr>
+		
+		<tr><td colspan="4">
+        <font color="grey">(R) Denotes a reference browser or client, with which we expect better effective security.</font>
+        </td></tr>
+
+        <tr><td colspan="4">
+        <font color="grey">(All) We use defaults, but some platforms do not use their best protocols and features (e.g., Java 6 &amp; 7, older IE).</font>
+        </td></tr>
+
+		</tbody>
+		</table>
+
+
+
+		<br><br>
+
+		<img class="tIcon" src="SSL%20Server%20Test_%20standrews-de.org%20%28Powered%20by%20Qualys%20SSL%20Labs%29_files/icon-protocol-details.gif" alt="" height="50" width="65">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="2">Protocol Details</td>
+		</tr>
+		</thead>
+		<tbody>
+
+        <style>
+            #drownTable th {
+                color: #009ddf;
+                border-bottom: 2px solid #c6d2d4;
+                text-align: left;
+                font-size: 12px;
+                padding-top: 4px;
+                padding-bottom: 2px;
+            }
+
+            #drownTable td {
+                text-align: left;
+                font-size: 12px;
+                padding-top: 4px;
+                padding-bottom: 2px;
+            }
+        </style>
+
+                
+        <tr class="tableRow">
+                                                                    <td class="tableLabel"><font color="red">DROWN (experimental)</font></td>
+                        <td class="tableCell">
+                            <table id="drownTable" border="0" width="590">
+                            <tbody><tr><th>IP Address</th>
+                            <th>Port</th>
+                            <th>Export</th>
+                            <th>Special</th>
+                            <th>Status</th>
+                                                            </tr><tr>
+                                    <td><a href="https://test.drownattack.com/?site=209.118.39.230">209.118.39.230</a></td>
+                                    <td>587</td>
+                                    <td>Yes</td>
+                                    <td>Yes</td>
+                                    <td>
+                                                                                    <font color="red"><b>Vulnerable (same key with SSL v2)</b></font>
+                                        </td>
+                                </tr>
+                                                            <tr><td colspan="5" style="font-size: 12px; color: grey; line-height: 18px">
+                                    <b>(1) For a better understanding of this test, please read <a href="https://blog.qualys.com/securitylabs/2016/03/04/ssl-labs-drown-test-implementation-details">this longer explanation</a></b><br>
+                                    (2) Key usage data kindly provided by the <a href="https://censys.io/">Censys</a> network search engine; original DROWN test <a href="https://test.drownattack.com/?site=standrews%2dde.org">here</a><br>
+                                    (3) Censys data is only indicative 
+of possible key and certificate reuse; possibly out-of-date and 
+incomplete<br>
+                                    (4) We perform real-time key reuse 
+checks, but stop checking after first confirmed vulnerability<br>
+                                    (5) The "Special" column indicates 
+vulnerable OpenSSL version; "Export" refers to export cipher suites
+                                </td></tr>
+                            </tbody></table>
+                                        <font color="#F88017"><b>
+                    </b></font>
+                                </td>
+                                        </tr>
+
+
+		
+														<tr class="tableRow">
+					<td class="tableLabel"><font color="green">Secure Renegotiation</font></td>
+					<td class="tableCell"><font color="green"><b>Supported</b></font></td>
+				</tr>
+			
+						                <tr class="tableRow">
+                    <td class="tableLabel">Secure Client-Initiated Renegotiation</td>
+                    <td class="tableCell">No</td>
+                </tr>
+			
+									<tr class="tableRow">
+				<td class="tableLabel">Insecure Client-Initiated Renegotiation</td>
+				<td class="tableCell">No</td>
+			</tr>
+							
+		
+		
+		<tr class="tableRow">
+						<td class="tableLabel">BEAST attack</td>
+			<td class="tableCell">
+				Not mitigated server-side (<a href="https://community.qualys.com/blogs/securitylabs/2013/09/10/is-beast-still-a-threat">more info</a>)
+				&nbsp;<span class="greySmall">&nbsp;TLS 1.0: <code>0xc013</code></span>
+			</td>
+					</tr>
+
+        
+        <tr class="tableRow">
+                            <td class="tableLabel">POODLE (SSLv3)</td>
+                <td class="tableCell">
+                    No, SSL 3 not supported (<a href="https://community.qualys.com/blogs/securitylabs/2014/10/15/ssl-3-is-dead-killed-by-the-poodle-attack">more info</a>)
+                                </td>
+                    </tr>
+
+                <tr class="tableRow">
+                            <td class="tableLabel">POODLE (TLS)</td>
+                <td class="tableCell">
+                    No
+                    (<a href="https://community.qualys.com/blogs/securitylabs/2014/12/08/poodle-bites-tls">more info</a>)
+                </td>
+                    </tr>
+
+                <tr class="tablerow">
+                                        <td class="tableLabel">Downgrade attack prevention</td>
+                <td class="tableCell">
+                    No, TLS_FALLBACK_SCSV not supported (<a href="https://datatracker.ietf.org/doc/draft-ietf-tls-downgrade-scsv/">more info</a>)
+                </td>
+                                </tr>
+
+		
+		
+				<tr class="tableRow">
+			<td class="tableLabel">SSL/TLS compression</td>
+			<td class="tableCell">No</td>
+		</tr>
+		
+						<tr class="tableRow">
+			<td class="tableLabel">RC4</td>
+			<td class="tableCell">No</td>
+		</tr>
+		
+                <tr class="tableRow">
+            <td class="tableLabel">Heartbeat (extension)</td>
+            <td class="tableCell">No</td>
+        </tr>
+        
+                <tr class="tableRow">
+            <td class="tableLabel">Heartbleed (vulnerability)</td>
+            <td class="tableCell">No (<a href="https://community.qualys.com/blogs/securitylabs/2014/04/08/ssl-labs-test-for-the-heartbleed-attack">more info</a>)</td>
+        </tr>
+        
+                <tr class="tableRow">
+            <td class="tableLabel">OpenSSL CCS vuln. (CVE-2014-0224)</td>
+            <td class="tableCell">No (<a href="https://community.qualys.com/blogs/securitylabs/2014/06/13/ssl-pulse-49-vulnerable-to-cve-2014-0224-14-exploitable">more info</a>)</td>
+        </tr>
+        
+		                                <tr class="tableRow">
+                <td class="tableLabel">Forward Secrecy</td>
+                <td class="tableCell">With modern browsers (<a style="color: green" href="https://community.qualys.com/blogs/securitylabs/2013/06/25/ssl-labs-deploying-forward-secrecy">more info</a>)</td>
+            </tr>
+                    
+                            <tr class="tableRow">
+                <td class="tableLabel" title="Application-Layer Protocol Negotiation">ALPN</td>
+                <td class="tableCell">No</td>
+            </tr>
+        
+		
+				<tr class="tableRow">
+			<td class="tableLabel" title="Next Protocol Negotiation">NPN</td>
+			<td class="tableCell">No</td>
+		</tr>
+		
+		
+				<tr class="tableRow">
+			<td class="tableLabel">Session resumption (caching)</td>
+			<td class="tableCell">Yes</td>
+		</tr>
+		
+		
+		
+		
+		
+						<tr class="tableRow">
+			<td class="tableLabel">Session resumption (tickets)</td>
+			<td class="tableCell">No</td>
+		</tr>
+				
+		
+				<tr class="tableRow">
+                            <td class="tableLabel"><font color="green">OCSP stapling</font></td>
+                <td class="tableCell"><b><font color="green">Yes</font></b><font color="#F88017"><b>
+    </b></font>
+</td>
+            		</tr>
+		
+		
+		<tr class="tableRow">
+                            <td class="tableLabel">Strict Transport Security (HSTS)</td>
+                <td class="tableCell">No</td>
+            		</tr>
+
+        
+                                                                                                                    
+        <tr class="tableRow">
+            <td class="tableLabel">HSTS Preloading</td>
+            <td class="tableCell"><b>
+                                                                        
+                                                                        
+                                                    
+                <font color="grey">
+                                                                                                        Not in:
+                                                <font title="List updated on: Wed, 11 May 2016 00:55:00 UTC" style="cursor:help" color="grey">Chrome</font>&nbsp;
+                                                                                                        <font title="List updated on: Fri, 25 Mar 2016 14:40:00 UTC" style="cursor:help" color="grey">Edge</font>&nbsp;
+                                                                                                        <font title="List updated on: Fri, 25 Mar 2016 14:40:00 UTC" style="cursor:help" color="grey">Firefox</font>&nbsp;
+                                                                                                        <font title="List updated on: Fri, 25 Mar 2016 14:40:00 UTC" style="cursor:help" color="grey">IE</font>&nbsp;
+                                                                                                        <font title="List updated on: Wed, 11 May 2016 00:40:01 UTC" style="cursor:help" color="grey">Tor</font>&nbsp;
+                                                    </font>
+                </b>
+            </td>
+        </tr>
+
+        
+                            <tr class="tableRow">
+                <td class="tableLabel">Public Key Pinning (HPKP)</td>
+                <td class="tableCell">No</td>
+            </tr>
+        
+        
+                        <tr class="tableRow">
+            <td class="tableLabel">Public Key Pinning Report-Only</td>
+            <td class="tableCell">No</td>
+        </tr>
+        
+		
+
+		
+		<tr class="tableRow">
+				<td class="tableLabel">Long handshake intolerance</td>
+		<td class="tableCell">No</td>
+				</tr>
+
+		
+				<tr class="tableRow">
+				<td class="tableLabel">TLS extension intolerance</td>
+		<td class="tableCell">No</td>
+				</tr>
+		
+		
+
+		
+				<tr class="tableRow">
+			<td class="tableLabel">TLS version intolerance</td>
+			<td class="tableCell">
+								<b><font color="#F88017">
+																</font>
+
+				<font color="#666666">
+								</font></b>
+				No							</td>
+		</tr>
+		
+                <tr class="tableRow">
+            <td class="tableLabel">Incorrect SNI alerts</td>
+            <td class="tableCell">No</td>
+        </tr>
+        
+                <tr class="tableRow">
+            <td class="tableLabel">Uses common DH primes</td>
+            <td class="tableCell">No, DHE suites not supported</td>
+        </tr>
+        
+                <tr class="tableRow">
+            <td class="tableLabel">DH public server param (Ys) reuse</td>
+            <td class="tableCell">No, DHE suites not supported</td>
+        </tr>
+        
+				<tr class="tableRow">
+			<td class="tableLabel">SSL 2 handshake compatibility</td>
+			<td class="tableCell"> Yes </td>
+		</tr>
+
+		</tbody>
+		</table>
+
+
+		<br><br>
+
+		<img class="tIcon" src="SSL%20Server%20Test_%20standrews-de.org%20%28Powered%20by%20Qualys%20SSL%20Labs%29_files/icon-misc.png" alt="" height="50" width="65">
+		<table class="reportTable">
+		<thead>
+		<tr>
+			<td class="tableHead" colspan="2">Miscellaneous</td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr class="tableRow">
+			<td class="tableLabel">Test date</td>
+			<td class="tableCell">Wed, 11 May 2016 00:55:41 UTC</td>
+		</tr>
+		<tr class="tableRow">
+			<td class="tableLabel">Test duration</td>
+			<td class="tableCell">77.227 seconds</td>
+		</tr>
+
+		<tr class="tableRow">
+			<td class="tableLabel">HTTP status code</td>
+			<td class="tableCell">
+						301
+						</td>
+		</tr>
+
+		        		<tr class="tableRow">
+			<td class="tableLabel">HTTP forwarding</td>
+			<td class="tableCell">https://www.standrews-de.org</td>
+		</tr>
+        		
+		<tr class="tableRow">
+			<td class="tableLabel">HTTP server signature</td>
+									<td class="tableCell">-</td>
+								</tr>
+
+		<tr class="tableRow">
+			<td class="tableLabel">Server hostname</td>
+			<td class="tableCell"> - </td>
+		</tr>
+
+        
+
+		</tbody>
+		</table>
+
+		<br><br>
+
+		</div>
+		</div>
+
+		
+	
+	</div>
+
+			
+	<p class="grayText">SSL Report v1.22.37</p>
+
+</div>
+
+
+
+</div>
+
+<div id="pageEnd">
+<div id="copyright">	
+	<table border="0" cellpadding="5" cellspacing="0" width="1050"><tbody><tr>
+	<td style="font-size: 12px">
+    Copyright © 2009-2016 <a href="https://www.qualys.com/">Qualys, Inc</a>. All Rights Reserved.
+    </td><td style="font-size: 12px" align="right">    
+    <a href="https://www.ssllabs.com/about/terms.html" rel="noreferrer">Terms and Conditions</a>
+    </td>
+    </tr></tbody></table>    
+</div>
+</div>
+	
+
+</body></html>

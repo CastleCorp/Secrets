@@ -1,0 +1,7 @@
+# amap v5.4 (www.thc.org/thc-amap) started at 2016-01-27 21:47:07 - MAPPING mode
+# IP_ADDRESS:PORT:PROTOCOL:PORT_STATUS:SSL:IDENTIFICATION:PRINTABLE_BANNER:FULL_BANNER
+172.16.200.18:88:tcp:open::mysql::0x00000000
+172.16.200.18:5900:tcp:open::vnc:RFB 003.889\n:"RFB 003.889\n"
+172.16.200.18:22:tcp:open::ssh:SSH-2.0-OpenSSH_6.2\r\n:"SSH-2.0-OpenSSH_6.2\r\n"
+172.16.200.18:22:tcp:open::ssh-openssh:SSH-2.0-OpenSSH_6.2\r\n:"SSH-2.0-OpenSSH_6.2\r\n"
+# amap v5.4 finished at 2016-01-27 21:47:13

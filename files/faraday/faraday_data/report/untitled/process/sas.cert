@@ -1,0 +1,67 @@
+---
+Certificate chain
+ 0 s:/OU=Domain Control Validated/CN=*.standrews-de.org
+   i:/C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+ 1 s:/C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+   i:/C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./CN=Go Daddy Root Certificate Authority - G2
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFLzCCBBegAwIBAgIHK4V0YG4saTANBgkqhkiG9w0BAQsFADCBtDELMAkGA1UE
+BhMCVVMxEDAOBgNVBAgTB0FyaXpvbmExEzARBgNVBAcTClNjb3R0c2RhbGUxGjAY
+BgNVBAoTEUdvRGFkZHkuY29tLCBJbmMuMS0wKwYDVQQLEyRodHRwOi8vY2VydHMu
+Z29kYWRkeS5jb20vcmVwb3NpdG9yeS8xMzAxBgNVBAMTKkdvIERhZGR5IFNlY3Vy
+ZSBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkgLSBHMjAeFw0xNDEyMDgxNDM0MDBaFw0x
+NzA1MjkxNDQ5NDRaMEAxITAfBgNVBAsTGERvbWFpbiBDb250cm9sIFZhbGlkYXRl
+ZDEbMBkGA1UEAwwSKi5zdGFuZHJld3MtZGUub3JnMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEA6uZk8azPNnxeUu23UN6EPMztiLG99FXrig8SQUayIziH
+Hy655mlR+m3X94DrUCc11AW7iN32+Nnvc4qnzqZL9iltVIcUFujNUAaWiTqP1tmC
+u672gA9z6PROXiA1XR7I3Jv6/iJP9sPKzgvyMAIaEREPl00Xynzebi2PtH21VIbY
+3G5rb7y1pmDLH2rEnqvGLJsqpK4Ho2eIEwyrn9GHB9SDjtZon5+wOqnY/Hg+FG4F
+/FHZE+X+ddHUmsv/9MHfynijriBze3s4xhhtxtjJREeYtusqr35B74OeOSH484xO
+bfkVjWqWQjqMjEuRWHzUKCawXYArqbS67acbsgoQYwIDAQABo4IBtzCCAbMwDAYD
+VR0TAQH/BAIwADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDgYDVR0P
+AQH/BAQDAgWgMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jcmwuZ29kYWRkeS5j
+b20vZ2RpZzJzMS04Ny5jcmwwUwYDVR0gBEwwSjBIBgtghkgBhv1tAQcXATA5MDcG
+CCsGAQUFBwIBFitodHRwOi8vY2VydGlmaWNhdGVzLmdvZGFkZHkuY29tL3JlcG9z
+aXRvcnkvMHYGCCsGAQUFBwEBBGowaDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3Au
+Z29kYWRkeS5jb20vMEAGCCsGAQUFBzAChjRodHRwOi8vY2VydGlmaWNhdGVzLmdv
+ZGFkZHkuY29tL3JlcG9zaXRvcnkvZ2RpZzIuY3J0MB8GA1UdIwQYMBaAFEDCvSeO
+zDSDMKIz1/tss/C0LIDOMC8GA1UdEQQoMCaCEiouc3RhbmRyZXdzLWRlLm9yZ4IQ
+c3RhbmRyZXdzLWRlLm9yZzAdBgNVHQ4EFgQUso//iGNsdQ7A9GjPM7jyBfXE/vsw
+DQYJKoZIhvcNAQELBQADggEBAIaVj+J/eMp4ZF1V2juvMxs6m/Thl/x2D8vaKTYs
+rHezmBS51Z1mdNA2e0ytKgsx9PTQJ0ZRR+LfxpylK04dXy9NJrmQZZ1CSLX3DRdD
+iOyxtp6z5KvztyAn+SMtNaCkazjoICJy+VXNT1nihYDDdQUwbTDvE7kqKk08FwIv
+r3EuqCoktmoWMRThW8/k0w8oWOwoZECPOWQ8j+4Fv0bdK+tEvp7usCFBtSGrWSBe
+/7IJx/K1CwpzBa9/Z1TP2k7ya/XEFVwNQmNEHOlQnQpCP5mAKXyAv1LVgNSZd+tY
+aaqyfg1A1xF0XnMe1nz73yd2kGLSigN6QuvCHOqS3gbOU9c=
+-----END CERTIFICATE-----
+subject=/OU=Domain Control Validated/CN=*.standrews-de.org
+issuer=/C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+---
+No client certificate CA names sent
+Peer signing digest: SHA1
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 3078 bytes and written 468 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES128-SHA
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES128-SHA
+    Session-ID: FB2E0000CC2C9FB8443441B6EFEBCDA03403A05CFBA948C6BF6A6F3CB0A6A364
+    Session-ID-ctx:
+    Master-Key: 696A7189974ECD72D026CE5F480110490772C543DFEDD6068675DCEB97D55561CD58A82BD20D96811E060193E2B4FD6B
+    Key-Arg   : None
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1456800845
+    Timeout   : 300 (sec)
+    Verify return code: 0 (ok)
+---

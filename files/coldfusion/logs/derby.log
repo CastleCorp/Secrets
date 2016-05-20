@@ -1,0 +1,22 @@
+----------------------------------------------------------------
+Wed Nov 06 14:55:50 EST 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077): instance a816c00e-0142-2efc-3835-000058af4783 
+on database directory /opt/coldfusion10/cfusion/db/cfcodeexplorer  with class loader coldfusion.bootstrap.BootstrapClassLoader@549b6220 
+Loaded from file:/opt/coldfusion10/cfusion/lib/derby.jar
+java.vendor=Sun Microsystems Inc.
+java.runtime.version=1.6.0_29-b11
+user.dir=/opt/coldfusion10/cfusion/bin
+derby.system.home=/opt/coldfusion10/cfusion/db
+derby.stream.error.file=../logs/derby.log
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Nov 06 14:55:51 EST 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077): instance 601a400f-0142-2efc-3835-000058af4783 
+on database directory /opt/coldfusion10/cfusion/db/cfdocexamples  with class loader coldfusion.bootstrap.BootstrapClassLoader@549b6220 
+Loaded from file:/opt/coldfusion10/cfusion/lib/derby.jar
+java.vendor=Sun Microsystems Inc.
+java.runtime.version=1.6.0_29-b11
+user.dir=/opt/coldfusion10/cfusion/bin
+derby.system.home=/opt/coldfusion10/cfusion/db
+derby.stream.error.file=../logs/derby.log
+Database Class Loader started - derby.database.classpath=''

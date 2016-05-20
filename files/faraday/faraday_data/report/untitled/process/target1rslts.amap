@@ -1,0 +1,7 @@
+# amap v5.4 (www.thc.org/thc-amap) started at 2016-01-27 11:56:51 - MAPPING mode
+# IP_ADDRESS:PORT:PROTOCOL:PORT_STATUS:SSL:IDENTIFICATION:PRINTABLE_BANNER:FULL_BANNER
+172.26.0.1:80:tcp:open::http:HTTP/1.0 200 OK\r\nServer eHTTP v2.0\r\nConnection close\r\nContent-Type text/html\r\nContent-Length 115\r\nCache-Control no-cache\r\nX-Frame-Options SAMEORIGIN\r\nSet-Cookie sessionId =ZhdIZyUMIaBVEQHGbwgCV6lbyn6JjzZcwHUHOl0y5CXDN2O1Sx4rw59x3PNw8Fn;path:"HTTP/1.0 200 OK\r\nServer: eHTTP v2.0\r\nConnection: close\r\nContent-Type: text/html\r\nContent-Length: 115\r\nCache-Control: no-cache\r\nX-Frame-Options: SAMEORIGIN\r\nSet-Cookie: sessionId =ZhdIZyUMIaBVEQHGbwgCV6lbyn6JjzZcwHUHOl0y5CXDN2O1Sx4rw59x3PNw8Fn;path=/; postId=; \r\n\r\n<html>\r\n<head>\r\n<meta http-equiv="Refresh"\r\ncontent="1;url=html/nhome.html">\r\n</head>\r\n\r\n<body>\r\n</body>\r\n</html>\r\n"
+172.26.0.1:22:tcp:open::ssh:SSH-2.0-Mocana SSH 5.7\r\n:"SSH-2.0-Mocana SSH 5.7\r\n"
+172.26.0.1:23:tcp:closed::telnet::0xfffd18
+# Unidentified ports: none.
+# amap v5.4 finished at 2016-01-27 11:57:03

@@ -1,0 +1,1098 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="canonical" href="https://sslanalyzer.comodoca.com/">
+  <title>SSL Analyzer and SSL Certificate Checker | COMODO</title>
+  <meta name="description" content="Free SSL Certificate Checker, SSL Vulnerability Scanner and SSL Server Configuration Reporting Tool from COMODO. Simply enter a domain, URL or IP address">
+  <meta name="keywords" content="SSL Checker, Comodo CA">
+  <style type="text/css">
+    body {
+      color: #888888;
+      font: 12pt Arial, sans-serif;
+      padding-top: 50px;
+      text-align: center;
+    }
+    h1 {
+      color: #BF2E1A;
+      margin-bottom: 0px;
+    }
+    img.info {
+      position: absolute;
+    }
+    table {
+      border-collapse: collapse;
+      border: 1px solid #888888;
+      color: #222222;
+      font: 10pt Arial, sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    td, th {
+      border: 1px solid #DDDDDD;
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align: left;
+    }
+    th.heading {
+      color: #888888;
+      font: bold italic 12pt Arial;
+      padding: 20px 0px 0px;
+      text-align: center;
+    }
+    .button {
+      background-color: #BF2E1A;
+      color: #FFFFFF;
+      font: 13pt Arial;
+    }
+    .comment {
+      color: #888888;
+    }
+    .comment2 {
+      font: 7pt Arial;
+      color: #888888;
+    }
+    .comment3 {
+      font: 8pt Arial;
+      color: #888888;
+    }
+    .copyright {
+      font: 8pt Arial;
+      color: #DF4F3C;
+    }
+    .input {
+      border: 1px solid #888888;
+      font-weight: bold;
+      text-align: center;
+    }
+    .small {
+      font: 8pt Arial;
+    }
+    .verygood {
+      color: green;
+      font-weight: bold;
+    }
+    .good {
+      color: black;
+    }
+    .bad {
+      color: #FF7E00;
+      font-weight: bold;
+      font-style: italic;
+    }
+    .verybad {
+      color: red;
+      font-weight: bold;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body onload="pageLoaded()">
+  <h1>COMODO SSL Analyzer</h1>
+  <span class="copyright">v1.0.11</span>
+  <br><br>
+  <a style="visibility: hidden; position: absolute;" id="urlentry_div" name="urlentry_div">
+    <br><br>
+    <form name="sslanalyzer" method="GET" onsubmit="return (this.url.value != '')">
+      Enter a Domain, URL or IP Address:<br><br>
+      <input class="input" name="url" size="48" maxlength="255" type="text">
+      <br><br><br>
+      <input class="button" value="Analyze!" type="submit">
+    </form>
+  </a>
+  <a id="sslanalyzer_div" name="sslanalyzer_div" style="visibility: visible; position: relative;">Report for: <span class="good">standrews-de.org</span><br><br><table>
+  <tbody><tr>
+    <th class="heading" colspan="3">Certificate Details</th>
+  </tr>
+  <tr>
+    <th>Common Name</th>
+    <td><span class="good">*.standrews-de.org</span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Alternative Names
+      <br><span class="comment3">
+        Click a Name to <a href="https://crt.sh/">crt.sh</a> (search) for all publicly logged certificates
+      </span>
+    </th>
+    <td class="small" colspan="2"><div style="max-height:6em;overflow-y:auto"><span class="good"><a href="https://crt.sh/?q=*.standrews-de.org" target="_blank">*.standrews-de.org</a><br><a href="https://crt.sh/?q=standrews-de.org" target="_blank">standrews-de.org</a><br>    </span></div></td>
+  </tr>
+  <tr>
+    <th>Subject Name</th>
+    <td class="small" colspan="2">
+      <div style="max-height:8em;overflow-y:auto">commonName=*.standrews-de.org<br>organizationalUnitName=Domain Control Validated</div>
+    </td>
+  </tr>
+  <tr>
+    <th>Serial Number</th>
+    <td class="small" colspan="2"><a href="https://crt.sh/?serial=2B8574606E2C69" target="_blank">2B8574606E2C69</a></td>
+  </tr>
+  <tr>
+    <th>Fingerprint (SHA-256)</th>
+    <td class="small" colspan="2"><a href="https://crt.sh/?sha256=FAA0C9EC5AC487F406D52B581839E559E7E4D74D5B4DD42559986563525A3790" target="_blank">FAA0C9EC5AC487F406D52B581839E559E7E4D74D5B4DD42559986563525A3790</a></td>
+  </tr>
+  <tr>
+    <th>Valid From</th>
+    <td colspan="2">Mon, 08 Dec 2014 14:34:00 GMT</td>
+  </tr>
+  <tr>
+    <th>Valid To</th>
+    <td colspan="2">Mon, 29 May 2017 14:49:44 GMT &nbsp; &nbsp; <span class="comment">(Expires in 383 days)</span></td>
+  </tr>
+  <tr>
+    <th>Key</th>
+    <td>RSA<span class="good"> (2048-bit)</span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Signature</th>
+    <td><span class="good">SHA-256</span> / RSA</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Issuer Name</th>
+    <td class="small" colspan="2">
+      <div style="max-height:8em;overflow-y:auto">commonName=Go Daddy Secure Certificate Authority - G2<br>organizationalUnitName=http://certs.godaddy.com/repository/<br>organizationName=GoDaddy.com, Inc.<br>localityName=Scottsdale<br>stateOrProvinceName=Arizona<br>countryName=US</div>
+      <img src="SSL%20Analyzer%20and%20SSL%20Certificate%20Checker%20%7C%20COMODO_files/US.gif" style="padding:5px 0px">
+    </td>
+  </tr>
+  <tr>
+    <th>Issuer Brand</th>
+    <td>GoDaddy</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Validation Type</th>
+    <td colspan="2"><span class="bad">Domain Validation (DV)</span></td>
+  </tr>
+  <tr>
+    <th>Trusted by Microsoft?</th>
+    <td><span class="good">Yes</span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Trusted by Mozilla?</th>
+    <td><span class="good">Yes</span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th class="heading" colspan="3">Certificate Status Details</th>
+  </tr>
+  <tr>
+    <th>OCSP "Stapling"</th>
+    <td colspan="2"><span class="verygood">Good</span> &nbsp; &nbsp; <span class="comment2">This Update: Tue, 10 May 2016 13:00:18 GMT &nbsp; Next Update: Thu, 12 May 2016 01:00:18 GMT</span></td>
+  </tr>
+  <tr>
+    <th>Must Staple? &nbsp;<span class="comment">(TLS Feature)</span></th>
+    <td colspan="2"><span class="good">No</span>    </td>
+  </tr>
+  <tr>
+    <th class="heading" colspan="3">Server Details</th>
+  </tr>
+  <tr>
+    <th>Software</th>
+    <td colspan="2">Microsoft-IIS/7.5</td>
+  </tr>
+  <tr>
+    <th>IP Address</th>
+    <td colspan="2">209.123.98.171</td>
+  </tr>
+  <tr>
+    <th>Port</th>
+    <td colspan="2">443</td>
+  </tr>
+  <tr>
+    <th>Hostname</th>
+    <td colspan="2"><span class="comment">Unknown</span></td>
+  </tr>
+  <tr>
+    <th>Clock &nbsp;<span class="comment">(ServerHello.gmt_unix_time)</span></th>
+    <td colspan="2">Wed, 11 May 2016 00:52:56 GMT &nbsp; &nbsp; <span class="comment">(Accurate)</span></td>
+  </tr>
+  <tr>
+    <th>Clock &nbsp;<span class="comment">(HTTP "Date:" header)</span></th>
+    <td colspan="2">Wed, 11 May 2016 00:52:56 GMT &nbsp; &nbsp; <span class="comment">(Accurate)</span></td>
+  </tr>
+  <tr>
+    <th class="heading" colspan="3">Protocol Versions</th>
+  </tr>
+  <tr>
+    <th>TLS v1.2</th>
+    <td><span class="verygood">Supported</span> &nbsp; <span class="comment">Immune to TLS POODLE attack&nbsp;<a href="https://en.wikipedia.org/wiki/POODLE#POODLE_attack_against_TLS" target="_blank"><img class="info" src="SSL%20Analyzer%20and%20SSL%20Certificate%20Checker%20%7C%20COMODO_files/info.gif"></a></span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>TLS v1.1</th>
+    <td>Supported &nbsp; <span class="comment">Immune to TLS POODLE attack&nbsp;<a href="https://en.wikipedia.org/wiki/POODLE#POODLE_attack_against_TLS" target="_blank"><img class="info" src="SSL%20Analyzer%20and%20SSL%20Certificate%20Checker%20%7C%20COMODO_files/info.gif"></a></span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>TLS v1.0</th>
+    <td>Supported &nbsp; <span class="comment">Immune to TLS POODLE attack&nbsp;<a href="https://en.wikipedia.org/wiki/POODLE#POODLE_attack_against_TLS" target="_blank"><img class="info" src="SSL%20Analyzer%20and%20SSL%20Certificate%20Checker%20%7C%20COMODO_files/info.gif"></a></span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>SSL v3.0</th>
+    <td>Not Supported &nbsp; <span class="comment">Immune to SSLv3 POODLE attack&nbsp;<a href="https://en.wikipedia.org/wiki/POODLE" target="_blank"><img class="info" src="SSL%20Analyzer%20and%20SSL%20Certificate%20Checker%20%7C%20COMODO_files/info.gif"></a></span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>SSL v2.0</th>
+    <td>Not Supported &nbsp; <span class="comment">Immune to DROWN attack&nbsp;<a href="https://drownattack.com/" target="_blank"><img class="info" src="SSL%20Analyzer%20and%20SSL%20Certificate%20Checker%20%7C%20COMODO_files/info.gif"></a></span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th class="heading" colspan="3">Protocol Features / Problems</th>
+  </tr>
+  <tr>
+    <th>Downgrade Protection &nbsp;<span class="comment">(TLS_FALLBACK_SCSV)</span></th>
+    <td colspan="2">Not Supported</td>
+  </tr>
+  <tr>
+    <th>Secure Renegotiation &nbsp;<span class="comment">(Server-initiated)</span></th>
+    <td><span class="verygood">Supported</span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Secure Renegotiation &nbsp;<span class="comment">(Client-initiated)</span></th>
+    <td>Not Supported</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Legacy Renegotiation &nbsp;<span class="comment">(Client-initiated)</span></th>
+    <td>Not Supported</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Compression</th>
+    <td>Not Supported &nbsp; <span class="comment">Immune to CRIME attack&nbsp;<a href="https://en.wikipedia.org/wiki/CRIME" target="_blank"><img class="info" src="SSL%20Analyzer%20and%20SSL%20Certificate%20Checker%20%7C%20COMODO_files/info.gif"></a></span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Heartbeat</th>
+    <td>Not Supported &nbsp; <span class="comment">Immune to Heartbleed attack&nbsp;<a href="https://en.wikipedia.org/wiki/Heartbleed" target="_blank"><img class="info" src="SSL%20Analyzer%20and%20SSL%20Certificate%20Checker%20%7C%20COMODO_files/info.gif"></a></span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Session Resumption</th>
+    <td colspan="2"><span class="verybad">Not Supported (IDs assigned but not accepted)</span></td>
+  </tr>
+  <tr>
+    <th>Session Tickets</th>
+    <td colspan="2">Not Supported</td>
+  </tr>
+  <tr>
+    <th>TLS Extension Intolerant?</th>
+    <td colspan="2"><span class="good">No</span></td>
+  </tr>
+  <tr>
+    <th>Cipher Suite Negotiation Bug?</th>
+    <td colspan="2"><span class="good">No</span></td>
+  </tr>
+  <tr>
+    <th>Signature Algorithms Enabled</th>
+    <td colspan="2"><span class="good">None</span> &nbsp;      <span class="comment">Immune to SLOTH attack&nbsp;<a href="https://www.mitls.org/pages/attacks/SLOTH" target="_blank"><img class="info" src="SSL%20Analyzer%20and%20SSL%20Certificate%20Checker%20%7C%20COMODO_files/info.gif" style="position:relative"></a></span>    </td>
+  </tr>
+  <tr>
+    <th class="heading" colspan="3">Cipher Suites Enabled</th>
+  </tr>
+  <tr>
+    <th>Name &nbsp;(ID)</th>
+    <th colspan="2">Key Size (in bits)</th>
+  </tr>
+  <tr>
+    <td class="small"><span class="good">TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA</span> &nbsp;<span class="comment">(0xC013)</span></td>
+    <td>128 &nbsp; <span class="comment2">ECDH 256-bit (P-256)</span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="small"><span class="good">TLS_RSA_WITH_AES_128_CBC_SHA256</span> &nbsp;<span class="comment">(0x3C)</span></td>
+    <td>128
+    </td><td></td>
+  </tr>
+  <tr>
+    <td class="small"><span class="good">TLS_RSA_WITH_AES_128_CBC_SHA</span> &nbsp;<span class="comment">(0x2F)</span></td>
+    <td>128
+    </td><td></td>
+  </tr>
+  <tr>
+    <td class="small"><span class="good">TLS_RSA_WITH_AES_256_CBC_SHA256</span> &nbsp;<span class="comment">(0x3D)</span></td>
+    <td>256
+    </td><td></td>
+  </tr>
+  <tr>
+    <td class="small"><span class="good">TLS_RSA_WITH_AES_256_CBC_SHA</span> &nbsp;<span class="comment">(0x35)</span></td>
+    <td>256
+    </td><td></td>
+  </tr>
+  <tr>
+    <td class="small"><span class="good">TLS_RSA_WITH_3DES_EDE_CBC_SHA</span> &nbsp;<span class="comment">(0xA)</span></td>
+    <td>112
+    </td><td></td>
+  </tr>
+  <tr>
+    <td class="small"><span class="good">TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256</span> &nbsp;<span class="comment">(0xC027)</span></td>
+    <td>128 &nbsp; <span class="comment2">ECDH 256-bit (P-256)</span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="small"><span class="good">TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA</span> &nbsp;<span class="comment">(0xC014)</span></td>
+    <td>256 &nbsp; <span class="comment2">ECDH 256-bit (P-256)</span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th class="heading" colspan="3">Miscellaneous</th>
+  </tr>
+  <tr>
+    <th>Report Date</th>
+    <td colspan="2">Wed, 11 May 2016 00:52:56 GMT</td>
+  </tr>
+  <tr>
+    <th>Report Duration</th>
+    <td colspan="2">6 seconds</td>
+  </tr>
+</tbody></table>
+<br><br>
+<form method="GET" onsubmit="window.location = '/';return false;">
+  <input id="back_button" name="back_button" class="button" value="&lt; Back" type="submit">
+</form></a>
+  <script language="Javascript1.3" type="text/javascript">
+    <!--
+    function htmlEncode(v_html) {
+      return document.createElement('a').appendChild(
+        document.createTextNode(v_html)
+      ).parentNode.innerHTML;
+    }
+
+    if (!(document.getElementById)) {
+      if (document.all)
+        document.getElementById = function() {
+          if (typeof document.all[arguments[0]] != "undefined")
+            return document.all[arguments[0]];
+          else
+            return null;
+        }
+      else if (document.layers)
+        document.getElementById = function() {
+          if (typeof document[arguments[0]] != "undefined")
+            return document[arguments[0]];
+          else
+            return null;
+        }
+    }
+
+    var t_intervalID;
+    var t_parameterList = window.location.search.substr(1).split("&");
+    var t_url = "";
+    var t_required_actions = "";
+    for (var l_parameterNo = 0; l_parameterNo < t_parameterList.length;
+         l_parameterNo++) {
+      var t_parameter = t_parameterList[l_parameterNo].split("=");
+      if (t_parameter[0] == "url") {
+        t_url = t_parameter[1];
+        with (document.getElementById("urlentry_div").style) {
+          visibility = "hidden";
+          position = "absolute";
+        }
+        with (document.getElementById("sslanalyzer_div").style) {
+          visibility = "visible";
+          position = "relative";
+        }
+        t_intervalID = window.setInterval(
+          "document.getElementById(\"sslanalyzer_div\").innerHTML += \".\"",
+          1000
+        );
+
+        document.writeln(
+"  <SCRIPT type=\"text/javascript\" language=\"Javascript\"\n" +
+"          src=\"/sslchecker?url=" + t_url
+                  + "&required_actions=62"
+                  + "&response_format=2"
+                  + "&caller_name=COMODO%20SSL%20Analyzer\"></SCRIPT>\n"
+        );
+        break;
+      }
+    }
+
+    function pageLoaded(
+    )
+    {
+      if (document.getElementById("urlentry_div").style.visibility != "hidden")
+        document.sslanalyzer.url.focus();
+    }
+
+    function sslChecker_callback() {
+      clearInterval(t_intervalID);
+      var t_innerHTML;
+
+      if ((g_error_code == 0) || (g_error_code == -13)) {
+        t_innerHTML = "Report for: <SPAN class=\"good\">";
+        if (g_server_domain_isIDN)
+          t_innerHTML += htmlEncode(g_server_domain_utf8) + "</SPAN> (" + htmlEncode(g_server_domain_ace) + ")";
+         else
+          t_innerHTML += htmlEncode(g_server_domain) + "</SPAN>";
+
+        t_innerHTML +=
+"<BR><BR><TABLE>\n" +
+"  <TR>\n" +
+"    <TH class=\"heading\" colspan=3>Certificate Details</TH>\n" +
+"  </TR>\n";
+
+        if (g_error_code == 0) {
+          var t_notBefore = new Date();
+          t_notBefore.setUTCFullYear(
+            Number(g_cert_validity_notBefore.substr(0, 4)),
+            Number(g_cert_validity_notBefore.substr(4, 2)) - 1,
+            Number(g_cert_validity_notBefore.substr(6, 2))
+          );
+          t_notBefore.setUTCHours(
+            Number(g_cert_validity_notBefore.substr(8, 2)),
+            Number(g_cert_validity_notBefore.substr(10, 2)),
+            Number(g_cert_validity_notBefore.substr(12, 2)),
+            0
+          );
+          var t_notAfter = new Date();
+          t_notAfter.setUTCFullYear(
+            Number(g_cert_validity_notAfter.substr(0, 4)),
+            Number(g_cert_validity_notAfter.substr(4, 2)) - 1,
+            Number(g_cert_validity_notAfter.substr(6, 2))
+          );
+          t_notAfter.setUTCHours(
+            Number(g_cert_validity_notAfter.substr(8, 2)),
+            Number(g_cert_validity_notAfter.substr(10, 2)),
+            Number(g_cert_validity_notAfter.substr(12, 2)),
+            0
+          );
+          var t_expiryDays = Math.floor((t_notAfter - (new Date())) / 86400000);
+
+          var t_keySize_isVeryBad = false;
+          if (g_cert_key_algorithm == "RSA") {
+            if (g_cert_key_size < 1024)
+              t_keySize_isVeryBad = true;
+            else if (g_cert_key_size < 2048)
+              t_keySize_isVeryBad = null;
+          }
+
+          var t_hashAlgorithm_isVeryBad = false;
+          if (g_cert_signature_hash_algorithm == "SHA-1")
+            t_hashAlgorithm_isVeryBad = null;
+          else if ((g_cert_signature_hash_algorithm == "MD2")
+                 || (g_cert_signature_hash_algorithm == "MD4")
+                 || (g_cert_signature_hash_algorithm == "MD5"))
+            t_hashAlgorithm_isVeryBad = true;
+
+          var t_certValidation;
+          switch (g_cert_validation) {
+            case "SS": t_certValidation = "<SPAN class=\"verybad\">Self-Signed</SPAN>"; break;
+            case "NV": t_certValidation = "<SPAN class=\"verybad\">No Validation</SPAN>"; break;
+            case "DV": t_certValidation = "<SPAN class=\"bad\">Domain Validation (DV)</SPAN>"; break;
+            case "OV": t_certValidation = "<SPAN class=\"good\">Organizational Validation (OV)</SPAN>"; break;
+            case "EV": t_certValidation = "<SPAN class=\"verygood\">Extended Validation (EV)</SPAN>"; break;
+            default: t_certValidation = "<SPAN class=\"comment\">Unknown</SPAN>"; break;
+          }
+
+          t_innerHTML +=
+"  <TR>\n" +
+"    <TH>Common Name</TH>\n" +
+"    <TD>"
+            + (g_cert_url_isNameMatch ?
+              "<SPAN class=\"good\">" :
+              "<SPAN class=\"verybad\">")
+            + htmlEncode(g_cert_subject_CN) + "</SPAN></TD>\n" +
+"    <TD>"
+            + (g_cert_url_isNameMatch ?
+              "" :
+              "<SPAN class=\"verybad\">MISMATCH</SPAN>")
+            + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Alternative Names\n" +
+"      <BR><SPAN class=\"comment3\">\n" +
+"        Click a Name to <A href=\"//crt.sh/\">crt.sh</A> (search) for all publicly logged certificates\n" +
+"      </SPAN>\n" +
+"    </TH>\n" +
+"    <TD class=\"small\" colspan=\"2\"><DIV style=\"max-height:6em;overflow-y:auto\">"
+            + (g_cert_url_isNameMatch ?
+              "<SPAN class=\"good\">" :
+              "<SPAN class=\"verybad\">");
+
+          for (var l_indexNo = 1; ; l_indexNo++) {
+            var t_sanValue = eval("self.g_cert_san_" + String(l_indexNo) + "_dNSName");
+            if (!t_sanValue)
+              t_sanValue = eval("self.g_cert_san_" + String(l_indexNo) + "_iPAddress");
+
+            if (t_sanValue)
+              t_innerHTML += "<A href=\"//crt.sh/?q=" + t_sanValue + "\" target=\"_blank\">" + htmlEncode(t_sanValue) + "</A><BR>";
+            else
+              break;
+          }
+
+          t_innerHTML +=
+"    </DIV></SPAN></TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Subject Name</TH>\n" +
+"    <TD class=\"small\" colspan=\"2\">\n" +
+"      <DIV style=\"max-height:8em;overflow-y:auto\">" + htmlEncode(g_cert_subject_DN)
+            .replace("organizationName=" + htmlEncode(g_cert_subject_O) + "\n",
+                     "organizationName=<A href=\"//crt.sh/?O="
+                       + encodeURIComponent(g_cert_subject_O).replace("%20", "+") + "\" target=\"_blank\">"
+                       + htmlEncode(g_cert_subject_O) + "</A>\n").replace(/\n/g, "<BR>") + "</DIV>\n";
+          if (g_cert_subject_C)
+         t_innerHTML +=
+"      <IMG src=/images/flags/" + htmlEncode(g_cert_subject_C) + ".gif style=\"padding:5px 0px\">\n";
+          t_innerHTML +=
+"    </TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Serial Number</TH>\n" +
+"    <TD class=\"small\" colspan=\"2\"><A href=\"//crt.sh/?serial=" + htmlEncode(g_cert_serialNumber)
+            + "\" target=\"_blank\">" + htmlEncode(g_cert_serialNumber) + "</A></TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Fingerprint (SHA-256)</TH>\n" +
+"    <TD class=\"small\" colspan=\"2\"><A href=\"//crt.sh/?sha256=" + htmlEncode(g_cert_fingerprint_sha256)
+            + "\" target=\"_blank\">" + htmlEncode(g_cert_fingerprint_sha256) + "</A></TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Valid From</TH>\n" +
+"    <TD colspan=\"2\">" + t_notBefore.toUTCString() + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Valid To</TH>\n" +
+"    <TD colspan=\"2\">" + t_notAfter.toUTCString()
+            + ((t_expiryDays >= 0) ?
+              " &nbsp; &nbsp; <SPAN class=\"comment\">(Expires in "
+              + ((t_expiryDays <= 30) ?
+                "<SPAN class=\"bad\">" + t_expiryDays + "</SPAN>" :
+                t_expiryDays
+              ) + " days)</SPAN>" :
+              "<SPAN class=\"verybad\"> &nbsp; &nbsp; Expired " + (-t_expiryDays) + " days ago!</SPAN>"
+            ) + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Key</TH>\n" +
+"    <TD>" + g_cert_key_algorithm
+            + (t_keySize_isVeryBad ? "<SPAN class=\"verybad\">" :
+              (t_keySize_isVeryBad == null) ? "<SPAN class=\"bad\">" :
+                "<SPAN class=\"good\">")
+            + " (" + g_cert_key_size + "-bit)</SPAN></TD>\n" +
+"    <TD>"
+            + (t_keySize_isVeryBad ? "<SPAN class=\"verybad\">INSECURE</SPAN>" :
+              (t_keySize_isVeryBad == null) ? "<SPAN class=\"bad\">WEAK</SPAN>" :
+                "")
+            + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Signature</TH>\n" +
+"    <TD>"
+            + (t_hashAlgorithm_isVeryBad ? "<SPAN class=\"verybad\">" :
+              (t_hashAlgorithm_isVeryBad == null) ? "<SPAN class=\"bad\">" :
+                "<SPAN class=\"good\">")
+            + g_cert_signature_hash_algorithm + "</SPAN> / " + g_cert_signature_key_algorithm + "</TD>\n" +
+"    <TD>"
+            + (t_hashAlgorithm_isVeryBad ? "<SPAN class=\"verybad\">INSECURE</SPAN>" :
+              (t_hashAlgorithm_isVeryBad == null) ? "<SPAN class=\"bad\">WEAK</SPAN>" :
+                "")
+            + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Issuer Name</TH>\n" +
+"    <TD class=\"small\" colspan=\"2\">\n" +
+"      <DIV style=\"max-height:8em;overflow-y:auto\">" + htmlEncode(g_cert_issuer_DN).replace(/\n/g, "<BR>") + "</DIV>\n";
+          if (g_cert_issuer_C)
+            t_innerHTML +=
+"      <IMG src=/images/flags/" + htmlEncode(g_cert_issuer_C) + ".gif style=\"padding:5px 0px\">\n";
+          t_innerHTML +=
+"    </TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Issuer Brand</TH>\n" +
+"    <TD>"
+            + (g_cert_issuer_brand ? g_cert_issuer_brand : "<SPAN class=\"comment\">Unknown</SPAN>")
+            + "</TD>\n" +
+"    <TD>"
+            + (self.g_cert_issuer_brand_logo ? "<IMG src=\"" + g_cert_issuer_brand_logo + "\">" : "") + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Validation Type</TH>\n" +
+"    <TD colspan=\"2\">" + t_certValidation + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Trusted by Microsoft?</TH>\n" +
+"    <TD>" + (self.g_chain_isTrusted_microsoft ?
+                "<SPAN class=\"good\">Yes</SPAN>" :
+                "<SPAN class=\"bad\">No</SPAN>" + " (" + self.g_chain_isTrusted_microsoft_error_message + ")")
+           + "</TD>\n" +
+"    <TD>" + (self.g_chain_isTrusted_microsoft ? "" : "<SPAN class=\"bad\">UNTRUSTED</SPAN>") + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Trusted by Mozilla?</TH>\n" +
+"    <TD>" + (self.g_chain_isTrusted_mozilla ?
+                "<SPAN class=\"good\">Yes</SPAN>" :
+                "<SPAN class=\"bad\">No</SPAN>" + " (" + self.g_chain_isTrusted_mozilla_error_message + ")")
+           + "</TD>\n" +
+"    <TD>" + (self.g_chain_isTrusted_mozilla ? "" : "<SPAN class=\"bad\">UNTRUSTED</SPAN>") + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH class=\"heading\" colspan=3>Certificate Status Details</TH>\n" +
+"  </TR>\n";
+
+          var t_mustStaple = self.g_cert_tlsfeature && (self.g_cert_tlsfeature.indexOf("status_request") != -1);
+          var t_stapling = self.g_cert_status_ocsp_stapled ? self.g_cert_status_ocsp_stapled : "Not Supported";
+
+          t_innerHTML +=
+"  <TR>\n" +
+"    <TH>OCSP \"Stapling\"</TH>\n" +
+"    <TD colspan=\"2\">" + ((t_stapling == "Good") ?
+                              "<SPAN class=\"verygood\">" :
+                              (t_mustStaple ? "<SPAN class=\"verybad\">" : "<SPAN class=\"good\">"))
+                         + t_stapling + "</SPAN>";
+
+          if (self.g_cert_status_ocsp_stapled_thisUpdate) {
+            var t_ocspThisUpdate = new Date();
+            t_ocspThisUpdate.setUTCFullYear(
+              Number(g_cert_status_ocsp_stapled_thisUpdate.substr(0, 4)),
+              Number(g_cert_status_ocsp_stapled_thisUpdate.substr(4, 2)) - 1,
+              Number(g_cert_status_ocsp_stapled_thisUpdate.substr(6, 2))
+            );
+            t_ocspThisUpdate.setUTCHours(
+              Number(g_cert_status_ocsp_stapled_thisUpdate.substr(8, 2)),
+              Number(g_cert_status_ocsp_stapled_thisUpdate.substr(10, 2)),
+              Number(g_cert_status_ocsp_stapled_thisUpdate.substr(12, 2)),
+              0
+            );
+            t_innerHTML += " &nbsp; &nbsp; <SPAN class=\"comment2\">This Update: " + t_ocspThisUpdate.toUTCString();
+
+            if (self.g_cert_status_ocsp_stapled_nextUpdate) {
+              var t_ocspNextUpdate = new Date();
+              t_ocspNextUpdate.setUTCFullYear(
+                Number(g_cert_status_ocsp_stapled_nextUpdate.substr(0, 4)),
+                Number(g_cert_status_ocsp_stapled_nextUpdate.substr(4, 2)) - 1,
+                Number(g_cert_status_ocsp_stapled_nextUpdate.substr(6, 2))
+              );
+              t_ocspNextUpdate.setUTCHours(
+                Number(g_cert_status_ocsp_stapled_nextUpdate.substr(8, 2)),
+                Number(g_cert_status_ocsp_stapled_nextUpdate.substr(10, 2)),
+                Number(g_cert_status_ocsp_stapled_nextUpdate.substr(12, 2)),
+                0
+              );
+              t_innerHTML += " &nbsp; Next Update: " + t_ocspNextUpdate.toUTCString();
+            }
+
+            t_innerHTML += "</SPAN>";
+          }
+          t_innerHTML += "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Must Staple? &nbsp;<SPAN class=\"comment\">(TLS Feature)</SPAN></TH>\n" +
+"    <TD colspan=\"2\">";
+
+          if (t_mustStaple)
+            t_innerHTML += "<SPAN class=\"verygood\">Yes";
+          else
+            t_innerHTML += "<SPAN class=\"good\">No";
+          t_innerHTML += "</SPAN>";
+          if (self.g_cert_tlsfeature)
+            t_innerHTML += " &nbsp; &nbsp; <SPAN class=\"comment2\">" + self.g_cert_tlsfeature + "</SPAN>";
+
+          t_innerHTML +=
+"    </TD>\n" +
+"  </TR>\n";
+        }
+        else
+          t_innerHTML +=
+"  <TR>\n" +
+"    <TH>&nbsp;</TH>\n" +
+"    <TD>\n" +
+"      <SPAN class=\"verybad\">NO CERTIFICATE</SPAN>\n" +
+"    </TD>\n" +
+"    <TD><SPAN class=\"verybad\">INSECURE</SPAN></TD>\n" +
+"  </TR>\n";
+
+        t_innerHTML +=
+"  <TR>\n" +
+"    <TH class=\"heading\" colspan=3>Server Details</TH>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Software</TH>\n" +
+"    <TD colspan=\"2\">" + (self.g_server_software ? htmlEncode(g_server_software) : "<SPAN class=\"comment\">Unknown</SPAN>") + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>IP Address</TH>\n" +
+"    <TD colspan=\"2\">" + g_server_ip + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Port</TH>\n" +
+"    <TD colspan=\"2\">" + g_server_port + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Hostname</TH>\n" +
+"    <TD colspan=\"2\">" + (g_server_hostname ? htmlEncode(g_server_hostname) : "<SPAN class=\"comment\">Unknown</SPAN>") + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Clock &nbsp;<SPAN class=\"comment\">(ServerHello.gmt_unix_time)</SPAN></TH>\n" +
+"    <TD colspan=\"2\">";
+
+        if (self.g_server_gmtUnixTime) {
+          if (self.g_server_gmtUnixTime == "Randomized")
+            t_innerHTML += "Randomized";
+          else {
+            var t_skew = self.g_server_gmtUnixTime_skew ?
+                           g_server_gmtUnixTime_skew : 0;
+            t_innerHTML += new Date(self.g_server_gmtUnixTime * 1000).toUTCString() +
+                             " &nbsp; &nbsp; ";
+            if (Math.abs(g_server_gmtUnixTime_skew) >= 3600)
+              t_innerHTML += "<SPAN class=\"verybad\">";
+            else if (Math.abs(g_server_gmtUnixTime_skew) >= 300)
+              t_innerHTML += "<SPAN class=\"bad\">";
+            else
+              t_innerHTML += "<SPAN class=\"comment\">";
+
+            if (Math.abs(g_server_gmtUnixTime_skew) <= 5)
+              t_innerHTML += "(Accurate)";
+            else if (g_server_gmtUnixTime_skew < 0)
+              t_innerHTML += String(-g_server_gmtUnixTime_skew) + " seconds behind!";
+            else
+              t_innerHTML += String(g_server_gmtUnixTime_skew) + " seconds ahead!";
+
+            t_innerHTML += "</SPAN>";
+          }
+        }
+        else
+          t_innerHTML += "<SPAN class=\"comment\">Unknown</SPAN>";
+
+        t_innerHTML += "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Clock &nbsp;<SPAN class=\"comment\">(HTTP \"Date:\" header)</SPAN></TH>\n" +
+"    <TD colspan=\"2\">";
+
+        if (self.g_server_httpDate) {
+          var t_skew = self.g_server_httpDate_skew ? g_server_httpDate_skew : 0;
+          t_innerHTML += new Date(self.g_server_httpDate * 1000).toUTCString() +
+                           " &nbsp; &nbsp; ";
+          if (Math.abs(g_server_httpDate_skew) >= 3600)
+            t_innerHTML += "<SPAN class=\"verybad\">";
+          else if (Math.abs(g_server_httpDate_skew) >= 300)
+            t_innerHTML += "<SPAN class=\"bad\">";
+          else
+            t_innerHTML += "<SPAN class=\"comment\">";
+
+          if (Math.abs(g_server_httpDate_skew) <= 5)
+            t_innerHTML += "(Accurate)";
+          else if (g_server_httpDate_skew < 0)
+            t_innerHTML += String(-g_server_httpDate_skew) + " seconds behind!";
+          else
+            t_innerHTML += String(g_server_httpDate_skew) + " seconds ahead!";
+
+          t_innerHTML += "</SPAN>";
+        }
+        else
+          t_innerHTML += "<SPAN class=\"comment\">Unknown</SPAN>";
+
+        t_innerHTML += "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH class=\"heading\" colspan=3>Protocol Versions</TH>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>TLS v1.2</TH>\n" +
+"    <TD>" + (g_protocol_tls_v1_2 ? "<SPAN class=\"verygood\">Supported</SPAN>" : "Not Supported") + " &nbsp; "
+           + ((g_protocol_tls_v1_2 && (g_protocol_tls_poodle == null)) ? "<SPAN class=\"bad\">May be vulnerable" :
+              ((g_protocol_tls_v1_2 && g_protocol_tls_poodle) ? "<SPAN class=\"verybad\">Vulnerable"
+                                                              : "<SPAN class=\"comment\">Immune")
+             ) + " to TLS POODLE attack&nbsp;<A href=\"//en.wikipedia.org/wiki/POODLE#POODLE_attack_against_TLS\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\"></A></SPAN></TD>\n" +
+"    <TD>" + ((g_protocol_tls_v1_2 && g_protocol_tls_poodle) ? "<SPAN class=\"verybad\">INSECURE</SPAN>" : "") + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>TLS v1.1</TH>\n" +
+"    <TD>" + (g_protocol_tls_v1_1 ? "Supported" : "Not Supported") + " &nbsp; "
+           + ((g_protocol_tls_v1_1 && (g_protocol_tls_poodle == null)) ? "<SPAN class=\"bad\">May be vulnerable" :
+              ((g_protocol_tls_v1_1 && g_protocol_tls_poodle) ? "<SPAN class=\"verybad\">Vulnerable"
+                                                              : "<SPAN class=\"comment\">Immune")
+             ) + " to TLS POODLE attack&nbsp;<A href=\"//en.wikipedia.org/wiki/POODLE#POODLE_attack_against_TLS\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\"></A></SPAN></TD>\n" +
+"    <TD>" + ((g_protocol_tls_v1_1 && g_protocol_tls_poodle) ? "<SPAN class=\"verybad\">INSECURE</SPAN>" : "") + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>TLS v1.0</TH>\n" +
+"    <TD>" + (g_protocol_tls_v1_0 ? "Supported" : "Not Supported") + " &nbsp; "
+           + ((g_protocol_tls_v1_0 && (g_protocol_tls_poodle == null)) ? "<SPAN class=\"bad\">May be vulnerable" :
+              ((g_protocol_tls_v1_0 && g_protocol_tls_poodle) ? "<SPAN class=\"verybad\">Vulnerable"
+                                                              : "<SPAN class=\"comment\">Immune")
+             ) + " to TLS POODLE attack&nbsp;<A href=\"//en.wikipedia.org/wiki/POODLE#POODLE_attack_against_TLS\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\"></A></SPAN></TD>\n" +
+"    <TD>" + ((g_protocol_tls_v1_0 && g_protocol_tls_poodle) ? "<SPAN class=\"verybad\">INSECURE</SPAN>" : "") + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>SSL v3.0</TH>\n" +
+"    <TD>" + (g_protocol_ssl_v3 ? "Supported &nbsp; <SPAN class=\"verybad\">Vulnerable"
+                                : "Not Supported &nbsp; <SPAN class=\"comment\">Immune"
+             ) + " to SSLv3 POODLE attack&nbsp;<A href=\"//en.wikipedia.org/wiki/POODLE\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\"></A></SPAN></TD>\n" +
+"    <TD>" + (g_protocol_ssl_v3 ? "<SPAN class=\"verybad\">INSECURE</SPAN>" : "") + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>SSL v2.0</TH>\n" +
+"    <TD>" + (g_protocol_ssl_v2 ? "Supported &nbsp; <SPAN class=\"verybad\">Vulnerable"
+                                : "Not Supported &nbsp; <SPAN class=\"comment\">Immune"
+             ) + " to DROWN attack&nbsp;<A href=\"//drownattack.com\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\"></A></SPAN></TD>\n" +
+"    <TD>" + (g_protocol_ssl_v2 ? "<SPAN class=\"verybad\">INSECURE</SPAN>" : "") + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH class=\"heading\" colspan=3>Protocol Features / Problems</TH>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Downgrade Protection &nbsp;<SPAN class=\"comment\">(TLS_FALLBACK_SCSV)</SPAN></TH>\n" +
+"    <TD colspan=\"2\">" + ((g_protocol_tls_fallbackscsv == null) ? "<SPAN class=\"comment\">Unknown</SPAN>" :
+                            (g_protocol_tls_fallbackscsv ? "<SPAN class=\"verygood\">Supported</SPAN>"
+                                                         : "Not Supported")) + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Secure Renegotiation &nbsp;<SPAN class=\"comment\">(Server-initiated)</SPAN></TH>\n" +
+"    <TD>" + ((g_protocol_renego_secure_server == null) ? "<SPAN class=\"comment\">Unknown</SPAN>" :
+              (g_protocol_renego_secure_server ? "<SPAN class=\"verygood\">Supported</SPAN>"
+                                               : "<SPAN class=\"bad\">Not Supported</SPAN>")) + "</TD>\n" +
+"    <TD>" + ((g_protocol_renego_secure_server == null) || g_protocol_renego_secure_server ? "" : "<SPAN class=\"bad\">INSECURE?</SPAN>") + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Secure Renegotiation &nbsp;<SPAN class=\"comment\">(Client-initiated)</SPAN></TH>\n" +
+"    <TD>" + ((g_protocol_renego_secure_client == null) ? "<SPAN class=\"comment\">Unknown</SPAN>" :
+              (g_protocol_renego_secure_client ? "<SPAN class=\"bad\">Supported</SPAN>"
+                                               : "Not Supported")) + "</TD>\n" +
+"    <TD>" + ((g_protocol_renego_secure_client == null) ? "" :
+              (g_protocol_renego_secure_client ? "<SPAN class=\"bad\">VULNERABLE (DoS)</SPAN>"
+                                               : "")) + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Legacy Renegotiation &nbsp;<SPAN class=\"comment\">(Client-initiated)</SPAN></TH>\n" +
+"    <TD>" + ((g_protocol_renego_legacy_client == null) ? "<SPAN class=\"comment\">Unknown</SPAN>" :
+              (g_protocol_renego_legacy_client ? "<SPAN class=\"verybad\">Supported</SPAN>"
+                                               : "Not Supported")) + "</TD>\n" +
+"    <TD>" + ((g_protocol_renego_legacy_client != null) && g_protocol_renego_legacy_client ? "<SPAN class=\"verybad\">INSECURE</SPAN>" : "") + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Compression</TH>\n" +
+"    <TD>" + ((g_protocol_compressionMethods == "") ? "Not Supported &nbsp; <SPAN class=\"comment\">Immune"
+                                                    : "Supported &nbsp; <SPAN class=\"verybad\">Vulnerable"
+             ) + " to CRIME attack&nbsp;<A href=\"//en.wikipedia.org/wiki/CRIME\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\"></A></SPAN></TD>\n" +
+"    <TD>" + ((g_protocol_compressionMethods == "") ? "" : ("<SPAN class=\"verybad\">INSECURE</SPAN>")) + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Heartbeat</TH>\n" +
+"    <TD>" + ((g_protocol_tls_heartbeat == null) ? "<SPAN class=\"comment\">Unknown</SPAN> &nbsp; <SPAN class=\"bad\">May be vulnerable" :
+              (g_protocol_tls_heartbeat ?
+                (g_protocol_tls_heartbleed ?
+                  "Supported &nbsp; <SPAN class=\"verybad\">Vulnerable" :
+                  "Supported &nbsp; <SPAN class=\"comment\">Immune"
+                ) :
+                "Not Supported &nbsp; <SPAN class=\"comment\">Immune"
+              )
+             ) + " to Heartbleed attack&nbsp;<A href=\"//en.wikipedia.org/wiki/Heartbleed\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\"></A></SPAN></TD>\n" +
+"    <TD>" + ((g_protocol_tls_heartbeat && g_protocol_tls_heartbleed) ? ("<SPAN class=\"verybad\">INSECURE</SPAN>") : "") + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Session Resumption</TH>\n" +
+"    <TD colspan=\"2\">" + ((g_protocol_tls_sessionResumption == null) ? "<SPAN class=\"comment\">Unknown</SPAN>" :
+                            (g_protocol_tls_sessionResumption ? "Supported" :
+                              ("<SPAN class=\"verybad\">Not Supported" +
+                                ((g_protocol_tls_sessionIDsSet == null) ? "</SPAN>" :
+                                 (g_protocol_tls_sessionIDsSet ? " (IDs assigned but not accepted)</SPAN>"
+                                                               : " (IDs empty)</SPAN>"))))) + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Session Tickets</TH>\n" +
+"    <TD colspan=\"2\">" + ((g_protocol_tls_sessionTickets == null) ? "<SPAN class=\"comment\">Unknown</SPAN>" :
+                            (g_protocol_tls_sessionTickets ? "Supported" : "Not Supported")) + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>TLS Extension Intolerant?</TH>\n" +
+"    <TD colspan=\"2\">" + (self.g_protocol_tls_extensionIntolerant ? "<SPAN class=\"bad\">Yes</SPAN>" : "<SPAN class=\"good\">No</SPAN>") + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Cipher Suite Negotiation Bug?</TH>\n" +
+"    <TD colspan=\"2\">" + (self.g_protocol_ciphers_hasBug ? "<SPAN class=\"bad\">Yes</SPAN>" : "<SPAN class=\"good\">No</SPAN>") + "</TD>\n" +
+"  </TR>\n";
+
+        if (self.g_protocol_signatureAlgorithms) {
+          var t_sigAlgList = g_protocol_signatureAlgorithms.split(",");
+          for (var l_sigAlgNo = 0; l_sigAlgNo < t_sigAlgList.length; l_sigAlgNo++) {
+            var t_sigAlgInfo = t_sigAlgList[l_sigAlgNo].split("/");
+            var t_sigAlg_isVeryBad = false;
+            var t_sigAlg_reason = "";
+          if (t_sigAlgInfo[0] == "MD5") {
+            t_sigAlg_isVeryBad = true;
+            t_sigAlg_reason = "SLOTH attack&nbsp;<A href=\"//www.mitls.org/pages/attacks/SLOTH\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\" style=\"position:relative\"></A>";
+          }
+          else if (t_sigAlgInfo[0] == "SHA-1") {
+            t_sigAlg_isVeryBad = null;
+            t_sigAlg_reason = "SLOTH attack&nbsp;<A href=\"//www.mitls.org/pages/attacks/SLOTH\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\" style=\"position:relative\"></A>";
+          }
+
+          if (t_sigAlg_reason != "")
+            t_sigAlg_reason = " (" + t_sigAlg_reason + ")";
+
+          t_innerHTML +=
+"  <TR>\n" +
+"    <TH>" + ((l_sigAlgNo == 0) ? "Signature Algorithms Enabled" : "") + "</TH>\n" +
+"    <TD>"
+            + (t_sigAlg_isVeryBad ? "<SPAN class=\"verybad\">" :
+              (t_sigAlg_isVeryBad == null) ? "<SPAN class=\"bad\">" :
+                "<SPAN class=\"good\">")
+            + t_sigAlgInfo[0] + " / " + t_sigAlgInfo[1]
+            + "</SPAN></TD>\n" +
+"    <TD>"
+            + (t_sigAlg_isVeryBad ? "<SPAN class=\"verybad\">INSECURE" + t_sigAlg_reason + "</SPAN>" :
+              (t_sigAlg_isVeryBad == null) ? "<SPAN class=\"bad\">WEAK" + t_sigAlg_reason + "</SPAN>" :
+                "")
+            + "</TD>\n" +
+"  </TR>\n";
+          }
+        }
+        else {
+          t_innerHTML +=
+"  <TR>\n" +
+"    <TH>Signature Algorithms Enabled</TH>\n" +
+"    <TD colspan=\"2\"><SPAN class=\"good\">None</SPAN> &nbsp;" +
+"      <SPAN class=\"comment\">Immune to SLOTH attack&nbsp;<A href=\"//www.mitls.org/pages/attacks/SLOTH\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\" style=\"position:relative\"></A></SPAN>" +
+"    </TD>\n" +
+"  </TR>\n";
+        }
+
+        t_innerHTML +=
+"  <TR>\n" +
+"    <TH class=\"heading\" colspan=3>Cipher Suites Enabled</TH>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Name &nbsp;(ID)</TH>\n" +
+"    <TH colspan=\"2\">Key Size (in bits)</TH>\n" +
+"  </TR>\n";
+
+        var t_cipherList = g_protocol_ciphers.split(":");
+        for (var l_cipherNo = 0; l_cipherNo < t_cipherList.length; l_cipherNo++) {
+          var t_cipherInfo = t_cipherList[l_cipherNo].split(",");
+          var t_cipher_isVeryBad = false;
+          var t_cipher_reason = "";
+          if (t_cipherInfo[0].indexOf("_anon_") != -1) {
+            t_cipher_isVeryBad = true;
+            t_cipher_reason = "anon";
+          }
+          else if (t_cipherInfo[0].indexOf("_EXPORT_") != -1) {
+            t_cipher_isVeryBad = true;
+            if (t_cipherInfo[0].indexOf("_RSA_") != -1)
+              t_cipher_reason = "FREAK attack&nbsp;<A href=\"//en.wikipedia.org/wiki/FREAK\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\" style=\"position:relative\"></A>";
+            if (t_cipherInfo[0].indexOf("_DHE_") != -1) {
+              if (t_cipher_reason != "")
+                t_cipher_reason += ", ";
+              t_cipher_reason += "Logjam attack&nbsp;<A href=\"//en.wikipedia.org/wiki/Logjam_%28computer_security%29\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\" style=\"position:relative\"></A>";
+            }
+          }
+          else if (Number(t_cipherInfo[2]) <= 56) {
+            t_cipher_isVeryBad = true;
+            t_cipher_reason = "key size&nbsp;<A href=\"//en.wikipedia.org/wiki/56-bit_encryption\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\" style=\"position:relative\"></A>";
+          }
+          else if (t_cipherInfo[0].indexOf("SSL_CK_") == 0) {
+            t_cipher_isVeryBad = true;
+            t_cipher_reason = "SSLv2&nbsp;<A href=\"//en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0.2C_2.0_and_3.0\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\" style=\"position:relative\"></A>";
+          }
+          else if (t_cipherInfo[0].indexOf("_RC4_") != -1) {
+            t_cipher_isVeryBad = null;
+            t_cipher_reason = "RC4&nbsp;<A href=\"//en.wikipedia.org/wiki/RC4\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\" style=\"position:relative\"></A>";
+          }
+          else if (Number(t_cipherInfo[2]) < 112) {
+            t_cipher_isVeryBad = null;
+            t_cipher_reason = "key size";
+          }
+
+          t_tempKey_isVeryBad = false;
+          if (t_cipherInfo[3] && (t_cipherInfo[3] == "DH") && (Number(t_cipherInfo[4]) < 2048)) {
+            t_tempKey_isVeryBad = null;
+            if (Number(t_cipherInfo[4]) < 1024)
+              t_tempKey_isVeryBad = true;
+            if (t_cipher_reason != "")
+              t_cipher_reason += ", ";
+            t_cipher_reason += "DH group size&nbsp;<A href=\"//weakdh.org\" target=\"_blank\"><IMG class=\"info\" src=\"images/info.gif\" style=\"position:relative\"></A>";
+          }
+
+          if (t_cipher_reason != "")
+            t_cipher_reason = " (" + t_cipher_reason + ")";
+
+          t_innerHTML +=
+"  <TR>\n" +
+"    <TD class=\"small\">"
+            + (t_cipher_isVeryBad ? "<SPAN class=\"verybad\">" :
+              (t_cipher_isVeryBad == null) ? "<SPAN class=\"bad\">" :
+                "<SPAN class=\"good\">")
+            + t_cipherInfo[0]
+            + "</SPAN> &nbsp;<SPAN class=\"comment\">(" + t_cipherInfo[1] + ")</SPAN></TD>\n" +
+"    <TD>"
+            + (t_cipher_isVeryBad ? "<SPAN class=\"verybad\">" :
+              (t_cipher_isVeryBad == null) ? "<SPAN class=\"bad\">" :
+                "")
+            + t_cipherInfo[2] + "</SPAN>"
+            + (t_cipherInfo[3] ?
+                " &nbsp; "
+                + (t_tempKey_isVeryBad ? "<SPAN class=\"verybad\">" :
+                  (t_tempKey_isVeryBad == null) ? "<SPAN class=\"bad\">" : "<SPAN class=\"comment2\">")
+                + t_cipherInfo[3] + " " + t_cipherInfo[4] + "-bit" + (
+                  t_cipherInfo[5] ? (" (" + t_cipherInfo[5] + ")") :
+                  ""
+                ) + "</SPAN></TD>"
+                : ""
+              ) + "\n" +
+"    <TD>"
+            + ((t_cipher_isVeryBad || t_tempKey_isVeryBad) ? "<SPAN class=\"verybad\">INSECURE" + t_cipher_reason + "</SPAN>" :
+              ((t_cipher_isVeryBad == null) || (t_tempKey_isVeryBad == null)) ? "<SPAN class=\"bad\">WEAK" + t_cipher_reason + "</SPAN>" :
+                "")
+            + "</TD>\n" +
+"  </TR>\n";
+        }
+
+        var t_reportStartTime = new Date();
+        t_reportStartTime.setUTCFullYear(
+          Number(g_report_startTime.substr(0, 4)),
+          Number(g_report_startTime.substr(4, 2)) - 1,
+          Number(g_report_startTime.substr(6, 2))
+        );
+        t_reportStartTime.setUTCHours(
+          Number(g_report_startTime.substr(8, 2)),
+          Number(g_report_startTime.substr(10, 2)),
+          Number(g_report_startTime.substr(12, 2)),
+          0
+        );
+        t_innerHTML +=
+"  <TR>\n" +
+"    <TH class=\"heading\" colspan=3>Miscellaneous</TH>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Report Date</TH>\n" +
+"    <TD colspan=\"2\">" + t_reportStartTime.toUTCString() + "</TD>\n" +
+"  </TR>\n" +
+"  <TR>\n" +
+"    <TH>Report Duration</TH>\n" +
+"    <TD colspan=\"2\">" + g_report_duration.toString() + " second"
+          + ((g_report_duration.toString() != "1") ? "s" : "") + "</TD>\n" +
+"  </TR>\n" +
+"</TABLE>\n";
+      }
+      else
+        t_innerHTML =
+"<BR>Error <B>" + g_error_code + "</B>: " + g_error_message + "<BR>\n";
+
+      t_innerHTML +=
+"<BR><BR>\n" +
+"<FORM method=\"GET\" onsubmit=\"window.location = '/';return false;\">\n" +
+"  <INPUT type=\"submit\" id=\"back_button\" name=\"back_button\"\n" +
+"         class=\"button\" value=\"< Back\">\n" +
+"</FORM>";
+
+      document.getElementById("sslanalyzer_div").innerHTML = t_innerHTML;
+      document.getElementById("back_button").focus();
+      window.scroll(0, 0);
+    }
+    //-->
+  </script>  <script type="text/javascript" language="Javascript" src="SSL%20Analyzer%20and%20SSL%20Certificate%20Checker%20%7C%20COMODO_files/sslchecker.js"></script>
+
+
+  <br><br><br>
+  <p class="copyright">© COMODO CA Limited 2010-2016. All rights reserved.</p>
+
+
+</body></html>

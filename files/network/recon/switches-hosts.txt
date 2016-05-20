@@ -1,0 +1,6 @@
+address,mac,name,os_name,os_flavor,os_sp,purpose,info,comments
+"172.16.0.1","00:13:21:11:36:00","gateway.students.standrews-de.org","VxWorks","","","device","",""
+"172.17.0.1","","gateway.library.standrews-de.org","VxWorks","","","device","",""
+"172.18.0.1","","gateway.faculty.standrews-de.org","VxWorks","","","device","",""
+"192.168.255.10","","sonicwall.standrews-de.org","Unknown","","","device","",""
+"209.118.39.195","","sonicwall.standrews-de.org","Unknown","","","device","",""

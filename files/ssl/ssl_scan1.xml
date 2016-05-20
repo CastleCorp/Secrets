@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document SSLyzeVersion="0.12.0" SSLyzeWeb="https://github.com/nabla-c0d3/sslyze" title="SSLyze Scan Results">
+  <invalidTargets/>
+  <results defaultTimeout="5" httpsTunnel="None" startTLS="None" totalScanTime="27.1570241451">
+    <target host="standrews-de.org" ip="209.123.98.171" port="443">
+      <chrome_sha1 title="Google Chrome SHA-1 Deprecation Status">
+        <chromeSha1Deprecation isServerAffected="False"/>
+      </chrome_sha1>
+      <compression title="Deflate Compression">
+        <compressionMethod isSupported="False" type="DEFLATE"/>
+      </compression>
+      <heartbleed title="OpenSSL Heartbleed">
+        <openSslHeartbleed isVulnerable="False"/>
+      </heartbleed>
+      <hsts title="HTTP Strict Transport Security">
+        <httpStrictTransportSecurity isSupported="False"/>
+      </hsts>
+      <reneg title="Session Renegotiation">
+        <sessionRenegotiation canBeClientInitiated="False" isSecure="True"/>
+      </reneg>
+      <resum title="Session Resumption">
+        <sessionResumptionWithSessionIDs errors="0" failedAttempts="0" isSupported="True" successfulAttempts="5" totalAttempts="5"/>
+        <sessionResumptionWithTLSTickets isSupported="False" reason="TLS ticket not assigned"/>
+      </resum>
+      <sslv2 isProtocolSupported="False" title="SSLV2 Cipher Suites">
+        <errors/>
+        <rejectedCipherSuites>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DES-CBC-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DES-CBC3-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-RC2-CBC-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-RC4-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="IDEA-CBC-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="RC2-CBC-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="RC4-MD5"/>
+        </rejectedCipherSuites>
+        <acceptedCipherSuites/>
+        <preferredCipherSuite/>
+      </sslv2>
+      <sslv3 isProtocolSupported="False" title="SSLV3 Cipher Suites">
+        <errors/>
+        <rejectedCipherSuites>
+          <cipherSuite anonymous="True" connectionStatus="TLS / No ciphers available" name="ADH-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-AES128-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TLS / No ciphers available" name="ADH-AES128-SHA256"/>
+          <cipherSuite anonymous="True" connectionStatus="TLS / No ciphers available" name="ADH-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-AES256-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TLS / No ciphers available" name="ADH-AES256-SHA256"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-DES-CBC-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-RC4-MD5"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-SEED-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="AECDH-AES128-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="AECDH-AES256-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="AECDH-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="AECDH-NULL-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="AECDH-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="AES256-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-DSS-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-DSS-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-DSS-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-DSS-AES256-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-SEED-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-RSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-RSA-AES256-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-SEED-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-DSS-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-DSS-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-DSS-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-DSS-AES256-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-SEED-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-RSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-RSA-AES256-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-SEED-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-ECDSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-ECDSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-ECDSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-ECDSA-AES256-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-NULL-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-RSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-RSA-AES256-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-NULL-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-ECDSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-ECDSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-ECDSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-ECDSA-AES256-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-NULL-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-RSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-RSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-RSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-RSA-AES256-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-RSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-RSA-NULL-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-RSA-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EDH-DSS-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EDH-DSS-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EDH-RSA-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EDH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="EXP-ADH-DES-CBC-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="EXP-ADH-RC4-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-EDH-DSS-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-EDH-RSA-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-RC2-CBC-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-RC4-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="IDEA-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="NULL-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="NULL-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="NULL-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="PSK-3DES-EDE-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="PSK-AES128-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="PSK-AES256-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="PSK-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="RC4-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="SEED-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-3DES-EDE-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-AES-128-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-AES-256-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-DSS-3DES-EDE-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-DSS-AES-128-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-DSS-AES-256-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-RSA-3DES-EDE-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-RSA-AES-128-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-RSA-AES-256-CBC-SHA"/>
+        </rejectedCipherSuites>
+        <acceptedCipherSuites/>
+        <preferredCipherSuite/>
+      </sslv3>
+      <tlsv1_1 isProtocolSupported="True" title="TLSV1_1 Cipher Suites">
+        <errors>
+          <cipherSuite anonymous="False" connectionStatus="timeout - timed out" name="ECDH-ECDSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="timeout - timed out" name="SEED-SHA"/>
+        </errors>
+        <rejectedCipherSuites>
+          <cipherSuite anonymous="True" connectionStatus="TLS / No ciphers available" name="ADH-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-AES128-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TLS / No ciphers available" name="ADH-AES128-SHA256"/>
+          <cipherSuite anonymous="True" connectionStatus="TLS / No ciphers available" name="ADH-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-AES256-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TLS / No ciphers available" name="ADH-AES256-SHA256"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-DES-CBC-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-RC4-MD5"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-SEED-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="AECDH-AES128-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="AECDH-AES256-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="AECDH-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="AECDH-NULL-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="AECDH-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="AES256-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-DSS-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-DSS-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-DSS-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-DSS-AES256-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-SEED-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-RSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DH-RSA-AES256-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-SEED-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-DSS-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-DSS-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-DSS-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-DSS-AES256-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-SEED-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-RSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="DHE-RSA-AES256-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-SEED-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-ECDSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-ECDSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-ECDSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-ECDSA-AES256-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-NULL-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-RSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDH-RSA-AES256-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-NULL-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-ECDSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-ECDSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-ECDSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-ECDSA-AES256-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-NULL-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-RSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="ECDHE-RSA-AES256-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-RSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-RSA-NULL-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-RSA-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EDH-DSS-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EDH-DSS-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EDH-RSA-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EDH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="EXP-ADH-DES-CBC-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="EXP-ADH-RC4-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-EDH-DSS-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-EDH-RSA-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-RC2-CBC-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-RC4-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="IDEA-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="NULL-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="NULL-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="NULL-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="PSK-3DES-EDE-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="PSK-AES128-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="PSK-AES256-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="PSK-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="RC4-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-3DES-EDE-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-AES-128-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-AES-256-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-DSS-3DES-EDE-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-DSS-AES-128-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-DSS-AES-256-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-RSA-3DES-EDE-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-RSA-AES-128-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-RSA-AES-256-CBC-SHA"/>
+        </rejectedCipherSuites>
+        <acceptedCipherSuites>
+          <cipherSuite anonymous="False" connectionStatus="HTTP 301 Moved Permanently - https://www.standrews-de.org/" keySize="128" name="AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="HTTP 301 Moved Permanently - https://www.standrews-de.org/" keySize="256" name="AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="HTTP 301 Moved Permanently - https://www.standrews-de.org/" keySize="112" name="DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="HTTP 301 Moved Permanently - https://www.standrews-de.org/" keySize="128" name="ECDHE-RSA-AES128-SHA">
+            <keyExchange A="0x00ffffffff00000001000000000000000000000000fffffffffffffffffffffffc" B="0x5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b" Cofactor="1" Field_Type="prime-field" Generator="0x046b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c2964fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5" GeneratorType="uncompressed" GroupSize="256" Order="0x00ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551" Prime="0x00ffffffff00000001000000000000000000000000ffffffffffffffffffffffff" Seed="0xc49d360886e704936a6678e1139d26b7819f7e90" Type="ECDH"/>
+          </cipherSuite>
+          <cipherSuite anonymous="False" connectionStatus="HTTP 301 Moved Permanently - https://www.standrews-de.org/" keySize="256" name="ECDHE-RSA-AES256-SHA">
+            <keyExchange A="0x00ffffffff00000001000000000000000000000000fffffffffffffffffffffffc" B="0x5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b" Cofactor="1" Field_Type="prime-field" Generator="0x046b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c2964fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5" GeneratorType="uncompressed" GroupSize="256" Order="0x00ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551" Prime="0x00ffffffff00000001000000000000000000000000ffffffffffffffffffffffff" Seed="0xc49d360886e704936a6678e1139d26b7819f7e90" Type="ECDH"/>
+          </cipherSuite>
+        </acceptedCipherSuites>
+        <preferredCipherSuite>
+          <cipherSuite anonymous="False" connectionStatus="HTTP 301 Moved Permanently - https://www.standrews-de.org/" keySize="128" name="ECDHE-RSA-AES128-SHA">
+            <keyExchange A="0x00ffffffff00000001000000000000000000000000fffffffffffffffffffffffc" B="0x5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b" Cofactor="1" Field_Type="prime-field" Generator="0x046b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c2964fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5" GeneratorType="uncompressed" GroupSize="256" Order="0x00ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551" Prime="0x00ffffffff00000001000000000000000000000000ffffffffffffffffffffffff" Seed="0xc49d360886e704936a6678e1139d26b7819f7e90" Type="ECDH"/>
+          </cipherSuite>
+        </preferredCipherSuite>
+      </tlsv1_1>
+      <tlsv1_2 isProtocolSupported="True" title="TLSV1_2 Cipher Suites">
+        <errors/>
+        <rejectedCipherSuites>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-AES128-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-AES128-SHA256"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-AES256-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-AES256-SHA256"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-DES-CBC-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-RC4-MD5"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="ADH-SEED-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="AECDH-AES128-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="AECDH-AES256-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="AECDH-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="AECDH-NULL-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="AECDH-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-AES256-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-DSS-SEED-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-AES256-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DH-RSA-SEED-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-AES256-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-DSS-SEED-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-AES256-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-CAMELLIA128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-CAMELLIA256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="DHE-RSA-SEED-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-AES256-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-NULL-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-ECDSA-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-AES256-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-NULL-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDH-RSA-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-AES256-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-NULL-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-ECDSA-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-RSA-AES128-GCM-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-RSA-AES256-GCM-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-RSA-AES256-SHA384"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-RSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-RSA-NULL-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="ECDHE-RSA-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EDH-DSS-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EDH-DSS-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EDH-RSA-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EDH-RSA-DES-CBC3-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="EXP-ADH-DES-CBC-SHA"/>
+          <cipherSuite anonymous="True" connectionStatus="TCP / Received RST" name="EXP-ADH-RC4-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-EDH-DSS-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-EDH-RSA-DES-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-RC2-CBC-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="EXP-RC4-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="IDEA-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="NULL-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="NULL-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="NULL-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="PSK-3DES-EDE-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="PSK-AES128-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="PSK-AES256-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="PSK-RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="RC4-MD5"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="RC4-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TCP / Received RST" name="SEED-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-3DES-EDE-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-AES-128-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-AES-256-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-DSS-3DES-EDE-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-DSS-AES-128-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-DSS-AES-256-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-RSA-3DES-EDE-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-RSA-AES-128-CBC-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="TLS / No ciphers available" name="SRP-RSA-AES-256-CBC-SHA"/>
+        </rejectedCipherSuites>
+        <acceptedCipherSuites>
+          <cipherSuite anonymous="False" connectionStatus="HTTP 301 Moved Permanently - https://www.standrews-de.org/" keySize="128" name="AES128-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="HTTP 301 Moved Permanently - https://www.standrews-de.org/" keySize="128" name="AES128-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="HTTP 301 Moved Permanently - https://www.standrews-de.org/" keySize="256" name="AES256-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="HTTP 301 Moved Permanently - https://www.standrews-de.org/" keySize="256" name="AES256-SHA256"/>
+          <cipherSuite anonymous="False" connectionStatus="HTTP 301 Moved Permanently - https://www.standrews-de.org/" keySize="112" name="DES-CBC3-SHA"/>
+          <cipherSuite anonymous="False" connectionStatus="HTTP 301 Moved Permanently - https://www.standrews-de.org/" keySize="128" name="ECDHE-RSA-AES128-SHA">
+            <keyExchange A="0x00ffffffff00000001000000000000000000000000fffffffffffffffffffffffc" B="0x5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b" Cofactor="1" Field_Type="prime-field" Generator="0x046b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c2964fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5" GeneratorType="uncompressed" GroupSize="256" Order="0x00ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551" Prime="0x00ffffffff00000001000000000000000000000000ffffffffffffffffffffffff" Seed="0xc49d360886e704936a6678e1139d26b7819f7e90" Type="ECDH"/>
+          </cipherSuite>
+          <cipherSuite anonymous="False" connectionStatus="HTTP 301 Moved Permanently - https://www.standrews-de.org/" keySize="128" name="ECDHE-RSA-AES128-SHA256">
+            <keyExchange A="0x00ffffffff00000001000000000000000000000000fffffffffffffffffffffffc" B="0x5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b" Cofactor="1" Field_Type="prime-field" Generator="0x046b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c2964fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5" GeneratorType="uncompressed" GroupSize="256" Order="0x00ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551" Prime="0x00ffffffff00000001000000000000000000000000ffffffffffffffffffffffff" Seed="0xc49d360886e704936a6678e1139d26b7819f7e90" Type="ECDH"/>
+          </cipherSuite>
+          <cipherSuite anonymous="False" connectionStatus="HTTP 301 Moved Permanently - https://www.standrews-de.org/" keySize="256" name="ECDHE-RSA-AES256-SHA">
+            <keyExchange A="0x00ffffffff00000001000000000000000000000000fffffffffffffffffffffffc" B="0x5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b" Cofactor="1" Field_Type="prime-field" Generator="0x046b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c2964fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5" GeneratorType="uncompressed" GroupSize="256" Order="0x00ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551" Prime="0x00ffffffff00000001000000000000000000000000ffffffffffffffffffffffff" Seed="0xc49d360886e704936a6678e1139d26b7819f7e90" Type="ECDH"/>
+          </cipherSuite>
+        </acceptedCipherSuites>
+        <preferredCipherSuite>
+          <cipherSuite anonymous="False" connectionStatus="HTTP 301 Moved Permanently - https://www.standrews-de.org/" keySize="128" name="ECDHE-RSA-AES128-SHA">
+            <keyExchange A="0x00ffffffff00000001000000000000000000000000fffffffffffffffffffffffc" B="0x5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b" Cofactor="1" Field_Type="prime-field" Generator="0x046b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c2964fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5" GeneratorType="uncompressed" GroupSize="256" Order="0x00ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551" Prime="0x00ffffffff00000001000000000000000000000000ffffffffffffffffffffffff" Seed="0xc49d360886e704936a6678e1139d26b7819f7e90" Type="ECDH"/>
+          </cipherSuite>
+        </preferredCipherSuite>
+      </tlsv1_2>
+    </target>
+  </results>
+</document>

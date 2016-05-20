@@ -1,0 +1,5 @@
+# Nmap 6.00 scan initiated Wed Feb 24 21:07:31 2016 as: nmap -sT -sV -Pn -p 3306 -v -oM mysql_nmap1 10.0.0.203
+# Ports scanned: TCP(1;3306) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.0.0.203 (mango.standrews-de.org)	Status: Up
+Host: 10.0.0.203 (mango.standrews-de.org)	Ports: 3306/open/tcp//mysql//MySQL 5.1.73-0ubuntu0.10.04.1/
+# Nmap done at Wed Feb 24 21:07:38 2016 -- 1 IP address (1 host up) scanned in 6.76 seconds

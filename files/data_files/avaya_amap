@@ -1,0 +1,11 @@
+amap v5.4 (www.thc.org/thc-amap) started at 2016-02-08 11:16:53 - MAPPING mode
+Protocol on 10.0.0.173:139/tcp (by trigger http) matches netbios-session
+Unrecognized response from 10.0.0.173:21/tcp (by trigger http) received.
+Please send output + name of the application to vh@thc.org:
+0000:  3232 3020 0d0a                             [ 220 ..           ]
+Protocol on 10.0.0.173:80/tcp (by trigger http) matches http
+Protocol on 10.0.0.173:135/tcp (by trigger ms-ds) matches netbios-session
+Protocol on 10.0.0.173:445/tcp (by trigger ms-ds) matches ms-ds
+Protocol on 10.0.0.173:2002/tcp (by trigger ssl) matches ssl
+Unidentified ports: 10.0.0.173:21/tcp 10.0.0.173:2002/tcp 10.0.0.173:3389/tcp (total 3).
+amap v5.4 finished at 2016-02-08 11:17:18

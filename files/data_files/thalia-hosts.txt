@@ -1,0 +1,2 @@
+address,mac,name,os_name,os_flavor,os_sp,purpose,info,comments
+"10.0.0.206","","thalia.standrews-de.org","Unknown","","","device","",""

@@ -1,0 +1,14 @@
+apply.standrews-de.org 166.78.113.252
+mango.standrews-de.org 209.118.39.203
+ls2pac.standrews-de.org 209.118.39.237
+libraryarchives.standrews-de.org 166.78.114.68
+libraryweb.standrews-de.org 166.78.114.68
+mango.standrews-de.org 209.118.39.203
+saintsplex.standrews-de.org 174.121.64.66
+mango.standrews-de.org 209.118.39.203
+shops.shopify.com 23.227.38.71
+shops.shopify.com 23.227.38.69
+shops.shopify.com 23.227.38.68
+shops.shopify.com 23.227.38.70
+mango.standrews-de.org 209.118.39.203
+silverpoint.standrews-de.org 209.123.98.171

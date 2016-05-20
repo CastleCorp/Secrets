@@ -1,0 +1,229 @@
+[*] 10.0.0.111:443 Subject: /OU=Domain Control Validated/CN=*.standrews-de.org
+[*] 10.0.0.111:443 Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+[*] 10.0.0.111:443 Signature Alg: sha256WithRSAEncryption
+[*] 10.0.0.111:443 Public Key Size: 2048 bits
+[*] 10.0.0.111:443 Not Valid Before: 2014-12-08 14:34:00 UTC
+[*] 10.0.0.111:443 Not Valid After: 2017-05-29 14:49:44 UTC
+[+] 10.0.0.111:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.111:443 has common name *.standrews-de.org
+[*] 10.0.0.141:443 Subject: /C=US/ST=Texas/L=Round Rock/O=Dell Inc./OU=Remote Access Group/CN=iDRAC6 default certificate
+[*] 10.0.0.141:443 Issuer: /C=US/ST=Texas/L=Round Rock/O=Dell Inc./OU=Remote Access Group/CN=iDRAC6 default certificate
+[*] 10.0.0.141:443 Signature Alg: md5WithRSAEncryption
+[*] 10.0.0.141:443 Public Key Size: 1024 bits
+[*] 10.0.0.141:443 Not Valid Before: 2009-01-05 14:43:48 UTC
+[*] 10.0.0.141:443 Not Valid After: 2019-01-03 14:43:48 UTC
+[+] 10.0.0.141:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[+] 10.0.0.141:443 Certificate Subject and Issuer match... possible self signed certificate
+[*] 10.0.0.141:443 WARNING: Signature algorithm using MD5 (md5WithRSAEncryption)
+[*] 10.0.0.141:443 WARNING: Public Key only 1024 bits
+[*] 10.0.0.141:443 has common name iDRAC6 default certificate
+[*] 10.0.0.142:443 Subject: /C=US/ST=California/L=Palo Alto/O=VMware, Inc/OU=VMware ESX Server Default Certificate/emailAddress=ssl-certificates@vmware.com/CN=esx1.man.standrews-de.org/unstructuredName=1243875600,564d7761726520496e632e
+[*] 10.0.0.142:443 Issuer: /O=VMware Installer
+[*] 10.0.0.142:443 Signature Alg: sha1WithRSAEncryption
+[*] 10.0.0.142:443 Public Key Size: 1024 bits
+[*] 10.0.0.142:443 Not Valid Before: 2009-06-01 17:00:00 UTC
+[*] 10.0.0.142:443 Not Valid After: 2020-11-30 17:00:00 UTC
+[+] 10.0.0.142:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.142:443 WARNING: Public Key only 1024 bits
+[*] 10.0.0.142:443 has common name esx1.man.standrews-de.org
+[*] 10.0.0.143:443 Subject: /C=US/ST=California/L=Palo Alto/O=VMware, Inc/OU=VMware ESX Server Default Certificate/emailAddress=ssl-certificates@vmware.com/CN=esx1.man.standrews-de.org/unstructuredName=1243875600,564d7761726520496e632e
+[*] 10.0.0.143:443 Issuer: /O=VMware Installer
+[*] 10.0.0.143:443 Signature Alg: sha1WithRSAEncryption
+[*] 10.0.0.143:443 Public Key Size: 1024 bits
+[*] 10.0.0.143:443 Not Valid Before: 2009-06-01 17:00:00 UTC
+[*] 10.0.0.143:443 Not Valid After: 2020-11-30 17:00:00 UTC
+[+] 10.0.0.143:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.143:443 WARNING: Public Key only 1024 bits
+[*] 10.0.0.143:443 has common name esx1.man.standrews-de.org
+[*] 10.0.0.145:443 Subject: /C=US/ST=California/L=Palo Alto/O=VMware, Inc/OU=VMware ESX Server Default Certificate/emailAddress=ssl-certificates@vmware.com/CN=localhost.localdomain/unstructuredName=1277744405,564d7761726520496e632e
+[*] 10.0.0.145:443 Issuer: /O=VMware Installer
+[*] 10.0.0.145:443 Signature Alg: sha1WithRSAEncryption
+[*] 10.0.0.145:443 Public Key Size: 1024 bits
+[*] 10.0.0.145:443 Not Valid Before: 2010-06-28 17:00:05 UTC
+[*] 10.0.0.145:443 Not Valid After: 2021-12-27 17:00:05 UTC
+[+] 10.0.0.145:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.145:443 WARNING: Public Key only 1024 bits
+[*] 10.0.0.145:443 has common name localhost.localdomain
+[*] 10.0.0.146:443 Subject: /C=US/ST=Texas/L=Round Rock/O=Dell Inc./OU=Remote Access Group/CN=iDRAC6 default certificate
+[*] 10.0.0.146:443 Issuer: /C=US/ST=Texas/L=Round Rock/O=Dell Inc./OU=Remote Access Group/CN=iDRAC6 default certificate
+[*] 10.0.0.146:443 Signature Alg: sha1WithRSAEncryption
+[*] 10.0.0.146:443 Public Key Size: 1024 bits
+[*] 10.0.0.146:443 Not Valid Before: 2009-09-17 22:47:28 UTC
+[*] 10.0.0.146:443 Not Valid After: 2019-09-15 22:47:28 UTC
+[+] 10.0.0.146:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[+] 10.0.0.146:443 Certificate Subject and Issuer match... possible self signed certificate
+[*] 10.0.0.146:443 WARNING: Public Key only 1024 bits
+[*] 10.0.0.146:443 has common name iDRAC6 default certificate
+[*] 10.0.0.147:443 Subject: /C=US/ST=Texas/L=Round Rock/O=Dell Inc./OU=Remote Access Group/CN=idrac/emailAddress=support@dell.com
+[*] 10.0.0.147:443 Issuer: /C=US/ST=Texas/L=Round Rock/O=Dell Inc./OU=Remote Access Group/CN=idrac/emailAddress=support@dell.com
+[*] 10.0.0.147:443 Signature Alg: sha256WithRSAEncryption
+[*] 10.0.0.147:443 Public Key Size: 2048 bits
+[*] 10.0.0.147:443 Not Valid Before: 2015-02-11 15:14:00 UTC
+[*] 10.0.0.147:443 Not Valid After: 2025-02-12 15:14:00 UTC
+[+] 10.0.0.147:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[+] 10.0.0.147:443 Certificate Subject and Issuer match... possible self signed certificate
+[*] 10.0.0.147:443 has common name idrac
+[*] 10.0.0.148:443 Subject: /C=US/ST=California/L=Palo Alto/O=VMware, Inc/OU=VMware ESX Server Default Certificate/emailAddress=ssl-certificates@vmware.com/CN=localhost.localdomain/unstructuredName=1424086778,564d7761726520496e632e
+[*] 10.0.0.148:443 Issuer: /O=VMware Installer
+[*] 10.0.0.148:443 Signature Alg: sha256WithRSAEncryption
+[*] 10.0.0.148:443 Public Key Size: 2048 bits
+[*] 10.0.0.148:443 Not Valid Before: 2015-02-16 11:39:39 UTC
+[*] 10.0.0.148:443 Not Valid After: 2026-08-17 11:39:39 UTC
+[+] 10.0.0.148:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.148:443 has common name localhost.localdomain
+[*] 10.0.0.150:443 Subject: /C=US/ST=California/L=Palo Alto/O=VMware, Inc./OU=VMware vCenter Server Certificate/emailAddress=ssl-certificates@vmware.com/CN=localhost.localdom/unstructuredName=1399578099,106007e5,564d7761726520496e632e
+[*] 10.0.0.150:443 Issuer: /C=US/ST=California/L=Palo Alto/O=VMware, Inc./CN=localhost.localdom CA bf526332/emailAddress=ssl-certificates@vmware.com
+[*] 10.0.0.150:443 Signature Alg: sha256WithRSAEncryption
+[*] 10.0.0.150:443 Public Key Size: 2048 bits
+[*] 10.0.0.150:443 Not Valid Before: 2014-05-07 19:41:39 UTC
+[*] 10.0.0.150:443 Not Valid After: 2024-05-05 19:41:39 UTC
+[+] 10.0.0.150:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.150:443 has common name localhost.localdom
+[*] 10.0.0.163:443 Subject: /C=TW/ST=Taiwan/L=Taipei/O=QNAP Systems Inc./OU=NAS/CN=TS Series NAS/emailAddress=q_support@qnap.com
+[*] 10.0.0.163:443 Issuer: /C=TW/ST=Taiwan/L=Taipei/O=QNAP Systems Inc./OU=NAS/CN=TS Series NAS/emailAddress=q_support@qnap.com
+[*] 10.0.0.163:443 Signature Alg: sha1WithRSAEncryption
+[*] 10.0.0.163:443 Public Key Size: 2048 bits
+[*] 10.0.0.163:443 Not Valid Before: 2011-07-12 04:20:13 UTC
+[*] 10.0.0.163:443 Not Valid After: 2021-07-09 04:20:13 UTC
+[+] 10.0.0.163:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[+] 10.0.0.163:443 Certificate Subject and Issuer match... possible self signed certificate
+[*] 10.0.0.163:443 has common name TS Series NAS
+[*] 10.0.0.166:443 Subject: /CN=RETRO12
+[*] 10.0.0.166:443 Issuer: /CN=SAS-RETRO12-CA
+[*] 10.0.0.166:443 Signature Alg: sha256WithRSAEncryption
+[*] 10.0.0.166:443 Public Key Size: 2048 bits
+[*] 10.0.0.166:443 Not Valid Before: 2013-07-07 17:04:53 UTC
+[*] 10.0.0.166:443 Not Valid After: 2043-06-30 17:04:53 UTC
+[+] 10.0.0.166:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.166:443 has common name RETRO12
+[*] Error: 10.0.0.183: OpenSSL::SSL::SSLError SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read server hello A
+[*] Error: 10.0.0.185: OpenSSL::SSL::SSLError SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read server hello A
+[*] 10.0.0.188:443 Subject: /O=*.standrews-de.org/OU=Domain Control Validated/CN=*.standrews-de.org
+[*] 10.0.0.188:443 Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certificates.godaddy.com/repository/CN=Go Daddy Secure Certification Authority/serialNumber=07969287
+[*] 10.0.0.188:443 Signature Alg: sha1WithRSAEncryption
+[*] 10.0.0.188:443 Public Key Size: 2048 bits
+[*] 10.0.0.188:443 Not Valid Before: 2012-05-29 14:49:44 UTC
+[*] 10.0.0.188:443 Not Valid After: 2017-05-29 14:49:44 UTC
+[+] 10.0.0.188:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.188:443 has common name *.standrews-de.org
+[*] 10.0.0.203:443 Subject: /OU=Domain Control Validated/CN=*.standrews-de.org
+[*] 10.0.0.203:443 Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+[*] 10.0.0.203:443 Signature Alg: sha256WithRSAEncryption
+[*] 10.0.0.203:443 Public Key Size: 2048 bits
+[*] 10.0.0.203:443 Not Valid Before: 2014-12-08 14:34:00 UTC
+[*] 10.0.0.203:443 Not Valid After: 2017-05-29 14:49:44 UTC
+[+] 10.0.0.203:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.203:443 has common name *.standrews-de.org
+[*] 10.0.0.206:443 Subject: /OU=Domain Control Validated/CN=*.standrews-de.org
+[*] 10.0.0.206:443 Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+[*] 10.0.0.206:443 Signature Alg: sha256WithRSAEncryption
+[*] 10.0.0.206:443 Public Key Size: 2048 bits
+[*] 10.0.0.206:443 Not Valid Before: 2014-12-08 14:34:00 UTC
+[*] 10.0.0.206:443 Not Valid After: 2017-05-29 14:49:44 UTC
+[+] 10.0.0.206:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.206:443 has common name *.standrews-de.org
+[*] Error: 10.0.0.214: OpenSSL::SSL::SSLError SSL_connect returned=1 errno=0 state=SSLv3 read server hello A: wrong version number
+[*] 10.0.0.215:443 Subject: /O=*.standrews-de.org/OU=Domain Control Validated/CN=*.standrews-de.org
+[*] 10.0.0.215:443 Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certificates.godaddy.com/repository/CN=Go Daddy Secure Certification Authority/serialNumber=07969287
+[*] 10.0.0.215:443 Signature Alg: sha1WithRSAEncryption
+[*] 10.0.0.215:443 Public Key Size: 2048 bits
+[*] 10.0.0.215:443 Not Valid Before: 2012-05-29 14:49:44 UTC
+[*] 10.0.0.215:443 Not Valid After: 2017-05-29 14:49:44 UTC
+[+] 10.0.0.215:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.215:443 has common name *.standrews-de.org
+[*] 10.0.0.218:443 Subject: /OU=Domain Control Validated/CN=alertus.standrews-de.org
+[*] 10.0.0.218:443 Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+[*] 10.0.0.218:443 Signature Alg: sha256WithRSAEncryption
+[*] 10.0.0.218:443 Public Key Size: 2048 bits
+[*] 10.0.0.218:443 Not Valid Before: 2015-12-01 13:09:38 UTC
+[*] 10.0.0.218:443 Not Valid After: 2018-12-10 18:51:13 UTC
+[+] 10.0.0.218:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.218:443 has common name alertus.standrews-de.org
+[*] 10.0.0.229:443 Subject: /OU=Domain Control Validated/CN=*.standrews-de.org
+[*] 10.0.0.229:443 Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+[*] 10.0.0.229:443 Signature Alg: sha256WithRSAEncryption
+[*] 10.0.0.229:443 Public Key Size: 2048 bits
+[*] 10.0.0.229:443 Not Valid Before: 2014-12-08 14:34:00 UTC
+[*] 10.0.0.229:443 Not Valid After: 2017-05-29 14:49:44 UTC
+[+] 10.0.0.229:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.229:443 has common name *.standrews-de.org
+[*] 10.0.0.230:443 Subject: /OU=Domain Control Validated/CN=*.standrews-de.org
+[*] 10.0.0.230:443 Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+[*] 10.0.0.230:443 Signature Alg: sha256WithRSAEncryption
+[*] 10.0.0.230:443 Public Key Size: 2048 bits
+[*] 10.0.0.230:443 Not Valid Before: 2014-12-08 14:34:00 UTC
+[*] 10.0.0.230:443 Not Valid After: 2017-05-29 14:49:44 UTC
+[+] 10.0.0.230:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.230:443 has common name *.standrews-de.org
+[*] 10.0.0.231:443 Subject: /OU=Domain Control Validated/CN=*.standrews-de.org
+[*] 10.0.0.231:443 Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+[*] 10.0.0.231:443 Signature Alg: sha256WithRSAEncryption
+[*] 10.0.0.231:443 Public Key Size: 2048 bits
+[*] 10.0.0.231:443 Not Valid Before: 2014-12-08 14:34:00 UTC
+[*] 10.0.0.231:443 Not Valid After: 2017-05-29 14:49:44 UTC
+[+] 10.0.0.231:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.231:443 has common name *.standrews-de.org
+[*] Scanned  54 of 532 hosts (10% complete)
+[*] 10.0.0.248:443 Subject: /OU=Domain Control Validated/CN=*.standrews-de.org
+[*] 10.0.0.248:443 Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+[*] 10.0.0.248:443 Signature Alg: sha256WithRSAEncryption
+[*] 10.0.0.248:443 Public Key Size: 2048 bits
+[*] 10.0.0.248:443 Not Valid Before: 2014-12-08 14:34:00 UTC
+[*] 10.0.0.248:443 Not Valid After: 2017-05-29 14:49:44 UTC
+[+] 10.0.0.248:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.248:443 has common name *.standrews-de.org
+[*] 10.0.0.249:443 Subject: /OU=Domain Control Validated/CN=*.standrews-de.org
+[*] 10.0.0.249:443 Issuer: /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+[*] 10.0.0.249:443 Signature Alg: sha256WithRSAEncryption
+[*] 10.0.0.249:443 Public Key Size: 2048 bits
+[*] 10.0.0.249:443 Not Valid Before: 2014-12-08 14:34:00 UTC
+[*] 10.0.0.249:443 Not Valid After: 2017-05-29 14:49:44 UTC
+[+] 10.0.0.249:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 10.0.0.249:443 has common name *.standrews-de.org
+[*] 12.131.200.68:443 Subject: /CN=12.131.200.68
+[*] 12.131.200.68:443 Issuer: /CN=12.131.200.68
+[*] 12.131.200.68:443 Signature Alg: sha1WithRSAEncryption
+[*] 12.131.200.68:443 Public Key Size: 1024 bits
+[*] 12.131.200.68:443 Not Valid Before: 2015-07-31 09:08:22 UTC
+[*] 12.131.200.68:443 Not Valid After: 2025-07-28 09:08:22 UTC
+[+] 12.131.200.68:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[+] 12.131.200.68:443 Certificate Subject and Issuer match... possible self signed certificate
+[*] 12.131.200.68:443 WARNING: Public Key only 1024 bits
+[*] 12.131.200.68:443 has common name 12.131.200.68
+[*] Error: 23.221.212.138: OpenSSL::SSL::SSLError SSL_connect returned=1 errno=0 state=SSLv3 read server hello A: sslv3 alert handshake failure
+[*] 23.227.38.68:443 Subject: /C=CA/ST=Ontario/L=Ottawa/O=Shopify Inc./CN=*.myshopify.com
+[*] 23.227.38.68:443 Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA
+[*] 23.227.38.68:443 Signature Alg: sha256WithRSAEncryption
+[*] 23.227.38.68:443 Public Key Size: 2048 bits
+[*] 23.227.38.68:443 Not Valid Before: 2014-07-29 00:00:00 UTC
+[*] 23.227.38.68:443 Not Valid After: 2017-10-04 12:00:00 UTC
+[+] 23.227.38.68:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 23.227.38.68:443 has common name *.myshopify.com
+[*] 23.227.38.69:443 Subject: /C=CA/ST=Ontario/L=Ottawa/O=Shopify Inc./CN=*.myshopify.com
+[*] 23.227.38.69:443 Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA
+[*] 23.227.38.69:443 Signature Alg: sha256WithRSAEncryption
+[*] 23.227.38.69:443 Public Key Size: 2048 bits
+[*] 23.227.38.69:443 Not Valid Before: 2014-07-29 00:00:00 UTC
+[*] 23.227.38.69:443 Not Valid After: 2017-10-04 12:00:00 UTC
+[+] 23.227.38.69:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 23.227.38.69:443 has common name *.myshopify.com
+[*] 23.227.38.70:443 Subject: /C=CA/ST=Ontario/L=Ottawa/O=Shopify Inc./CN=*.myshopify.com
+[*] 23.227.38.70:443 Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA
+[*] 23.227.38.70:443 Signature Alg: sha256WithRSAEncryption
+[*] 23.227.38.70:443 Public Key Size: 2048 bits
+[*] 23.227.38.70:443 Not Valid Before: 2014-07-29 00:00:00 UTC
+[*] 23.227.38.70:443 Not Valid After: 2017-10-04 12:00:00 UTC
+[+] 23.227.38.70:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 23.227.38.70:443 has common name *.myshopify.com
+[*] 23.227.38.71:443 Subject: /C=CA/ST=Ontario/L=Ottawa/O=Shopify Inc./CN=*.myshopify.com
+[*] 23.227.38.71:443 Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA
+[*] 23.227.38.71:443 Signature Alg: sha256WithRSAEncryption
+[*] 23.227.38.71:443 Public Key Size: 2048 bits
+[*] 23.227.38.71:443 Not Valid Before: 2014-07-29 00:00:00 UTC
+[*] 23.227.38.71:443 Not Valid After: 2017-10-04 12:00:00 UTC
+[+] 23.227.38.71:443 Certificate contains no CA Issuers extension... possible self signed certificate
+[*] 23.227.38.71:443 has common name *.myshopify.com
+[*] 31.13.69.203:443 Subject: /C=US/ST=CA/L=Menlo Park/O=Facebook, Inc./CN=*.facebook.com
+[*] 31.13.69.203:443 Issuer: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert High Assurance CA-3
+[*] 31.13.69.203:443 Signature Alg: sha1WithRSAEncryption
+[-] Auxiliary failed: NoMethodError undefined method `n' for #<OpenSSL::PKey::EC:0x007f8be068de68>

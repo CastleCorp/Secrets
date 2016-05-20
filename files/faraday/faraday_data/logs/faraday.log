@@ -1,0 +1,864 @@
+2016-02-29 17:22:26,514 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-02-29 17:22:26,515 - faraday.launcher - INFO - Dependencies met.
+2016-02-29 17:22:26,516 - faraday.launcher - INFO - Checking configuration.
+2016-02-29 17:22:26,516 - faraday.launcher - INFO - Setting up plugins.
+2016-02-29 17:22:26,517 - faraday.launcher - INFO - Removing old plugins folder
+2016-02-29 17:22:27,156 - faraday.launcher - INFO - Setting up Qt configuration.
+2016-02-29 17:22:27,160 - faraday.launcher - INFO - Setting up ZSH integration.
+2016-02-29 17:22:27,185 - faraday.launcher - INFO - Setting up  user configuration.
+2016-02-29 17:22:27,186 - faraday.launcher - INFO - Copying default configuration from project.
+2016-02-29 17:22:27,193 - faraday.launcher - INFO - Setting up libraries.
+2016-02-29 17:22:27,194 - faraday.launcher - INFO - OS X detected.
+2016-02-29 17:22:27,239 - faraday.launcher - INFO - Setting up icons for QT interface.
+2016-02-29 17:22:27,422 - faraday.launcher - INFO - Setting configuration.
+2016-02-29 17:22:27,425 - faraday.launcher - INFO - XMLRPC API Server listening on localhost:9876
+2016-02-29 17:22:27,426 - faraday.launcher - INFO - RESTful API Server listening on localhost:9977
+2016-02-29 17:22:28,544 - faraday.Updater - INFO - Removing old pyc files
+2016-02-29 17:22:28,698 - faraday.Updater - INFO - Pulling latest Github Master copy
+2016-02-29 17:22:43,641 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-02-29 17:22:43,642 - faraday.launcher - INFO - Dependencies met.
+2016-02-29 17:22:43,643 - faraday.launcher - INFO - Checking configuration.
+2016-02-29 17:22:43,643 - faraday.launcher - INFO - Setting up plugins.
+2016-02-29 17:22:43,645 - faraday.launcher - INFO - Removing old plugins folder
+2016-02-29 17:22:43,989 - faraday.launcher - INFO - Setting up Qt configuration.
+2016-02-29 17:22:43,992 - faraday.launcher - INFO - Setting up ZSH integration.
+2016-02-29 17:22:43,996 - faraday.launcher - INFO - Setting up  user configuration.
+2016-02-29 17:22:43,997 - faraday.launcher - INFO - Using custom user configuration.
+2016-02-29 17:22:43,998 - faraday.launcher - INFO - Setting up libraries.
+2016-02-29 17:22:43,999 - faraday.launcher - INFO - OS X detected.
+2016-02-29 17:22:44,018 - faraday.launcher - INFO - Setting up icons for QT interface.
+2016-02-29 17:22:44,144 - faraday.launcher - INFO - Setting configuration.
+2016-02-29 17:22:44,149 - faraday.launcher - INFO - XMLRPC API Server listening on localhost:9876
+2016-02-29 17:22:44,242 - faraday.launcher - INFO - RESTful API Server listening on localhost:9977
+2016-02-29 17:22:45,121 - faraday.launcher - INFO - You have available updates. Run ./faraday.py --update to catchup!
+2016-02-29 17:22:46,547 - faraday.launcher - INFO - All done. Opening environment.
+2016-02-29 17:22:47,631 - faraday.launcher - WARNING - Main application ExceptHook enabled.
+2016-02-29 17:22:47,636 - faraday.launcher - INFO - Starting main application.
+2016-02-29 17:22:47,638 - faraday.MainApplication - INFO - Your last workspace (untitled) wasn't accessible, check configuration...
+2016-02-29 17:44:09,003 - faraday.MainApplication - INFO - Exiting...
+2016-02-29 18:37:55,272 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-02-29 18:37:55,273 - faraday.launcher - INFO - Dependencies met.
+2016-02-29 18:37:55,273 - faraday.launcher - INFO - Checking configuration.
+2016-02-29 18:37:55,273 - faraday.launcher - INFO - Setting up plugins.
+2016-02-29 18:37:55,273 - faraday.launcher - INFO - Removing old plugins folder
+2016-02-29 18:37:55,533 - faraday.launcher - INFO - Setting up Qt configuration.
+2016-02-29 18:37:55,535 - faraday.launcher - INFO - Setting up ZSH integration.
+2016-02-29 18:37:55,546 - faraday.launcher - INFO - Setting up  user configuration.
+2016-02-29 18:37:55,547 - faraday.launcher - INFO - Using custom user configuration.
+2016-02-29 18:37:55,547 - faraday.launcher - INFO - Setting up libraries.
+2016-02-29 18:37:55,547 - faraday.launcher - INFO - OS X detected.
+2016-02-29 18:37:55,588 - faraday.launcher - INFO - Setting up icons for QT interface.
+2016-02-29 18:37:55,712 - faraday.launcher - INFO - Setting configuration.
+2016-02-29 18:37:55,715 - faraday.launcher - INFO - XMLRPC API Server listening on localhost:9876
+2016-02-29 18:37:55,715 - faraday.launcher - INFO - RESTful API Server listening on localhost:9977
+2016-02-29 18:37:56,411 - faraday.launcher - INFO - You have available updates. Run ./faraday.py --update to catchup!
+2016-02-29 18:37:56,938 - faraday.launcher - INFO - All done. Opening environment.
+2016-02-29 18:37:57,203 - faraday.launcher - WARNING - Main application ExceptHook enabled.
+2016-02-29 18:37:57,206 - faraday.launcher - INFO - Starting main application.
+2016-02-29 18:39:52,718 - faraday.MainApplication - INFO - Exiting...
+2016-02-29 18:40:05,101 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-02-29 18:40:05,101 - faraday.launcher - INFO - Dependencies met.
+2016-02-29 18:40:05,101 - faraday.launcher - INFO - Checking configuration.
+2016-02-29 18:40:05,102 - faraday.launcher - INFO - Setting up plugins.
+2016-02-29 18:40:05,102 - faraday.launcher - INFO - Removing old plugins folder
+2016-02-29 18:40:05,196 - faraday.launcher - INFO - Setting up Qt configuration.
+2016-02-29 18:40:05,197 - faraday.launcher - INFO - Setting up ZSH integration.
+2016-02-29 18:40:05,199 - faraday.launcher - INFO - Setting up  user configuration.
+2016-02-29 18:40:05,199 - faraday.launcher - INFO - Using custom user configuration.
+2016-02-29 18:40:05,199 - faraday.launcher - INFO - Setting up libraries.
+2016-02-29 18:40:05,200 - faraday.launcher - INFO - OS X detected.
+2016-02-29 18:40:05,206 - faraday.launcher - INFO - Setting up icons for QT interface.
+2016-02-29 18:40:05,237 - faraday.launcher - INFO - Setting configuration.
+2016-02-29 18:40:05,239 - faraday.launcher - INFO - XMLRPC API Server listening on localhost:9876
+2016-02-29 18:40:05,239 - faraday.launcher - INFO - RESTful API Server listening on localhost:9977
+2016-02-29 18:40:05,356 - faraday.Updater - INFO - Removing old pyc files
+2016-02-29 18:40:05,408 - faraday.Updater - INFO - Pulling latest Github Master copy
+2016-02-29 18:40:09,373 - faraday.Updater - INFO - Checking qt3 libs
+2016-02-29 18:40:09,374 - faraday.Updater - ERROR - QT Dependencies not met. Have you run install.sh?
+2016-02-29 18:40:09,375 - faraday.Updater - INFO - QT Module not installed. You will only be able to run --gui=no-ui.
+2016-02-29 18:40:09,375 - faraday.Updater - ERROR - QT Dependencies not met. Have you run install.sh?
+2016-02-29 18:40:09,375 - faraday.Updater - INFO - QT Module not installed. You will only be able to run --gui=no-ui.
+2016-02-29 18:40:09,375 - faraday.Updater - ERROR - QT Dependencies not met. Have you run install.sh?
+2016-02-29 18:40:09,375 - faraday.Updater - INFO - QT Module not installed. You will only be able to run --gui=no-ui.
+2016-02-29 18:40:09,376 - faraday.Updater - ERROR - QT Dependencies not met. Have you run install.sh?
+2016-02-29 18:40:09,376 - faraday.Updater - INFO - QT Module not installed. You will only be able to run --gui=no-ui.
+2016-02-29 18:40:09,376 - faraday.Updater - ERROR - QT Dependencies not met. Have you run install.sh?
+2016-02-29 18:40:09,376 - faraday.Updater - INFO - QT Module not installed. You will only be able to run --gui=no-ui.
+2016-02-29 18:40:09,376 - faraday.Updater - ERROR - QT Dependencies not met. Have you run install.sh?
+2016-02-29 18:40:09,376 - faraday.Updater - INFO - QT Module not installed. You will only be able to run --gui=no-ui.
+2016-02-29 18:40:09,376 - faraday.Updater - ERROR - QT Dependencies not met. Have you run install.sh?
+2016-02-29 18:40:09,377 - faraday.Updater - INFO - QT Module not installed. You will only be able to run --gui=no-ui.
+2016-02-29 18:40:09,377 - faraday.Updater - ERROR - QT Dependencies not met. Have you run install.sh?
+2016-02-29 18:40:09,377 - faraday.Updater - INFO - QT Module not installed. You will only be able to run --gui=no-ui.
+2016-02-29 18:40:09,380 - faraday.Updater - INFO - Installing missing dependencies in pip
+2016-02-29 18:40:09,650 - faraday.Updater - INFO - Upgrading DBs to latest version
+2016-02-29 18:40:09,650 - faraday.Updater - INFO - No DB configuration found.
+                    To upgrade your DB please configure a valid CouchDB URI in:
+                    ~/.faraday/config/user.xml configuration file.
+2016-02-29 18:40:09,650 - faraday.launcher - INFO - Update process finished with no errors
+2016-02-29 18:40:09,650 - faraday.launcher - INFO - Faraday will start now.
+2016-02-29 18:40:09,749 - faraday.launcher - INFO - You have available updates. Run ./faraday.py --update to catchup!
+2016-02-29 18:40:09,920 - faraday.launcher - INFO - All done. Opening environment.
+2016-02-29 18:40:10,192 - faraday.launcher - WARNING - Main application ExceptHook enabled.
+2016-02-29 18:40:10,193 - faraday.launcher - INFO - Starting main application.
+2016-02-29 18:41:17,322 - faraday.MainApplication - INFO - Exiting...
+2016-02-29 18:41:26,107 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-02-29 18:41:26,108 - faraday.launcher - INFO - Dependencies met.
+2016-02-29 18:41:26,108 - faraday.launcher - INFO - Checking configuration.
+2016-02-29 18:41:26,108 - faraday.launcher - INFO - Setting up plugins.
+2016-02-29 18:41:26,108 - faraday.launcher - INFO - Removing old plugins folder
+2016-02-29 18:41:26,191 - faraday.launcher - INFO - Setting up Qt configuration.
+2016-02-29 18:41:26,192 - faraday.launcher - INFO - Setting up ZSH integration.
+2016-02-29 18:41:26,194 - faraday.launcher - INFO - Setting up  user configuration.
+2016-02-29 18:41:26,194 - faraday.launcher - INFO - Using custom user configuration.
+2016-02-29 18:41:26,194 - faraday.launcher - INFO - Setting up libraries.
+2016-02-29 18:41:26,194 - faraday.launcher - INFO - OS X detected.
+2016-02-29 18:41:26,203 - faraday.launcher - INFO - Setting up icons for QT interface.
+2016-02-29 18:41:26,244 - faraday.launcher - INFO - Setting configuration.
+2016-02-29 18:42:07,372 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-02-29 18:42:07,372 - faraday.launcher - INFO - Dependencies met.
+2016-02-29 18:42:07,373 - faraday.launcher - INFO - Checking configuration.
+2016-02-29 18:42:07,373 - faraday.launcher - INFO - Setting up plugins.
+2016-02-29 18:42:07,373 - faraday.launcher - INFO - Removing old plugins folder
+2016-02-29 18:42:07,458 - faraday.launcher - INFO - Setting up Qt configuration.
+2016-02-29 18:42:07,458 - faraday.launcher - INFO - Setting up ZSH integration.
+2016-02-29 18:42:07,460 - faraday.launcher - INFO - Setting up  user configuration.
+2016-02-29 18:42:07,460 - faraday.launcher - INFO - Using custom user configuration.
+2016-02-29 18:42:07,460 - faraday.launcher - INFO - Setting up libraries.
+2016-02-29 18:42:07,461 - faraday.launcher - INFO - OS X detected.
+2016-02-29 18:42:07,468 - faraday.launcher - INFO - Setting up icons for QT interface.
+2016-02-29 18:42:07,502 - faraday.launcher - INFO - Setting configuration.
+2016-02-29 18:42:07,504 - faraday.launcher - INFO - XMLRPC API Server listening on localhost:9876
+2016-02-29 18:42:07,505 - faraday.launcher - INFO - RESTful API Server listening on localhost:9977
+2016-02-29 18:42:07,670 - faraday.launcher - INFO - You have available updates. Run ./faraday.py --update to catchup!
+2016-02-29 18:42:08,026 - faraday.launcher - INFO - All done. Opening environment.
+2016-02-29 18:42:08,677 - faraday.launcher - WARNING - Main application ExceptHook enabled.
+2016-02-29 18:42:08,679 - faraday.launcher - INFO - Starting main application.
+2016-02-29 18:42:49,099 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/newhosts_amap
+2016-02-29 18:42:49,103 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/newhosts_amap, 
+2016-02-29 18:42:49,103 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/newhosts_amap
+2016-02-29 18:42:49,114 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.02ms
+2016-02-29 18:43:59,271 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sas_maltego.mtgx
+2016-02-29 18:43:59,274 - faraday - INFO - Report type detected: zip
+2016-02-29 18:43:59,276 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sas_maltego.mtgx, maltego_faraday
+2016-02-29 18:43:59,276 - faraday - INFO - Executing ./maltego_faraday /Users/parkerthomas/.faraday/report/untitled/sas_maltego.mtgx
+2016-02-29 18:43:59,503 - faraday - INFO - Plugin finished: Maltego, (858620f066f0d94f056b2cbdce277506fbd13579)
+2016-02-29 18:44:49,681 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/hosts.xml
+2016-02-29 18:44:49,682 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/hosts.xml, 
+2016-02-29 18:44:49,682 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/hosts.xml
+2016-02-29 18:44:49,697 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.31ms
+2016-02-29 18:45:29,800 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/export
+2016-02-29 18:45:29,801 - faraday - INFO - Report type detected: xml
+2016-02-29 18:45:29,819 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/export, metasploit
+2016-02-29 18:45:29,820 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/export
+2016-02-29 18:45:31,419 - faraday - INFO - Plugin finished: Metasploit, (7945cde0f68bd381de0f769441e5ea8b2ab72870)
+2016-02-29 18:45:32,239 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/export.xml
+2016-02-29 18:45:32,239 - faraday - INFO - Report type detected: xml
+2016-02-29 18:45:32,245 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/export.xml, metasploit
+2016-02-29 18:45:32,245 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/export.xml
+2016-02-29 18:45:33,843 - faraday - INFO - Plugin finished: Metasploit, (7870725db7b3de4ab1bc6f48549a0e770c9a4828)
+2016-02-29 18:46:14,626 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/DirBusterReport-standrews-de.org.txt
+2016-02-29 18:46:14,628 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/DirBusterReport-standrews-de.org.txt, 
+2016-02-29 18:46:14,628 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/DirBusterReport-standrews-de.org.txt
+2016-02-29 18:46:14,643 - tornado.access - WARNING - 400 POST /cmd/output (::1) 2.39ms
+2016-02-29 18:46:44,725 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/airportSniff4PBhTQ.cap
+2016-02-29 18:46:44,735 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/airportSniff4PBhTQ.cap, 
+2016-02-29 18:46:44,736 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/airportSniff4PBhTQ.cap
+2016-02-29 18:46:44,877 - tornado.access - WARNING - 400 POST /cmd/output (::1) 80.07ms
+2016-02-29 18:46:44,877 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/airportSniffLHPVi9.cap
+2016-02-29 18:46:46,387 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/airportSniffLHPVi9.cap, 
+2016-02-29 18:46:46,387 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/airportSniffLHPVi9.cap
+2016-02-29 18:46:55,866 - faraday - INFO - An exception was captured while saving reports
+Traceback (most recent call last):
+  File "/Volumes/Zeus/Desktop/pentest/faraday-dev/managers/reports_managers.py", line 48, in run
+    self.syncReports()
+  File "/Volumes/Zeus/Desktop/pentest/faraday-dev/managers/reports_managers.py", line 99, in syncReports
+    client.send_output(command_string, filename)
+  File "/Volumes/Zeus/Desktop/pentest/faraday-dev/apis/rest/api.py", line 364, in send_output
+    headers=self.headers)
+  File "/Users/parkerthomas/Library/Python/2.7/lib/python/site-packages/requests/api.py", line 109, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/parkerthomas/Library/Python/2.7/lib/python/site-packages/requests/api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "/Users/parkerthomas/Library/Python/2.7/lib/python/site-packages/requests/sessions.py", line 465, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/parkerthomas/Library/Python/2.7/lib/python/site-packages/requests/sessions.py", line 573, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/parkerthomas/Library/Python/2.7/lib/python/site-packages/requests/adapters.py", line 415, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(32, 'Broken pipe'))
+
+2016-02-29 18:47:05,888 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/airportSniffLHPVi9.cap
+2016-02-29 18:47:06,520 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/airportSniffLHPVi9.cap, 
+2016-02-29 18:47:06,520 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/airportSniffLHPVi9.cap
+2016-02-29 18:47:16,664 - faraday - INFO - An exception was captured while saving reports
+Traceback (most recent call last):
+  File "/Volumes/Zeus/Desktop/pentest/faraday-dev/managers/reports_managers.py", line 48, in run
+    self.syncReports()
+  File "/Volumes/Zeus/Desktop/pentest/faraday-dev/managers/reports_managers.py", line 99, in syncReports
+    client.send_output(command_string, filename)
+  File "/Volumes/Zeus/Desktop/pentest/faraday-dev/apis/rest/api.py", line 364, in send_output
+    headers=self.headers)
+  File "/Users/parkerthomas/Library/Python/2.7/lib/python/site-packages/requests/api.py", line 109, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/parkerthomas/Library/Python/2.7/lib/python/site-packages/requests/api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "/Users/parkerthomas/Library/Python/2.7/lib/python/site-packages/requests/sessions.py", line 465, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/parkerthomas/Library/Python/2.7/lib/python/site-packages/requests/sessions.py", line 573, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/parkerthomas/Library/Python/2.7/lib/python/site-packages/requests/adapters.py", line 415, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(41, 'Protocol wrong type for socket'))
+
+2016-02-29 18:47:26,683 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/airportSniffLHPVi9.cap
+2016-02-29 18:47:27,279 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/airportSniffLHPVi9.cap, 
+2016-02-29 18:47:27,279 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/airportSniffLHPVi9.cap
+2016-02-29 18:47:37,876 - faraday - INFO - An exception was captured while saving reports
+Traceback (most recent call last):
+  File "/Volumes/Zeus/Desktop/pentest/faraday-dev/managers/reports_managers.py", line 48, in run
+    self.syncReports()
+  File "/Volumes/Zeus/Desktop/pentest/faraday-dev/managers/reports_managers.py", line 99, in syncReports
+    client.send_output(command_string, filename)
+  File "/Volumes/Zeus/Desktop/pentest/faraday-dev/apis/rest/api.py", line 364, in send_output
+    headers=self.headers)
+  File "/Users/parkerthomas/Library/Python/2.7/lib/python/site-packages/requests/api.py", line 109, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Users/parkerthomas/Library/Python/2.7/lib/python/site-packages/requests/api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "/Users/parkerthomas/Library/Python/2.7/lib/python/site-packages/requests/sessions.py", line 465, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/parkerthomas/Library/Python/2.7/lib/python/site-packages/requests/sessions.py", line 573, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/parkerthomas/Library/Python/2.7/lib/python/site-packages/requests/adapters.py", line 415, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(32, 'Broken pipe'))
+
+2016-02-29 18:47:57,927 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/Screenshot 2016-02-26 08.40.29.jpg
+2016-02-29 18:47:57,927 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/Screenshot 2016-02-26 08.40.29.jpg, 
+2016-02-29 18:47:57,927 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/Screenshot 2016-02-26 08.40.29.jpg
+2016-02-29 18:47:57,949 - tornado.access - WARNING - 400 POST /cmd/output (::1) 8.42ms
+2016-02-29 18:48:48,081 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/switches_nmap1
+2016-02-29 18:48:48,082 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/switches_nmap1, 
+2016-02-29 18:48:48,082 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/switches_nmap1
+2016-02-29 18:48:48,093 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.03ms
+2016-02-29 18:49:18,165 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/2016_hosts
+2016-02-29 18:49:18,166 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/2016_hosts, 
+2016-02-29 18:49:18,166 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/2016_hosts
+2016-02-29 18:49:18,182 - tornado.access - WARNING - 400 POST /cmd/output (::1) 2.56ms
+2016-02-29 18:49:18,183 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/2016_notes
+2016-02-29 18:49:18,184 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/2016_notes, 
+2016-02-29 18:49:18,184 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/2016_notes
+2016-02-29 18:49:18,202 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.49ms
+2016-02-29 18:49:18,204 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/subnet_hosts
+2016-02-29 18:49:18,204 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/subnet_hosts, 
+2016-02-29 18:49:18,205 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/subnet_hosts
+2016-02-29 18:49:18,219 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.55ms
+2016-02-29 18:49:18,221 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/subnet_notes
+2016-02-29 18:49:18,223 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/subnet_notes, 
+2016-02-29 18:49:18,223 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/subnet_notes
+2016-02-29 18:49:18,240 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.71ms
+2016-02-29 18:49:18,242 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/subnet_services
+2016-02-29 18:49:18,243 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/subnet_services, 
+2016-02-29 18:49:18,243 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/subnet_services
+2016-02-29 18:49:18,265 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.38ms
+2016-02-29 18:49:18,267 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/switch_ips.txt
+2016-02-29 18:49:18,267 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/switch_ips.txt, 
+2016-02-29 18:49:18,267 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/switch_ips.txt
+2016-02-29 18:49:18,280 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.77ms
+2016-02-29 18:49:18,282 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/switches.txt
+2016-02-29 18:49:18,283 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/switches.txt, 
+2016-02-29 18:49:18,283 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/switches.txt
+2016-02-29 18:49:18,296 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.55ms
+2016-02-29 18:49:18,298 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/switches_amap
+2016-02-29 18:49:18,299 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/switches_amap, 
+2016-02-29 18:49:18,300 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/switches_amap
+2016-02-29 18:49:18,312 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.58ms
+2016-02-29 18:49:18,314 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/switches_hosts
+2016-02-29 18:49:18,315 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/switches_hosts, 
+2016-02-29 18:49:18,315 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/switches_hosts
+2016-02-29 18:49:18,327 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.34ms
+2016-02-29 18:49:18,329 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/switches_nmap
+2016-02-29 18:49:18,330 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/switches_nmap, 
+2016-02-29 18:49:18,330 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/switches_nmap
+2016-02-29 18:49:18,344 - tornado.access - WARNING - 400 POST /cmd/output (::1) 2.83ms
+2016-02-29 18:49:18,346 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/switches_notes
+2016-02-29 18:49:18,346 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/switches_notes, 
+2016-02-29 18:49:18,347 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/switches_notes
+2016-02-29 18:49:18,360 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.74ms
+2016-02-29 18:49:18,361 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/switches_services
+2016-02-29 18:49:18,362 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/switches_services, 
+2016-02-29 18:49:18,362 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/switches_services
+2016-02-29 18:49:18,377 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.56ms
+2016-02-29 18:50:28,563 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/application.log
+2016-02-29 18:50:28,569 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/application.log, 
+2016-02-29 18:50:28,570 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/application.log
+2016-02-29 18:50:28,620 - tornado.access - WARNING - 400 POST /cmd/output (::1) 21.11ms
+2016-02-29 18:50:48,669 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/newhosts_amap
+2016-02-29 18:50:48,670 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/newhosts_amap, 
+2016-02-29 18:50:48,671 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/newhosts_amap
+2016-02-29 18:50:48,684 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.29ms
+2016-02-29 18:51:08,737 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/hosts_ip.txt
+2016-02-29 18:51:08,737 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/hosts_ip.txt, 
+2016-02-29 18:51:08,737 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/hosts_ip.txt
+2016-02-29 18:51:08,748 - tornado.access - WARNING - 400 POST /cmd/output (::1) 0.87ms
+2016-02-29 18:51:18,779 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sas_nslookup.txt
+2016-02-29 18:51:18,779 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sas_nslookup.txt, 
+2016-02-29 18:51:18,779 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/sas_nslookup.txt
+2016-02-29 18:51:18,791 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.71ms
+2016-02-29 18:51:38,849 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sas_maltego_entities.mtz
+2016-02-29 18:51:38,852 - faraday - INFO - Report type detected: zip
+2016-02-29 18:51:38,853 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sas_maltego_entities.mtz, maltego_faraday
+2016-02-29 18:51:38,853 - faraday - INFO - Executing ./maltego_faraday /Users/parkerthomas/.faraday/report/untitled/sas_maltego_entities.mtz
+2016-02-29 18:52:30,956 - faraday.MainApplication - INFO - Exiting...
+2016-02-29 19:35:18,015 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-02-29 19:35:18,016 - faraday.launcher - INFO - Dependencies met.
+2016-02-29 19:35:18,016 - faraday.launcher - INFO - Checking configuration.
+2016-02-29 19:35:18,016 - faraday.launcher - INFO - Setting up plugins.
+2016-02-29 19:35:18,016 - faraday.launcher - INFO - Removing old plugins folder
+2016-02-29 19:35:18,102 - faraday.launcher - INFO - Setting up Qt configuration.
+2016-02-29 19:35:18,103 - faraday.launcher - INFO - Setting up ZSH integration.
+2016-02-29 19:35:18,104 - faraday.launcher - INFO - Setting up  user configuration.
+2016-02-29 19:35:18,104 - faraday.launcher - INFO - Using custom user configuration.
+2016-02-29 19:35:18,104 - faraday.launcher - INFO - Setting up libraries.
+2016-02-29 19:35:18,105 - faraday.launcher - INFO - OS X detected.
+2016-02-29 19:35:18,112 - faraday.launcher - INFO - Setting up icons for QT interface.
+2016-02-29 19:35:18,141 - faraday.launcher - INFO - Setting configuration.
+2016-02-29 19:35:18,143 - faraday.launcher - INFO - XMLRPC API Server listening on localhost:9876
+2016-02-29 19:35:18,143 - faraday.launcher - INFO - RESTful API Server listening on localhost:9977
+2016-02-29 19:35:18,811 - faraday.launcher - INFO - You have available updates. Run ./faraday.py --update to catchup!
+2016-02-29 19:35:18,933 - faraday.launcher - INFO - All done. Opening environment.
+2016-02-29 19:35:19,290 - faraday.launcher - WARNING - Main application ExceptHook enabled.
+2016-02-29 19:35:19,291 - faraday.launcher - INFO - Starting main application.
+2016-02-29 19:35:21,447 - faraday - INFO - There was an error creating the XMLRPC API Server:
+[Errno 48] Address already in use
+2016-02-29 19:35:31,520 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/2016_db_feb4
+2016-02-29 19:35:31,523 - faraday - INFO - Report type detected: xml
+2016-02-29 19:35:31,537 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/2016_db_feb4, metasploit
+2016-02-29 19:35:31,537 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/2016_db_feb4
+2016-02-29 19:35:32,232 - faraday - INFO - Plugin finished: Metasploit, (ea4f79e977fbc1060a3d19ba3666f1f32ea7ab34)
+2016-02-29 19:35:32,259 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/subnet_db_feb4
+2016-02-29 19:35:32,262 - faraday - INFO - Report type detected: xml
+2016-02-29 19:35:32,282 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/subnet_db_feb4, metasploit
+2016-02-29 19:35:32,282 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/subnet_db_feb4
+2016-02-29 19:35:32,972 - faraday - INFO - Plugin finished: Metasploit, (667ea2e0eb0e006fda9d14a1424a6c24444e9b89)
+2016-02-29 19:35:33,041 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/switches_db_feb4
+2016-02-29 19:35:33,042 - faraday - INFO - Report type detected: xml
+2016-02-29 19:35:33,057 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/switches_db_feb4, metasploit
+2016-02-29 19:35:33,057 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/switches_db_feb4
+2016-02-29 19:35:33,870 - faraday - INFO - Plugin finished: Metasploit, (da6459418b7881dcea3a179d39287192a2648f0c)
+2016-02-29 19:35:53,949 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sas_whois.txt
+2016-02-29 19:35:53,950 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sas_whois.txt, 
+2016-02-29 19:35:53,950 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/sas_whois.txt
+2016-02-29 19:35:53,963 - tornado.access - WARNING - 400 POST /cmd/output (::1) 0.94ms
+2016-02-29 19:36:03,984 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/harvester_sas.xml
+2016-02-29 19:36:03,985 - faraday - INFO - Report type detected: xml
+2016-02-29 19:36:24,040 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/dnstrace_sas.txt
+2016-02-29 19:36:24,041 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/dnstrace_sas.txt, 
+2016-02-29 19:36:24,041 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/dnstrace_sas.txt
+2016-02-29 19:36:24,054 - tornado.access - WARNING - 400 POST /cmd/output (::1) 2.96ms
+2016-02-29 19:37:14,198 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/socrates_nmap
+2016-02-29 19:37:14,201 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/socrates_nmap, 
+2016-02-29 19:37:14,202 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/socrates_nmap
+2016-02-29 19:37:14,212 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.03ms
+2016-02-29 19:37:44,282 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sas_amap
+2016-02-29 19:37:44,286 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sas_amap, 
+2016-02-29 19:37:44,286 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/sas_amap
+2016-02-29 19:37:44,297 - tornado.access - WARNING - 400 POST /cmd/output (::1) 0.95ms
+2016-02-29 19:38:04,361 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/msf_db_export_feb1
+2016-02-29 19:38:04,364 - faraday - INFO - Report type detected: xml
+2016-02-29 19:38:04,389 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/msf_db_export_feb1, metasploit
+2016-02-29 19:38:04,389 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/msf_db_export_feb1
+2016-02-29 19:38:06,694 - faraday - INFO - Plugin finished: Metasploit, (45919d1ab18f4230ebab3fb4faed8cf4c85176a6)
+2016-02-29 19:38:18,982 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/arp_1.txt
+2016-02-29 19:38:18,983 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/arp_1.txt, 
+2016-02-29 19:38:18,983 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/arp_1.txt
+2016-02-29 19:38:19,003 - tornado.access - WARNING - 400 POST /cmd/output (::1) 2.91ms
+2016-02-29 19:38:39,054 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/2016_export
+2016-02-29 19:38:39,063 - faraday - INFO - Report type detected: xml
+2016-02-29 19:38:39,077 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/2016_export, metasploit
+2016-02-29 19:38:39,078 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/2016_export
+2016-02-29 19:38:39,970 - faraday - INFO - Plugin finished: Metasploit, (37ee6e97d19f47f7aacefdffc851b970dc5285ee)
+2016-02-29 19:38:40,000 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/subnet_export
+2016-02-29 19:38:40,002 - faraday - INFO - Report type detected: xml
+2016-02-29 19:38:40,019 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/subnet_export, metasploit
+2016-02-29 19:38:40,020 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/subnet_export
+2016-02-29 19:38:40,980 - faraday - INFO - Plugin finished: Metasploit, (36102780bb2d37136726a857f1374b02cc6856ac)
+2016-02-29 19:38:41,061 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/switches_export
+2016-02-29 19:38:41,064 - faraday - INFO - Report type detected: xml
+2016-02-29 19:38:41,079 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/switches_export, metasploit
+2016-02-29 19:38:41,079 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/switches_export
+2016-02-29 19:38:41,964 - faraday - INFO - Plugin finished: Metasploit, (ba2d006619e6525cb6d60af58d8adce7bbb59ad2)
+2016-02-29 19:38:42,025 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/vscan_1
+2016-02-29 19:38:42,027 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/vscan_1, 
+2016-02-29 19:38:42,027 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/vscan_1
+2016-02-29 19:38:42,060 - tornado.access - WARNING - 400 POST /cmd/output (::1) 2.23ms
+2016-02-29 19:39:02,120 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/osx_1
+2016-02-29 19:39:02,121 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/osx_1, 
+2016-02-29 19:39:02,121 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/osx_1
+2016-02-29 19:39:02,132 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.83ms
+2016-02-29 19:39:12,163 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/2016.01.27_21-37-20-EST-dec.wcap
+2016-02-29 19:39:12,177 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/2016.01.27_21-37-20-EST-dec.wcap, 
+2016-02-29 19:39:12,177 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/2016.01.27_21-37-20-EST-dec.wcap
+2016-02-29 19:39:12,443 - tornado.access - WARNING - 400 POST /cmd/output (::1) 149.83ms
+2016-02-29 19:39:22,463 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/-v
+2016-02-29 19:39:22,463 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/-v, 
+2016-02-29 19:39:22,463 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/-v
+2016-02-29 19:39:22,479 - tornado.access - WARNING - 400 POST /cmd/output (::1) 0.91ms
+2016-02-29 19:39:42,537 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/2016_db
+2016-02-29 19:39:42,540 - faraday - INFO - Report type detected: xml
+2016-02-29 19:39:42,554 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/2016_db, metasploit
+2016-02-29 19:39:42,554 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/2016_db
+2016-02-29 19:39:43,213 - faraday - INFO - Plugin finished: Metasploit, (58c1f72c5a9bd86490ccdd056e31916af5d59317)
+2016-02-29 19:39:43,244 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/db_export_jan27
+2016-02-29 19:39:43,249 - faraday - INFO - Report type detected: xml
+2016-02-29 19:39:43,273 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/db_export_jan27, metasploit
+2016-02-29 19:39:43,273 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/db_export_jan27
+2016-02-29 19:39:44,811 - faraday - INFO - Plugin finished: Metasploit, (0d29ba95ea68bcfce5b877bb435664bcd50ced6c)
+2016-02-29 19:39:46,197 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/subnet_db
+2016-02-29 19:39:46,201 - faraday - INFO - Report type detected: xml
+2016-02-29 19:39:46,217 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/subnet_db, metasploit
+2016-02-29 19:39:46,218 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/subnet_db
+2016-02-29 19:39:46,916 - faraday - INFO - Plugin finished: Metasploit, (d845e250055f0c82b720be4c4e8884c36840f724)
+2016-02-29 19:39:46,991 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/switches_db
+2016-02-29 19:39:46,992 - faraday - INFO - Report type detected: xml
+2016-02-29 19:39:47,006 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/switches_db, metasploit
+2016-02-29 19:39:47,006 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/switches_db
+2016-02-29 19:39:47,725 - faraday - INFO - Plugin finished: Metasploit, (768510e1bdb2d120bb63d4860fdcd9ae6faf48d4)
+2016-02-29 19:40:07,806 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/target1rslts.amap
+2016-02-29 19:40:07,810 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/target1rslts.amap, 
+2016-02-29 19:40:07,810 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/target1rslts.amap
+2016-02-29 19:40:07,821 - tornado.access - WARNING - 400 POST /cmd/output (::1) 0.91ms
+2016-02-29 19:40:07,823 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/target1rslts.amap.old
+2016-02-29 19:40:07,824 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/target1rslts.amap.old, 
+2016-02-29 19:40:07,824 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/target1rslts.amap.old
+2016-02-29 19:40:07,838 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.61ms
+2016-02-29 19:40:07,841 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/target1rslts.gnmap
+2016-02-29 19:40:07,842 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/target1rslts.gnmap, 
+2016-02-29 19:40:07,842 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/target1rslts.gnmap
+2016-02-29 19:40:07,857 - tornado.access - WARNING - 400 POST /cmd/output (::1) 2.29ms
+2016-02-29 19:40:07,859 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/target1rslts.nmap
+2016-02-29 19:40:07,860 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/target1rslts.nmap, 
+2016-02-29 19:40:07,861 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/target1rslts.nmap
+2016-02-29 19:40:07,878 - tornado.access - WARNING - 400 POST /cmd/output (::1) 2.17ms
+2016-02-29 19:40:07,880 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/target1rslts.xml
+2016-02-29 19:40:07,881 - faraday - INFO - Report type detected: xml
+2016-02-29 19:40:07,883 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/target1rslts.xml, nmap
+2016-02-29 19:40:07,883 - faraday - INFO - Executing ./nmap /Users/parkerthomas/.faraday/report/untitled/target1rslts.xml
+2016-02-29 19:40:08,452 - faraday - INFO - Plugin finished: Nmap, (4047df25a56a024140af71e512de690d99d4efa7)
+2016-02-29 19:40:49,174 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/2016-hosts.txt
+2016-02-29 19:40:49,175 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/2016-hosts.txt, 
+2016-02-29 19:40:49,175 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/2016-hosts.txt
+2016-02-29 19:40:49,187 - tornado.access - WARNING - 400 POST /cmd/output (::1) 0.89ms
+2016-02-29 19:40:49,188 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/2016-notes.txt
+2016-02-29 19:40:49,189 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/2016-notes.txt, 
+2016-02-29 19:40:49,189 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/2016-notes.txt
+2016-02-29 19:40:49,203 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.57ms
+2016-02-29 19:40:49,205 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/2016-services.txt
+2016-02-29 19:40:49,205 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/2016-services.txt, 
+2016-02-29 19:40:49,205 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/2016-services.txt
+2016-02-29 19:40:49,222 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.70ms
+2016-02-29 19:41:09,265 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/coldfusion-hosts.txt
+2016-02-29 19:41:09,265 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/coldfusion-hosts.txt, 
+2016-02-29 19:41:09,266 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/coldfusion-hosts.txt
+2016-02-29 19:41:09,279 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.37ms
+2016-02-29 19:41:09,281 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/coldfusion-notes.txt
+2016-02-29 19:41:09,282 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/coldfusion-notes.txt, 
+2016-02-29 19:41:09,282 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/coldfusion-notes.txt
+2016-02-29 19:41:09,296 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.31ms
+2016-02-29 19:41:09,298 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/coldfusion-services.txt
+2016-02-29 19:41:09,299 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/coldfusion-services.txt, 
+2016-02-29 19:41:09,299 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/coldfusion-services.txt
+2016-02-29 19:41:09,314 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.29ms
+2016-02-29 19:41:09,315 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/may-hosts.txt
+2016-02-29 19:41:09,316 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/may-hosts.txt, 
+2016-02-29 19:41:09,316 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/may-hosts.txt
+2016-02-29 19:41:09,340 - tornado.access - WARNING - 400 POST /cmd/output (::1) 9.00ms
+2016-02-29 19:41:09,342 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/may-loot.txt
+2016-02-29 19:41:09,342 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/may-loot.txt, 
+2016-02-29 19:41:09,342 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/may-loot.txt
+2016-02-29 19:41:09,361 - tornado.access - WARNING - 400 POST /cmd/output (::1) 2.06ms
+2016-02-29 19:41:09,361 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/may-notes.txt
+2016-02-29 19:41:09,371 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/may-notes.txt, 
+2016-02-29 19:41:09,371 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/may-notes.txt
+2016-02-29 19:41:09,396 - tornado.access - WARNING - 400 POST /cmd/output (::1) 8.53ms
+2016-02-29 19:41:09,401 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/may-services.txt
+2016-02-29 19:41:09,403 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/may-services.txt, 
+2016-02-29 19:41:09,403 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/may-services.txt
+2016-02-29 19:41:09,419 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.73ms
+2016-02-29 19:41:09,421 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sasnew-hosts.txt
+2016-02-29 19:41:09,421 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sasnew-hosts.txt, 
+2016-02-29 19:41:09,421 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/sasnew-hosts.txt
+2016-02-29 19:41:09,439 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.30ms
+2016-02-29 19:41:09,440 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sasnew-services.txt
+2016-02-29 19:41:09,441 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sasnew-services.txt, 
+2016-02-29 19:41:09,441 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/sasnew-services.txt
+2016-02-29 19:41:09,452 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.34ms
+2016-02-29 19:41:09,454 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/switches-hosts.txt
+2016-02-29 19:41:09,454 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/switches-hosts.txt, 
+2016-02-29 19:41:09,454 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/switches-hosts.txt
+2016-02-29 19:41:09,470 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.01ms
+2016-02-29 19:41:09,472 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/switches-notes.txt
+2016-02-29 19:41:09,473 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/switches-notes.txt, 
+2016-02-29 19:41:09,473 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/switches-notes.txt
+2016-02-29 19:41:09,486 - tornado.access - WARNING - 400 POST /cmd/output (::1) 2.47ms
+2016-02-29 19:41:09,488 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/switches-services.txt
+2016-02-29 19:41:09,489 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/switches-services.txt, 
+2016-02-29 19:41:09,489 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/switches-services.txt
+2016-02-29 19:41:09,503 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.03ms
+2016-02-29 19:41:09,505 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/thalia-hosts.txt
+2016-02-29 19:41:09,506 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/thalia-hosts.txt, 
+2016-02-29 19:41:09,506 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/thalia-hosts.txt
+2016-02-29 19:41:09,518 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.23ms
+2016-02-29 19:41:09,520 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/thalia-notes.txt
+2016-02-29 19:41:09,521 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/thalia-notes.txt, 
+2016-02-29 19:41:09,521 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/thalia-notes.txt
+2016-02-29 19:41:09,536 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.38ms
+2016-02-29 19:41:09,538 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/thalia-services.txt
+2016-02-29 19:41:09,538 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/thalia-services.txt, 
+2016-02-29 19:41:09,538 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/thalia-services.txt
+2016-02-29 19:41:09,555 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.27ms
+2016-02-29 19:41:09,557 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/workspace-messing-around-@-sas-hosts.txt
+2016-02-29 19:41:09,558 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/workspace-messing-around-@-sas-hosts.txt, 
+2016-02-29 19:41:09,558 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/workspace-messing-around-@-sas-hosts.txt
+2016-02-29 19:41:09,577 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.56ms
+2016-02-29 19:41:09,578 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/workspace-messing-around-@-sas-notes.txt
+2016-02-29 19:41:09,579 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/workspace-messing-around-@-sas-notes.txt, 
+2016-02-29 19:41:09,579 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/workspace-messing-around-@-sas-notes.txt
+2016-02-29 19:41:09,595 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.36ms
+2016-02-29 19:41:09,596 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/workspace-messing-around-@-sas-services.txt
+2016-02-29 19:41:09,597 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/workspace-messing-around-@-sas-services.txt, 
+2016-02-29 19:41:09,598 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/workspace-messing-around-@-sas-services.txt
+2016-02-29 19:41:09,612 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.79ms
+2016-02-29 19:41:29,667 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/export
+2016-02-29 19:41:29,668 - faraday - INFO - Report type detected: xml
+2016-02-29 19:41:29,686 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/export, metasploit
+2016-02-29 19:41:29,686 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/export
+2016-02-29 19:41:30,993 - faraday - INFO - Plugin finished: Metasploit, (7945cde0f68bd381de0f769441e5ea8b2ab72870)
+2016-02-29 19:41:31,812 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/export.xml
+2016-02-29 19:41:31,817 - faraday - INFO - Report type detected: xml
+2016-02-29 19:41:31,838 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/export.xml, metasploit
+2016-02-29 19:41:31,838 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/export.xml
+2016-02-29 19:41:33,013 - faraday - INFO - Plugin finished: Metasploit, (7870725db7b3de4ab1bc6f48549a0e770c9a4828)
+2016-02-29 19:41:33,829 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/smbshares.xml
+2016-02-29 19:41:33,830 - faraday - INFO - Report type detected: xml
+2016-02-29 19:41:33,840 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/smbshares.xml, metasploit
+2016-02-29 19:41:33,841 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/smbshares.xml
+2016-02-29 19:41:35,044 - faraday - INFO - Plugin finished: Metasploit, (3825d83705821d69b992dfb4b8495fb71ef28183)
+2016-02-29 19:41:55,915 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/hosts.xml
+2016-02-29 19:41:55,916 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/hosts.xml, 
+2016-02-29 19:41:55,916 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/hosts.xml
+2016-02-29 19:41:55,929 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sas-hosts
+2016-02-29 19:41:55,929 - tornado.access - WARNING - 400 POST /cmd/output (::1) 2.44ms
+2016-02-29 19:41:55,933 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sas-hosts, 
+2016-02-29 19:41:55,933 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/sas-hosts
+2016-02-29 19:41:55,950 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.71ms
+2016-02-29 19:41:55,952 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sas-hosts-important.txt
+2016-02-29 19:41:55,953 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sas-hosts-important.txt, 
+2016-02-29 19:41:55,953 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/sas-hosts-important.txt
+2016-02-29 19:41:55,966 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.08ms
+2016-02-29 19:41:55,968 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sas_hosts
+2016-02-29 19:41:55,969 - faraday - INFO - Report type detected: xml
+2016-02-29 19:41:55,988 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sas_hosts, metasploit
+2016-02-29 19:41:55,988 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/sas_hosts
+2016-02-29 19:41:57,201 - faraday - INFO - Plugin finished: Metasploit, (68564e99fcc7916718cc3050fe0e2172abb8dcd2)
+2016-02-29 19:50:25,435 - faraday.EventWatcher - INFO - [Update Received] VulnerabilityWeb Coldfusion directory RDS login exploit added
+2016-02-29 19:54:36,223 - faraday.EventWatcher - INFO - [Update Received] VulnerabilityWeb Coldfusion directory RDS login exploit updated
+2016-02-29 19:56:07,819 - faraday.EventWatcher - INFO - [Update Received] Vulnerability HTTP Client Automatic Exploiter updated
+2016-02-29 19:58:57,209 - faraday.EventWatcher - INFO - [Update Received] Vulnerability OpenSSL Heartbeat (Heartbleed) Information Leak updated
+2016-02-29 19:59:43,667 - faraday.EventWatcher - INFO - [Update Received] Vulnerability OpenSSL Heartbeat (Heartbleed) Information Leak updated
+2016-02-29 19:59:57,084 - faraday.EventWatcher - INFO - [Update Received] Vulnerability OpenSSL Heartbeat (Heartbleed) Information Leak updated
+2016-02-29 20:00:07,130 - faraday.EventWatcher - INFO - [Update Received] Vulnerability OpenSSL Heartbeat (Heartbleed) Information Leak updated
+2016-02-29 20:02:32,396 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Allegro Software RomPager 'Misfortune Cookie' (CVE-2014-9222) Scanner updated
+2016-02-29 20:02:56,254 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Allegro Software RomPager 'Misfortune Cookie' (CVE-2014-9222) Scanner updated
+2016-02-29 20:03:03,933 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Allegro Software RomPager 'Misfortune Cookie' (CVE-2014-9222) Scanner updated
+2016-02-29 20:04:32,899 - faraday.EventWatcher - INFO - [Update Received] Vulnerability HTTP Client Automatic Exploiter updated
+2016-02-29 20:05:31,918 - faraday.EventWatcher - INFO - [Update Received] VulnerabilityWeb Coldfusion directory RDS login exploit updated
+2016-02-29 20:05:46,803 - faraday.EventWatcher - INFO - [Update Received] VulnerabilityWeb Coldfusion RDS login vulnerability updated
+2016-02-29 20:10:20,886 - faraday.EventWatcher - INFO - [Update Received] Host 0.0.0.0 deleted
+2016-02-29 20:10:20,910 - faraday.EventWatcher - INFO - [Update Received] Interface 0.0.0.0 deleted
+2016-02-29 20:10:20,925 - faraday.EventWatcher - INFO - [Update Received] Service dns deleted
+2016-02-29 20:10:20,934 - faraday.EventWatcher - INFO - [Update Received] Note dns.enum deleted
+2016-02-29 20:10:20,938 - faraday.EventWatcher - INFO - [Update Received] Note dns.enum deleted
+2016-02-29 20:17:13,976 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/database_29feb2016
+2016-02-29 20:17:13,976 - faraday - INFO - Report type detected: xml
+2016-02-29 20:17:14,011 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/database_29feb2016, metasploit
+2016-02-29 20:17:14,011 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/database_29feb2016
+2016-02-29 20:17:16,684 - faraday - INFO - Plugin finished: Metasploit, (38e611ddf6e114adcefa0bbccaf3f71853c8bf66)
+2016-02-29 20:44:23,720 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/database_29feb2016-2
+2016-02-29 20:44:23,722 - faraday - INFO - Report type detected: xml
+2016-02-29 20:44:23,757 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/database_29feb2016-2, metasploit
+2016-02-29 20:44:23,757 - faraday - INFO - Executing ./metasploit /Users/parkerthomas/.faraday/report/untitled/database_29feb2016-2
+2016-02-29 20:44:27,098 - faraday - INFO - Plugin finished: Metasploit, (6f4f4546caa88fd6914a4da5e9f144bf83e66531)
+2016-02-29 22:05:33,181 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sas.cert
+2016-02-29 22:05:33,183 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sas.cert, 
+2016-02-29 22:05:33,184 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/sas.cert
+2016-02-29 22:05:33,196 - tornado.access - WARNING - 400 POST /cmd/output (::1) 0.90ms
+2016-02-29 23:04:43,912 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/ssl_scan1.xml
+2016-02-29 23:04:43,915 - faraday - INFO - Report type detected: xml
+2016-03-01 11:05:12,692 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/nmap-standrews-de.org.xml
+2016-03-01 11:05:12,696 - faraday - INFO - Report type detected: xml
+2016-03-01 11:05:12,697 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/nmap-standrews-de.org.xml, nmap
+2016-03-01 11:05:12,697 - faraday - INFO - Executing ./nmap /Users/parkerthomas/.faraday/report/untitled/nmap-standrews-de.org.xml
+2016-03-01 11:05:13,140 - faraday - INFO - Plugin finished: Nmap, (12d40413c2b9f313fdc3770ee799cc2757157e31)
+2016-03-01 11:05:13,152 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011039.txt
+2016-03-01 11:05:13,153 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011039.txt, 
+2016-03-01 11:05:13,153 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011039.txt
+2016-03-01 11:05:13,166 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.22ms
+2016-03-01 11:05:13,168 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011040.txt
+2016-03-01 11:05:13,168 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011040.txt, 
+2016-03-01 11:05:13,168 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011040.txt
+2016-03-01 11:05:13,202 - tornado.access - WARNING - 400 POST /cmd/output (::1) 19.82ms
+2016-03-01 11:05:13,205 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011045.txt
+2016-03-01 11:05:13,206 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011045.txt, 
+2016-03-01 11:05:13,206 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011045.txt
+2016-03-01 11:05:13,226 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.21ms
+2016-03-01 11:05:13,231 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011047.txt
+2016-03-01 11:05:13,232 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011047.txt, 
+2016-03-01 11:05:13,232 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011047.txt
+2016-03-01 11:05:13,248 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.74ms
+2016-03-01 11:05:13,252 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011049.txt
+2016-03-01 11:05:13,253 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011049.txt, 
+2016-03-01 11:05:13,253 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011049.txt
+2016-03-01 11:05:13,264 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.41ms
+2016-03-01 11:05:13,266 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011051.txt
+2016-03-01 11:05:13,267 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011051.txt, 
+2016-03-01 11:05:13,267 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/sniper-standrews-de.org-201603011051.txt
+2016-03-01 11:05:13,279 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.11ms
+2016-03-01 15:33:08,476 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:35:17,668 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:36:10,543 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:37:03,071 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:37:35,532 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:38:07,396 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:38:33,281 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:39:03,701 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:39:33,306 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:40:09,400 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:40:39,408 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:41:14,231 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:41:51,967 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:42:23,003 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:43:23,655 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:44:59,884 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:45:35,997 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 15:45:59,890 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open telnet login added
+2016-03-01 16:00:58,263 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/smtp_amap
+2016-03-01 16:00:58,264 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/smtp_amap, 
+2016-03-01 16:00:58,265 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/smtp_amap
+2016-03-01 16:00:58,278 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.02ms
+2016-03-01 16:00:58,280 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/smtp_nmap_xml
+2016-03-01 16:00:58,280 - faraday - INFO - Report type detected: xml
+2016-03-01 16:00:58,281 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/smtp_nmap_xml, nmap
+2016-03-01 16:00:58,281 - faraday - INFO - Executing ./nmap /Users/parkerthomas/.faraday/report/untitled/smtp_nmap_xml
+2016-03-01 16:00:58,540 - faraday - INFO - Plugin finished: Nmap, (a84e343da71f38cc2e796cec02b64d14cbd5ecc7)
+2016-03-01 16:08:59,513 - faraday.EventWatcher - INFO - [Update Received] Vulnerability Open SMTP Login added
+2016-03-01 16:45:25,573 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/report-14691-standrews-de.org.txt
+2016-03-01 16:45:25,577 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/report-14691-standrews-de.org.txt, 
+2016-03-01 16:45:25,577 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/report-14691-standrews-de.org.txt
+2016-03-01 16:45:25,594 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.78ms
+2016-03-01 16:45:25,597 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/report-2028-standrews-de.org.txt
+2016-03-01 16:45:25,598 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/report-2028-standrews-de.org.txt, 
+2016-03-01 16:45:25,598 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/report-2028-standrews-de.org.txt
+2016-03-01 16:45:25,617 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.56ms
+2016-03-02 23:26:21,427 - faraday.MainApplication - INFO - Exiting...
+2016-03-09 23:42:44,266 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-03-09 23:42:44,266 - faraday.launcher - INFO - Dependencies met.
+2016-03-09 23:42:44,266 - faraday.launcher - INFO - Checking configuration.
+2016-03-09 23:42:44,267 - faraday.launcher - INFO - Setting up plugins.
+2016-03-09 23:42:44,267 - faraday.launcher - INFO - Removing old plugins folder
+2016-03-09 23:42:44,440 - faraday.launcher - INFO - Setting up Qt configuration.
+2016-03-09 23:42:44,442 - faraday.launcher - INFO - Setting up ZSH integration.
+2016-03-09 23:42:44,451 - faraday.launcher - INFO - Setting up  user configuration.
+2016-03-09 23:42:44,451 - faraday.launcher - INFO - Using custom user configuration.
+2016-03-09 23:42:44,452 - faraday.launcher - INFO - Setting up libraries.
+2016-03-09 23:42:44,452 - faraday.launcher - INFO - OS X detected.
+2016-03-09 23:42:44,510 - faraday.launcher - INFO - Setting up icons for QT interface.
+2016-03-09 23:42:44,582 - faraday.launcher - INFO - Setting configuration.
+2016-03-09 23:42:44,586 - faraday.launcher - INFO - XMLRPC API Server listening on localhost:9876
+2016-03-09 23:42:44,587 - faraday.launcher - INFO - RESTful API Server listening on localhost:9977
+2016-03-09 23:42:45,442 - faraday.launcher - INFO - No updates available, enjoy Faraday
+2016-03-09 23:42:45,854 - faraday.launcher - INFO - All done. Opening environment.
+2016-03-09 23:42:46,560 - faraday.launcher - WARNING - Main application ExceptHook enabled.
+2016-03-09 23:42:46,560 - faraday.launcher - INFO - Starting main application.
+2016-03-09 23:43:13,476 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/report-1457582399294.json
+2016-03-09 23:43:13,477 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/report-1457582399294.json, 
+2016-03-09 23:43:13,477 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/report-1457582399294.json
+2016-03-09 23:43:13,495 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.48ms
+2016-03-09 23:51:19,023 - faraday.EventWatcher - INFO - [Update Received] VulnerabilityWeb Reflected XSS added
+2016-03-09 23:53:51,915 - faraday.EventWatcher - INFO - [Update Received] VulnerabilityWeb Reflected XSS added
+2016-03-09 23:56:35,662 - faraday.EventWatcher - INFO - [Update Received] VulnerabilityWeb Reflected XSS added
+2016-03-09 23:57:14,879 - faraday.EventWatcher - INFO - [Update Received] VulnerabilityWeb Reflected XSS added
+2016-03-09 23:58:00,364 - faraday.EventWatcher - INFO - [Update Received] VulnerabilityWeb Reflected XSS added
+2016-03-09 23:58:38,046 - faraday.EventWatcher - INFO - [Update Received] VulnerabilityWeb Reflected XSS added
+2016-03-09 23:59:15,242 - faraday.EventWatcher - INFO - [Update Received] VulnerabilityWeb Reflected XSS added
+2016-03-10 00:02:38,294 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/Sploit.io recon 1.txt
+2016-03-10 00:02:38,296 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/Sploit.io recon 1.txt, 
+2016-03-10 00:02:38,296 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/Sploit.io recon 1.txt
+2016-03-10 00:02:38,314 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.41ms
+2016-03-10 00:03:08,444 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/etter_cap
+2016-03-10 00:03:08,446 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/etter_cap, 
+2016-03-10 00:03:08,447 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/etter_cap
+2016-03-10 00:03:08,463 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.43ms
+2016-03-10 00:03:08,463 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/etter_hosts.txt
+2016-03-10 00:03:08,465 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/etter_hosts.txt, 
+2016-03-10 00:03:08,465 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/etter_hosts.txt
+2016-03-10 00:03:08,480 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.62ms
+2016-03-10 00:03:08,483 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/etter_log.eci
+2016-03-10 00:03:08,484 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/etter_log.eci, 
+2016-03-10 00:03:08,484 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/etter_log.eci
+2016-03-10 00:03:08,503 - tornado.access - WARNING - 400 POST /cmd/output (::1) 3.63ms
+2016-03-10 00:03:08,505 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/etter_log.ecp
+2016-03-10 00:03:08,506 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/etter_log.ecp, 
+2016-03-10 00:03:08,507 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/etter_log.ecp
+2016-03-10 00:03:08,522 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.14ms
+2016-03-10 00:03:08,523 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/sslstrip.log
+2016-03-10 00:03:08,524 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/sslstrip.log, 
+2016-03-10 00:03:08,524 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/sslstrip.log
+2016-03-10 00:03:08,538 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.92ms
+2016-03-10 00:05:19,008 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/report-14691-standrews-de.org.txt
+2016-03-10 00:05:19,010 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/report-14691-standrews-de.org.txt, 
+2016-03-10 00:05:19,010 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/report-14691-standrews-de.org.txt
+2016-03-10 00:05:19,031 - tornado.access - WARNING - 400 POST /cmd/output (::1) 2.55ms
+2016-03-10 00:05:19,035 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/report-2028-standrews-de.org.txt
+2016-03-10 00:05:19,035 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/report-2028-standrews-de.org.txt, 
+2016-03-10 00:05:19,035 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/report-2028-standrews-de.org.txt
+2016-03-10 00:05:19,055 - tornado.access - WARNING - 400 POST /cmd/output (::1) 1.84ms
+2016-03-10 00:46:59,263 - faraday.MainApplication - INFO - Exiting...
+2016-03-19 11:12:52,216 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-03-19 11:12:52,216 - faraday.launcher - INFO - Dependencies met.
+2016-03-19 11:12:52,216 - faraday.launcher - INFO - Checking configuration.
+2016-03-19 11:12:52,216 - faraday.launcher - INFO - Setting up plugins.
+2016-03-19 11:12:52,217 - faraday.launcher - INFO - Removing old plugins folder
+2016-03-19 11:13:00,651 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-03-19 11:13:00,651 - faraday.launcher - INFO - Dependencies met.
+2016-03-19 11:13:00,651 - faraday.launcher - INFO - Checking configuration.
+2016-03-19 11:13:00,652 - faraday.launcher - INFO - Setting up plugins.
+2016-03-19 11:13:00,652 - faraday.launcher - INFO - Removing old plugins folder
+2016-03-19 11:13:00,961 - faraday.launcher - INFO - Setting up Qt configuration.
+2016-03-19 11:13:00,964 - faraday.launcher - INFO - Setting up ZSH integration.
+2016-03-19 11:13:00,980 - faraday.launcher - INFO - Setting up  user configuration.
+2016-03-19 11:13:00,982 - faraday.launcher - INFO - Using custom user configuration.
+2016-03-19 11:13:00,983 - faraday.launcher - INFO - Setting up libraries.
+2016-03-19 11:13:00,984 - faraday.launcher - INFO - OS X detected.
+2016-03-19 11:13:01,036 - faraday.launcher - INFO - Setting up icons for QT interface.
+2016-03-19 11:13:01,139 - faraday.launcher - INFO - Setting configuration.
+2016-03-19 11:13:01,142 - faraday.launcher - INFO - XMLRPC API Server listening on localhost:9876
+2016-03-19 11:13:01,142 - faraday.launcher - INFO - RESTful API Server listening on localhost:9977
+2016-03-19 11:13:01,971 - faraday.launcher - INFO - No updates available, enjoy Faraday
+2016-03-19 11:13:02,543 - faraday.launcher - INFO - All done. Opening environment.
+2016-03-19 11:13:03,383 - faraday.launcher - WARNING - Main application ExceptHook enabled.
+2016-03-19 11:13:03,384 - faraday.launcher - INFO - Starting main application.
+2016-03-19 11:14:02,146 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/export_03192016_110035.csv
+2016-03-19 11:14:02,149 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/export_03192016_110035.csv, 
+2016-03-19 11:14:02,149 - faraday - INFO - Executing ./ /Users/parkerthomas/.faraday/report/untitled/export_03192016_110035.csv
+2016-03-19 11:14:02,172 - tornado.access - WARNING - 400 POST /cmd/output (::1) 2.08ms
+2016-03-23 10:47:07,662 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-03-23 10:47:07,663 - faraday.launcher - INFO - Dependencies met.
+2016-03-23 10:47:07,663 - faraday.launcher - INFO - Checking configuration.
+2016-03-23 10:47:07,663 - faraday.launcher - INFO - Setting up plugins.
+2016-03-23 10:47:07,663 - faraday.launcher - INFO - Removing old plugins folder
+2016-03-23 10:47:20,952 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-03-23 10:47:20,952 - faraday.launcher - INFO - Dependencies met.
+2016-03-23 10:47:20,952 - faraday.launcher - INFO - Checking configuration.
+2016-03-23 10:47:20,952 - faraday.launcher - INFO - Setting up plugins.
+2016-03-23 10:47:20,952 - faraday.launcher - INFO - Removing old plugins folder
+2016-03-23 10:47:21,177 - faraday.launcher - INFO - Setting up Qt configuration.
+2016-03-23 10:47:21,178 - faraday.launcher - INFO - Setting up ZSH integration.
+2016-03-23 10:47:21,191 - faraday.launcher - INFO - Setting up  user configuration.
+2016-03-23 10:47:21,191 - faraday.launcher - INFO - Using custom user configuration.
+2016-03-23 10:47:21,192 - faraday.launcher - INFO - Setting up libraries.
+2016-03-23 10:47:21,192 - faraday.launcher - INFO - OS X detected.
+2016-03-23 10:47:21,265 - faraday.launcher - INFO - Setting up icons for QT interface.
+2016-03-23 10:47:21,339 - faraday.launcher - INFO - Setting configuration.
+2016-03-23 10:47:21,341 - faraday.launcher - INFO - XMLRPC API Server listening on localhost:9876
+2016-03-23 10:47:21,341 - faraday.launcher - INFO - RESTful API Server listening on localhost:9977
+2016-03-23 10:47:23,107 - faraday.launcher - ERROR - HTTPSConnectionPool(host='www.faradaysec.com', port=443): Max retries exceeded with url: /scripts/updates.php?version=1.0.17 (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x10e6afc50>, 'Connection to www.faradaysec.com timed out. (connect timeout=1)'))
+2016-03-23 10:47:23,107 - faraday.launcher - INFO - No updates available, enjoy Faraday
+2016-03-23 10:47:23,449 - faraday.launcher - INFO - All done. Opening environment.
+2016-03-23 10:47:24,055 - faraday.launcher - WARNING - Main application ExceptHook enabled.
+2016-03-23 10:47:24,055 - faraday.launcher - INFO - Starting main application.
+2016-03-23 11:01:51,883 - faraday.EventWatcher - INFO - [Update Received] VulnerabilityWeb SSL DROWN vulnerability added
+2016-04-11 14:48:13,806 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-04-11 14:48:13,807 - faraday.launcher - INFO - Dependencies met.
+2016-04-11 14:48:13,808 - faraday.launcher - INFO - Checking configuration.
+2016-04-11 14:48:13,808 - faraday.launcher - INFO - Setting up plugins.
+2016-04-11 14:48:13,809 - faraday.launcher - INFO - Removing old plugins folder
+2016-04-11 14:48:38,870 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-04-11 14:48:38,871 - faraday.launcher - INFO - Dependencies met.
+2016-04-11 14:48:38,873 - faraday.launcher - INFO - Checking configuration.
+2016-04-11 14:48:38,873 - faraday.launcher - INFO - Setting up plugins.
+2016-04-11 14:48:38,874 - faraday.launcher - INFO - Removing old plugins folder
+2016-04-11 14:48:39,529 - faraday.launcher - INFO - Setting up Qt configuration.
+2016-04-11 14:48:39,532 - faraday.launcher - INFO - Setting up ZSH integration.
+2016-04-11 14:48:39,637 - faraday.launcher - INFO - Setting up  user configuration.
+2016-04-11 14:48:39,639 - faraday.launcher - INFO - Using custom user configuration.
+2016-04-11 14:48:39,639 - faraday.launcher - INFO - Setting up libraries.
+2016-04-11 14:48:39,640 - faraday.launcher - INFO - OS X detected.
+2016-04-11 14:48:39,726 - faraday.launcher - INFO - Setting up icons for QT interface.
+2016-04-11 14:48:39,869 - faraday.launcher - INFO - Setting configuration.
+2016-04-11 14:48:39,882 - faraday.launcher - INFO - XMLRPC API Server listening on localhost:9876
+2016-04-11 14:48:39,883 - faraday.launcher - INFO - RESTful API Server listening on localhost:9977
+2016-04-11 14:48:42,379 - faraday.launcher - INFO - You have available updates. Run ./faraday.py --update to catchup!
+2016-04-11 14:48:44,068 - faraday.launcher - INFO - All done. Opening environment.
+2016-04-11 14:48:46,710 - faraday.launcher - WARNING - Main application ExceptHook enabled.
+2016-04-11 14:48:46,720 - faraday.launcher - INFO - Starting main application.
+2016-04-11 14:51:09,619 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/shellshock_9yxpxm.nessus
+2016-04-11 14:51:09,621 - faraday - INFO - Report type detected: xml
+2016-04-11 14:51:09,626 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/shellshock_9yxpxm.nessus, nessus
+2016-04-11 14:51:09,627 - faraday - INFO - Executing ./nessus /Users/parkerthomas/.faraday/report/untitled/shellshock_9yxpxm.nessus
+2016-04-11 14:51:17,382 - faraday - INFO - Plugin finished: Nessus, (b8ac80e77c06d246aa48354f6128bfa3bf8f1f64)
+2016-04-11 14:51:22,127 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/windows_scan_30zukl.nessus
+2016-04-11 14:51:22,129 - faraday - INFO - Report type detected: xml
+2016-04-11 14:51:22,137 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/windows_scan_30zukl.nessus, nessus
+2016-04-11 14:51:22,138 - faraday - INFO - Executing ./nessus /Users/parkerthomas/.faraday/report/untitled/windows_scan_30zukl.nessus
+2016-04-11 14:51:29,293 - faraday - INFO - Plugin finished: Nessus, (3f9333692f09fb16ed538fa809bb368ec2e19e89)
+2016-04-11 20:09:35,570 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-04-11 20:09:35,571 - faraday.launcher - INFO - Dependencies met.
+2016-04-11 20:09:35,571 - faraday.launcher - INFO - Checking configuration.
+2016-04-11 20:09:35,572 - faraday.launcher - INFO - Setting up plugins.
+2016-04-11 20:09:35,572 - faraday.launcher - INFO - Removing old plugins folder
+2016-04-11 20:09:35,877 - faraday.launcher - INFO - Setting up Qt configuration.
+2016-04-11 20:09:35,878 - faraday.launcher - INFO - Setting up ZSH integration.
+2016-04-11 20:09:35,898 - faraday.launcher - INFO - Setting up  user configuration.
+2016-04-11 20:09:35,898 - faraday.launcher - INFO - Using custom user configuration.
+2016-04-11 20:09:35,898 - faraday.launcher - INFO - Setting up libraries.
+2016-04-11 20:09:35,898 - faraday.launcher - INFO - OS X detected.
+2016-04-11 20:09:36,025 - faraday.launcher - INFO - Setting up icons for QT interface.
+2016-04-11 20:09:36,171 - faraday.launcher - INFO - Setting configuration.
+2016-04-11 20:09:36,185 - faraday.launcher - INFO - XMLRPC API Server listening on localhost:9876
+2016-04-11 20:09:36,185 - faraday.launcher - INFO - RESTful API Server listening on localhost:9977
+2016-04-11 20:09:36,308 - faraday.launcher - ERROR - HTTPSConnectionPool(host='www.faradaysec.com', port=443): Max retries exceeded with url: /scripts/updates.php?version=1.0.17 (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x109bc8150>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+2016-04-11 20:09:36,308 - faraday.launcher - INFO - No updates available, enjoy Faraday
+2016-04-11 20:09:36,762 - faraday.launcher - INFO - All done. Opening environment.
+2016-04-11 20:09:37,760 - faraday.launcher - WARNING - Main application ExceptHook enabled.
+2016-04-11 20:09:37,761 - faraday.launcher - INFO - Starting main application.
+2016-04-12 00:43:59,393 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/basic_k7t51m.nessus
+2016-04-12 00:43:59,396 - faraday - INFO - Report type detected: xml
+2016-04-12 00:43:59,414 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/basic_k7t51m.nessus, nessus
+2016-04-12 00:43:59,414 - faraday - INFO - Executing ./nessus /Users/parkerthomas/.faraday/report/untitled/basic_k7t51m.nessus
+2016-04-12 00:44:08,305 - faraday - INFO - Plugin finished: Nessus, (72f6bc1b3d9faf96b0d1acb56bef1d7acea0f567)
+2016-04-12 00:44:17,980 - faraday - INFO - Report file is /Users/parkerthomas/.faraday/report/untitled/DROWN_uqi5ie.nessus
+2016-04-12 00:44:17,983 - faraday - INFO - Report type detected: xml
+2016-04-12 00:44:17,989 - faraday - INFO - The file is /Users/parkerthomas/.faraday/report/untitled/DROWN_uqi5ie.nessus, nessus
+2016-04-12 00:44:17,990 - faraday - INFO - Executing ./nessus /Users/parkerthomas/.faraday/report/untitled/DROWN_uqi5ie.nessus
+2016-04-12 00:44:22,043 - faraday - INFO - Plugin finished: Nessus, (96ca6ef30392770eb8c1666b313981f25394afc1)
+2016-04-12 01:00:03,722 - faraday.launcher - INFO - Starting Faraday IDE.
+2016-04-12 01:00:03,722 - faraday.launcher - INFO - Dependencies met.
+2016-04-12 01:00:03,723 - faraday.launcher - INFO - Checking configuration.
+2016-04-12 01:00:03,723 - faraday.launcher - INFO - Setting up plugins.
+2016-04-12 01:00:03,723 - faraday.launcher - INFO - Removing old plugins folder
+2016-04-12 01:00:03,919 - faraday.launcher - INFO - Setting up Qt configuration.
+2016-04-12 01:00:03,920 - faraday.launcher - INFO - Setting up ZSH integration.
+2016-04-12 01:00:03,932 - faraday.launcher - INFO - Setting up  user configuration.
+2016-04-12 01:00:03,933 - faraday.launcher - INFO - Using custom user configuration.
+2016-04-12 01:00:03,933 - faraday.launcher - INFO - Setting up libraries.
+2016-04-12 01:00:03,933 - faraday.launcher - INFO - OS X detected.
+2016-04-12 01:00:03,990 - faraday.launcher - INFO - Setting up icons for QT interface.
+2016-04-12 01:00:04,068 - faraday.launcher - INFO - Setting configuration.
+2016-04-12 01:00:04,071 - faraday.launcher - INFO - XMLRPC API Server listening on localhost:9876
+2016-04-12 01:00:04,071 - faraday.launcher - INFO - RESTful API Server listening on localhost:9977
+2016-04-12 01:00:05,464 - faraday.launcher - INFO - You have available updates. Run ./faraday.py --update to catchup!
+2016-04-12 01:00:05,880 - faraday.launcher - INFO - All done. Opening environment.
+2016-04-12 01:00:06,834 - faraday.launcher - WARNING - Main application ExceptHook enabled.
+2016-04-12 01:00:06,835 - faraday.launcher - INFO - Starting main application.

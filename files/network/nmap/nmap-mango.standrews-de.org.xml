@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///opt/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.01 scan initiated Tue Mar  1 16:29:53 2016 as: nmap -T4 -&#45;open -p 22 -oX loot/nmap-mango.standrews-de.org.xml mango.standrews-de.org -->
+<nmaprun scanner="nmap" args="nmap -T4 -&#45;open -p 22 -oX loot/nmap-mango.standrews-de.org.xml mango.standrews-de.org" start="1456867793" startstr="Tue Mar  1 16:29:53 2016" version="7.01" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="22"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1456867793" endtime="1456867793"><status state="up" reason="syn-ack" reason_ttl="55"/>
+<address addr="209.118.39.203" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mango.standrews-de.org" type="user"/>
+<hostname name="mango.standrews-de.org" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="55"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="18318" rttvar="14621" to="100000"/>
+</host>
+<runstats><finished time="1456867793" timestr="Tue Mar  1 16:29:53 2016" elapsed="0.13" summary="Nmap done at Tue Mar  1 16:29:53 2016; 1 IP address (1 host up) scanned in 0.13 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

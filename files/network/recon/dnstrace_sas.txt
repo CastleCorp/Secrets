@@ -1,0 +1,165 @@
+Tracing to standrews-de.org[a] via 172.16.75.2, maximum of 3 retries
+172.16.75.2 (172.16.75.2) IP HEADER
+- Destination address:  172.16.75.2
+DNS HEADER (send)
+- Identifier:           0x611C
+- Flags:                0x00 (Q )
+- Opcode:               0 (Standard query)
+- Return code:          0 (No error)
+- Number questions:     1
+- Number answer RR:     0
+- Number authority RR:  0
+- Number additional RR: 0
+QUESTIONS (send)
+- Queryname:            (12)standrews-de(3)org
+- Type:                 1 (A)
+- Class:                1 (Internet)
+DNS HEADER (recv)
+- Identifier:           0x611C
+- Flags:                0x8080 (R RA )
+- Opcode:               0 (Standard query)
+- Return code:          0 (No error)
+- Number questions:     1
+- Number answer RR:     1
+- Number authority RR:  3
+- Number additional RR: 3
+QUESTIONS (recv)
+- Queryname:            (12)standrews-de(3)org
+- Type:                 1 (A)
+- Class:                1 (Internet)
+ANSWER RR
+- Domainname:           (12)standrews-de(3)org
+- Type:                 1 (A)
+- Class:                1 (Internet)
+- TTL:                  5 (5s)
+- Resource length:      4
+- Resource data:        209.123.98.171
+AUTHORITY RR
+- Domainname:           (12)standrews-de(3)org
+- Type:                 2 (NS)
+- Class:                1 (Internet)
+- TTL:                  5 (5s)
+- Resource length:      9
+- Resource data:        (6)fsbsrv(6)busoff(12)standrews-de(3)org
+AUTHORITY RR
+- Domainname:           (12)standrews-de(3)org
+- Type:                 2 (NS)
+- Class:                1 (Internet)
+- TTL:                  5 (5s)
+- Resource length:      9
+- Resource data:        (6)violet(12)standrews-de(3)org
+AUTHORITY RR
+- Domainname:           (12)standrews-de(3)org
+- Type:                 2 (NS)
+- Class:                1 (Internet)
+- TTL:                  5 (5s)
+- Resource length:      16
+- Resource data:        (6)violet(6)busoff(12)standrews-de(3)org
+ADDITIONAL RR
+- Domainname:           (6)violet(12)standrews-de(3)org
+- Type:                 1 (A)
+- Class:                1 (Internet)
+- TTL:                  5 (5s)
+- Resource length:      4
+- Resource data:        10.0.0.191
+ADDITIONAL RR
+- Domainname:           (6)violet(6)busoff(12)standrews-de(3)org
+- Type:                 1 (A)
+- Class:                1 (Internet)
+- TTL:                  5 (5s)
+- Resource length:      4
+- Resource data:        10.0.0.191
+ADDITIONAL RR
+- Domainname:           (6)fsbsrv(6)busoff(12)standrews-de(3)org
+- Type:                 1 (A)
+- Class:                1 (Internet)
+- TTL:                  5 (5s)
+- Resource length:      4
+- Resource data:        192.168.21.10
+Got answer 
+ |\___ fsbsrv.busoff.standrews-de.org [standrews-de.org] (192.168.21.10) IP HEADER
+- Destination address:  192.168.21.10
+DNS HEADER (send)
+- Identifier:           0x1C0A
+- Flags:                0x00 (Q )
+- Opcode:               0 (Standard query)
+- Return code:          0 (No error)
+- Number questions:     1
+- Number answer RR:     0
+- Number authority RR:  0
+- Number additional RR: 0
+QUESTIONS (send)
+- Queryname:            (12)standrews-de(3)org
+- Type:                 1 (A)
+- Class:                1 (Internet)
+* IP HEADER
+- Destination address:  192.168.21.10
+DNS HEADER (send)
+- Identifier:           0x1C0A
+- Flags:                0x00 (Q )
+- Opcode:               0 (Standard query)
+- Return code:          0 (No error)
+- Number questions:     1
+- Number answer RR:     0
+- Number authority RR:  0
+- Number additional RR: 0
+QUESTIONS (send)
+- Queryname:            (12)standrews-de(3)org
+- Type:                 1 (A)
+- Class:                1 (Internet)
+* IP HEADER
+- Destination address:  192.168.21.10
+DNS HEADER (send)
+- Identifier:           0x1C0A
+- Flags:                0x00 (Q )
+- Opcode:               0 (Standard query)
+- Return code:          0 (No error)
+- Number questions:     1
+- Number answer RR:     0
+- Number authority RR:  0
+- Number additional RR: 0
+QUESTIONS (send)
+- Queryname:            (12)standrews-de(3)org
+- Type:                 1 (A)
+- Class:                1 (Internet)
+* 
+ |\___ violet.standrews-de.org [standrews-de.org] (10.0.0.191) IP HEADER
+- Destination address:  10.0.0.191
+DNS HEADER (send)
+- Identifier:           0x775C
+- Flags:                0x00 (Q )
+- Opcode:               0 (Standard query)
+- Return code:          0 (No error)
+- Number questions:     1
+- Number answer RR:     0
+- Number authority RR:  0
+- Number additional RR: 0
+QUESTIONS (send)
+- Queryname:            (12)standrews-de(3)org
+- Type:                 1 (A)
+- Class:                1 (Internet)
+DNS HEADER (recv)
+- Identifier:           0x775C
+- Flags:                0x8480 (R AA RA )
+- Opcode:               0 (Standard query)
+- Return code:          0 (No error)
+- Number questions:     1
+- Number answer RR:     1
+- Number authority RR:  0
+- Number additional RR: 0
+QUESTIONS (recv)
+- Queryname:            (12)standrews-de(3)org
+- Type:                 1 (A)
+- Class:                1 (Internet)
+ANSWER RR
+- Domainname:           (12)standrews-de(3)org
+- Type:                 1 (A)
+- Class:                1 (Internet)
+- TTL:                  86400 (24h)
+- Resource length:      4
+- Resource data:        209.123.98.171
+Got authoritative answer 
+  \___ violet.busoff.standrews-de.org [standrews-de.org] (10.0.0.191) (cached)
+
+violet.standrews-de.org (10.0.0.191)    standrews-de.org -> 209.123.98.171
+172.16.75.2 (172.16.75.2)               standrews-de.org -> 209.123.98.171

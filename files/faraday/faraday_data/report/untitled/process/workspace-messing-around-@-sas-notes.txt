@@ -1,0 +1,7 @@
+Time,Host,Service,Port,Protocol,Type,Data
+"2015-03-22 04:31:04 UTC","192.168.2.1","ftp","21","tcp","nmap.nse.ftp-bounce.tcp.21","{""output""=>""no banner""}"
+"2015-03-22 04:31:04 UTC","192.168.2.1","tcpwrapped","143","tcp","nmap.nse.imap-capabilities.tcp.143","{""output""=>""\n ERROR: Failed to connect to server""}"
+"2015-03-22 04:31:04 UTC","192.168.2.15","tcpwrapped","143","tcp","nmap.nse.imap-capabilities.tcp.143","{""output""=>""\n ERROR: Failed to connect to server""}"
+"2015-03-22 04:31:04 UTC","192.168.2.17","tcpwrapped","143","tcp","nmap.nse.imap-capabilities.tcp.143","{""output""=>""\n ERROR: Failed to connect to server""}"
+"2015-03-22 04:31:05 UTC","192.168.2.76","tcpwrapped","143","tcp","nmap.nse.imap-capabilities.tcp.143","{""output""=>""\n ERROR: Failed to connect to server""}"
+"2015-03-22 04:31:06 UTC","192.168.2.141","tcpwrapped","143","tcp","nmap.nse.imap-capabilities.tcp.143","{""output""=>""\n ERROR: Failed to connect to server""}"

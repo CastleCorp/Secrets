@@ -1,0 +1,9 @@
+host,port,proto,name,state,info
+"209.118.39.203","22","tcp","ssh","open","OpenSSH 5.3p1 Debian 3ubuntu7.1 protocol 2.0"
+"209.118.39.203","53","tcp","domain","closed",""
+"209.118.39.203","80","tcp","http","open","Apache httpd 2.2.14 (Ubuntu)"
+"209.118.39.203","110","tcp","pop3","open",""
+"209.118.39.203","143","tcp","imap","open",""
+"209.118.39.203","443","tcp","http","open","Apache httpd 2.2.14 (Ubuntu)"
+"209.118.39.203","993","tcp","imaps","open",""
+"209.118.39.203","995","tcp","pop3s","open",""

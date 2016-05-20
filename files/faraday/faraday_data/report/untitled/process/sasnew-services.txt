@@ -1,0 +1,10 @@
+Time,Host,Service,Port,Protocol,Type,Data
+"2015-03-25 00:23:57 UTC","209.123.98.171","http","80","tcp","nmap.nse.http-methods.tcp.80","{""output""=>""No Allow or Public header in OPTIONS response (status code 301)""}"
+"2015-03-25 00:23:57 UTC","209.123.98.171","http","80","tcp","nmap.nse.http-robots.txt.tcp.80","{""output""=>""8 disallowed entries \n/data/broadcast/ /data/db/ /data/docs/ /data/files/ \n/data/forms/ /alumni-center/ /portal/ /store/""}"
+"2015-03-25 00:23:57 UTC","209.123.98.171","http","80","tcp","nmap.nse.http-favicon.tcp.80","{""output""=>""Unknown favicon MD5: 0EB658692C8E749C755A6E5DA6A83534""}"
+"2015-03-25 00:23:57 UTC","209.123.98.171","http","80","tcp","nmap.nse.http-title.tcp.80","{""output""=>""St. Andrew's School: Home""}"
+"2015-03-25 00:23:57 UTC","209.123.98.171","imap","143","tcp","nmap.nse.imap-capabilities.tcp.143","{""output""=>""\n ERROR: Failed to connect to server""}"
+"2015-03-25 00:23:57 UTC","209.123.98.171","https","443","tcp","nmap.nse.ssl-cert.tcp.443","{""output""=>""Subject: commonName=*.standrews-de.org\nIssuer: commonName=Go Daddy Secure Certificate Authority - G2/organizationName=GoDaddy.com, Inc./stateOrProvinceName=Arizona/countryName=US\nPublic Key type: rsa\nPublic Key bits: 2048\nNot valid before: 2014-12-08 14:34:00\nNot valid after: 2017-05-29 14:49:44\nMD5: 592a 43b1 8216 953e 97cd 7dfb bd32 9d1b\nSHA-1: 62e0 a058 318f e9a8 f448 a3a6 97f7 2f65 050e 315a""}"
+"2015-03-25 00:23:57 UTC","209.123.98.171","https","443","tcp","nmap.nse.http-methods.tcp.443","{""output""=>""OPTIONS TRACE GET HEAD POST\nPotentially risky methods: TRACE\nSee http://nmap.org/nsedoc/scripts/http-methods.html""}"
+"2015-03-25 00:23:57 UTC","209.123.98.171","https","443","tcp","nmap.nse.http-robots.txt.tcp.443","{""output""=>""8 disallowed entries \n/data/broadcast/ /data/db/ /data/docs/ /data/files/ \n/data/forms/ /alumni-center/ /portal/ /store/""}"
+"2015-03-25 00:23:57 UTC","209.123.98.171","https","443","tcp","nmap.nse.http-title.tcp.443","{""output""=>""St. Andrew's School: Home""}"

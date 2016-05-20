@@ -1,0 +1,12 @@
+;ShadowHash;HASHLIST:<SALTED-SHA512-PBKDF2> ;Kerberosv5;;admin@LKDC:SHA1.CB8EDCBA7F954BF5ED51A98D62D14EE986CC0D30;LKDC:SHA1.CB8EDCBA7F954BF5ED51A98D62D14EE986CC0D30
+GeneratedUID: A00A48E0-8E12-49F3-B389-C94F7F842A3C
+NFSHomeDirectory: /Users/admin
+Password: ********
+Picture:
+ /Library/User Pictures/Sports/Baseball.png
+PrimaryGroupID: 20
+RealName: Administrator
+RecordName: admin
+RecordType: dsRecTypeStandard:Users
+UniqueID: 501
+UserShell: /bin/bash

@@ -1,0 +1,34 @@
+---
+ANSWERED DNS REQUESTS
+---
+domain: apollo.standrews-de.org | 209.118.39.241 
+domain: atlas.standrews-de.org | 209.118.39.233 
+domain: calendar.standrews-de.org | mango.standrews-de.org. 209.118.39.203 
+domain: dns.standrews-de.org | mango.standrews-de.org. 209.118.39.203 
+domain: ldap.standrews-de.org | odmaster.standrews-de.org. 209.118.39.232 
+domain: library.standrews-de.org | ls2pac.standrews-de.org. 209.118.39.237 
+domain: manager.standrews-de.org | 209.118.39.248 
+domain: mobile.standrews-de.org | fc.standrews-de.org. 209.118.39.230 
+domain: red.standrews-de.org | 209.118.39.244 
+domain: router.standrews-de.org | 209.118.39.193 
+domain: store.standrews-de.org | st-andrews-school.myshopify.com. shops.shopify.com. 23.227.38.68 
+domain: termserv.standrews-de.org | 209.118.39.247 
+domain: webmail.standrews-de.org | fc.standrews-de.org. 209.118.39.230 
+domain: wiki.standrews-de.org | prometheus.standrews-de.org. 209.118.39.211 
+domain: wordpress.standrews-de.org | copernicus.standrews-de.org. 209.118.39.177 
+domain: www.standrews-de.org | silverpoint.standrews-de.org. 209.123.98.171 
+---
+ANSWERED DNS REQUEST WITH DIFFERENT IP
+---
+domain: apollo.standrews-de.org | 209.118.39.241 
+domain: calendar.standrews-de.org | mango.standrews-de.org. 209.118.39.203 
+domain: dns.standrews-de.org | mango.standrews-de.org. 209.118.39.203 
+domain: ldap.standrews-de.org | odmaster.standrews-de.org. 209.118.39.232 
+domain: library.standrews-de.org | ls2pac.standrews-de.org. 209.118.39.237 
+domain: mobile.standrews-de.org | fc.standrews-de.org. 209.118.39.230 
+domain: red.standrews-de.org | 209.118.39.244 
+domain: router.standrews-de.org | 209.118.39.193 
+domain: store.standrews-de.org | st-andrews-school.myshopify.com. shops.shopify.com. 23.227.38.68 
+domain: webmail.standrews-de.org | fc.standrews-de.org. 209.118.39.230 
+domain: wiki.standrews-de.org | prometheus.standrews-de.org. 209.118.39.211 
+domain: wordpress.standrews-de.org | copernicus.standrews-de.org. 209.118.39.177 

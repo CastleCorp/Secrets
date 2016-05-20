@@ -1,0 +1,180 @@
+I, [2016-03-01T10:53:32.687626 #8503]  INFO -- : Initiating port scan
+I, [2016-03-01T10:55:56.997438 #8503]  INFO -- : Using nmap scan output file nmap_output_20160301155332UTC.xml
+I, [2016-03-01T10:55:57.007483 #8503]  INFO -- : <<<Testing host - 209.123.98.171>>>
+I, [2016-03-01T10:55:57.008048 #8503]  INFO -- : Discovered open port: 209.123.98.171:80
+I, [2016-03-01T10:55:58.094346 #8503]  INFO -- : Discovered open port: 209.123.98.171:443
+I, [2016-03-01T10:55:58.762904 #8503]  INFO -- : <<<Enumerating vulnerable applications>>>
+I, [2016-03-01T10:55:58.810311 #8503]  INFO -- : Testing ----> [JBoss jmx-console] https://209.123.98.171:443/jmx-console
+I, [2016-03-01T10:55:59.272118 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/jmx-console} was not found, looking for secondary path>>>
+I, [2016-03-01T10:55:59.272182 #8503]  INFO -- : Testing ----> [JBoss jmx-console] https://209.123.98.171:443/jmx-console/
+I, [2016-03-01T10:56:00.312365 #8503]  INFO -- : Testing ----> [JBoss jmx-console] http://209.123.98.171:80/jmx-console
+I, [2016-03-01T10:56:00.350399 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/jmx-console} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:00.350509 #8503]  INFO -- : Testing ----> [JBoss jmx-console] http://209.123.98.171:80/jmx-console/
+I, [2016-03-01T10:56:00.552975 #8503]  INFO -- : Testing ----> [Apache Tomcat] https://209.123.98.171:443/manager/html
+I, [2016-03-01T10:56:01.061958 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/manager/html} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:01.062064 #8503]  INFO -- : Testing ----> [Apache Tomcat] https://209.123.98.171:443/manager
+I, [2016-03-01T10:56:01.511311 #8503]  INFO -- : Testing ----> [Apache Tomcat] http://209.123.98.171:80/manager/html
+I, [2016-03-01T10:56:01.581305 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/manager/html} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:01.581364 #8503]  INFO -- : Testing ----> [Apache Tomcat] http://209.123.98.171:80/manager
+I, [2016-03-01T10:56:01.732076 #8503]  INFO -- : Testing ----> [Testlink] https://209.123.98.171:443/testlink-1.9.3/login.php
+I, [2016-03-01T10:56:02.507687 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/testlink-1.9.3/login.php} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:02.507748 #8503]  INFO -- : Testing ----> [Testlink] https://209.123.98.171:443/testlink/login.php
+I, [2016-03-01T10:56:03.219713 #8503]  INFO -- : Testing ----> [Testlink] http://209.123.98.171:80/testlink-1.9.3/login.php
+I, [2016-03-01T10:56:03.482138 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/testlink-1.9.3/login.php} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:03.482209 #8503]  INFO -- : Testing ----> [Testlink] http://209.123.98.171:80/testlink/login.php
+I, [2016-03-01T10:56:03.827548 #8503]  INFO -- : Testing ----> [Hudson Jenkins] https://209.123.98.171:443/jenkins/
+I, [2016-03-01T10:56:04.029959 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/jenkins/} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:04.030027 #8503]  INFO -- : Testing ----> [Hudson Jenkins] https://209.123.98.171:443/script
+I, [2016-03-01T10:56:04.571655 #8503]  INFO -- : Testing ----> [Hudson Jenkins] http://209.123.98.171:80/jenkins/
+I, [2016-03-01T10:56:04.634790 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/jenkins/} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:04.634863 #8503]  INFO -- : Testing ----> [Hudson Jenkins] http://209.123.98.171:80/script
+I, [2016-03-01T10:56:04.810538 #8503]  INFO -- : Testing ----> [Apache Axis2] https://209.123.98.171:443/axis2/axis2-admin
+I, [2016-03-01T10:56:06.661475 #8503]  INFO -- : Testing ----> [Apache Axis2] http://209.123.98.171:80/axis2/axis2-admin
+I, [2016-03-01T10:56:07.275042 #8503]  INFO -- : Testing ----> [Ektron CMS] https://209.123.98.171:443/cms400min/
+I, [2016-03-01T10:56:09.196900 #8503]  INFO -- : Testing ----> [Ektron CMS] http://209.123.98.171:80/cms400min/
+I, [2016-03-01T10:56:09.329540 #8503]  INFO -- : Testing ----> [HP Intelligent Management Center] https://209.123.98.171:443/imc
+I, [2016-03-01T10:56:10.242818 #8503]  INFO -- : Testing ----> [HP Intelligent Management Center] http://209.123.98.171:80/imc
+I, [2016-03-01T10:56:10.716625 #8503]  INFO -- : Testing ----> [Umbraco CMS] https://209.123.98.171:443/umbraco/
+I, [2016-03-01T10:56:12.597808 #8503]  INFO -- : Testing ----> [Umbraco CMS] http://209.123.98.171:80/umbraco/
+I, [2016-03-01T10:56:13.186842 #8503]  INFO -- : Testing ----> [Easy File Management Web Server] https://209.123.98.171:443/vfolder.ghp
+I, [2016-03-01T10:56:13.670802 #8503]  INFO -- : Testing ----> [Easy File Management Web Server] http://209.123.98.171:80/vfolder.ghp
+I, [2016-03-01T10:56:13.825843 #8503]  INFO -- : Testing ----> [VMware ESXi] https://209.123.98.171:443/folder?dcPath=ha-datacenter
+I, [2016-03-01T10:56:14.917536 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/folder?dcPath=ha-datacenter} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:14.917593 #8503]  INFO -- : Testing ----> [VMware ESXi] https://209.123.98.171:443/mob
+I, [2016-03-01T10:56:15.856375 #8503]  INFO -- : Testing ----> [VMware ESXi] http://209.123.98.171:80/folder?dcPath=ha-datacenter
+I, [2016-03-01T10:56:16.021797 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/folder?dcPath=ha-datacenter} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:16.021859 #8503]  INFO -- : Testing ----> [VMware ESXi] http://209.123.98.171:80/mob
+I, [2016-03-01T10:56:16.433291 #8503]  INFO -- : Testing ----> [SAP ConfigServlet] https://209.123.98.171:443/ctc/servlet
+I, [2016-03-01T10:56:17.044684 #8503]  INFO -- : Testing ----> [SAP ConfigServlet] http://209.123.98.171:80/ctc/servlet
+I, [2016-03-01T10:56:17.204137 #8503]  INFO -- : Testing ----> [HP SiteScope] https://209.123.98.171:443/SiteScope/
+I, [2016-03-01T10:56:17.755653 #8503]  INFO -- : Testing ----> [HP SiteScope] http://209.123.98.171:80/SiteScope/
+I, [2016-03-01T10:56:17.889887 #8503]  INFO -- : Testing ----> [Owl Intranet Engine] https://209.123.98.171:443/owl/admin/index.php?userid=1&newuser
+I, [2016-03-01T10:56:18.580001 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/owl/admin/index.php?userid=1&newuser} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:18.580065 #8503]  INFO -- : Testing ----> [Owl Intranet Engine] https://209.123.98.171:443/owl/admin/index.php?userid=1&action=edituser&owluser=1
+I, [2016-03-01T10:56:19.006883 #8503]  INFO -- : Testing ----> [Owl Intranet Engine] http://209.123.98.171:80/owl/admin/index.php?userid=1&newuser
+I, [2016-03-01T10:56:19.162716 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/owl/admin/index.php?userid=1&newuser} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:19.162774 #8503]  INFO -- : Testing ----> [Owl Intranet Engine] http://209.123.98.171:80/owl/admin/index.php?userid=1&action=edituser&owluser=1
+I, [2016-03-01T10:56:19.367446 #8503]  INFO -- : Testing ----> [Oracle Endeca Server] https://209.123.98.171:443/ws/control
+I, [2016-03-01T10:56:19.664014 #8503]  INFO -- : Testing ----> [Oracle Endeca Server] http://209.123.98.171:80/ws/control
+I, [2016-03-01T10:56:19.792787 #8503]  INFO -- : Testing ----> [HP AutoPass License Server] https://209.123.98.171:443/autopass
+I, [2016-03-01T10:56:20.103141 #8503]  INFO -- : Testing ----> [HP AutoPass License Server] http://209.123.98.171:80/autopass
+I, [2016-03-01T10:56:20.242815 #8503]  INFO -- : Testing ----> [Dell SonicWALL (Plixer) Scrutinizer] https://209.123.98.171:443/d4d/statusFilter.php
+I, [2016-03-01T10:56:20.492419 #8503]  INFO -- : Testing ----> [Dell SonicWALL (Plixer) Scrutinizer] http://209.123.98.171:80/d4d/statusFilter.php
+I, [2016-03-01T10:56:20.636555 #8503]  INFO -- : Testing ----> [v0pCr3w] https://209.123.98.171:443/jos.php
+I, [2016-03-01T10:56:20.863514 #8503]  INFO -- : Testing ----> [v0pCr3w] http://209.123.98.171:80/jos.php
+I, [2016-03-01T10:56:21.036817 #8503]  INFO -- : Testing ----> [Moodle] https://209.123.98.171:443/moodle/
+I, [2016-03-01T10:56:21.521901 #8503]  INFO -- : Testing ----> [Moodle] http://209.123.98.171:80/moodle/
+I, [2016-03-01T10:56:21.705573 #8503]  INFO -- : Testing ----> [Auxilium RateMyPet] https://209.123.98.171:443/Auxiliumpetratepro/
+I, [2016-03-01T10:56:22.125813 #8503]  INFO -- : Testing ----> [Auxilium RateMyPet] http://209.123.98.171:80/Auxiliumpetratepro/
+I, [2016-03-01T10:56:22.269958 #8503]  INFO -- : Testing ----> [STUNSHELL] https://209.123.98.171:443/IDC.php
+I, [2016-03-01T10:56:22.480610 #8503]  INFO -- : Testing ----> [STUNSHELL] http://209.123.98.171:80/IDC.php
+I, [2016-03-01T10:56:22.606492 #8503]  INFO -- : Testing ----> [Sflog CMS] https://209.123.98.171:443/sflog/
+I, [2016-03-01T10:56:23.044431 #8503]  INFO -- : Testing ----> [Sflog CMS] http://209.123.98.171:80/sflog/
+I, [2016-03-01T10:56:23.460078 #8503]  INFO -- : Testing ----> [Apache Struts] https://209.123.98.171:443/blank-struts2/login.action
+I, [2016-03-01T10:56:23.630135 #8503]  INFO -- : Testing ----> [Apache Struts] http://209.123.98.171:80/blank-struts2/login.action
+I, [2016-03-01T10:56:23.939153 #8503]  INFO -- : Testing ----> [MobileCartly] https://209.123.98.171:443/mobilecartly/
+I, [2016-03-01T10:56:24.214056 #8503]  INFO -- : Testing ----> [MobileCartly] http://209.123.98.171:80/mobilecartly/
+I, [2016-03-01T10:56:24.333914 #8503]  INFO -- : Testing ----> [MediaWiki] https://209.123.98.171:443/mediawiki/index.php?title=Special:UserLogin&returnto=Main_Page
+I, [2016-03-01T10:56:24.556641 #8503]  INFO -- : Testing ----> [MediaWiki] http://209.123.98.171:80/mediawiki/index.php?title=Special:UserLogin&returnto=Main_Page
+I, [2016-03-01T10:56:24.696290 #8503]  INFO -- : Testing ----> [qdPM] https://209.123.98.171:443/qdPM/
+I, [2016-03-01T10:56:24.952809 #8503]  INFO -- : Testing ----> [qdPM] http://209.123.98.171:80/qdPM/
+I, [2016-03-01T10:56:25.127407 #8503]  INFO -- : Testing ----> [WebPageTest] https://209.123.98.171:443/gettext.php
+I, [2016-03-01T10:56:25.308416 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/gettext.php} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:25.308474 #8503]  INFO -- : Testing ----> [WebPageTest] https://209.123.98.171:443/work/resultimage.php
+I, [2016-03-01T10:56:25.497824 #8503]  INFO -- : Testing ----> [WebPageTest] http://209.123.98.171:80/gettext.php
+I, [2016-03-01T10:56:25.616883 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/gettext.php} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:25.616946 #8503]  INFO -- : Testing ----> [WebPageTest] http://209.123.98.171:80/work/resultimage.php
+I, [2016-03-01T10:56:25.753009 #8503]  INFO -- : Testing ----> [GestioIP] https://209.123.98.171:443/gestioip/
+I, [2016-03-01T10:56:26.029832 #8503]  INFO -- : Testing ----> [GestioIP] http://209.123.98.171:80/gestioip/
+I, [2016-03-01T10:56:26.153932 #8503]  INFO -- : Testing ----> [PolarBear CMS] https://209.123.98.171:443/polarbearcms
+I, [2016-03-01T10:56:27.429978 #8503]  INFO -- : Testing ----> [PolarBear CMS] http://209.123.98.171:80/polarbearcms
+I, [2016-03-01T10:56:27.551044 #8503]  INFO -- : Testing ----> [JBoss] https://209.123.98.171:443/invoker/JMXInvokerServlet
+I, [2016-03-01T10:56:27.808408 #8503]  INFO -- : Testing ----> [JBoss] http://209.123.98.171:80/invoker/JMXInvokerServlet
+I, [2016-03-01T10:56:27.926572 #8503]  INFO -- : Testing ----> [Log1 CMS] https://209.123.98.171:443/log1cms2.0/
+I, [2016-03-01T10:56:28.137127 #8503]  INFO -- : Testing ----> [Log1 CMS] http://209.123.98.171:80/log1cms2.0/
+I, [2016-03-01T10:56:28.271881 #8503]  INFO -- : Testing ----> [WikkaWiki] https://209.123.98.171:443/wikka/
+I, [2016-03-01T10:56:28.519226 #8503]  INFO -- : Testing ----> [WikkaWiki] http://209.123.98.171:80/wikka/
+I, [2016-03-01T10:56:28.645876 #8503]  INFO -- : Testing ----> [CuteFlow] https://209.123.98.171:443/cuteflow_v.2.11.2/
+I, [2016-03-01T10:56:28.833505 #8503]  INFO -- : Testing ----> [CuteFlow] http://209.123.98.171:80/cuteflow_v.2.11.2/
+I, [2016-03-01T10:56:28.962597 #8503]  INFO -- : Testing ----> [Apache Roller] https://209.123.98.171:443/roller
+I, [2016-03-01T10:56:29.214859 #8503]  INFO -- : Testing ----> [Apache Roller] http://209.123.98.171:80/roller
+I, [2016-03-01T10:56:29.348859 #8503]  INFO -- : Testing ----> [PhpTax pfilez] https://209.123.98.171:443/phptax/
+I, [2016-03-01T10:56:29.632588 #8503]  INFO -- : Testing ----> [PhpTax pfilez] http://209.123.98.171:80/phptax/
+I, [2016-03-01T10:56:29.756396 #8503]  INFO -- : Testing ----> [AjaXplorer] https://209.123.98.171:443/AjaXplorer-2.5.5/plugins/access.ssh/checkInstall.php
+I, [2016-03-01T10:56:29.952344 #8503]  INFO -- : Testing ----> [AjaXplorer] http://209.123.98.171:80/AjaXplorer-2.5.5/plugins/access.ssh/checkInstall.php
+I, [2016-03-01T10:56:30.084432 #8503]  INFO -- : Testing ----> [phpMyAdmin] https://209.123.98.171:443/phpmyadmin/
+I, [2016-03-01T10:56:30.368965 #8503]  INFO -- : Testing ----> [phpMyAdmin] http://209.123.98.171:80/phpmyadmin/
+I, [2016-03-01T10:56:30.487515 #8503]  INFO -- : Testing ----> [vTiger CRM] https://209.123.98.171:443/vtigercrm/index.php?action=index&module=Home
+I, [2016-03-01T10:56:30.672621 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/vtigercrm/index.php?action=index&module=Home} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:30.672678 #8503]  INFO -- : Testing ----> [vTiger CRM] https://209.123.98.171:443/vtigercrm/index.php?module=Settings&action=ModuleManager&parenttab=Settings
+I, [2016-03-01T10:56:30.865209 #8503]  INFO -- : Testing ----> [vTiger CRM] http://209.123.98.171:80/vtigercrm/index.php?action=index&module=Home
+I, [2016-03-01T10:56:31.001043 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/vtigercrm/index.php?action=index&module=Home} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:31.001123 #8503]  INFO -- : Testing ----> [vTiger CRM] http://209.123.98.171:80/vtigercrm/index.php?module=Settings&action=ModuleManager&parenttab=Settings
+I, [2016-03-01T10:56:31.121873 #8503]  INFO -- : Testing ----> [eXtplorer] https://209.123.98.171:443/com_extplorer_2.1.0/
+I, [2016-03-01T10:56:31.349296 #8503]  INFO -- : Testing ----> [eXtplorer] http://209.123.98.171:80/com_extplorer_2.1.0/
+I, [2016-03-01T10:56:31.499528 #8503]  INFO -- : Testing ----> [Splunk] https://209.123.98.171:443/en-US/app/launcher/home
+I, [2016-03-01T10:56:31.633143 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/en-US/app/launcher/home} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:31.633198 #8503]  INFO -- : Testing ----> [Splunk] https://209.123.98.171:443/en-US/manager/search/apps/local
+I, [2016-03-01T10:56:31.933431 #8503]  INFO -- : Testing ----> [Splunk] http://209.123.98.171:80/en-US/app/launcher/home
+I, [2016-03-01T10:56:31.981951 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/en-US/app/launcher/home} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:31.982004 #8503]  INFO -- : Testing ----> [Splunk] http://209.123.98.171:80/en-US/manager/search/apps/local
+I, [2016-03-01T10:56:32.115943 #8503]  INFO -- : Testing ----> [FreePBX] https://209.123.98.171:443/admin/admin/config.php?type=setup&display=general
+I, [2016-03-01T10:56:32.307833 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/admin/admin/config.php?type=setup&display=general} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:32.307926 #8503]  INFO -- : Testing ----> [FreePBX] https://209.123.98.171:443/admin/admin/reports.php
+I, [2016-03-01T10:56:32.499757 #8503]  INFO -- : Testing ----> [FreePBX] http://209.123.98.171:80/admin/admin/config.php?type=setup&display=general
+I, [2016-03-01T10:56:32.631422 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/admin/admin/config.php?type=setup&display=general} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:32.631521 #8503]  INFO -- : Testing ----> [FreePBX] http://209.123.98.171:80/admin/admin/reports.php
+I, [2016-03-01T10:56:32.761079 #8503]  INFO -- : Testing ----> [ManageEngine ServiceDesk Plus] https://209.123.98.171:443/WOListView.do
+I, [2016-03-01T10:56:33.055416 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/WOListView.do} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:33.055707 #8503]  INFO -- : Testing ----> [ManageEngine ServiceDesk Plus] https://209.123.98.171:443/admin/admin/reports.php
+I, [2016-03-01T10:56:33.232735 #8503]  INFO -- : Testing ----> [ManageEngine ServiceDesk Plus] http://209.123.98.171:80/WOListView.do
+I, [2016-03-01T10:56:33.356415 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/WOListView.do} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:33.356509 #8503]  INFO -- : Testing ----> [ManageEngine ServiceDesk Plus] http://209.123.98.171:80/admin/admin/reports.php
+I, [2016-03-01T10:56:33.467354 #8503]  INFO -- : Testing ----> [App_Name] https://209.123.98.171:443/drupal
+I, [2016-03-01T10:56:33.744100 #8503]  INFO -- : Testing ----> [App_Name] http://209.123.98.171:80/drupal
+I, [2016-03-01T10:56:34.867078 #8503]  INFO -- : Testing ----> [Zabbix] https://209.123.98.171:443/zabbix/
+I, [2016-03-01T10:56:34.982348 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/zabbix/} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:34.982402 #8503]  INFO -- : Testing ----> [Zabbix] https://209.123.98.171:443/zabbix/scripts.php
+I, [2016-03-01T10:56:35.189214 #8503]  INFO -- : Testing ----> [Zabbix] http://209.123.98.171:80/zabbix/
+I, [2016-03-01T10:56:35.226366 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/zabbix/} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:35.226425 #8503]  INFO -- : Testing ----> [Zabbix] http://209.123.98.171:80/zabbix/scripts.php
+I, [2016-03-01T10:56:35.363358 #8503]  INFO -- : Testing ----> [Symantec Endpoint Protection Manager] https://209.123.98.171:443/servlet/ConsoleServlet
+I, [2016-03-01T10:56:35.625748 #8503]  INFO -- : Testing ----> [Symantec Endpoint Protection Manager] http://209.123.98.171:80/servlet/ConsoleServlet
+I, [2016-03-01T10:56:35.737361 #8503]  INFO -- : Testing ----> [Panasonic Network Camera WV-SF335] https://209.123.98.171:443/live/index.html?Language=0
+I, [2016-03-01T10:56:35.913733 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/live/index.html?Language=0} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:35.913795 #8503]  INFO -- : Testing ----> [Panasonic Network Camera WV-SF335] https://209.123.98.171:443/admin/index.html?Language=0
+I, [2016-03-01T10:56:36.085710 #8503]  INFO -- : Testing ----> [Panasonic Network Camera WV-SF335] http://209.123.98.171:80/live/index.html?Language=0
+I, [2016-03-01T10:56:36.207579 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/live/index.html?Language=0} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:36.207654 #8503]  INFO -- : Testing ----> [Panasonic Network Camera WV-SF335] http://209.123.98.171:80/admin/index.html?Language=0
+I, [2016-03-01T10:56:36.331368 #8503]  INFO -- : Testing ----> [AXIS Q7404 Video Encoder] https://209.123.98.171:443/view/viewer_index.shtml
+I, [2016-03-01T10:56:36.450312 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/view/viewer_index.shtml} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:36.450387 #8503]  INFO -- : Testing ----> [AXIS Q7404 Video Encoder] https://209.123.98.171:443/operator/action_rules.shtml
+I, [2016-03-01T10:56:36.740365 #8503]  INFO -- : Testing ----> [AXIS Q7404 Video Encoder] http://209.123.98.171:80/view/viewer_index.shtml
+I, [2016-03-01T10:56:36.844131 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/view/viewer_index.shtml} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:36.844183 #8503]  INFO -- : Testing ----> [AXIS Q7404 Video Encoder] http://209.123.98.171:80/operator/action_rules.shtml
+I, [2016-03-01T10:56:36.977781 #8503]  INFO -- : Testing ----> [Vivotek Mega-Pixel Network Camera] https://209.123.98.171:443/setup/system/system.html
+I, [2016-03-01T10:56:37.148592 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/setup/system/system.html} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:37.148645 #8503]  INFO -- : Testing ----> [Vivotek Mega-Pixel Network Camera] https://209.123.98.171:443/media/media_settings.html
+I, [2016-03-01T10:56:37.340976 #8503]  INFO -- : Testing ----> [Vivotek Mega-Pixel Network Camera] http://209.123.98.171:80/setup/system/system.html
+I, [2016-03-01T10:56:37.466602 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/setup/system/system.html} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:37.466670 #8503]  INFO -- : Testing ----> [Vivotek Mega-Pixel Network Camera] http://209.123.98.171:80/media/media_settings.html
+I, [2016-03-01T10:56:37.605670 #8503]  INFO -- : Testing ----> [SVSi N-Command N8002] https://209.123.98.171:443/userAdmin.php
+I, [2016-03-01T10:56:37.794057 #8503]  INFO -- : Testing ----> [SVSi N-Command N8002] http://209.123.98.171:80/userAdmin.php
+I, [2016-03-01T10:56:37.916501 #8503]  INFO -- : Testing ----> [SVSi N-Series 2000 Decoder] https://209.123.98.171:443/localplay.php
+I, [2016-03-01T10:56:38.091708 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/localplay.php} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:38.091773 #8503]  INFO -- : Testing ----> [SVSi N-Series 2000 Decoder] https://209.123.98.171:443/edid.php
+I, [2016-03-01T10:56:38.271731 #8503]  INFO -- : Testing ----> [SVSi N-Series 2000 Decoder] http://209.123.98.171:80/localplay.php
+I, [2016-03-01T10:56:38.394048 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/localplay.php} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:38.394139 #8503]  INFO -- : Testing ----> [SVSi N-Series 2000 Decoder] http://209.123.98.171:80/edid.php
+I, [2016-03-01T10:56:38.523127 #8503]  INFO -- : Testing ----> [AlienVault USM] https://209.123.98.171:443/ossim/session/login.php
+I, [2016-03-01T10:56:38.693059 #8503]  INFO -- : <<<Primary path {https://209.123.98.171:443/ossim/session/login.php} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:38.693134 #8503]  INFO -- : Testing ----> [AlienVault USM] https://209.123.98.171:443/ossim/#configuration/administration/users
+I, [2016-03-01T10:56:38.916419 #8503]  INFO -- : Testing ----> [AlienVault USM] http://209.123.98.171:80/ossim/session/login.php
+I, [2016-03-01T10:56:39.034540 #8503]  INFO -- : <<<Primary path {http://209.123.98.171:80/ossim/session/login.php} was not found, looking for secondary path>>>
+I, [2016-03-01T10:56:39.034623 #8503]  INFO -- : Testing ----> [AlienVault USM] http://209.123.98.171:80/ossim/#configuration/administration/users
+I, [2016-03-01T10:56:39.114135 #8503]  INFO -- : Testing ----> [Arecont Vision Mega Pixel Panoramic Camera] https://209.123.98.171:443/livevideo.html
+I, [2016-03-01T10:56:39.288603 #8503]  INFO -- : Testing ----> [Arecont Vision Mega Pixel Panoramic Camera] http://209.123.98.171:80/livevideo.html
+I, [2016-03-01T10:56:39.417543 #8503]  INFO -- : --------------------------------------------------------
+I, [2016-03-01T10:56:39.417605 #8503]  INFO -- : <<<Yasuo discovered following vulnerable applications>>>
+I, [2016-03-01T10:56:39.417627 #8503]  INFO -- : --------------------------------------------------------
+I, [2016-03-01T10:56:39.417667 #8503]  INFO -- : [["App Name", "URL to Application", "Potential Exploit", "Username", "Password"]]
